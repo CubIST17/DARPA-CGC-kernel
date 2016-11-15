@@ -1,0 +1,1526 @@
+Process 5468 attached - interrupt to quit
+18:49:12.628811 select(6, [5], [], [], {0, 550000}) = 0 (Timeout)
+18:49:13.177666 select(6, [5], [], [], {1, 0}) = 0 (Timeout)
+18:49:14.178124 select(6, [5], [], [], {1, 0}) = 0 (Timeout)
+18:49:15.177679 select(6, [5], [], [], {1, 0}) = 0 (Timeout)
+18:49:16.177710 select(6, [5], [], [], {1, 0}) = 0 (Timeout)
+18:49:17.177652 select(6, [5], [], [], {1, 0}) = 0 (Timeout)
+18:49:18.177652 select(6, [5], [], [], {1, 0}) = 0 (Timeout)
+18:49:19.177610 select(6, [5], [], [], {1, 0}) = 0 (Timeout)
+18:49:20.177606 select(6, [5], [], [], {1, 0}) = 1 (in [5], left {0, 150000})
+18:49:21.031952 select(6, [5], [], [], {0, 0}) = 1 (in [5], left {0, 0})
+18:49:21.032002 poll([{fd=5, events=POLLIN|POLLPRI|POLLERR|POLLHUP, revents=POLLIN}], 1, 0) = 1
+18:49:21.032029 recv(5, "V", 1, MSG_PEEK) = 1
+18:49:21.032081 poll([{fd=5, events=POLLIN|POLLERR|POLLHUP, revents=POLLIN}], 1, 60000) = 1
+18:49:21.032102 recv(5, "VxxOOxx\fOxxVOxx\177OyxW<\f\0347?\21\'%6\v\'&"..., 8192, MSG_DONTWAIT) = 94
+18:49:21.032261 pipe([4, 6])            = 0
+18:49:21.032286 clone(Process 5476 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb78b3718) = 5476
+[pid  5476] 18:49:21.032442 close(4)    = 0
+[pid  5476] 18:49:21.032455 dup2(6, 1)  = 1
+[pid  5476] 18:49:21.032466 close(6)    = 0
+[pid  5476] 18:49:21.032484 execve("/bin/sh", ["sh", "-c", "ps ax -w -o pid,user,cmd --no-he"...], [/* 29 vars */]) = 0
+[pid  5476] 18:49:21.032668 brk(0)      = 0x80f9000
+[pid  5476] 18:49:21.032705 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  5476] 18:49:21.032738 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7fab000
+[pid  5476] 18:49:21.032759 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+[pid  5476] 18:49:21.032786 open("/etc/ld.so.cache", O_RDONLY) = 4
+[pid  5476] 18:49:21.032805 fstat64(4, {st_mode=S_IFREG|0644, st_size=29338, ...}) = 0
+[pid  5476] 18:49:21.032846 mmap2(NULL, 29338, PROT_READ, MAP_PRIVATE, 4, 0) = 0xb7fa3000
+[pid  5476] 18:49:21.032859 close(4)    = 0
+[pid  5476] 18:49:21.032873 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  5476] 18:49:21.032897 open("/lib/libncurses.so.5", O_RDONLY) = 4
+[pid  5476] 18:49:21.032917 read(4, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\200\220"..., 512) = 512
+[pid  5476] 18:49:21.032945 fstat64(4, {st_mode=S_IFREG|0644, st_size=190584, ...}) = 0
+[pid  5476] 18:49:21.032980 mmap2(NULL, 194420, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0xb7f73000
+[pid  5476] 18:49:21.033003 mmap2(0xb7fa0000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x2c) = 0xb7fa0000
+[pid  5476] 18:49:21.033031 close(4)    = 0
+[pid  5476] 18:49:21.033045 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  5476] 18:49:21.033064 open("/lib/tls/i686/cmov/libdl.so.2", O_RDONLY) = 4
+[pid  5476] 18:49:21.033084 read(4, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0p\n\0\000"..., 512) = 512
+[pid  5476] 18:49:21.033106 fstat64(4, {st_mode=S_IFREG|0644, st_size=9684, ...}) = 0
+[pid  5476] 18:49:21.033138 mmap2(NULL, 12412, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0xb7f6f000
+[pid  5476] 18:49:21.033150 mmap2(0xb7f71000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x1) = 0xb7f71000
+[pid  5476] 18:49:21.033169 close(4)    = 0
+[pid  5476] 18:49:21.033181 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  5476] 18:49:21.033198 open("/lib/tls/i686/cmov/libc.so.6", O_RDONLY) = 4
+[pid  5476] 18:49:21.033217 read(4, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\260e\1"..., 512) = 512
+[pid  5476] 18:49:21.033239 fstat64(4, {st_mode=S_IFREG|0755, st_size=1364388, ...}) = 0
+[pid  5476] 18:49:21.033271 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7f6e000
+[pid  5476] 18:49:21.033286 mmap2(NULL, 1369712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0xb7e1f000
+[pid  5476] 18:49:21.033298 mmap2(0xb7f68000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x149) = 0xb7f68000
+[pid  5476] 18:49:21.033314 mmap2(0xb7f6b000, 9840, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7f6b000
+[pid  5476] 18:49:21.033330 close(4)    = 0
+[pid  5476] 18:49:21.033357 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7e1e000
+[pid  5476] 18:49:21.033371 set_thread_area({entry_number:-1 -> 6, base_addr:0xb7e1e6b0, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0
+[pid  5476] 18:49:21.033461 mprotect(0xb7f68000, 4096, PROT_READ) = 0
+[pid  5476] 18:49:21.033508 munmap(0xb7fa3000, 29338) = 0
+[pid  5476] 18:49:21.033545 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+[pid  5476] 18:49:21.033565 open("/dev/tty", O_RDWR|O_NONBLOCK|O_LARGEFILE) = -1 ENXIO (No such device or address)
+[pid  5476] 18:49:21.033591 ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, 0xbf881dd0) = -1 EINVAL (Invalid argument)
+[pid  5476] 18:49:21.033635 brk(0)      = 0x80f9000
+[pid  5476] 18:49:21.033645 brk(0x80fa000) = 0x80fa000
+[pid  5476] 18:49:21.033659 brk(0x80fb000) = 0x80fb000
+[pid  5476] 18:49:21.033682 getuid32()  = 33
+[pid  5476] 18:49:21.033692 getgid32()  = 33
+[pid  5476] 18:49:21.033701 geteuid32() = 33
+[pid  5476] 18:49:21.033711 getegid32() = 33
+[pid  5476] 18:49:21.033728 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+[pid  5476] 18:49:21.033746 time(NULL)  = 1478476161
+[pid  5476] 18:49:21.033762 brk(0x80fc000) = 0x80fc000
+[pid  5476] 18:49:21.033781 brk(0x80fd000) = 0x80fd000
+[pid  5476] 18:49:21.033807 open("/proc/meminfo", O_RDONLY) = 4
+[pid  5476] 18:49:21.033837 fstat64(4, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+[pid  5476] 18:49:21.033872 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7faa000
+[pid  5476] 18:49:21.033885 read(4, "MemTotal:      4152252 kB\nMemFre"..., 1024) = 846
+[pid  5476] 18:49:21.033952 close(4)    = 0
+[pid  5476] 18:49:21.033964 munmap(0xb7faa000, 4096) = 0
+[pid  5476] 18:49:21.033976 brk(0x80fe000) = 0x80fe000
+[pid  5476] 18:49:21.034008 rt_sigaction(SIGCHLD, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  5476] 18:49:21.034028 rt_sigaction(SIGCHLD, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  5476] 18:49:21.034047 rt_sigaction(SIGINT, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  5476] 18:49:21.034066 rt_sigaction(SIGINT, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  5476] 18:49:21.034085 rt_sigaction(SIGQUIT, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  5476] 18:49:21.034104 rt_sigaction(SIGQUIT, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  5476] 18:49:21.034126 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+[pid  5476] 18:49:21.034139 rt_sigaction(SIGQUIT, {SIG_IGN}, {SIG_DFL}, 8) = 0
+[pid  5476] 18:49:21.034160 uname({sys="Linux", node="metasploitable", ...}) = 0
+[pid  5476] 18:49:21.034282 brk(0x8100000) = 0x8100000
+[pid  5476] 18:49:21.034296 getcwd("/var/www", 4096) = 9
+[pid  5476] 18:49:21.034313 getpid()    = 5476
+[pid  5476] 18:49:21.034329 getppid()   = 5468
+[pid  5476] 18:49:21.034348 stat64(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  5476] 18:49:21.034386 stat64("/usr/local/bin/sh", 0xbf881da8) = -1 ENOENT (No such file or directory)
+[pid  5476] 18:49:21.034404 stat64("/usr/bin/sh", 0xbf881da8) = -1 ENOENT (No such file or directory)
+[pid  5476] 18:49:21.034418 stat64("/bin/sh", {st_mode=S_IFREG|0755, st_size=701808, ...}) = 0
+[pid  5476] 18:49:21.034454 open("/proc/sys/kernel/ngroups_max", O_RDONLY) = 4
+[pid  5476] 18:49:21.034478 read(4, "65536\n", 31) = 6
+[pid  5476] 18:49:21.034492 close(4)    = 0
+[pid  5476] 18:49:21.034503 brk(0x8180000) = 0x8180000
+[pid  5476] 18:49:21.034626 getgroups32(65536, [33]) = 1
+[pid  5476] 18:49:21.034638 stat64("/bin/sh", {st_mode=S_IFREG|0755, st_size=701808, ...}) = 0
+[pid  5476] 18:49:21.034687 socket(PF_FILE, SOCK_STREAM, 0) = 4
+[pid  5476] 18:49:21.034701 fcntl64(4, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+[pid  5476] 18:49:21.034717 connect(4, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+[pid  5476] 18:49:21.034759 close(4)    = 0
+[pid  5476] 18:49:21.034773 socket(PF_FILE, SOCK_STREAM, 0) = 4
+[pid  5476] 18:49:21.034784 fcntl64(4, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+[pid  5476] 18:49:21.034796 connect(4, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+[pid  5476] 18:49:21.034833 close(4)    = 0
+[pid  5476] 18:49:21.034849 open("/etc/nsswitch.conf", O_RDONLY) = 4
+[pid  5476] 18:49:21.034868 fstat64(4, {st_mode=S_IFREG|0644, st_size=475, ...}) = 0
+[pid  5476] 18:49:21.034900 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7faa000
+[pid  5476] 18:49:21.034951 read(4, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 475
+[pid  5476] 18:49:21.034978 read(4, "", 4096) = 0
+[pid  5476] 18:49:21.034988 close(4)    = 0
+[pid  5476] 18:49:21.034998 munmap(0xb7faa000, 4096) = 0
+[pid  5476] 18:49:21.035018 open("/etc/ld.so.cache", O_RDONLY) = 4
+[pid  5476] 18:49:21.035034 fstat64(4, {st_mode=S_IFREG|0644, st_size=29338, ...}) = 0
+[pid  5476] 18:49:21.035066 mmap2(NULL, 29338, PROT_READ, MAP_PRIVATE, 4, 0) = 0xb7fa3000
+[pid  5476] 18:49:21.035076 close(4)    = 0
+[pid  5476] 18:49:21.035089 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  5476] 18:49:21.035110 open("/lib/tls/i686/cmov/libnss_compat.so.2", O_RDONLY) = 4
+[pid  5476] 18:49:21.035132 read(4, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0@\16\0\000"..., 512) = 512
+[pid  5476] 18:49:21.035155 fstat64(4, {st_mode=S_IFREG|0644, st_size=30436, ...}) = 0
+[pid  5476] 18:49:21.035188 mmap2(NULL, 33352, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0xb7e15000
+[pid  5476] 18:49:21.035200 mmap2(0xb7e1c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x6) = 0xb7e1c000
+[pid  5476] 18:49:21.035220 close(4)    = 0
+[pid  5476] 18:49:21.035232 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  5476] 18:49:21.035249 open("/lib/tls/i686/cmov/libnsl.so.1", O_RDONLY) = 4
+[pid  5476] 18:49:21.035270 read(4, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\00001\0\000"..., 512) = 512
+[pid  5476] 18:49:21.035291 fstat64(4, {st_mode=S_IFREG|0644, st_size=83708, ...}) = 0
+[pid  5476] 18:49:21.035324 mmap2(NULL, 96232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0xb7dfd000
+[pid  5476] 18:49:21.035335 mmap2(0xb7e11000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x13) = 0xb7e11000
+[pid  5476] 18:49:21.035352 mmap2(0xb7e13000, 6120, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7e13000
+[pid  5476] 18:49:21.035369 close(4)    = 0
+[pid  5476] 18:49:21.035401 munmap(0xb7fa3000, 29338) = 0
+[pid  5476] 18:49:21.035420 open("/etc/ld.so.cache", O_RDONLY) = 4
+[pid  5476] 18:49:21.035436 fstat64(4, {st_mode=S_IFREG|0644, st_size=29338, ...}) = 0
+[pid  5476] 18:49:21.035468 mmap2(NULL, 29338, PROT_READ, MAP_PRIVATE, 4, 0) = 0xb7fa3000
+[pid  5476] 18:49:21.035479 close(4)    = 0
+[pid  5476] 18:49:21.035492 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  5476] 18:49:21.035512 open("/lib/tls/i686/cmov/libnss_nis.so.2", O_RDONLY) = 4
+[pid  5476] 18:49:21.035533 read(4, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\20\31\0"..., 512) = 512
+[pid  5476] 18:49:21.035555 fstat64(4, {st_mode=S_IFREG|0644, st_size=34352, ...}) = 0
+[pid  5476] 18:49:21.035587 brk(0x8181000) = 0x8181000
+[pid  5476] 18:49:21.035600 mmap2(NULL, 37436, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0xb7df3000
+[pid  5476] 18:49:21.035612 mmap2(0xb7dfb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x7) = 0xb7dfb000
+[pid  5476] 18:49:21.035632 close(4)    = 0
+[pid  5476] 18:49:21.035646 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  5476] 18:49:21.035663 open("/lib/tls/i686/cmov/libnss_files.so.2", O_RDONLY) = 4
+[pid  5476] 18:49:21.035684 read(4, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\340\30"..., 512) = 512
+[pid  5476] 18:49:21.035705 fstat64(4, {st_mode=S_IFREG|0644, st_size=38412, ...}) = 0
+[pid  5476] 18:49:21.035737 mmap2(NULL, 41624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0xb7de8000
+[pid  5476] 18:49:21.035749 mmap2(0xb7df1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x8) = 0xb7df1000
+[pid  5476] 18:49:21.035768 close(4)    = 0
+[pid  5476] 18:49:21.035792 munmap(0xb7fa3000, 29338) = 0
+[pid  5476] 18:49:21.035810 open("/etc/passwd", O_RDONLY|0x80000 /* O_??? */) = 4
+[pid  5476] 18:49:21.035827 fcntl64(4, F_GETFD) = 0x1 (flags FD_CLOEXEC)
+[pid  5476] 18:49:21.035839 _llseek(4, 0, [0], SEEK_CUR) = 0
+[pid  5476] 18:49:21.035852 fstat64(4, {st_mode=S_IFREG|0644, st_size=1581, ...}) = 0
+[pid  5476] 18:49:21.035884 mmap2(NULL, 1581, PROT_READ, MAP_SHARED, 4, 0) = 0xb7faa000
+[pid  5476] 18:49:21.035895 _llseek(4, 1581, [1581], SEEK_SET) = 0
+[pid  5476] 18:49:21.035917 munmap(0xb7faa000, 1581) = 0
+[pid  5476] 18:49:21.035928 close(4)    = 0
+[pid  5476] 18:49:21.035960 brk(0x8182000) = 0x8182000
+[pid  5476] 18:49:21.035976 getpgrp()   = 4539
+[pid  5476] 18:49:21.035986 rt_sigaction(SIGCHLD, {0x807e540, [], 0}, {SIG_DFL}, 8) = 0
+[pid  5476] 18:49:21.036008 getrlimit(RLIMIT_NPROC, {rlim_cur=36*1024, rlim_max=36*1024}) = 0
+[pid  5476] 18:49:21.036028 brk(0x8183000) = 0x8183000
+[pid  5476] 18:49:21.036063 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+[pid  5476] 18:49:21.036080 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+[pid  5476] 18:49:21.036098 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+[pid  5476] 18:49:21.036166 stat64(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  5476] 18:49:21.036201 stat64("/usr/local/bin/ps", 0xbf881c88) = -1 ENOENT (No such file or directory)
+[pid  5476] 18:49:21.036219 stat64("/usr/bin/ps", 0xbf881c88) = -1 ENOENT (No such file or directory)
+[pid  5476] 18:49:21.036233 stat64("/bin/ps", {st_mode=S_IFREG|0755, st_size=65360, ...}) = 0
+[pid  5476] 18:49:21.036267 stat64("/bin/ps", {st_mode=S_IFREG|0755, st_size=65360, ...}) = 0
+[pid  5476] 18:49:21.036301 brk(0x8184000) = 0x8184000
+[pid  5476] 18:49:21.036317 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0
+[pid  5476] 18:49:21.036335 clone(Process 5477 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7e1e6f8) = 5477
+[pid  5477] 18:49:21.036399 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  5477] 18:49:21.036420 rt_sigaction(SIGTSTP, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  5477] 18:49:21.036439 rt_sigaction(SIGTTIN, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  5477] 18:49:21.036459 rt_sigaction(SIGTTOU, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  5477] 18:49:21.036483 rt_sigaction(SIGINT, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  5477] 18:49:21.036507 rt_sigaction(SIGQUIT, {SIG_DFL}, {SIG_IGN}, 8) = 0
+[pid  5477] 18:49:21.036527 rt_sigaction(SIGCHLD, {SIG_DFL}, {0x807e540, [], 0}, 8) = 0
+[pid  5477] 18:49:21.036585 open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 4
+[pid  5477] 18:49:21.036635 dup2(4, 2)  = 2
+[pid  5477] 18:49:21.036653 close(4)    = 0
+[pid  5477] 18:49:21.036668 execve("/bin/ps", ["ps", "ax", "-w", "-o", "pid,user,cmd", "--no-header"], [/* 32 vars */]) = 0
+[pid  5477] 18:49:21.036798 brk(0)      = 0x8079000
+[pid  5477] 18:49:21.036824 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  5477] 18:49:21.036843 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7eed000
+[pid  5477] 18:49:21.036859 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+[pid  5477] 18:49:21.036882 open("/etc/ld.so.cache", O_RDONLY) = 4
+[pid  5477] 18:49:21.036898 fstat64(4, {st_mode=S_IFREG|0644, st_size=29338, ...}) = 0
+[pid  5477] 18:49:21.036931 mmap2(NULL, 29338, PROT_READ, MAP_PRIVATE, 4, 0) = 0xb7ee5000
+[pid  5477] 18:49:21.036942 close(4)    = 0
+[pid  5477] 18:49:21.036954 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  5477] 18:49:21.036978 open("/lib/libproc-3.2.7.so", O_RDONLY) = 4
+[pid  5477] 18:49:21.036995 read(4, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\20\'\0"..., 512) = 512
+[pid  5477] 18:49:21.037019 fstat64(4, {st_mode=S_IFREG|0644, st_size=49096, ...}) = 0
+[pid  5477] 18:49:21.037052 mmap2(NULL, 129496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0xb7ec5000
+[pid  5477] 18:49:21.037066 mmap2(0xb7ed1000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0xb) = 0xb7ed1000
+[pid  5477] 18:49:21.037083 mmap2(0xb7ed2000, 76248, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7ed2000
+[pid  5477] 18:49:21.037095 close(4)    = 0
+[pid  5477] 18:49:21.037108 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  5477] 18:49:21.037127 open("/lib/tls/i686/cmov/libc.so.6", O_RDONLY) = 4
+[pid  5477] 18:49:21.037146 read(4, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\260e\1"..., 512) = 512
+[pid  5477] 18:49:21.037168 fstat64(4, {st_mode=S_IFREG|0755, st_size=1364388, ...}) = 0
+[pid  5477] 18:49:21.037202 mmap2(NULL, 1369712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0xb7d76000
+[pid  5477] 18:49:21.037214 mmap2(0xb7ebf000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x149) = 0xb7ebf000
+[pid  5477] 18:49:21.037230 mmap2(0xb7ec2000, 9840, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7ec2000
+[pid  5477] 18:49:21.037245 close(4)    = 0
+[pid  5477] 18:49:21.037264 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7d75000
+[pid  5477] 18:49:21.037279 set_thread_area({entry_number:-1 -> 6, base_addr:0xb7d75ad0, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0
+[pid  5477] 18:49:21.037340 mprotect(0xb7ebf000, 4096, PROT_READ) = 0
+[pid  5477] 18:49:21.037367 munmap(0xb7ee5000, 29338) = 0
+[pid  5477] 18:49:21.037434 brk(0)      = 0x8079000
+[pid  5477] 18:49:21.037444 brk(0x809a000) = 0x809a000
+[pid  5477] 18:49:21.037462 open("/proc/version", O_RDONLY) = 4
+[pid  5477] 18:49:21.037487 fstat64(4, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.037521 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7eec000
+[pid  5477] 18:49:21.037534 read(4, "Linux version 2.6.24-16-server ("..., 1024) = 127
+[pid  5477] 18:49:21.037556 close(4)    = 0
+[pid  5477] 18:49:21.037567 munmap(0xb7eec000, 4096) = 0
+[pid  5477] 18:49:21.037607 open("/proc/stat", O_RDONLY) = 4
+[pid  5477] 18:49:21.037628 fstat64(4, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.037661 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7eec000
+[pid  5477] 18:49:21.037672 read(4, "cpu  1905 0 677 1233015 792 73 2"..., 1024) = 627
+[pid  5477] 18:49:21.037702 read(4, "", 1024) = 0
+[pid  5477] 18:49:21.037712 close(4)    = 0
+[pid  5477] 18:49:21.037723 munmap(0xb7eec000, 4096) = 0
+[pid  5477] 18:49:21.037757 rt_sigaction(SIGSYS, {0x8049f70, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+[pid  5477] 18:49:21.037776 rt_sigaction(SIGPWR, {0x8049f70, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+[pid  5477] 18:49:21.037793 rt_sigaction(SIGIO, {0x8049f70, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+[pid  5477] 18:49:21.037809 rt_sigaction(SIGVTALRM, {0x8049f70, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+[pid  5477] 18:49:21.037826 rt_sigaction(SIGXFSZ, {0x8049f70, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+[pid  5477] 18:49:21.037842 rt_sigaction(SIGXCPU, {0x8049f70, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+[pid  5477] 18:49:21.037858 rt_sigaction(SIGURG, {0x8049f70, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+[pid  5477] 18:49:21.037875 rt_sigaction(SIGTTIN, {0x8049f70, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+[pid  5477] 18:49:21.037891 rt_sigaction(SIGCONT, {0x8049f70, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+[pid  5477] 18:49:21.037907 rt_sigaction(SIGCHLD, {0x8049f70, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+[pid  5477] 18:49:21.037924 rt_sigaction(SIGSTKFLT, {0x8049f70, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+[pid  5477] 18:49:21.037940 rt_sigaction(SIGTERM, {0x8049f70, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+[pid  5477] 18:49:21.037956 rt_sigaction(SIGALRM, {0x8049f70, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+[pid  5477] 18:49:21.037972 rt_sigaction(SIGPIPE, {0x8049f70, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+[pid  5477] 18:49:21.037989 rt_sigaction(SIGUSR2, {0x8049f70, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+[pid  5477] 18:49:21.038005 rt_sigaction(SIGSEGV, {0x8049f70, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+[pid  5477] 18:49:21.038021 rt_sigaction(SIGUSR1, {0x8049f70, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+[pid  5477] 18:49:21.038037 rt_sigaction(SIGFPE, {0x8049f70, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+[pid  5477] 18:49:21.038054 rt_sigaction(SIGBUS, {0x8049f70, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+[pid  5477] 18:49:21.038071 rt_sigaction(SIGABRT, {0x8049f70, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+[pid  5477] 18:49:21.038087 rt_sigaction(SIGTRAP, {0x8049f70, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+[pid  5477] 18:49:21.038104 rt_sigaction(SIGILL, {0x8049f70, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+[pid  5477] 18:49:21.038120 rt_sigaction(SIGHUP, {0x8049f70, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+[pid  5477] 18:49:21.038152 open("/proc/self/stat", O_RDONLY) = 4
+[pid  5477] 18:49:21.038172 read(4, "5477 (ps) R 5476 4539 4539 0 -1 "..., 1023) = 189
+[pid  5477] 18:49:21.038195 close(4)    = 0
+[pid  5477] 18:49:21.038219 ioctl(1, TIOCGWINSZ, 0xbffe02a8) = -1 EINVAL (Invalid argument)
+[pid  5477] 18:49:21.038233 ioctl(2, TIOCGWINSZ, 0xbffe02a8) = -1 ENOTTY (Inappropriate ioctl for device)
+[pid  5477] 18:49:21.038246 ioctl(0, TIOCGWINSZ, 0xbffe02a8) = -1 EINVAL (Invalid argument)
+[pid  5477] 18:49:21.038257 open("/dev/tty", O_RDONLY|O_NOCTTY|O_NONBLOCK) = -1 ENXIO (No such device or address)
+[pid  5477] 18:49:21.038276 ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, 0xbffe0208) = -1 EINVAL (Invalid argument)
+[pid  5477] 18:49:21.038293 geteuid32() = 33
+[pid  5477] 18:49:21.038304 open("/proc/uptime", O_RDONLY) = 4
+[pid  5477] 18:49:21.038322 lseek(4, 0, SEEK_SET) = 0
+[pid  5477] 18:49:21.038333 read(4, "12365.51 12338.14\n", 1023) = 18
+[pid  5477] 18:49:21.038379 open("/proc/sys/kernel/pid_max", O_RDONLY) = 6
+[pid  5477] 18:49:21.038401 read(6, "32768\n", 24) = 6
+[pid  5477] 18:49:21.038415 close(6)    = 0
+[pid  5477] 18:49:21.038428 mmap2(NULL, 139264, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7d53000
+[pid  5477] 18:49:21.038442 mprotect(0xb7d74000, 4096, PROT_NONE) = 0
+[pid  5477] 18:49:21.038456 time(NULL)  = 1478476161
+[pid  5477] 18:49:21.038467 open("/proc/meminfo", O_RDONLY) = 6
+[pid  5477] 18:49:21.038484 lseek(6, 0, SEEK_SET) = 0
+[pid  5477] 18:49:21.038494 read(6, "MemTotal:      4152252 kB\nMemFre"..., 1023) = 846
+[pid  5477] 18:49:21.038527 stat64("/proc/self/task", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.038570 open("/proc", O_RDONLY|O_NONBLOCK|O_LARGEFILE|O_DIRECTORY|0x80000) = 7
+[pid  5477] 18:49:21.038584 fstat64(7, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.038617 fcntl64(7, F_GETFD) = 0x1 (flags FD_CLOEXEC)
+[pid  5477] 18:49:21.038629 getdents(7, /* 51 entries */, 1024) = 1020
+[pid  5477] 18:49:21.038871 getdents(7, /* 63 entries */, 1024) = 1016
+[pid  5477] 18:49:21.039174 stat64("/proc/1", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.039210 open("/proc/1/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.039226 read(8, "1 (init) S 0 1 1 0 -1 4194560 39"..., 1023) = 188
+[pid  5477] 18:49:21.039248 close(8)    = 0
+[pid  5477] 18:49:21.039264 open("/proc/1/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.039279 read(8, "Name:\tinit\nState:\tS (sleeping)\nT"..., 1023) = 625
+[pid  5477] 18:49:21.039302 close(8)    = 0
+[pid  5477] 18:49:21.039330 socket(PF_FILE, SOCK_STREAM, 0) = 8
+[pid  5477] 18:49:21.039342 fcntl64(8, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+[pid  5477] 18:49:21.039357 connect(8, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+[pid  5477] 18:49:21.039397 close(8)    = 0
+[pid  5477] 18:49:21.039412 socket(PF_FILE, SOCK_STREAM, 0) = 8
+[pid  5477] 18:49:21.039423 fcntl64(8, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+[pid  5477] 18:49:21.039436 connect(8, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+[pid  5477] 18:49:21.039473 close(8)    = 0
+[pid  5477] 18:49:21.039488 open("/etc/nsswitch.conf", O_RDONLY) = 8
+[pid  5477] 18:49:21.039506 fstat64(8, {st_mode=S_IFREG|0644, st_size=475, ...}) = 0
+[pid  5477] 18:49:21.039539 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7eec000
+[pid  5477] 18:49:21.039551 read(8, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 475
+[pid  5477] 18:49:21.039577 read(8, "", 4096) = 0
+[pid  5477] 18:49:21.039587 close(8)    = 0
+[pid  5477] 18:49:21.039597 munmap(0xb7eec000, 4096) = 0
+[pid  5477] 18:49:21.039616 open("/etc/ld.so.cache", O_RDONLY) = 8
+[pid  5477] 18:49:21.039632 fstat64(8, {st_mode=S_IFREG|0644, st_size=29338, ...}) = 0
+[pid  5477] 18:49:21.040084 mmap2(NULL, 29338, PROT_READ, MAP_PRIVATE, 8, 0) = 0xb7ee5000
+[pid  5477] 18:49:21.040097 close(8)    = 0
+[pid  5477] 18:49:21.040110 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  5477] 18:49:21.040131 open("/lib/tls/i686/cmov/libnss_compat.so.2", O_RDONLY) = 8
+[pid  5477] 18:49:21.040154 read(8, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0@\16\0\000"..., 512) = 512
+[pid  5477] 18:49:21.040176 fstat64(8, {st_mode=S_IFREG|0644, st_size=30436, ...}) = 0
+[pid  5477] 18:49:21.040212 mmap2(NULL, 33352, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8, 0) = 0xb7d4a000
+[pid  5477] 18:49:21.040225 mmap2(0xb7d51000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8, 0x6) = 0xb7d51000
+[pid  5477] 18:49:21.040245 close(8)    = 0
+[pid  5477] 18:49:21.040258 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  5477] 18:49:21.040275 open("/lib/tls/i686/cmov/libnsl.so.1", O_RDONLY) = 8
+[pid  5477] 18:49:21.040295 read(8, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\00001\0\000"..., 512) = 512
+[pid  5477] 18:49:21.040317 fstat64(8, {st_mode=S_IFREG|0644, st_size=83708, ...}) = 0
+[pid  5477] 18:49:21.040350 mmap2(NULL, 96232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8, 0) = 0xb7d32000
+[pid  5477] 18:49:21.040363 mmap2(0xb7d46000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8, 0x13) = 0xb7d46000
+[pid  5477] 18:49:21.040379 mmap2(0xb7d48000, 6120, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7d48000
+[pid  5477] 18:49:21.040395 close(8)    = 0
+[pid  5477] 18:49:21.040424 munmap(0xb7ee5000, 29338) = 0
+[pid  5477] 18:49:21.040443 open("/etc/ld.so.cache", O_RDONLY) = 8
+[pid  5477] 18:49:21.040459 fstat64(8, {st_mode=S_IFREG|0644, st_size=29338, ...}) = 0
+[pid  5477] 18:49:21.040492 mmap2(NULL, 29338, PROT_READ, MAP_PRIVATE, 8, 0) = 0xb7ee5000
+[pid  5477] 18:49:21.040503 close(8)    = 0
+[pid  5477] 18:49:21.040515 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  5477] 18:49:21.040536 open("/lib/tls/i686/cmov/libnss_nis.so.2", O_RDONLY) = 8
+[pid  5477] 18:49:21.040557 read(8, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\20\31\0"..., 512) = 512
+[pid  5477] 18:49:21.040579 fstat64(8, {st_mode=S_IFREG|0644, st_size=34352, ...}) = 0
+[pid  5477] 18:49:21.040612 mmap2(NULL, 37436, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8, 0) = 0xb7d28000
+[pid  5477] 18:49:21.040624 mmap2(0xb7d30000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8, 0x7) = 0xb7d30000
+[pid  5477] 18:49:21.040643 close(8)    = 0
+[pid  5477] 18:49:21.040656 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  5477] 18:49:21.040674 open("/lib/tls/i686/cmov/libnss_files.so.2", O_RDONLY) = 8
+[pid  5477] 18:49:21.040695 read(8, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\340\30"..., 512) = 512
+[pid  5477] 18:49:21.040716 fstat64(8, {st_mode=S_IFREG|0644, st_size=38412, ...}) = 0
+[pid  5477] 18:49:21.040749 mmap2(NULL, 41624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8, 0) = 0xb7d1d000
+[pid  5477] 18:49:21.040761 mmap2(0xb7d26000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8, 0x8) = 0xb7d26000
+[pid  5477] 18:49:21.040779 close(8)    = 0
+[pid  5477] 18:49:21.040801 munmap(0xb7ee5000, 29338) = 0
+[pid  5477] 18:49:21.040819 open("/etc/passwd", O_RDONLY|0x80000 /* O_??? */) = 8
+[pid  5477] 18:49:21.040837 fcntl64(8, F_GETFD) = 0x1 (flags FD_CLOEXEC)
+[pid  5477] 18:49:21.040848 _llseek(8, 0, [0], SEEK_CUR) = 0
+[pid  5477] 18:49:21.040862 fstat64(8, {st_mode=S_IFREG|0644, st_size=1581, ...}) = 0
+[pid  5477] 18:49:21.040894 mmap2(NULL, 1581, PROT_READ, MAP_SHARED, 8, 0) = 0xb7eec000
+[pid  5477] 18:49:21.040906 _llseek(8, 1581, [1581], SEEK_SET) = 0
+[pid  5477] 18:49:21.040926 munmap(0xb7eec000, 1581) = 0
+[pid  5477] 18:49:21.040937 close(8)    = 0
+[pid  5477] 18:49:21.040949 open("/proc/1/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.040965 read(8, "/sbin/init", 2047) = 10
+[pid  5477] 18:49:21.040981 close(8)    = 0
+[pid  5477] 18:49:21.040999 fstat64(1, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.041032 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7eec000
+[pid  5477] 18:49:21.041051 stat64("/proc/2", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.041087 open("/proc/2/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.041102 read(8, "2 (kthreadd) S 0 0 0 0 -1 41024 "..., 1023) = 123
+[pid  5477] 18:49:21.041123 close(8)    = 0
+[pid  5477] 18:49:21.041138 open("/proc/2/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.041153 read(8, "Name:\tkthreadd\nState:\tS (sleepin"..., 1023) = 434
+[pid  5477] 18:49:21.041175 close(8)    = 0
+[pid  5477] 18:49:21.041187 open("/proc/2/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.041202 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.041212 close(8)    = 0
+[pid  5477] 18:49:21.041224 stat64("/proc/3", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.041259 open("/proc/3/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.041275 read(8, "3 (migration/0) S 2 0 0 0 -1 410"..., 1023) = 130
+[pid  5477] 18:49:21.041295 close(8)    = 0
+[pid  5477] 18:49:21.041309 open("/proc/3/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.041324 read(8, "Name:\tmigration/0\nState:\tS (slee"..., 1023) = 435
+[pid  5477] 18:49:21.041344 close(8)    = 0
+[pid  5477] 18:49:21.041357 open("/proc/3/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.041372 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.041381 close(8)    = 0
+[pid  5477] 18:49:21.041393 stat64("/proc/4", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.041428 open("/proc/4/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.041443 read(8, "4 (ksoftirqd/0) S 2 0 0 0 -1 410"..., 1023) = 127
+[pid  5477] 18:49:21.041463 close(8)    = 0
+[pid  5477] 18:49:21.041476 open("/proc/4/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.041491 read(8, "Name:\tksoftirqd/0\nState:\tS (slee"..., 1023) = 437
+[pid  5477] 18:49:21.041511 close(8)    = 0
+[pid  5477] 18:49:21.041523 open("/proc/4/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.041538 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.041548 close(8)    = 0
+[pid  5477] 18:49:21.041559 stat64("/proc/5", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.041594 open("/proc/5/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.041609 read(8, "5 (watchdog/0) S 2 0 0 0 -1 4128"..., 1023) = 129
+[pid  5477] 18:49:21.041629 close(8)    = 0
+[pid  5477] 18:49:21.041642 open("/proc/5/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.041657 read(8, "Name:\twatchdog/0\nState:\tS (sleep"..., 1023) = 434
+[pid  5477] 18:49:21.041677 close(8)    = 0
+[pid  5477] 18:49:21.041690 open("/proc/5/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.041704 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.041714 close(8)    = 0
+[pid  5477] 18:49:21.041725 stat64("/proc/6", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.041760 open("/proc/6/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.041776 read(8, "6 (events/0) S 2 0 0 0 -1 41024 "..., 1023) = 124
+[pid  5477] 18:49:21.041795 close(8)    = 0
+[pid  5477] 18:49:21.041809 open("/proc/6/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.041823 read(8, "Name:\tevents/0\nState:\tS (sleepin"..., 1023) = 436
+[pid  5477] 18:49:21.041843 close(8)    = 0
+[pid  5477] 18:49:21.041855 open("/proc/6/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.041870 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.041880 close(8)    = 0
+[pid  5477] 18:49:21.041891 stat64("/proc/7", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.041927 open("/proc/7/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.041941 read(8, "7 (khelper) S 2 0 0 0 -1 41024 0"..., 1023) = 123
+[pid  5477] 18:49:21.041961 close(8)    = 0
+[pid  5477] 18:49:21.041974 open("/proc/7/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.041989 read(8, "Name:\tkhelper\nState:\tS (sleeping"..., 1023) = 434
+[pid  5477] 18:49:21.042009 close(8)    = 0
+[pid  5477] 18:49:21.042027 open("/proc/7/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.042043 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.042053 close(8)    = 0
+[pid  5477] 18:49:21.042064 stat64("/proc/41", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.042100 open("/proc/41/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.042115 read(8, "41 (kblockd/0) S 2 0 0 0 -1 4102"..., 1023) = 126
+[pid  5477] 18:49:21.042135 close(8)    = 0
+[pid  5477] 18:49:21.042149 open("/proc/41/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.042164 read(8, "Name:\tkblockd/0\nState:\tS (sleepi"..., 1023) = 437
+[pid  5477] 18:49:21.042184 close(8)    = 0
+[pid  5477] 18:49:21.042196 open("/proc/41/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.042212 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.042221 close(8)    = 0
+[pid  5477] 18:49:21.042232 stat64("/proc/44", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.042269 open("/proc/44/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.042284 read(8, "44 (kacpid) S 2 0 0 0 -1 41024 0"..., 1023) = 123
+[pid  5477] 18:49:21.042303 close(8)    = 0
+[pid  5477] 18:49:21.042316 open("/proc/44/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.042331 read(8, "Name:\tkacpid\nState:\tS (sleeping)"..., 1023) = 432
+[pid  5477] 18:49:21.042351 close(8)    = 0
+[pid  5477] 18:49:21.042363 open("/proc/44/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.042389 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.042408 close(8)    = 0
+[pid  5477] 18:49:21.042419 stat64("/proc/45", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.042456 open("/proc/45/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.042471 read(8, "45 (kacpi_notify) S 2 0 0 0 -1 4"..., 1023) = 129
+[pid  5477] 18:49:21.042500 close(8)    = 0
+[pid  5477] 18:49:21.042523 open("/proc/45/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.042538 read(8, "Name:\tkacpi_notify\nState:\tS (sle"..., 1023) = 438
+[pid  5477] 18:49:21.042558 close(8)    = 0
+[pid  5477] 18:49:21.042570 open("/proc/45/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.042586 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.042596 close(8)    = 0
+[pid  5477] 18:49:21.042607 stat64("/proc/88", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.042643 open("/proc/88/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.042658 read(8, "88 (kseriod) S 2 0 0 0 -1 8256 0"..., 1023) = 123
+[pid  5477] 18:49:21.042677 close(8)    = 0
+[pid  5477] 18:49:21.042691 open("/proc/88/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.042705 read(8, "Name:\tkseriod\nState:\tS (sleeping"..., 1023) = 434
+[pid  5477] 18:49:21.042725 close(8)    = 0
+[pid  5477] 18:49:21.042737 open("/proc/88/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.042753 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.042763 close(8)    = 0
+[pid  5477] 18:49:21.042774 stat64("/proc/126", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.042810 open("/proc/126/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.042825 read(8, "126 (pdflush) S 2 0 0 0 -1 84009"..., 1023) = 126
+[pid  5477] 18:49:21.042845 close(8)    = 0
+[pid  5477] 18:49:21.042858 open("/proc/126/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.042874 read(8, "Name:\tpdflush\nState:\tS (sleeping"..., 1023) = 435
+[pid  5477] 18:49:21.042894 close(8)    = 0
+[pid  5477] 18:49:21.042906 open("/proc/126/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.042922 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.042932 close(8)    = 0
+[pid  5477] 18:49:21.042943 stat64("/proc/127", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.042979 open("/proc/127/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.042994 read(8, "127 (pdflush) S 2 0 0 0 -1 84009"..., 1023) = 126
+[pid  5477] 18:49:21.043014 close(8)    = 0
+[pid  5477] 18:49:21.043027 open("/proc/127/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.043043 read(8, "Name:\tpdflush\nState:\tS (sleeping"..., 1023) = 438
+[pid  5477] 18:49:21.043063 close(8)    = 0
+[pid  5477] 18:49:21.043074 open("/proc/127/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.043090 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.043100 close(8)    = 0
+[pid  5477] 18:49:21.043111 stat64("/proc/128", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.043147 open("/proc/128/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.043162 read(8, "128 (kswapd0) S 2 0 0 0 -1 86610"..., 1023) = 127
+[pid  5477] 18:49:21.043182 close(8)    = 0
+[pid  5477] 18:49:21.043195 open("/proc/128/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.043211 read(8, "Name:\tkswapd0\nState:\tS (sleeping"..., 1023) = 435
+[pid  5477] 18:49:21.043231 close(8)    = 0
+[pid  5477] 18:49:21.043242 open("/proc/128/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.043258 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.043268 close(8)    = 0
+[pid  5477] 18:49:21.043279 stat64("/proc/170", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.043355 open("/proc/170/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.043390 read(8, "170 (aio/0) S 2 0 0 0 -1 41024 0"..., 1023) = 123
+[pid  5477] 18:49:21.043436 close(8)    = 0
+[pid  5477] 18:49:21.043459 open("/proc/170/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.043474 read(8, "Name:\taio/0\nState:\tS (sleeping)\n"..., 1023) = 433
+[pid  5477] 18:49:21.043494 close(8)    = 0
+[pid  5477] 18:49:21.043506 open("/proc/170/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.043522 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.043532 close(8)    = 0
+[pid  5477] 18:49:21.043543 stat64("/proc/1126", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.043580 open("/proc/1126/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.043595 read(8, "1126 (ksnapd) S 2 0 0 0 -1 41024"..., 1023) = 126
+[pid  5477] 18:49:21.043615 close(8)    = 0
+[pid  5477] 18:49:21.043628 open("/proc/1126/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.043644 read(8, "Name:\tksnapd\nState:\tS (sleeping)"..., 1023) = 436
+[pid  5477] 18:49:21.043664 close(8)    = 0
+[pid  5477] 18:49:21.043676 open("/proc/1126/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.043711 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.043721 close(8)    = 0
+[pid  5477] 18:49:21.043742 stat64("/proc/1293", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.043788 open("/proc/1293/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.043803 read(8, "1293 (ata/0) S 2 0 0 0 -1 41024 "..., 1023) = 125
+[pid  5477] 18:49:21.043823 close(8)    = 0
+[pid  5477] 18:49:21.043836 open("/proc/1293/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.043852 read(8, "Name:\tata/0\nState:\tS (sleeping)\n"..., 1023) = 436
+[pid  5477] 18:49:21.043872 close(8)    = 0
+[pid  5477] 18:49:21.043883 open("/proc/1293/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.043899 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.043909 close(8)    = 0
+[pid  5477] 18:49:21.043920 stat64("/proc/1296", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.043967 open("/proc/1296/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.044001 read(8, "1296 (ata_aux) S 2 0 0 0 -1 4102"..., 1023) = 127
+[pid  5477] 18:49:21.044030 close(8)    = 0
+[pid  5477] 18:49:21.044043 open("/proc/1296/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.044060 read(8, "Name:\tata_aux\nState:\tS (sleeping"..., 1023) = 437
+[pid  5477] 18:49:21.044079 close(8)    = 0
+[pid  5477] 18:49:21.044091 open("/proc/1296/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.044107 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.044117 close(8)    = 0
+[pid  5477] 18:49:21.044128 stat64("/proc/1303", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.044164 open("/proc/1303/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.044179 read(8, "1303 (scsi_eh_0) S 2 0 0 0 -1 41"..., 1023) = 129
+[pid  5477] 18:49:21.044199 close(8)    = 0
+[pid  5477] 18:49:21.044212 open("/proc/1303/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.044262 read(8, "Name:\tscsi_eh_0\nState:\tS (sleepi"..., 1023) = 439
+[pid  5477] 18:49:21.044297 close(8)    = 0
+[pid  5477] 18:49:21.044308 open("/proc/1303/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.044325 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.044335 close(8)    = 0
+[pid  5477] 18:49:21.044358 stat64("/proc/1306", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.044407 open("/proc/1306/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.044439 read(8, "1306 (scsi_eh_1) S 2 0 0 0 -1 41"..., 1023) = 129
+[pid  5477] 18:49:21.044476 close(8)    = 0
+[pid  5477] 18:49:21.044489 open("/proc/1306/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.044505 read(8, "Name:\tscsi_eh_1\nState:\tS (sleepi"..., 1023) = 440
+[pid  5477] 18:49:21.044525 close(8)    = 0
+[pid  5477] 18:49:21.044537 open("/proc/1306/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.044553 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.044563 close(8)    = 0
+[pid  5477] 18:49:21.044574 stat64("/proc/1324", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.044610 open("/proc/1324/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.044625 read(8, "1324 (ksuspend_usbd) S 2 0 0 0 -"..., 1023) = 132
+[pid  5477] 18:49:21.044645 close(8)    = 0
+[pid  5477] 18:49:21.044658 open("/proc/1324/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.044674 read(8, "Name:\tksuspend_usbd\nState:\tS (sl"..., 1023) = 443
+[pid  5477] 18:49:21.044694 close(8)    = 0
+[pid  5477] 18:49:21.044706 open("/proc/1324/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.044722 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.044732 close(8)    = 0
+[pid  5477] 18:49:21.044743 stat64("/proc/1332", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.044780 open("/proc/1332/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.044795 read(8, "1332 (khubd) S 2 0 0 0 -1 8256 0"..., 1023) = 124
+[pid  5477] 18:49:21.044815 close(8)    = 0
+[pid  5477] 18:49:21.044828 open("/proc/1332/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.044844 read(8, "Name:\tkhubd\nState:\tS (sleeping)\n"..., 1023) = 437
+[pid  5477] 18:49:21.044864 close(8)    = 0
+[pid  5477] 18:49:21.044875 open("/proc/1332/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.044891 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.044901 close(8)    = 0
+[pid  5477] 18:49:21.044912 stat64("/proc/2049", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.044949 open("/proc/2049/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.044964 read(8, "2049 (scsi_eh_2) S 2 0 0 0 -1 41"..., 1023) = 129
+[pid  5477] 18:49:21.044985 close(8)    = 0
+[pid  5477] 18:49:21.044998 open("/proc/2049/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.045014 read(8, "Name:\tscsi_eh_2\nState:\tS (sleepi"..., 1023) = 440
+[pid  5477] 18:49:21.045033 close(8)    = 0
+[pid  5477] 18:49:21.045045 open("/proc/2049/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.045061 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.045071 close(8)    = 0
+[pid  5477] 18:49:21.045082 stat64("/proc/2195", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.045119 open("/proc/2195/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.045134 read(8, "2195 (kjournald) S 2 0 0 0 -1 41"..., 1023) = 129
+[pid  5477] 18:49:21.045154 close(8)    = 0
+[pid  5477] 18:49:21.045167 open("/proc/2195/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.045183 read(8, "Name:\tkjournald\nState:\tS (sleepi"..., 1023) = 442
+[pid  5477] 18:49:21.045203 close(8)    = 0
+[pid  5477] 18:49:21.045214 open("/proc/2195/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.045230 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.045240 close(8)    = 0
+[pid  5477] 18:49:21.045251 stat64("/proc/2349", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.045288 open("/proc/2349/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.045303 read(8, "2349 (udevd) S 1 2349 2349 0 -1 "..., 1023) = 191
+[pid  5477] 18:49:21.045324 close(8)    = 0
+[pid  5477] 18:49:21.045339 open("/proc/2349/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.045355 read(8, "Name:\tudevd\nState:\tS (sleeping)\n"..., 1023) = 631
+[pid  5477] 18:49:21.045376 close(8)    = 0
+[pid  5477] 18:49:21.045389 open("/proc/2349/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.045405 read(8, "/sbin/udevd\0--daemon\0", 2047) = 21
+[pid  5477] 18:49:21.045424 close(8)    = 0
+[pid  5477] 18:49:21.045436 stat64("/proc/2554", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.045472 open("/proc/2554/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.045487 read(8, "2554 (kpsmoused) S 2 0 0 0 -1 41"..., 1023) = 129
+[pid  5477] 18:49:21.045508 close(8)    = 0
+[pid  5477] 18:49:21.045521 open("/proc/2554/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.045550 read(8, "Name:\tkpsmoused\nState:\tS (sleepi"..., 1023) = 439
+[pid  5477] 18:49:21.045570 close(8)    = 0
+[pid  5477] 18:49:21.045582 open("/proc/2554/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.045599 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.045609 close(8)    = 0
+[pid  5477] 18:49:21.045620 stat64("/proc/3487", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.045657 open("/proc/3487/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.045672 read(8, "3487 (kjournald) S 2 0 0 0 -1 41"..., 1023) = 129
+[pid  5477] 18:49:21.045692 close(8)    = 0
+[pid  5477] 18:49:21.045705 open("/proc/3487/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.045721 read(8, "Name:\tkjournald\nState:\tS (sleepi"..., 1023) = 439
+[pid  5477] 18:49:21.045741 close(8)    = 0
+[pid  5477] 18:49:21.045753 open("/proc/3487/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.045769 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.045778 close(8)    = 0
+[pid  5477] 18:49:21.045789 stat64("/proc/3611", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.045826 open("/proc/3611/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.045841 read(8, "3611 (dhclient3) S 1 3611 3611 0"..., 1023) = 185
+[pid  5477] 18:49:21.045861 close(8)    = 0
+[pid  5477] 18:49:21.045875 open("/proc/3611/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.045891 read(8, "Name:\tdhclient3\nState:\tS (sleepi"..., 1023) = 651
+[pid  5477] 18:49:21.045912 close(8)    = 0
+[pid  5477] 18:49:21.045926 open("/etc/passwd", O_RDONLY|0x80000 /* O_??? */) = 8
+[pid  5477] 18:49:21.045942 _llseek(8, 0, [0], SEEK_CUR) = 0
+[pid  5477] 18:49:21.045955 fstat64(8, {st_mode=S_IFREG|0644, st_size=1581, ...}) = 0
+[pid  5477] 18:49:21.045988 mmap2(NULL, 1581, PROT_READ, MAP_SHARED, 8, 0) = 0xb7eeb000
+[pid  5477] 18:49:21.046002 _llseek(8, 1581, [1581], SEEK_SET) = 0
+[pid  5477] 18:49:21.046022 munmap(0xb7eeb000, 1581) = 0
+[pid  5477] 18:49:21.046034 close(8)    = 0
+[pid  5477] 18:49:21.046046 open("/proc/3611/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.046062 read(8, "dhclient3\0-e\0IF_METRIC=100\0-pf\0/"..., 2047) = 103
+[pid  5477] 18:49:21.046083 close(8)    = 0
+[pid  5477] 18:49:21.046096 stat64("/proc/3637", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.046133 open("/proc/3637/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.046148 read(8, "3637 (portmap) S 1 3637 3637 0 -"..., 1023) = 184
+[pid  5477] 18:49:21.046169 close(8)    = 0
+[pid  5477] 18:49:21.046183 open("/proc/3637/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.046199 read(8, "Name:\tportmap\nState:\tS (sleeping"..., 1023) = 631
+[pid  5477] 18:49:21.046221 close(8)    = 0
+[pid  5477] 18:49:21.046234 open("/etc/passwd", O_RDONLY|0x80000 /* O_??? */) = 8
+[pid  5477] 18:49:21.046249 _llseek(8, 0, [0], SEEK_CUR) = 0
+[pid  5477] 18:49:21.046262 fstat64(8, {st_mode=S_IFREG|0644, st_size=1581, ...}) = 0
+[pid  5477] 18:49:21.046294 mmap2(NULL, 1581, PROT_READ, MAP_SHARED, 8, 0) = 0xb7eeb000
+[pid  5477] 18:49:21.046306 _llseek(8, 1581, [1581], SEEK_SET) = 0
+[pid  5477] 18:49:21.046321 munmap(0xb7eeb000, 1581) = 0
+[pid  5477] 18:49:21.046332 close(8)    = 0
+[pid  5477] 18:49:21.046343 open("/proc/3637/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.046360 read(8, "/sbin/portmap\0", 2047) = 14
+[pid  5477] 18:49:21.046376 close(8)    = 0
+[pid  5477] 18:49:21.046388 stat64("/proc/3671", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.046425 open("/proc/3671/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.046440 read(8, "3671 (rpc.statd) S 1 3671 3671 0"..., 1023) = 188
+[pid  5477] 18:49:21.046460 close(8)    = 0
+[pid  5477] 18:49:21.046474 open("/proc/3671/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.046490 read(8, "Name:\trpc.statd\nState:\tS (sleepi"..., 1023) = 640
+[pid  5477] 18:49:21.046511 close(8)    = 0
+[pid  5477] 18:49:21.046525 open("/etc/passwd", O_RDONLY|0x80000 /* O_??? */) = 8
+[pid  5477] 18:49:21.046540 _llseek(8, 0, [0], SEEK_CUR) = 0
+[pid  5477] 18:49:21.046552 fstat64(8, {st_mode=S_IFREG|0644, st_size=1581, ...}) = 0
+[pid  5477] 18:49:21.046585 mmap2(NULL, 1581, PROT_READ, MAP_SHARED, 8, 0) = 0xb7eeb000
+[pid  5477] 18:49:21.046597 _llseek(8, 1581, [1581], SEEK_SET) = 0
+[pid  5477] 18:49:21.046618 munmap(0xb7eeb000, 1581) = 0
+[pid  5477] 18:49:21.046629 close(8)    = 0
+[pid  5477] 18:49:21.046640 open("/proc/3671/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.046657 read(8, "/sbin/rpc.statd\0", 2047) = 16
+[pid  5477] 18:49:21.046673 close(8)    = 0
+[pid  5477] 18:49:21.046685 stat64("/proc/3677", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.046721 open("/proc/3677/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.046737 read(8, "3677 (rpciod/0) S 2 0 0 0 -1 412"..., 1023) = 128
+[pid  5477] 18:49:21.046757 close(8)    = 0
+[pid  5477] 18:49:21.046770 open("/proc/3677/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.046786 read(8, "Name:\trpciod/0\nState:\tS (sleepin"..., 1023) = 439
+[pid  5477] 18:49:21.046806 close(8)    = 0
+[pid  5477] 18:49:21.046819 open("/proc/3677/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.046835 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.046845 close(8)    = 0
+[pid  5477] 18:49:21.046856 stat64("/proc/3692", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.046892 open("/proc/3692/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.046908 read(8, "3692 (rpc.idmapd) S 1 3692 3692 "..., 1023) = 184
+[pid  5477] 18:49:21.046928 close(8)    = 0
+[pid  5477] 18:49:21.046941 open("/proc/3692/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.046957 read(8, "Name:\trpc.idmapd\nState:\tS (sleep"..., 1023) = 633
+[pid  5477] 18:49:21.046978 close(8)    = 0
+[pid  5477] 18:49:21.046991 open("/proc/3692/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.047007 read(8, "/usr/sbin/rpc.idmapd\0", 2047) = 21
+[pid  5477] 18:49:21.047025 close(8)    = 0
+[pid  5477] 18:49:21.047037 stat64("/proc/3918", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.047073 open("/proc/3918/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.047089 read(8, "3918 (getty) S 1 3918 3918 1028 "..., 1023) = 182
+[pid  5477] 18:49:21.047109 close(8)    = 0
+[pid  5477] 18:49:21.047123 open("/proc/3918/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.047139 read(8, "Name:\tgetty\nState:\tS (sleeping)\n"..., 1023) = 628
+[pid  5477] 18:49:21.047160 close(8)    = 0
+[pid  5477] 18:49:21.047173 open("/proc/3918/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.047189 read(8, "/sbin/getty\00038400\0tty4\0", 2047) = 23
+[pid  5477] 18:49:21.047207 close(8)    = 0
+[pid  5477] 18:49:21.047219 stat64("/proc/3919", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.047256 open("/proc/3919/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.047271 read(8, "3919 (getty) S 1 3919 3919 1029 "..., 1023) = 182
+[pid  5477] 18:49:21.047308 close(8)    = 0
+[pid  5477] 18:49:21.047323 open("/proc/3919/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.047349 read(8, "Name:\tgetty\nState:\tS (sleeping)\n"..., 1023) = 628
+[pid  5477] 18:49:21.047370 close(8)    = 0
+[pid  5477] 18:49:21.047382 open("/proc/3919/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.047398 read(8, "/sbin/getty\00038400\0tty5\0", 2047) = 23
+[pid  5477] 18:49:21.047417 close(8)    = 0
+[pid  5477] 18:49:21.047428 write(1, "    1 root     /sbin/init\n    2 "..., 1024) = 1024
+[pid  5477] 18:49:21.047449 stat64("/proc/3923", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.047486 open("/proc/3923/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.047501 read(8, "3923 (getty) S 1 3923 3923 1026 "..., 1023) = 182
+[pid  5477] 18:49:21.047521 close(8)    = 0
+[pid  5477] 18:49:21.047535 open("/proc/3923/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.047551 read(8, "Name:\tgetty\nState:\tS (sleeping)\n"..., 1023) = 628
+[pid  5477] 18:49:21.047571 close(8)    = 0
+[pid  5477] 18:49:21.047583 open("/proc/3923/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.047599 read(8, "/sbin/getty\00038400\0tty2\0", 2047) = 23
+[pid  5477] 18:49:21.047617 close(8)    = 0
+[pid  5477] 18:49:21.047629 stat64("/proc/3924", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.047665 open("/proc/3924/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.047680 read(8, "3924 (getty) S 1 3924 3924 1027 "..., 1023) = 182
+[pid  5477] 18:49:21.047701 close(8)    = 0
+[pid  5477] 18:49:21.047714 open("/proc/3924/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.047730 read(8, "Name:\tgetty\nState:\tS (sleeping)\n"..., 1023) = 628
+[pid  5477] 18:49:21.047751 close(8)    = 0
+[pid  5477] 18:49:21.047763 open("/proc/3924/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.047779 read(8, "/sbin/getty\00038400\0tty3\0", 2047) = 23
+[pid  5477] 18:49:21.047797 close(8)    = 0
+[pid  5477] 18:49:21.047809 stat64("/proc/3928", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.047845 open("/proc/3928/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.047860 read(8, "3928 (getty) S 1 3928 3928 1030 "..., 1023) = 182
+[pid  5477] 18:49:21.047880 close(8)    = 0
+[pid  5477] 18:49:21.047894 open("/proc/3928/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.047910 read(8, "Name:\tgetty\nState:\tS (sleeping)\n"..., 1023) = 628
+[pid  5477] 18:49:21.047930 close(8)    = 0
+[pid  5477] 18:49:21.047942 open("/proc/3928/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.047958 read(8, "/sbin/getty\00038400\0tty6\0", 2047) = 23
+[pid  5477] 18:49:21.047976 close(8)    = 0
+[pid  5477] 18:49:21.047988 stat64("/proc/3967", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.048024 open("/proc/3967/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.048039 read(8, "3967 (syslogd) S 1 3967 3967 0 -"..., 1023) = 190
+[pid  5477] 18:49:21.048060 close(8)    = 0
+[pid  5477] 18:49:21.048073 open("/proc/3967/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.048089 read(8, "Name:\tsyslogd\nState:\tS (sleeping"..., 1023) = 652
+[pid  5477] 18:49:21.048110 close(8)    = 0
+[pid  5477] 18:49:21.048126 open("/etc/passwd", O_RDONLY|0x80000 /* O_??? */) = 8
+[pid  5477] 18:49:21.048141 _llseek(8, 0, [0], SEEK_CUR) = 0
+[pid  5477] 18:49:21.048154 fstat64(8, {st_mode=S_IFREG|0644, st_size=1581, ...}) = 0
+[pid  5477] 18:49:21.048187 mmap2(NULL, 1581, PROT_READ, MAP_SHARED, 8, 0) = 0xb7eeb000
+[pid  5477] 18:49:21.048199 _llseek(8, 1581, [1581], SEEK_SET) = 0
+[pid  5477] 18:49:21.048217 munmap(0xb7eeb000, 1581) = 0
+[pid  5477] 18:49:21.048229 close(8)    = 0
+[pid  5477] 18:49:21.048240 open("/proc/3967/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.048256 read(8, "/sbin/syslogd\0-u\0syslog\0", 2047) = 24
+[pid  5477] 18:49:21.048275 close(8)    = 0
+[pid  5477] 18:49:21.048287 stat64("/proc/4002", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.048324 open("/proc/4002/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.048339 read(8, "4002 (dd) S 1 4001 4001 0 -1 419"..., 1023) = 176
+[pid  5477] 18:49:21.048359 close(8)    = 0
+[pid  5477] 18:49:21.048373 open("/proc/4002/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.048389 read(8, "Name:\tdd\nState:\tS (sleeping)\nTgi"..., 1023) = 625
+[pid  5477] 18:49:21.048410 close(8)    = 0
+[pid  5477] 18:49:21.048423 open("/proc/4002/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.048439 read(8, "/bin/dd\0bs\0001\0if\0/proc/kmsg\0of\0/v"..., 2047) = 50
+[pid  5477] 18:49:21.048460 close(8)    = 0
+[pid  5477] 18:49:21.048473 stat64("/proc/4004", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.048509 open("/proc/4004/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.048524 read(8, "4004 (klogd) S 1 4004 4004 0 -1 "..., 1023) = 191
+[pid  5477] 18:49:21.048544 close(8)    = 0
+[pid  5477] 18:49:21.048558 open("/proc/4004/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.048574 read(8, "Name:\tklogd\nState:\tS (sleeping)\n"..., 1023) = 650
+[pid  5477] 18:49:21.048595 close(8)    = 0
+[pid  5477] 18:49:21.048609 open("/etc/passwd", O_RDONLY|0x80000 /* O_??? */) = 8
+[pid  5477] 18:49:21.048624 _llseek(8, 0, [0], SEEK_CUR) = 0
+[pid  5477] 18:49:21.048636 fstat64(8, {st_mode=S_IFREG|0644, st_size=1581, ...}) = 0
+[pid  5477] 18:49:21.048669 mmap2(NULL, 1581, PROT_READ, MAP_SHARED, 8, 0) = 0xb7eeb000
+[pid  5477] 18:49:21.048681 _llseek(8, 1581, [1581], SEEK_SET) = 0
+[pid  5477] 18:49:21.048699 munmap(0xb7eeb000, 1581) = 0
+[pid  5477] 18:49:21.048710 close(8)    = 0
+[pid  5477] 18:49:21.048721 open("/proc/4004/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.048738 read(8, "/sbin/klogd\0-P\0/var/run/klogd/km"..., 2047) = 35
+[pid  5477] 18:49:21.048758 close(8)    = 0
+[pid  5477] 18:49:21.048770 stat64("/proc/4027", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.048807 open("/proc/4027/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.048822 read(8, "4027 (named) S 1 4027 4027 0 -1 "..., 1023) = 201
+[pid  5477] 18:49:21.048843 close(8)    = 0
+[pid  5477] 18:49:21.048858 open("/proc/4027/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.048874 read(8, "Name:\tnamed\nState:\tS (sleeping)\n"..., 1023) = 649
+[pid  5477] 18:49:21.048895 close(8)    = 0
+[pid  5477] 18:49:21.048908 open("/etc/passwd", O_RDONLY|0x80000 /* O_??? */) = 8
+[pid  5477] 18:49:21.048923 _llseek(8, 0, [0], SEEK_CUR) = 0
+[pid  5477] 18:49:21.048935 fstat64(8, {st_mode=S_IFREG|0644, st_size=1581, ...}) = 0
+[pid  5477] 18:49:21.048968 mmap2(NULL, 1581, PROT_READ, MAP_SHARED, 8, 0) = 0xb7eeb000
+[pid  5477] 18:49:21.048979 _llseek(8, 1581, [1581], SEEK_SET) = 0
+[pid  5477] 18:49:21.048998 munmap(0xb7eeb000, 1581) = 0
+[pid  5477] 18:49:21.049009 close(8)    = 0
+[pid  5477] 18:49:21.049020 open("/proc/4027/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.049037 read(8, "/usr/sbin/named\0-u\0bind\0", 2047) = 24
+[pid  5477] 18:49:21.049056 close(8)    = 0
+[pid  5477] 18:49:21.049068 stat64("/proc/4049", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.049105 open("/proc/4049/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.049120 read(8, "4049 (sshd) S 1 4049 4049 0 -1 4"..., 1023) = 185
+[pid  5477] 18:49:21.049141 close(8)    = 0
+[pid  5477] 18:49:21.049155 open("/proc/4049/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.049171 read(8, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1023) = 627
+[pid  5477] 18:49:21.049192 close(8)    = 0
+[pid  5477] 18:49:21.049205 open("/proc/4049/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.049221 read(8, "/usr/sbin/sshd\0", 2047) = 15
+[pid  5477] 18:49:21.049238 close(8)    = 0
+[pid  5477] 18:49:21.049249 stat64("/proc/4125", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.049286 open("/proc/4125/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.049301 read(8, "4125 (mysqld_safe) S 1 3920 3920"..., 1023) = 194
+[pid  5477] 18:49:21.049321 close(8)    = 0
+[pid  5477] 18:49:21.049335 open("/proc/4125/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.049351 read(8, "Name:\tmysqld_safe\nState:\tS (slee"..., 1023) = 637
+[pid  5477] 18:49:21.049372 close(8)    = 0
+[pid  5477] 18:49:21.049385 open("/proc/4125/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.049401 read(8, "/bin/sh\0/usr/bin/mysqld_safe\0", 2047) = 29
+[pid  5477] 18:49:21.049421 close(8)    = 0
+[pid  5477] 18:49:21.049433 stat64("/proc/4167", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.049469 open("/proc/4167/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.049485 read(8, "4167 (mysqld) S 4125 3920 3920 0"..., 1023) = 209
+[pid  5477] 18:49:21.049506 close(8)    = 0
+[pid  5477] 18:49:21.049520 open("/proc/4167/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.049536 read(8, "Name:\tmysqld\nState:\tS (sleeping)"..., 1023) = 656
+[pid  5477] 18:49:21.049557 close(8)    = 0
+[pid  5477] 18:49:21.049571 open("/etc/passwd", O_RDONLY|0x80000 /* O_??? */) = 8
+[pid  5477] 18:49:21.049586 _llseek(8, 0, [0], SEEK_CUR) = 0
+[pid  5477] 18:49:21.049598 fstat64(8, {st_mode=S_IFREG|0644, st_size=1581, ...}) = 0
+[pid  5477] 18:49:21.049631 mmap2(NULL, 1581, PROT_READ, MAP_SHARED, 8, 0) = 0xb7eeb000
+[pid  5477] 18:49:21.049642 _llseek(8, 1581, [1581], SEEK_SET) = 0
+[pid  5477] 18:49:21.049662 munmap(0xb7eeb000, 1581) = 0
+[pid  5477] 18:49:21.049673 close(8)    = 0
+[pid  5477] 18:49:21.049684 open("/proc/4167/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.049700 read(8, "/usr/sbin/mysqld\0--basedir=/usr\0"..., 2047) = 181
+[pid  5477] 18:49:21.049721 close(8)    = 0
+[pid  5477] 18:49:21.049734 stat64("/proc/4169", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.049771 open("/proc/4169/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.049786 read(8, "4169 (logger) S 4125 3920 3920 0"..., 1023) = 181
+[pid  5477] 18:49:21.049806 close(8)    = 0
+[pid  5477] 18:49:21.049821 open("/proc/4169/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.049836 read(8, "Name:\tlogger\nState:\tS (sleeping)"..., 1023) = 633
+[pid  5477] 18:49:21.049858 close(8)    = 0
+[pid  5477] 18:49:21.049871 open("/proc/4169/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.049887 read(8, "logger\0-p\0daemon.err\0-t\0mysqld_s"..., 2047) = 49
+[pid  5477] 18:49:21.049907 close(8)    = 0
+[pid  5477] 18:49:21.049919 stat64("/proc/4245", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.049956 open("/proc/4245/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.049971 read(8, "4245 (postgres) S 1 4241 4241 0 "..., 1023) = 202
+[pid  5477] 18:49:21.049991 close(8)    = 0
+[pid  5477] 18:49:21.050005 open("/proc/4245/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.050022 read(8, "Name:\tpostgres\nState:\tS (sleepin"..., 1023) = 662
+[pid  5477] 18:49:21.050098 close(8)    = 0
+[pid  5477] 18:49:21.050114 open("/etc/passwd", O_RDONLY|0x80000 /* O_??? */) = 8
+[pid  5477] 18:49:21.050130 _llseek(8, 0, [0], SEEK_CUR) = 0
+[pid  5477] 18:49:21.050143 fstat64(8, {st_mode=S_IFREG|0644, st_size=1581, ...}) = 0
+[pid  5477] 18:49:21.050175 mmap2(NULL, 1581, PROT_READ, MAP_SHARED, 8, 0) = 0xb7eeb000
+[pid  5477] 18:49:21.050187 _llseek(8, 1581, [1581], SEEK_SET) = 0
+[pid  5477] 18:49:21.050207 munmap(0xb7eeb000, 1581) = 0
+[pid  5477] 18:49:21.050219 close(8)    = 0
+[pid  5477] 18:49:21.050230 open("/proc/4245/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.050246 read(8, "/usr/lib/postgresql/8.3/bin/post"..., 2047) = 125
+[pid  5477] 18:49:21.050267 close(8)    = 0
+[pid  5477] 18:49:21.050280 stat64("/proc/4248", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.050316 open("/proc/4248/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.050332 read(8, "4248 (postgres) S 4245 4248 4248"..., 1023) = 195
+[pid  5477] 18:49:21.050352 close(8)    = 0
+[pid  5477] 18:49:21.050367 open("/proc/4248/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.050383 read(8, "Name:\tpostgres\nState:\tS (sleepin"..., 1023) = 662
+[pid  5477] 18:49:21.050404 close(8)    = 0
+[pid  5477] 18:49:21.050417 open("/proc/4248/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.050434 read(8, "postgres: writer process   \0\0\0\0\0"..., 2047) = 125
+[pid  5477] 18:49:21.050454 close(8)    = 0
+[pid  5477] 18:49:21.050469 stat64("/proc/4249", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.050505 open("/proc/4249/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.050521 read(8, "4249 (postgres) S 4245 4249 4249"..., 1023) = 196
+[pid  5477] 18:49:21.050541 close(8)    = 0
+[pid  5477] 18:49:21.050555 open("/proc/4249/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.050571 read(8, "Name:\tpostgres\nState:\tS (sleepin"..., 1023) = 662
+[pid  5477] 18:49:21.050592 close(8)    = 0
+[pid  5477] 18:49:21.050604 open("/proc/4249/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.050620 read(8, "postgres: wal writer process   \0"..., 2047) = 125
+[pid  5477] 18:49:21.050640 close(8)    = 0
+[pid  5477] 18:49:21.050655 write(1, "400 tty5\n 3923 root     /sbin/ge"..., 1024) = 1024
+[pid  5477] 18:49:21.050675 stat64("/proc/4250", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.050711 open("/proc/4250/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.050726 read(8, "4250 (postgres) S 4245 4250 4250"..., 1023) = 197
+[pid  5477] 18:49:21.050746 close(8)    = 0
+[pid  5477] 18:49:21.050760 open("/proc/4250/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.050776 read(8, "Name:\tpostgres\nState:\tS (sleepin"..., 1023) = 662
+[pid  5477] 18:49:21.050797 close(8)    = 0
+[pid  5477] 18:49:21.050810 open("/proc/4250/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.050826 read(8, "postgres: autovacuum launcher pr"..., 2047) = 125
+[pid  5477] 18:49:21.050846 close(8)    = 0
+[pid  5477] 18:49:21.050861 stat64("/proc/4251", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.050897 open("/proc/4251/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.050912 read(8, "4251 (postgres) S 4245 4251 4251"..., 1023) = 194
+[pid  5477] 18:49:21.060067 close(8)    = 0
+[pid  5477] 18:49:21.060095 open("/proc/4251/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.060129 read(8, "Name:\tpostgres\nState:\tS (sleepin"..., 1023) = 661
+[pid  5477] 18:49:21.060156 close(8)    = 0
+[pid  5477] 18:49:21.060174 open("/proc/4251/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.060195 read(8, "postgres: stats collector proces"..., 2047) = 125
+[pid  5477] 18:49:21.060222 close(8)    = 0
+[pid  5477] 18:49:21.060246 stat64("/proc/4271", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.060329 open("/proc/4271/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.060347 read(8, "4271 (distccd) S 1 4271 4271 0 -"..., 1023) = 183
+[pid  5477] 18:49:21.060372 close(8)    = 0
+[pid  5477] 18:49:21.060389 open("/proc/4271/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.060420 read(8, "Name:\tdistccd\nState:\tS (sleeping"..., 1023) = 632
+[pid  5477] 18:49:21.060444 close(8)    = 0
+[pid  5477] 18:49:21.060459 open("/proc/4271/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.060476 read(8, "distccd\0--daemon\0--user\0daemon\0-"..., 2047) = 49
+[pid  5477] 18:49:21.060500 close(8)    = 0
+[pid  5477] 18:49:21.060515 stat64("/proc/4272", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.060568 open("/proc/4272/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.060586 read(8, "4272 (distccd) S 4271 4271 4271 "..., 1023) = 184
+[pid  5477] 18:49:21.060608 close(8)    = 0
+[pid  5477] 18:49:21.060839 open("/proc/4272/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.061032 read(8, "Name:\tdistccd\nState:\tS (sleeping"..., 1023) = 635
+[pid  5477] 18:49:21.061129 close(8)    = 0
+[pid  5477] 18:49:21.061177 open("/proc/4272/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.061211 read(8, "distccd\0--daemon\0--user\0daemon\0-"..., 2047) = 49
+[pid  5477] 18:49:21.061243 close(8)    = 0
+[pid  5477] 18:49:21.061265 stat64("/proc/4321", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.061303 open("/proc/4321/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.061319 read(8, "4321 (lockd) S 2 1 1 0 -1 419436"..., 1023) = 129
+[pid  5477] 18:49:21.061340 close(8)    = 0
+[pid  5477] 18:49:21.061354 open("/proc/4321/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.061370 read(8, "Name:\tlockd\nState:\tS (sleeping)\n"..., 1023) = 435
+[pid  5477] 18:49:21.061391 close(8)    = 0
+[pid  5477] 18:49:21.061403 open("/proc/4321/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.061419 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.061429 close(8)    = 0
+[pid  5477] 18:49:21.061441 stat64("/proc/4322", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.061478 open("/proc/4322/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.061493 read(8, "4322 (nfsd4) S 2 0 0 0 -1 41024 "..., 1023) = 126
+[pid  5477] 18:49:21.061513 close(8)    = 0
+[pid  5477] 18:49:21.061526 open("/proc/4322/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.061542 read(8, "Name:\tnfsd4\nState:\tS (sleeping)\n"..., 1023) = 437
+[pid  5477] 18:49:21.061563 close(8)    = 0
+[pid  5477] 18:49:21.061574 open("/proc/4322/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.061590 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.061600 close(8)    = 0
+[pid  5477] 18:49:21.061611 stat64("/proc/4323", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.061648 open("/proc/4323/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.061663 read(8, "4323 (nfsd) S 2 1 1 0 -1 5242944"..., 1023) = 126
+[pid  5477] 18:49:21.061683 close(8)    = 0
+[pid  5477] 18:49:21.061696 open("/proc/4323/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.061712 read(8, "Name:\tnfsd\nState:\tS (sleeping)\nT"..., 1023) = 434
+[pid  5477] 18:49:21.061732 close(8)    = 0
+[pid  5477] 18:49:21.061744 open("/proc/4323/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.061760 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.061769 close(8)    = 0
+[pid  5477] 18:49:21.061780 stat64("/proc/4324", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.061817 open("/proc/4324/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.061832 read(8, "4324 (nfsd) S 2 1 1 0 -1 5242944"..., 1023) = 126
+[pid  5477] 18:49:21.061853 close(8)    = 0
+[pid  5477] 18:49:21.061866 open("/proc/4324/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.061882 read(8, "Name:\tnfsd\nState:\tS (sleeping)\nT"..., 1023) = 434
+[pid  5477] 18:49:21.061902 close(8)    = 0
+[pid  5477] 18:49:21.061914 open("/proc/4324/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.061930 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.061939 close(8)    = 0
+[pid  5477] 18:49:21.061950 stat64("/proc/4325", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.061987 open("/proc/4325/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.062003 read(8, "4325 (nfsd) S 2 1 1 0 -1 5242944"..., 1023) = 126
+[pid  5477] 18:49:21.062023 close(8)    = 0
+[pid  5477] 18:49:21.062036 open("/proc/4325/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.062052 read(8, "Name:\tnfsd\nState:\tS (sleeping)\nT"..., 1023) = 434
+[pid  5477] 18:49:21.062072 close(8)    = 0
+[pid  5477] 18:49:21.062083 open("/proc/4325/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.062099 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.062109 close(8)    = 0
+[pid  5477] 18:49:21.062120 stat64("/proc/4326", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.062157 open("/proc/4326/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.062172 read(8, "4326 (nfsd) S 2 1 1 0 -1 5242944"..., 1023) = 126
+[pid  5477] 18:49:21.062192 close(8)    = 0
+[pid  5477] 18:49:21.062205 open("/proc/4326/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.062221 read(8, "Name:\tnfsd\nState:\tS (sleeping)\nT"..., 1023) = 434
+[pid  5477] 18:49:21.062241 close(8)    = 0
+[pid  5477] 18:49:21.062252 open("/proc/4326/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.062268 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.062278 close(8)    = 0
+[pid  5477] 18:49:21.062289 stat64("/proc/4327", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.062325 open("/proc/4327/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.062340 read(8, "4327 (nfsd) S 2 1 1 0 -1 5242944"..., 1023) = 126
+[pid  5477] 18:49:21.062360 close(8)    = 0
+[pid  5477] 18:49:21.062373 open("/proc/4327/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.062389 read(8, "Name:\tnfsd\nState:\tS (sleeping)\nT"..., 1023) = 434
+[pid  5477] 18:49:21.062422 close(8)    = 0
+[pid  5477] 18:49:21.062434 open("/proc/4327/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.062450 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.062460 close(8)    = 0
+[pid  5477] 18:49:21.062471 stat64("/proc/4328", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.062508 open("/proc/4328/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.062523 read(8, "4328 (nfsd) S 2 1 1 0 -1 5242944"..., 1023) = 126
+[pid  5477] 18:49:21.062543 close(8)    = 0
+[pid  5477] 18:49:21.062556 open("/proc/4328/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.062572 read(8, "Name:\tnfsd\nState:\tS (sleeping)\nT"..., 1023) = 434
+[pid  5477] 18:49:21.062592 close(8)    = 0
+[pid  5477] 18:49:21.062603 open("/proc/4328/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.062619 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.062629 close(8)    = 0
+[pid  5477] 18:49:21.062640 getdents(7, /* 41 entries */, 1024) = 656
+[pid  5477] 18:49:21.062829 stat64("/proc/4329", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.062866 open("/proc/4329/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.062881 read(8, "4329 (nfsd) S 2 1 1 0 -1 5242944"..., 1023) = 126
+[pid  5477] 18:49:21.062901 close(8)    = 0
+[pid  5477] 18:49:21.062914 open("/proc/4329/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.062930 read(8, "Name:\tnfsd\nState:\tS (sleeping)\nT"..., 1023) = 434
+[pid  5477] 18:49:21.062950 close(8)    = 0
+[pid  5477] 18:49:21.062961 open("/proc/4329/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.062977 read(8, "", 2047) = 0
+[pid  5477] 18:49:21.062987 close(8)    = 0
+[pid  5477] 18:49:21.062998 stat64("/proc/4330", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.063034 open("/proc/4330/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.063049 read(8, "4330 (nfsd) S 2 1 1 0 -1 5242944"..., 1023) = 126
+[pid  5477] 18:49:21.063069 close(8)    = 0
+[pid  5468] 18:49:21.091221 close(6 <unfinished ...>
+[pid  5476] 18:49:21.091302 rt_sigprocmask(SIG_SETMASK, [],  <unfinished ...>
+[pid  5477] 18:49:21.091410 open("/proc/4330/status", O_RDONLY <unfinished ...>
+[pid  5468] 18:49:21.091432 <... close resumed> ) = 0
+[pid  5476] 18:49:21.091444 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  5477] 18:49:21.091507 <... open resumed> ) = 8
+[pid  5468] 18:49:21.091513 fstat64(4,  <unfinished ...>
+[pid  5476] 18:49:21.091518 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+[pid  5477] 18:49:21.091532 read(8,  <unfinished ...>
+[pid  5468] 18:49:21.091537 <... fstat64 resumed> {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+[pid  5476] 18:49:21.091566 <... rt_sigprocmask resumed> [], 8) = 0
+[pid  5477] 18:49:21.091598 <... read resumed> "Name:\tnfsd\nState:\tS (sleeping)\nT"..., 1023) = 434
+[pid  5468] 18:49:21.091612 mmap2(NULL, 0, PROT_READ, MAP_SHARED, 4, 0 <unfinished ...>
+[pid  5476] 18:49:21.091620 rt_sigprocmask(SIG_SETMASK, [],  <unfinished ...>
+[pid  5477] 18:49:21.091631 close(8 <unfinished ...>
+[pid  5468] 18:49:21.091636 <... mmap2 resumed> ) = -1 EINVAL (Invalid argument)
+[pid  5476] 18:49:21.091643 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  5477] 18:49:21.091652 <... close resumed> ) = 0
+[pid  5468] 18:49:21.091657 fstat64(4,  <unfinished ...>
+[pid  5476] 18:49:21.091662 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+[pid  5477] 18:49:21.091678 open("/proc/4330/cmdline", O_RDONLY <unfinished ...>
+[pid  5468] 18:49:21.091690 <... fstat64 resumed> {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+[pid  5476] 18:49:21.091717 <... rt_sigprocmask resumed> [], 8) = 0
+[pid  5477] 18:49:21.091736 <... open resumed> ) = 8
+[pid  5468] 18:49:21.091741 read(4,  <unfinished ...>
+[pid  5476] 18:49:21.091747 rt_sigaction(SIGINT, {0x807f150, [], 0},  <unfinished ...>
+[pid  5477] 18:49:21.091766 read(8,  <unfinished ...>
+[pid  5468] 18:49:21.091771 <... read resumed> "    1 root     /sbin/init\n    2 "..., 8192) = 2048
+[pid  5476] 18:49:21.091784 <... rt_sigaction resumed> {SIG_DFL}, 8) = 0
+[pid  5477] 18:49:21.091808 <... read resumed> "", 2047) = 0
+[pid  5468] 18:49:21.091813 read(4,  <unfinished ...>
+[pid  5476] 18:49:21.091819 waitpid(-1, Process 5476 suspended
+ <unfinished ...>
+[pid  5477] 18:49:21.091828 close(8)    = 0
+[pid  5477] 18:49:21.091843 stat64("/proc/4334", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.091881 open("/proc/4334/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.091898 read(8, "4334 (rpc.mountd) S 1 4334 4334 "..., 1023) = 188
+[pid  5477] 18:49:21.091919 close(8)    = 0
+[pid  5477] 18:49:21.091934 open("/proc/4334/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.091951 read(8, "Name:\trpc.mountd\nState:\tS (sleep"..., 1023) = 633
+[pid  5477] 18:49:21.091973 close(8)    = 0
+[pid  5477] 18:49:21.091986 open("/proc/4334/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.092003 read(8, "/usr/sbin/rpc.mountd\0", 2047) = 21
+[pid  5477] 18:49:21.092022 close(8)    = 0
+[pid  5477] 18:49:21.092034 stat64("/proc/4400", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.092072 open("/proc/4400/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.092087 read(8, "4400 (master) S 1 4400 4400 0 -1"..., 1023) = 188
+[pid  5477] 18:49:21.092108 close(8)    = 0
+[pid  5477] 18:49:21.092122 open("/proc/4400/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.092138 read(8, "Name:\tmaster\nState:\tS (sleeping)"..., 1023) = 635
+[pid  5477] 18:49:21.092160 close(8)    = 0
+[pid  5477] 18:49:21.092173 open("/proc/4400/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.092189 read(8, "/usr/lib/postfix/master\0", 2047) = 24
+[pid  5477] 18:49:21.092208 close(8)    = 0
+[pid  5477] 18:49:21.092256 stat64("/proc/4406", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.092327 open("/proc/4406/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.092343 read(8, "4406 (qmgr) S 4400 4400 4400 0 -"..., 1023) = 189
+[pid  5477] 18:49:21.092364 close(8)    = 0
+[pid  5477] 18:49:21.092388 open("/proc/4406/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.092413 read(8, "Name:\tqmgr\nState:\tS (sleeping)\nT"..., 1023) = 653
+[pid  5477] 18:49:21.092455 close(8)    = 0
+[pid  5477] 18:49:21.092470 open("/etc/passwd", O_RDONLY|0x80000 /* O_??? */) = 8
+[pid  5477] 18:49:21.092487 _llseek(8, 0, [0], SEEK_CUR) = 0
+[pid  5477] 18:49:21.092500 fstat64(8, {st_mode=S_IFREG|0644, st_size=1581, ...}) = 0
+[pid  5477] 18:49:21.092533 mmap2(NULL, 1581, PROT_READ, MAP_SHARED, 8, 0) = 0xb7eeb000
+[pid  5477] 18:49:21.092547 _llseek(8, 1581, [1581], SEEK_SET) = 0
+[pid  5477] 18:49:21.092568 munmap(0xb7eeb000, 1581) = 0
+[pid  5477] 18:49:21.092582 close(8)    = 0
+[pid  5477] 18:49:21.092594 open("/proc/4406/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.092610 read(8, "qmgr\0-l\0-t\0fifo\0-u\0", 2047) = 19
+[pid  5477] 18:49:21.092639 close(8)    = 0
+[pid  5477] 18:49:21.092661 stat64("/proc/4407", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.092717 open("/proc/4407/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.092732 read(8, "4407 (nmbd) S 1 4407 4407 0 -1 4"..., 1023) = 185
+[pid  5477] 18:49:21.092753 close(8)    = 0
+[pid  5477] 18:49:21.092767 open("/proc/4407/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.092783 read(8, "Name:\tnmbd\nState:\tS (sleeping)\nT"..., 1023) = 630
+[pid  5477] 18:49:21.092804 close(8)    = 0
+[pid  5477] 18:49:21.092817 open("/proc/4407/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.092834 read(8, "/usr/sbin/nmbd\0-D\0", 2047) = 18
+[pid  5477] 18:49:21.092851 close(8)    = 0
+[pid  5477] 18:49:21.092898 stat64("/proc/4409", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.092950 open("/proc/4409/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.092965 read(8, "4409 (smbd) S 1 4409 4409 0 -1 4"..., 1023) = 185
+[pid  5477] 18:49:21.092998 close(8)    = 0
+[pid  5477] 18:49:21.093013 open("/proc/4409/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.093040 read(8, "Name:\tsmbd\nState:\tS (sleeping)\nT"..., 1023) = 628
+[pid  5477] 18:49:21.093078 close(8)    = 0
+[pid  5477] 18:49:21.093090 open("/proc/4409/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.093119 read(8, "/usr/sbin/smbd\0-D\0", 2047) = 18
+[pid  5477] 18:49:21.093136 close(8)    = 0
+[pid  5477] 18:49:21.093148 stat64("/proc/4433", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.093185 open("/proc/4433/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.093200 read(8, "4433 (xinetd) S 1 4433 4433 0 -1"..., 1023) = 196
+[pid  5477] 18:49:21.093222 close(8)    = 0
+[pid  5477] 18:49:21.093236 open("/proc/4433/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.093252 read(8, "Name:\txinetd\nState:\tS (sleeping)"..., 1023) = 631
+[pid  5477] 18:49:21.093273 close(8)    = 0
+[pid  5477] 18:49:21.093286 open("/proc/4433/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.093302 read(8, "/usr/sbin/xinetd\0-pidfile\0/var/r"..., 2047) = 71
+[pid  5477] 18:49:21.093323 close(8)    = 0
+[pid  5477] 18:49:21.093335 stat64("/proc/4434", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.093372 open("/proc/4434/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.093388 read(8, "4434 (smbd) S 4409 4409 4409 0 -"..., 1023) = 187
+[pid  5477] 18:49:21.093409 close(8)    = 0
+[pid  5477] 18:49:21.093435 open("/proc/4434/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.093463 read(8, "Name:\tsmbd\nState:\tS (sleeping)\nT"..., 1023) = 630
+[pid  5477] 18:49:21.093483 close(8)    = 0
+[pid  5477] 18:49:21.093497 open("/proc/4434/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.093513 read(8, "/usr/sbin/smbd\0-D\0", 2047) = 18
+[pid  5477] 18:49:21.093531 close(8)    = 0
+[pid  5477] 18:49:21.093543 stat64("/proc/4464", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.093580 open("/proc/4464/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.093595 read(8, "4464 (proftpd) S 1 4464 4464 0 -"..., 1023) = 194
+[pid  5477] 18:49:21.093616 close(8)    = 0
+[pid  5477] 18:49:21.093630 open("/proc/4464/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.093646 read(8, "Name:\tproftpd\nState:\tS (sleeping"..., 1023) = 658
+[pid  5477] 18:49:21.093667 close(8)    = 0
+[pid  5477] 18:49:21.093681 open("/etc/passwd", O_RDONLY|0x80000 /* O_??? */) = 8
+[pid  5477] 18:49:21.093708 _llseek(8, 0, [0], SEEK_CUR) = 0
+[pid  5477] 18:49:21.130780 fstat64(8, {st_mode=S_IFREG|0644, st_size=1581, ...}) = 0
+[pid  5477] 18:49:21.130825 mmap2(NULL, 1581, PROT_READ, MAP_SHARED, 8, 0) = 0xb7eeb000
+[pid  5477] 18:49:21.130841 _llseek(8, 1581, [1581], SEEK_SET) = 0
+[pid  5477] 18:49:21.130867 munmap(0xb7eeb000, 1581) = 0
+[pid  5477] 18:49:21.130882 close(8)    = 0
+[pid  5477] 18:49:21.130897 open("/proc/4464/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.130918 read(8, "proftpd: (accepting connections)", 2047) = 32
+[pid  5477] 18:49:21.130940 close(8)    = 0
+[pid  5477] 18:49:21.130955 stat64("/proc/4478", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.130994 open("/proc/4478/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.131010 read(8, "4478 (atd) S 1 4478 4478 0 -1 41"..., 1023) = 178
+[pid  5477] 18:49:21.131033 close(8)    = 0
+[pid  5477] 18:49:21.131050 open("/proc/4478/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.131066 read(8, "Name:\tatd\nState:\tS (sleeping)\nTg"..., 1023) = 626
+[pid  5477] 18:49:21.131088 close(8)    = 0
+[pid  5477] 18:49:21.131103 open("/proc/4478/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.131119 read(8, "/usr/sbin/atd\0", 2047) = 14
+[pid  5477] 18:49:21.131136 close(8)    = 0
+[pid  5477] 18:49:21.131147 write(1, "                                "..., 1024 <unfinished ...>
+[pid  5468] 18:49:21.131167 <... read resumed> "                                "..., 8192) = 1024
+[pid  5477] 18:49:21.131181 <... write resumed> ) = 1024
+[pid  5468] 18:49:21.131194 read(4,  <unfinished ...>
+[pid  5477] 18:49:21.131199 stat64("/proc/4489", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.131237 open("/proc/4489/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.131252 read(8, "4489 (cron) S 1 4489 4489 0 -1 4"..., 1023) = 184
+[pid  5477] 18:49:21.131273 close(8)    = 0
+[pid  5477] 18:49:21.131287 open("/proc/4489/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.131304 read(8, "Name:\tcron\nState:\tS (sleeping)\nT"..., 1023) = 630
+[pid  5477] 18:49:21.131325 close(8)    = 0
+[pid  5477] 18:49:21.131347 open("/proc/4489/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.131364 read(8, "/usr/sbin/cron\0", 2047) = 15
+[pid  5477] 18:49:21.131380 close(8)    = 0
+[pid  5477] 18:49:21.131392 stat64("/proc/4501", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.131429 open("/proc/4501/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.131444 read(8, "4501 (distccd) S 4271 4271 4271 "..., 1023) = 184
+[pid  5477] 18:49:21.131464 close(8)    = 0
+[pid  5477] 18:49:21.131478 open("/proc/4501/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.131494 read(8, "Name:\tdistccd\nState:\tS (sleeping"..., 1023) = 635
+[pid  5477] 18:49:21.131515 close(8)    = 0
+[pid  5477] 18:49:21.131528 open("/proc/4501/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.131544 read(8, "distccd\0--daemon\0--user\0daemon\0-"..., 2047) = 49
+[pid  5477] 18:49:21.131564 close(8)    = 0
+[pid  5477] 18:49:21.131577 stat64("/proc/4518", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.131613 open("/proc/4518/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.131628 read(8, "4518 (jsvc) S 1 4518 4518 0 -1 4"..., 1023) = 178
+[pid  5477] 18:49:21.131648 close(8)    = 0
+[pid  5477] 18:49:21.131662 open("/proc/4518/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.131678 read(8, "Name:\tjsvc\nState:\tS (sleeping)\nT"..., 1023) = 627
+[pid  5477] 18:49:21.131698 close(8)    = 0
+[pid  5477] 18:49:21.131711 open("/proc/4518/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.131726 read(8, "/usr/bin/jsvc\0-user\0tomcat55\0-cp"..., 2047) = 501
+[pid  5477] 18:49:21.131747 close(8)    = 0
+[pid  5477] 18:49:21.131761 stat64("/proc/4519", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.131797 open("/proc/4519/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.131812 read(8, "4519 (jsvc) S 4518 4518 4518 0 -"..., 1023) = 179
+[pid  5477] 18:49:21.131832 close(8)    = 0
+[pid  5477] 18:49:21.131846 open("/proc/4519/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.131861 read(8, "Name:\tjsvc\nState:\tS (sleeping)\nT"..., 1023) = 632
+[pid  5477] 18:49:21.131882 close(8)    = 0
+[pid  5477] 18:49:21.131895 open("/proc/4519/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.131911 read(8, "/usr/bin/jsvc\0-user\0tomcat55\0-cp"..., 2047) = 501
+[pid  5477] 18:49:21.131931 close(8)    = 0
+[pid  5477] 18:49:21.131945 write(1, "daemon   /usr/sbin/atd\n 4489 roo"..., 1024 <unfinished ...>
+[pid  5468] 18:49:21.131963 <... read resumed> "daemon   /usr/sbin/atd\n 4489 roo"..., 8192) = 1024
+[pid  5477] 18:49:21.131975 <... write resumed> ) = 1024
+[pid  5468] 18:49:21.131984 read(4,  <unfinished ...>
+[pid  5477] 18:49:21.131990 stat64("/proc/4521", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.132027 open("/proc/4521/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.132042 read(8, "4521 (jsvc) S 4518 4521 4518 0 -"..., 1023) = 220
+[pid  5477] 18:49:21.132066 close(8)    = 0
+[pid  5477] 18:49:21.132081 open("/proc/4521/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.132097 read(8, "Name:\tjsvc\nState:\tS (sleeping)\nT"..., 1023) = 667
+[pid  5477] 18:49:21.132118 close(8)    = 0
+[pid  5477] 18:49:21.132133 open("/etc/passwd", O_RDONLY|0x80000 /* O_??? */) = 8
+[pid  5477] 18:49:21.132149 _llseek(8, 0, [0], SEEK_CUR) = 0
+[pid  5477] 18:49:21.132162 fstat64(8, {st_mode=S_IFREG|0644, st_size=1581, ...}) = 0
+[pid  5477] 18:49:21.132195 mmap2(NULL, 1581, PROT_READ, MAP_SHARED, 8, 0) = 0xb7eeb000
+[pid  5477] 18:49:21.132207 _llseek(8, 1581, [1581], SEEK_SET) = 0
+[pid  5477] 18:49:21.132227 munmap(0xb7eeb000, 1581) = 0
+[pid  5477] 18:49:21.132239 close(8)    = 0
+[pid  5477] 18:49:21.132250 open("/proc/4521/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.132266 read(8, "/usr/bin/jsvc\0-user\0tomcat55\0-cp"..., 2047) = 501
+[pid  5477] 18:49:21.132287 close(8)    = 0
+[pid  5477] 18:49:21.132301 stat64("/proc/4539", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.132338 open("/proc/4539/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.132353 read(8, "4539 (apache2) S 1 4539 4539 0 -"..., 1023) = 192
+[pid  5477] 18:49:21.132373 close(8)    = 0
+[pid  5477] 18:49:21.132387 open("/proc/4539/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.132403 read(8, "Name:\tapache2\nState:\tS (sleeping"..., 1023) = 634
+[pid  5477] 18:49:21.132424 close(8)    = 0
+[pid  5477] 18:49:21.132437 open("/proc/4539/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.132453 read(8, "/usr/sbin/apache2\0-k\0start\0", 2047) = 27
+[pid  5477] 18:49:21.132472 close(8)    = 0
+[pid  5477] 18:49:21.132484 stat64("/proc/4540", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.132520 open("/proc/4540/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.132535 read(8, "4540 (apache2) S 4539 4539 4539 "..., 1023) = 198
+[pid  5477] 18:49:21.132556 close(8)    = 0
+[pid  5477] 18:49:21.132570 open("/proc/4540/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.132586 read(8, "Name:\tapache2\nState:\tS (sleeping"..., 1023) = 645
+[pid  5477] 18:49:21.132606 close(8)    = 0
+[pid  5477] 18:49:21.132620 open("/etc/passwd", O_RDONLY|0x80000 /* O_??? */) = 8
+[pid  5477] 18:49:21.132635 _llseek(8, 0, [0], SEEK_CUR) = 0
+[pid  5477] 18:49:21.132647 fstat64(8, {st_mode=S_IFREG|0644, st_size=1581, ...}) = 0
+[pid  5477] 18:49:21.132680 mmap2(NULL, 1581, PROT_READ, MAP_SHARED, 8, 0) = 0xb7eeb000
+[pid  5477] 18:49:21.132692 _llseek(8, 1581, [1581], SEEK_SET) = 0
+[pid  5477] 18:49:21.132709 munmap(0xb7eeb000, 1581) = 0
+[pid  5477] 18:49:21.132720 close(8)    = 0
+[pid  5477] 18:49:21.132731 open("/proc/4540/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.132747 read(8, "/usr/sbin/apache2\0-k\0start\0", 2047) = 27
+[pid  5477] 18:49:21.132766 close(8)    = 0
+[pid  5477] 18:49:21.132778 stat64("/proc/4542", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.132815 open("/proc/4542/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.132830 read(8, "4542 (apache2) S 4539 4539 4539 "..., 1023) = 197
+[pid  5477] 18:49:21.132850 close(8)    = 0
+[pid  5477] 18:49:21.132864 open("/proc/4542/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.132880 read(8, "Name:\tapache2\nState:\tS (sleeping"..., 1023) = 645
+[pid  5477] 18:49:21.132901 close(8)    = 0
+[pid  5477] 18:49:21.132914 open("/proc/4542/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.171532 read(8, "/usr/sbin/apache2\0-k\0start\0", 2047) = 27
+[pid  5477] 18:49:21.171564 close(8)    = 0
+[pid  5477] 18:49:21.171582 stat64("/proc/4545", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.171622 open("/proc/4545/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.171638 read(8, "4545 (apache2) S 4539 4539 4539 "..., 1023) = 197
+[pid  5477] 18:49:21.171660 close(8)    = 0
+[pid  5477] 18:49:21.171677 open("/proc/4545/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.171693 read(8, "Name:\tapache2\nState:\tS (sleeping"..., 1023) = 644
+[pid  5477] 18:49:21.171716 close(8)    = 0
+[pid  5477] 18:49:21.171730 open("/proc/4545/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.171746 read(8, "/usr/sbin/apache2\0-k\0start\0", 2047) = 27
+[pid  5477] 18:49:21.171765 close(8)    = 0
+[pid  5477] 18:49:21.171777 stat64("/proc/4547", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.171814 open("/proc/4547/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.171829 read(8, "4547 (apache2) S 4539 4539 4539 "..., 1023) = 197
+[pid  5477] 18:49:21.171850 close(8)    = 0
+[pid  5477] 18:49:21.171864 open("/proc/4547/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.171880 read(8, "Name:\tapache2\nState:\tS (sleeping"..., 1023) = 644
+[pid  5477] 18:49:21.171901 close(8)    = 0
+[pid  5477] 18:49:21.171913 open("/proc/4547/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.171929 read(8, "/usr/sbin/apache2\0-k\0start\0", 2047) = 27
+[pid  5477] 18:49:21.171948 close(8)    = 0
+[pid  5477] 18:49:21.171960 stat64("/proc/4548", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.171996 open("/proc/4548/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.172012 read(8, "4548 (apache2) S 4539 4539 4539 "..., 1023) = 197
+[pid  5477] 18:49:21.172032 close(8)    = 0
+[pid  5477] 18:49:21.172046 open("/proc/4548/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.172062 read(8, "Name:\tapache2\nState:\tS (sleeping"..., 1023) = 644
+[pid  5477] 18:49:21.172082 close(8)    = 0
+[pid  5477] 18:49:21.172095 open("/proc/4548/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.172110 read(8, "/usr/sbin/apache2\0-k\0start\0", 2047) = 27
+[pid  5477] 18:49:21.172129 close(8)    = 0
+[pid  5477] 18:49:21.172141 stat64("/proc/4558", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.172178 open("/proc/4558/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.172193 read(8, "4558 (rmiregistry) S 1 3920 3920"..., 1023) = 211
+[pid  5477] 18:49:21.172214 close(8)    = 0
+[pid  5477] 18:49:21.172228 open("/proc/4558/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.172244 read(8, "Name:\trmiregistry\nState:\tS (slee"..., 1023) = 637
+[pid  5477] 18:49:21.172266 close(8)    = 0
+[pid  5477] 18:49:21.172280 open("/proc/4558/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.172296 read(8, "/usr/bin/rmiregistry\0", 2047) = 21
+[pid  5477] 18:49:21.172314 close(8)    = 0
+[pid  5477] 18:49:21.172325 stat64("/proc/4562", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.172372 open("/proc/4562/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.172397 read(8, "4562 (ruby) S 1 3920 3920 0 -1 4"..., 1023) = 195
+[pid  5477] 18:49:21.172418 close(8)    = 0
+[pid  5477] 18:49:21.172432 open("/proc/4562/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.172448 read(8, "Name:\truby\nState:\tS (sleeping)\nT"..., 1023) = 629
+[pid  5477] 18:49:21.172480 close(8)    = 0
+[pid  5477] 18:49:21.172502 open("/proc/4562/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.172518 read(8, "ruby\0/usr/sbin/druby_timeserver."..., 2047) = 35
+[pid  5477] 18:49:21.172557 close(8)    = 0
+[pid  5477] 18:49:21.172569 stat64("/proc/4568", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.172626 open("/proc/4568/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.172641 read(8, "4568 (login) S 1 4568 4568 1025 "..., 1023) = 185
+[pid  5477] 18:49:21.172663 close(8)    = 0
+[pid  5477] 18:49:21.172696 open("/proc/4568/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.172712 read(8, "Name:\tlogin\nState:\tS (sleeping)\n"..., 1023) = 685
+[pid  5477] 18:49:21.172734 close(8)    = 0
+[pid  5477] 18:49:21.172757 open("/proc/4568/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.172793 read(8, "/bin/login\0--\0\0\0\0\0\0\0\0\0\0", 2047) = 23
+[pid  5477] 18:49:21.172822 close(8)    = 0
+[pid  5477] 18:49:21.172835 stat64("/proc/4574", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.172871 open("/proc/4574/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.172886 read(8, "4574 (distccd) S 4271 4271 4271 "..., 1023) = 184
+[pid  5477] 18:49:21.172907 close(8)    = 0
+[pid  5477] 18:49:21.172921 open("/proc/4574/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.172937 read(8, "Name:\tdistccd\nState:\tS (sleeping"..., 1023) = 635
+[pid  5477] 18:49:21.172958 close(8)    = 0
+[pid  5477] 18:49:21.172971 open("/proc/4574/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.172987 read(8, "distccd\0--daemon\0--user\0daemon\0-"..., 2047) = 49
+[pid  5477] 18:49:21.173007 close(8)    = 0
+[pid  5477] 18:49:21.173018 write(1, "-Djava.security.manager -Djava.s"..., 1024 <unfinished ...>
+[pid  5468] 18:49:21.173039 <... read resumed> "-Djava.security.manager -Djava.s"..., 8192) = 1024
+[pid  5477] 18:49:21.173052 <... write resumed> ) = 1024
+[pid  5468] 18:49:21.173065 read(4,  <unfinished ...>
+[pid  5477] 18:49:21.173071 stat64("/proc/4577", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.173108 open("/proc/4577/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.173123 read(8, "4577 (unrealircd) S 1 3920 3920 "..., 1023) = 195
+[pid  5477] 18:49:21.173144 close(8)    = 0
+[pid  5477] 18:49:21.173168 open("/proc/4577/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.173194 read(8, "Name:\tunrealircd\nState:\tS (sleep"..., 1023) = 637
+[pid  5477] 18:49:21.173215 close(8)    = 0
+[pid  5477] 18:49:21.173228 open("/proc/4577/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.173244 read(8, "/usr/bin/unrealircd\0", 2047) = 20
+[pid  5477] 18:49:21.173262 close(8)    = 0
+[pid  5477] 18:49:21.173274 stat64("/proc/4579", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.173311 open("/proc/4579/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.173336 read(8, "4579 (Xtightvnc) S 1 3920 3920 0"..., 1023) = 195
+[pid  5477] 18:49:21.173366 close(8)    = 0
+[pid  5477] 18:49:21.173380 open("/proc/4579/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.173396 read(8, "Name:\tXtightvnc\nState:\tS (sleepi"..., 1023) = 636
+[pid  5477] 18:49:21.173417 close(8)    = 0
+[pid  5477] 18:49:21.173430 open("/proc/4579/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.173446 read(8, "Xtightvnc\0:0\0-desktop\0X\0-auth\0/r"..., 2047) = 428
+[pid  5477] 18:49:21.173466 close(8)    = 0
+[pid  5477] 18:49:21.173480 stat64("/proc/4589", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.173517 open("/proc/4589/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.173532 read(8, "4589 (xstartup) S 1 3920 3920 0 "..., 1023) = 190
+[pid  5477] 18:49:21.173553 close(8)    = 0
+[pid  5477] 18:49:21.173566 open("/proc/4589/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.173582 read(8, "Name:\txstartup\nState:\tS (sleepin"..., 1023) = 632
+[pid  5477] 18:49:21.173603 close(8)    = 0
+[pid  5477] 18:49:21.173616 open("/proc/4589/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.173632 read(8, "/bin/sh\0/root/.vnc/xstartup\0", 2047) = 28
+[pid  5477] 18:49:21.173652 close(8)    = 0
+[pid  5477] 18:49:21.173663 stat64("/proc/4592", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.173700 open("/proc/4592/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.173715 read(8, "4592 (xterm) S 4589 3920 3920 0 "..., 1023) = 194
+[pid  5477] 18:49:21.173735 close(8)    = 0
+[pid  5477] 18:49:21.173749 open("/proc/4592/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.173765 read(8, "Name:\txterm\nState:\tS (sleeping)\n"..., 1023) = 637
+[pid  5477] 18:49:21.173786 close(8)    = 0
+[pid  5477] 18:49:21.173799 open("/proc/4592/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.173815 read(8, "xterm\0-geometry\00080x24+10+10\0-ls\0"..., 2047) = 49
+[pid  5477] 18:49:21.173835 close(8)    = 0
+[pid  5477] 18:49:21.173847 stat64("/proc/4596", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.173884 open("/proc/4596/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.213211 read(8, "4596 (fluxbox) S 4589 3920 3920 "..., 1023) = 196
+[pid  5477] 18:49:21.213253 close(8)    = 0
+[pid  5477] 18:49:21.213279 open("/proc/4596/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.213298 read(8, "Name:\tfluxbox\nState:\tS (sleeping"..., 1023) = 640
+[pid  5477] 18:49:21.213323 close(8)    = 0
+[pid  5477] 18:49:21.213338 open("/proc/4596/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.213356 read(8, "fluxbox\0", 2047) = 8
+[pid  5477] 18:49:21.213372 close(8)    = 0
+[pid  5477] 18:49:21.213388 stat64("/proc/4598", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.213428 open("/proc/4598/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.213444 read(8, "4598 (bash) S 4592 4598 4598 348"..., 1023) = 203
+[pid  5477] 18:49:21.213466 close(8)    = 0
+[pid  5477] 18:49:21.213480 open("/proc/4598/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.213496 read(8, "Name:\tbash\nState:\tS (sleeping)\nT"..., 1023) = 632
+[pid  5477] 18:49:21.213518 close(8)    = 0
+[pid  5477] 18:49:21.213531 open("/proc/4598/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.213547 read(8, "-bash\0", 2047) = 6
+[pid  5477] 18:49:21.213562 close(8)    = 0
+[pid  5477] 18:49:21.213574 stat64("/proc/4641", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.213611 open("/proc/4641/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.213626 read(8, "4641 (bash) S 4568 4641 4568 102"..., 1023) = 212
+[pid  5477] 18:49:21.213647 close(8)    = 0
+[pid  5477] 18:49:21.213662 open("/proc/4641/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.213678 read(8, "Name:\tbash\nState:\tS (sleeping)\nT"..., 1023) = 704
+[pid  5477] 18:49:21.213700 close(8)    = 0
+[pid  5477] 18:49:21.213717 open("/etc/passwd", O_RDONLY|0x80000 /* O_??? */) = 8
+[pid  5477] 18:49:21.213735 _llseek(8, 0, [0], SEEK_CUR) = 0
+[pid  5477] 18:49:21.213748 fstat64(8, {st_mode=S_IFREG|0644, st_size=1581, ...}) = 0
+[pid  5477] 18:49:21.213782 mmap2(NULL, 1581, PROT_READ, MAP_SHARED, 8, 0) = 0xb7eeb000
+[pid  5477] 18:49:21.213798 _llseek(8, 1581, [1581], SEEK_SET) = 0
+[pid  5477] 18:49:21.213819 munmap(0xb7eeb000, 1581) = 0
+[pid  5477] 18:49:21.213834 close(8)    = 0
+[pid  5477] 18:49:21.213846 open("/proc/4641/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.213862 read(8, "-bash\0", 2047) = 6
+[pid  5477] 18:49:21.213891 close(8)    = 0
+[pid  5477] 18:49:21.213903 stat64("/proc/5223", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.213941 open("/proc/5223/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.213956 read(8, "5223 (apache2) S 4539 4539 4539 "..., 1023) = 200
+[pid  5477] 18:49:21.213977 close(8)    = 0
+[pid  5477] 18:49:21.213991 open("/proc/5223/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.214008 read(8, "Name:\tapache2\nState:\tS (sleeping"..., 1023) = 644
+[pid  5477] 18:49:21.214029 close(8)    = 0
+[pid  5477] 18:49:21.214042 open("/proc/5223/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.214058 read(8, "/usr/sbin/apache2\0-k\0start\0", 2047) = 27
+[pid  5477] 18:49:21.214078 close(8)    = 0
+[pid  5477] 18:49:21.214090 stat64("/proc/5341", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.214127 open("/proc/5341/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.214142 read(8, "5341 (apache2) S 4539 4539 4539 "..., 1023) = 200
+[pid  5477] 18:49:21.214162 close(8)    = 0
+[pid  5477] 18:49:21.214176 open("/proc/5341/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.214192 read(8, "Name:\tapache2\nState:\tS (sleeping"..., 1023) = 644
+[pid  5477] 18:49:21.214213 close(8)    = 0
+[pid  5477] 18:49:21.214225 open("/proc/5341/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.214241 read(8, "/usr/sbin/apache2\0-k\0start\0", 2047) = 27
+[pid  5477] 18:49:21.214260 close(8)    = 0
+[pid  5477] 18:49:21.214272 stat64("/proc/5458", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.214308 open("/proc/5458/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.214324 read(8, "5458 (pickup) S 4400 4400 4400 0"..., 1023) = 194
+[pid  5477] 18:49:21.214344 close(8)    = 0
+[pid  5477] 18:49:21.214358 open("/proc/5458/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.214374 read(8, "Name:\tpickup\nState:\tS (sleeping)"..., 1023) = 654
+[pid  5477] 18:49:21.214395 close(8)    = 0
+[pid  5477] 18:49:21.214409 open("/proc/5458/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.214424 read(8, "pickup\0-l\0-t\0fifo\0-u\0-c\0", 2047) = 24
+[pid  5477] 18:49:21.214443 close(8)    = 0
+[pid  5477] 18:49:21.214455 stat64("/proc/5468", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.214492 open("/proc/5468/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.214507 read(8, "5468 (php) S 4540 4539 4539 0 -1"..., 1023) = 194
+[pid  5477] 18:49:21.214528 close(8)    = 0
+[pid  5477] 18:49:21.214542 open("/proc/5468/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.214558 read(8, "Name:\tphp\nState:\tS (sleeping)\nTg"..., 1023) = 645
+[pid  5477] 18:49:21.214578 close(8)    = 0
+[pid  5477] 18:49:21.214591 open("/proc/5468/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.214607 read(8, "/usr/lib/cgi-bin/php\0-d\0allow_ur"..., 2047) = 198
+[pid  5477] 18:49:21.214628 close(8)    = 0
+[pid  5477] 18:49:21.214641 write(1, "aemon   distccd --daemon --user "..., 1024 <unfinished ...>
+[pid  5468] 18:49:21.214660 <... read resumed> "aemon   distccd --daemon --user "..., 8192) = 1024
+[pid  5477] 18:49:21.214674 <... write resumed> ) = 1024
+[pid  5468] 18:49:21.214693 read(4,  <unfinished ...>
+[pid  5477] 18:49:21.214699 stat64("/proc/5474", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.214736 open("/proc/5474/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.214754 read(8, "5474 (strace) S 4641 5474 4568 1"..., 1023) = 199
+[pid  5477] 18:49:21.214774 close(8)    = 0
+[pid  5477] 18:49:21.214788 open("/proc/5474/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.214805 read(8, "Name:\tstrace\nState:\tS (sleeping)"..., 1023) = 639
+[pid  5477] 18:49:21.214826 close(8)    = 0
+[pid  5477] 18:49:21.214839 open("/proc/5474/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.214856 read(8, "strace\0-Ff\0-tt\0-p\0005468\0", 2047) = 23
+[pid  5477] 18:49:21.214875 close(8)    = 0
+[pid  5477] 18:49:21.214887 stat64("/proc/5475", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.214923 open("/proc/5475/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.214939 read(8, "5475 (tee) R 4641 5474 4568 1025"..., 1023) = 187
+[pid  5477] 18:49:21.214959 close(8)    = 0
+[pid  5477] 18:49:21.214974 open("/proc/5475/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.214991 read(8, "Name:\ttee\nState:\tR (running)\nTgi"..., 1023) = 699
+[pid  5477] 18:49:21.215012 close(8)    = 0
+[pid  5477] 18:49:21.215025 open("/proc/5475/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.215042 read(8, "tee\0strace_php_cgi_injection.log"..., 2047) = 33
+[pid  5477] 18:49:21.215062 close(8)    = 0
+[pid  5477] 18:49:21.215074 stat64("/proc/5476", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.215110 open("/proc/5476/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.215126 read(8, "5476 (sh) T 5468 4539 4539 0 -1 "..., 1023) = 191
+[pid  5477] 18:49:21.215146 close(8)    = 0
+[pid  5477] 18:49:21.215160 open("/proc/5476/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.215176 read(8, "Name:\tsh\nState:\tT (tracing stop)"..., 1023) = 648
+[pid  5477] 18:49:21.215197 close(8)    = 0
+[pid  5477] 18:49:21.215211 open("/proc/5476/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.215227 read(8, "sh\0-c\0ps ax -w -o pid,user,cmd -"..., 2047) = 55
+[pid  5477] 18:49:21.215247 close(8)    = 0
+[pid  5477] 18:49:21.215259 stat64("/proc/5477", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[pid  5477] 18:49:21.215296 open("/proc/5477/stat", O_RDONLY) = 8
+[pid  5477] 18:49:21.215311 read(8, "5477 (ps) R 5476 4539 4539 0 -1 "..., 1023) = 189
+[pid  5477] 18:49:21.215337 close(8)    = 0
+[pid  5477] 18:49:21.215351 open("/proc/5477/status", O_RDONLY) = 8
+[pid  5477] 18:49:21.215368 read(8, "Name:\tps\nState:\tR (running)\nTgid"..., 1023) = 644
+[pid  5477] 18:49:21.215389 close(8)    = 0
+[pid  5477] 18:49:21.215402 open("/proc/5477/cmdline", O_RDONLY) = 8
+[pid  5477] 18:49:21.215419 read(8, "ps\0ax\0-w\0-o\0pid,user,cmd\0--no-he"..., 2047) = 37
+[pid  5477] 18:49:21.255240 close(8)    = 0
+[pid  5477] 18:49:21.255787 getdents(7, /* 0 entries */, 1024) = 0
+[pid  5477] 18:49:21.255835 close(7)    = 0
+[pid  5477] 18:49:21.255857 write(1, "input --no-php-ini\n 5474 root   "..., 227 <unfinished ...>
+[pid  5468] 18:49:21.255881 <... read resumed> "input --no-php-ini\n 5474 root   "..., 8192) = 227
+[pid  5477] 18:49:21.255894 <... write resumed> ) = 227
+[pid  5468] 18:49:21.255907 read(4,  <unfinished ...>
+[pid  5477] 18:49:21.255913 exit_group(0) = ?
+Process 5476 resumed
+Process 5477 detached
+[pid  5476] 18:49:21.255976 <... waitpid resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0) = 5477
+[pid  5476] 18:49:21.255997 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  5476] 18:49:21.256011 --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid  5476] 18:49:21.256025 waitpid(-1, 0xbf881978, WNOHANG) = -1 ECHILD (No child processes)
+[pid  5476] 18:49:21.256037 sigreturn() = ? (mask now [])
+[pid  5476] 18:49:21.256068 rt_sigaction(SIGINT, {SIG_DFL}, {0x807f150, [], 0}, 8) = 0
+[pid  5476] 18:49:21.256124 exit_group(0) = ?
+Process 5476 detached
+18:49:21.256168 <... read resumed> "", 8192) = 0
+18:49:21.256174 --- SIGCHLD (Child exited) @ 0 (0) ---
+18:49:21.256199 close(4)                = 0
+18:49:21.256211 waitpid(5476, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0) = 5476
+18:49:21.262681 send(5, "\0027\356##\356\35B#\3567\3#\3567+#\3577\3P\232ScS\207"..., 8192, MSG_DONTWAIT) = 8192
+18:49:21.262999 send(5, "2P7\2#\3777\3\'\374@uT\303ScW\2177\2#\356-\2\"\346\312"..., 2628, MSG_DONTWAIT) = 2628
+18:49:21.263180 select(6, [5], [], [], {1, 0}) = 0 (Timeout)
+18:49:22.257652 select(6, [5], [], [], {1, 0}) = 0 (Timeout)
+18:49:23.257654 select(6, [5], [], [], {1, 0}) = 0 (Timeout)
+18:49:24.257655 select(6, [5], [], [], {1, 0}) = 0 (Timeout)
+18:49:25.257656 select(6, [5], [], [], {1, 0}) = 0 (Timeout)
+18:49:26.258484 select(6, [5], [], [], {1, 0}

