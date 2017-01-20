@@ -1,0 +1,129 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-vnh", "include", "../inputs/grep0.dat", "../inputs/grep1.dat", "../inputs/grepNull.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x1046000
+brk(0x10471c0)                          = 0x10471c0
+arch_prctl(ARCH_SET_FS, 0x1046880)      = 0
+brk(0x10681c0)                          = 0x10681c0
+brk(0x1069000)                          = 0x1069000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f428fcb2000
+close(3)                                = 0
+open("../inputs/grep0.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=297, ...}) = 0
+read(3, "Before an alternative\nstore_op2 "..., 32768) = 297
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f428fcb1000
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+write(1, "1:Before an alternative\n2:store_"..., 4096) = 4096
+write(1, "oc(size);\n170:  if (size && !res"..., 4096) = 4096
+write(1, " 0\n319:      /* You might thing "..., 4096) = 4096
+write(1, "463:  if (nlinesp)\n464:    {\n465"..., 4096) = 4096
+write(1, "= 0;\n646:  matcher = NULL;\n647:\n"..., 4096) = 4096
+write(1, " grep(desc);\n816:\t    if (count_"..., 4096) = 4096
+write(1, "ng else.  Thus\n946:   all applic"..., 4096) = 4096
+write(1, "files\n1047:   whose names are in"..., 4096) = 4096
+write(1, " instead of `-'.\n1151:   Their n"..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, "1267:\t    optind = first_nonopt;"..., 4096) = 4096
+write(1, "tchar) == NULL)\n1407:\t{\n1408:\t  "..., 4096) = 4096
+write(1, "f (\"option c with value `%s'\\n\","..., 4096) = 4096
+write(1, ":\n1736:/* Jim Meyering writes:\n1"..., 4096) = 4096
+write(1, "1844:/* (Re)Allocate N items of "..., 4096) = 4096
+write(1, "w away latest failure point and "..., 4096) = 4096
+write(1, "ter the number.\n2049:   SOURCE m"..., 4096) = 4096
+write(1, "r int c, last = -100;\n2197:\t    "..., 4096) = 4096
+write(1, "\n2343:\t  printf (\"/wordchar\");\n2"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "475:    \"Invalid content of \\\\{\\"..., 4096) = 4096
+write(1, "6 bytes turns out to\n2577:   be "..., 4096) = 4096
+write(1, "    || STREQ (string, \"space\") |"..., 4096) = 4096
+write(1, "->not_bol = bufp->not_eol = 0;\n2"..., 4096) = 4096
+write(1, "          {\n2899:               "..., 4096) = 4096
+write(1, "\n2995:          {\n2996:         "..., 4096) = 4096
+write(1, "092:                    for (;;)"..., 4096) = 4096
+write(1, "\n3180:        case ')':\n3181:   "..., 4096) = 4096
+write(1, "\n3286:                  STORE_JU"..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "when know we're at the end of a "..., 4096) = 4096
+write(1, "bound and `jump_n' are omitted i"..., 4096) = 4096
+write(1, "* There is no way to specify the"..., 4096) = 4096
+write(1, "up_alt_jump)\n3681:    STORE_JUMP"..., 4096) = 4096
+write(1, "element >= 0; \n3824:       this_"..., 4096) = 4096
+write(1, "32:    fail_stack.avail = 0;\t\t\t\t"..., 4096) = 4096
+write(1, "      DEBUG_STATEMENT (num_regs_"..., 4096) = 4096
+write(1, "id);\t\t\t\t\t\t\\\n4121:  DEBUG_PRINT2 "..., 4096) = 4096
+write(1, "   /* We should never be about t"..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "\n4360:          p++;\n4361:      "..., 4096) = 4096
+write(1, "8:      regs->start = regs->end "..., 4096) = 4096
+write(1, "range--;\n4589:\t      else\n4590: "..., 4096) = 4096
+write(1, "ings in re_match_2.  */\n4703:\n47"..., 4096) = 4096
+write(1, ", we return the length of the\n48"..., 4096) = 4096
+write(1, "  \n4889:  /* Logically, this is "..., 4096) = 4096
+write(1, " data. \n4993:     `dend' is the "..., 4096) = 4096
+write(1, "s' for the `-1' marker\n5088:    "..., 4096) = 4096
+write(1, "        break;\n5175:\n5176:\n5177:"..., 4096) = 4096
+write(1, "\n5287:          /* If nothing wa"..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "_INCR (mcnt, p1);\n5374:\t\t    if "..., 4096) = 4096
+write(1, "ccess */\n5467:\t\tif (d2 == dend2)"..., 4096) = 4096
+write(1, "       except the last ends with"..., 4096) = 4096
+write(1, "_jump;\n5657:                DEBU"..., 4096) = 4096
+write(1, "p at\n5751:           pop_failure"..., 4096) = 4096
+write(1, "    goto fail;\n5857:  \t  break;\n"..., 4096) = 4096
+write(1, "ng point really fails.  */\n5981:"..., 4096) = 4096
+write(1, " of the alternative.  */\n6083:  "..., 4096) = 4096
+write(1, "mean we cannot match the empty s"..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "erwise, to\n6358:       RE_SYNTAX"..., 4096) = 4096
+write(1, "8:  struct re_registers regs;\n64"..., 4096) = 4096
+write(1, "se as published by\n6603:   the F"..., 4096) = 4096
+write(1, "HAR)\n6765:    fprintf(stderr, \"%"..., 4096) = 4096
+write(1, "  \\\n6919:      else\t\t   \t      \\"..., 4096) = 4096
+write(1, "\n7067:\t    goto normal_char;\n706"..., 4096) = 4096
+write(1, " & RE_CHAR_CLASSES))\n7210:\t\tfor "..., 4096) = 4096
+write(1, "BEGLINE || tok == ENDLINE || tok"..., 4096) = 4096
+write(1, " == s->elems[i].index)\n7551:    "..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "ns.  If any position of the set\n"..., 4096) = 4096
+write(1, " context to be just normal chara"..., 4096) = 4096
+write(1, "7889:\t    REALLOC_IF_NECESSARY(d"..., 4096) = 4096
+write(1, ".nelem = 0;\n8004:  for (i = 0; i"..., 4096) = 4096
+write(1, "ine);\n8095:    }\n8096:\n8097:  ze"..., 4096) = 4096
+write(1, "tes[0].elems.nelem; ++i)\n8208:\t{"..., 4096) = 4096
+write(1, "{\n8322:      for (i = 0; i < d->"..., 4096) = 4096
+write(1, "loc)\n8444:    build_state_zero(d"..., 4096) = 4096
+write(1, "ers that must appear in any line"..., 4096) = 4096
+write(1, "in, lookfor)\n8718:     char *loo"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "ust *mp;\n8903:{\n8904:  mp->left["..., 4096) = 4096
+write(1, "to done;\n9056:\t\tlmp->in = enlist"..., 4096) = 4096
+write(1, "escribes the failure function us"..., 4096) = 4096
+write(1, "label;\n9317:  register struct tr"..., 4096) = 4096
+write(1, "e = link->trie;\n9443:    }\n9444:"..., 4096) = 4096
+write(1, "; ++i)\n9582:      delta[i] = kws"..., 4096) = 4096
+write(1, "t kwset *kwset;\n9690:  register "..., 4096) = 4096
+write(1, " beg;\n9847:\t\t  accept = trie;\n98"..., 4096) = 4096
+write(1, "This code is part of the GNU C\n9"..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, " chunk->contents;\n10091:  h->chu"..., 4096) = 4096
+write(1, "om the chain.\n10194:     But not"..., 4096) = 4096
+write(1, "lications do not use it\n10307:  "..., 4096) = 4096
+write(1, "ust 1992 by Mike Haertel. */\n104"..., 4096) = 4096
+write(1, "Now, we compile the substrings t"..., 4096) = 4096
+write(1, "buf;\n10734:     size_t size;\n107"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+open("../inputs/grepNull.dat", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "  fatal(err, 0);\n10864:}\n10865:\n"..., 2281) = 2281
+close(1)                                = 0
+munmap(0x7f428fcb1000, 4096)            = 0
+exit_group(0)                           = ?

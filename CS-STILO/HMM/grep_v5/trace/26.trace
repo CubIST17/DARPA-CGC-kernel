@@ -1,0 +1,53 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-E", "b\\B", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x7d5000
+brk(0x7d61c0)                           = 0x7d61c0
+arch_prctl(ARCH_SET_FS, 0x7d5880)       = 0
+brk(0x7f71c0)                           = 0x7f71c0
+brk(0x7f8000)                           = 0x7f8000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f155f4fc000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f155f4fb000
+write(1, "   This program is free software"..., 4096) = 4096
+write(1, "eg, stdout);\n    lastout = bufbe"..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, " deal with options that follow n"..., 4096) = 4096
+write(1, "ntax_table[c]\n/* Get the interfa"..., 4096) = 4096
+write(1, "the two\n           bytes of numb"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "ed);\n  printf (\"can_be_null: %d\\"..., 4096) = 4096
+write(1, "' is the compiled pattern;\n     "..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "acter bit gets set way below.  *"..., 4096) = 4096
+write(1, "pper bound is zero, don't want t"..., 4096) = 4096
+write(1, "or a begin-subexpression.  We as"..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "l = true;\n      /* We should nev"..., 4096) = 4096
+write(1, "of the virtual concatenation\n   "..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "t\n                      best_reg"..., 4096) = 4096
+write(1, "\n          else if (d[-1] == '\\n"..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, " with an on_failure_jump (see ab"..., 4096) = 4096
+write(1, " 0)\n      if (msg_size > errbuf_"..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "h)\n\t  FETCH(c, \"Unbalanced [\");\n"..., 4096) = 4096
+write(1, "llable[-2] = nullable[-1] || nul"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "tring.  If count is non-\n   see "..., 4096) = 4096
+write(1, "ate and initialize a keyword set"..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, ".c - subroutines used implicitly"..., 4096) = 4096
+write(1, "ect_base == old_chunk->contents "..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "ubroutines using dfa, kwset and "..., 3655) = 3655
+close(1)                                = 0
+munmap(0x7f155f4fb000, 4096)            = 0
+exit_group(0)                           = ?

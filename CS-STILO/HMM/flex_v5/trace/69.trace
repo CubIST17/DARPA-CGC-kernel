@@ -1,0 +1,36 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-dl", "-Craem", "../inputs/in.exp"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0xfdb000
+brk(0xfdc1c0)                           = 0xfdc1c0
+arch_prctl(ARCH_SET_FS, 0xfdb880)       = 0
+brk(0xffd1c0)                           = 0xffd1c0
+brk(0xffe000)                           = 0xffe000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.exp", O_RDONLY)      = 4
+brk(0x101f000)                          = 0x101f000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffc0faedc8) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=290, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff5f323e000
+read(4, "%%\n(r)\t\tprintf(\"Match an r: %s\\n"..., 8192) = 290
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff5f323d000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffc0faed88) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(3, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff5f323c000
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, "y_cp;\n\n#define YY_NUM_RULES 7\n#d"..., 4096) = 4096
+write(1, "do effects of setting up yytext "..., 4096) = 4096
+write(1, "#define YY_RULE_SETUP \\\n\tif ( yy"..., 4096) = 4096
+write(1, "F_BUFFER:\n\t\t{\n\t\t/* Amount of tex"..., 4096) = 4096
+write(1, " ( yy_c_buf_p - yytext_ptr - YY_"..., 4096) = 4096
+write(1, "unsigned int) yy_c];\n\tyy_is_jam "..., 4096) = 4096
+write(1, "er->yy_buf_pos;\n\tyyin = yy_curre"..., 4096) = 4096
+write(1, " buffer, and we should throw it\n"..., 3184) = 3184
+write(3, "\"../inputs/in.exp\", line 7: warn"..., 64) = 64
+exit_group(0)                           = ?

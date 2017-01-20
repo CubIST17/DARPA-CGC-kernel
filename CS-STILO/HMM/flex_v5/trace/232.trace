@@ -1,0 +1,34 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-d", "-Ca", "../inputs/in.ch_exp_1"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x1d0b000
+brk(0x1d0c1c0)                          = 0x1d0c1c0
+arch_prctl(ARCH_SET_FS, 0x1d0b880)      = 0
+brk(0x1d2d1c0)                          = 0x1d2d1c0
+brk(0x1d2e000)                          = 0x1d2e000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.ch_exp_1", O_RDONLY) = 4
+brk(0x1d4f000)                          = 0x1d4f000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffcdfb0458) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=70, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0a0eeca000
+read(4, "%%\n\nfoo|bar*\tprintf(\"foo or ba(z"..., 8192) = 70
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0a0eec9000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffcdfb0418) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, "static yyconst long int yy_def[1"..., 4096) = 4096
+write(1, "    11,   11,   11,   11,   11, "..., 4096) = 4096
+write(1, "11,\n\n       11,   11,   11,   11"..., 4096) = 4096
+write(1, "executed at the end of each rule"..., 4096) = 4096
+write(1, "buf_p = yytext_ptr + yy_amount_o"..., 4096) = 4096
+write(1, "= 2;\n\n\t\t\t\tb->yy_ch_buf = (char *"..., 4096) = 4096
+write(1, "L; if not, then we've hit the en"..., 4096) = 4096
+write(1, "\n#ifdef YY_USE_PROTOS\nvoid yy_fl"..., 4096) = 4096
+write(1, "\n\t\t} \\\n\twhile ( 0 )\n\n\n/* Interna"..., 1514) = 1514
+exit_group(0)                           = ?

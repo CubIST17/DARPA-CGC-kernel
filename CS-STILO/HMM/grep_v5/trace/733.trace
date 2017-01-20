@@ -1,0 +1,84 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-5", "if", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0xff8000
+brk(0xff91c0)                           = 0xff91c0
+arch_prctl(ARCH_SET_FS, 0xff8880)       = 0
+brk(0x101a1c0)                          = 0x101a1c0
+brk(0x101b000)                          = 0x101b000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff4c7eb2000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff4c7eb1000
+write(1, "/* grep.c - main driver file for"..., 4096) = 4096
+write(1, "buffer for a new file.  Initiali"..., 4096) = 4096
+write(1, "  char *nl;\n\n  if (!lastout)\n   "..., 4096) = 4096
+write(1, " -G\", 0);;\n\tmatcher = \"fgrep\";\n\t"..., 4096) = 4096
+write(1, "* alloca.h */\n#endif /* not __GN"..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, "`optarg', otherwise `optarg' is "..., 4096) = 4096
+write(1, "bbreviated matches.  */\n      fo"..., 4096) = 4096
+write(1, "nition of `getopt'.  */\n\nint\n--\n"..., 4096) = 4096
+write(1, "ny compiler worth its salt\n   el"..., 4096) = 4096
+write(1, "those specified.  */\n  charset_n"..., 4096) = 4096
+write(1, "\nstatic int debug = 0;\n\n#define "..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "r) *p++;\t\t\t\t\t\t\\\n    if (translat"..., 4096) = 4096
+write(1, "= 0;\n\n#ifdef DEBUG\n  DEBUG_PRINT"..., 4096) = 4096
+write(1, ".  */\n            if (many_times"..., 4096) = 4096
+write(1, "             && !(p - 2 >= patte"..., 4096) = 4096
+write(1, " B to b.  */\n          PATFETCH_"..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "ch jump, etc.).  The last such\n "..., 4096) = 4096
+write(1, "1, though.)  */\n                "..., 4096) = 4096
+write(1, "ebug)\n    {\n      DEBUG_PRINT1 ("..., 4096) = 4096
+write(1, "ack' is nonempty.  */\n#define PO"..., 4096) = 4096
+write(1, "_be_null = true;\n--\n\t}\n\n      /*"..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "crement p past the n for when k "..., 4096) = 4096
+write(1, "pos == total_size && fastmap\n   "..., 4096) = 4096
+write(1, "no match, -2 if an internal erro"..., 4096) = 4096
+write(1, "tter's empty -- but not if\n     "..., 4096) = 4096
+write(1, "m_regs + 1;\n                    "..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "      if (lowest_active_reg == N"..., 4096) = 4096
+write(1, " matching; if both the place to "..., 4096) = 4096
+write(1, "rect.\n             For example, "..., 4096) = 4096
+write(1, "(mcnt == 0)\n            {\n      "..., 4096) = 4096
+write(1, "              p1 += mcnt;\t\n\n    "..., 4096) = 4096
+write(1, "rdbound:\n    case notwordbound:\n"..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "t returns 0 if it succeeds, nonz"..., 4096) = 4096
+write(1, ">buffer);\n  preg->buffer = NULL;"..., 4096) = 4096
+write(1, "lasses[i]))\n      return i;\n  RE"..., 4096) = 4096
+write(1, "\");\n\t\tif (!ISDIGIT(c))\n\t\t  break"..., 4096) = 4096
+write(1, "th if necessary. */\nstatic void\n"..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "onstraint;\n\tif (SUCCEEDS_IN_CONT"..., 4096) = 4096
+write(1, "LLOC(nullable, int, d->depth);\n "..., 4096) = 4096
+write(1, "corresponding to the set's posit"..., 4096) = 4096
+write(1, "&grps[ngrps]);\n--\n\t     reason t"..., 4096) = 4096
+write(1, "ils[i])\n\t  {\n\t    free((ptr_t) d"..., 4096) = 4096
+write(1, ") d->tokens);\n  for (i = 0; i < "..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "of *both);\n  if (both == NULL)\n "..., 4096) = 4096
+write(1, "   goto done;\n\t    }\n\t  else if "..., 4096) = 4096
+write(1, " *fail;\t\t/* Aho-Corasick failure"..., 4096) = 4096
+write(1, "return;\n\n  treefails(tree->llink"..., 4096) = 4096
+write(1, "rse the trie in level order agai"..., 4096) = 4096
+write(1, "a[c = (end += d)[-1]]) != 0)\n\tco"..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, "      (*(h)->freefun) ((old_chun"..., 4096) = 4096
+write(1, "ins an empty object, so assume t"..., 4096) = 4096
+write(1, "ar *EGexecute();\nstatic void Fco"..., 4096) = 4096
+write(1, "im; beg = end + 1)\n    {\n      i"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "gvfv\nxxsxif awwsw\n\ns  if (out)\n "..., 170) = 170
+close(1)                                = 0
+munmap(0x7ff4c7eb1000, 4096)            = 0
+exit_group(0)                           = ?

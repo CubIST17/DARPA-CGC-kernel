@@ -1,0 +1,20 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-ib", "Tgggg", "../inputs/grepBinary"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x142b000
+brk(0x142c1c0)                          = 0x142c1c0
+arch_prctl(ARCH_SET_FS, 0x142b880)      = 0
+brk(0x144d1c0)                          = 0x144d1c0
+brk(0x144e000)                          = 0x144e000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff4598fc000
+close(3)                                = 0
+open("../inputs/grepBinary", O_RDONLY)  = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=80102, ...}) = 0
+read(3, "\177ELF\1\2\1\0\0\0\0\0\0\0\0\0\0\2\0\2\0\0\0\1\0\1\f\370\0\0\0004"..., 32768) = 32768
+read(3, "\220\4\240\2\322\7\277\320\200\242\0\t\32\200\0\17\224\20\0\22\20\200\0\10\320\f\200\0\220\2\240\2"..., 32768) = 32768
+read(3, "\200\212 \7\22\200\0\21\200\243`\0\200\242`_\2\200\0\16\200\243`\0\220$\0\30\200\243@\10"..., 32768) = 14566
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+close(1)                                = 0
+exit_group(1)                           = ?

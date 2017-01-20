@@ -1,0 +1,56 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-f", "../inputs/grep1.dat", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x14d1000
+brk(0x14d21c0)                          = 0x14d21c0
+arch_prctl(ARCH_SET_FS, 0x14d1880)      = 0
+brk(0x14f31c0)                          = 0x14f31c0
+brk(0x14f4000)                          = 0x14f4000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f595b978000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f595b977000
+read(3, "/* grep.c - main driver file for"..., 4096) = 4096
+read(3, "ads aligned on a page boundary a"..., 4096) = 4096
+read(3, " out_before;\t\t/* Lines of leadin"..., 4096) = 4096
+read(3, ";\n      residue = buflim - lim;\n"..., 4096) = 4096
+read(3, "\tbreak;\n      case 'l':\n\tout_qui"..., 12288) = 12288
+read(3, "hey have an\n   argument, it foll"..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 28672) = 28672
+read(3, " size1; this_char++)\n           "..., 4096) = 4096
+mmap(NULL, 135168, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f595b956000
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 61440) = 61440
+read(3, ";\n\n\n\tcase jump_n:\n        case p"..., 4096) = 4096
+mremap(0x7f595b956000, 135168, 266240, MREMAP_MAYMOVE) = 0x7f595b915000
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 126976) = 126976
+read(3, "en = strlen(lookfor);\n  for (cp "..., 4096) = 4096
+mremap(0x7f595b915000, 266240, 528384, MREMAP_MAYMOVE) = 0x7f595b894000
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 258048) = 52048
+read(3, "", 208896)                     = 0
+close(3)                                = 0
+munmap(0x7f595b977000, 4096)            = 0
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f595b977000
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2570
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f595b977000, 4096)            = 0
+open("/nfs/spectre/u4/jin/research/experiments/grep/docs/grep_2.4.2/lib/locale/en_US.UTF-8/LC_MESSAGES/grep.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/nfs/spectre/u4/jin/research/experiments/grep/docs/grep_2.4.2/lib/locale/en_US.utf8/LC_MESSAGES/grep.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/nfs/spectre/u4/jin/research/experiments/grep/docs/grep_2.4.2/lib/locale/en_US/LC_MESSAGES/grep.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/nfs/spectre/u4/jin/research/experiments/grep/docs/grep_2.4.2/lib/locale/en.UTF-8/LC_MESSAGES/grep.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/nfs/spectre/u4/jin/research/experiments/grep/docs/grep_2.4.2/lib/locale/en.utf8/LC_MESSAGES/grep.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/nfs/spectre/u4/jin/research/experiments/grep/docs/grep_2.4.2/lib/locale/en/LC_MESSAGES/grep.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/grep.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/grep.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/grep.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/grep.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/grep.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/grep.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f595b977000
+write(1, "target5: Regular expression too "..., 36) = 36
+exit_group(2)                           = ?

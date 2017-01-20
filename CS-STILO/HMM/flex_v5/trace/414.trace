@@ -1,0 +1,37 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-f", "../inputs/in.exp"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x8a3000
+brk(0x8a41c0)                           = 0x8a41c0
+arch_prctl(ARCH_SET_FS, 0x8a3880)       = 0
+brk(0x8c51c0)                           = 0x8c51c0
+brk(0x8c6000)                           = 0x8c6000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.exp", O_RDONLY)      = 4
+brk(0x8e7000)                           = 0x8e7000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffe174e848) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=290, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fca3b79f000
+read(4, "%%\n(r)\t\tprintf(\"Match an r: %s\\n"..., 8192) = 290
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fca3b79e000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffe174e808) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, "        3,    4,    4,    4,    "..., 4096) = 4096
+write(1, "5,   -5,\n       -5,   13,   -5, "..., 4096) = 4096
+write(1, "  -10,  -10,  -10,\n      -10,  -"..., 4096) = 4096
+write(1, " -15,  -15,  -15,  -15,  -15,\n  "..., 4096) = 4096
+write(1, "20,  -20,  -20,  -20,  -20,  -20"..., 4096) = 4096
+write(1, ",  -25,  -25,  -25,  -25,  -25, "..., 4096) = 4096
+write(1, "ileno(yyin), (char *) buf, max_s"..., 4096) = 4096
+write(1, "this happened because the user\n\t"..., 4096) = 4096
+write(1, "/\n\tnumber_to_move = (int) (yy_c_"..., 4096) = 4096
+write(1, ">yy_buf_size + 2];\n\t\tregister ch"..., 4096) = 4096
+write(1, "t_buffer( b, file );\n\n\treturn b;"..., 4096) = 4096
+write(1, " YY_START;\n\n\tBEGIN(new_state);\n\t"..., 2415) = 2415
+exit_group(0)                           = ?

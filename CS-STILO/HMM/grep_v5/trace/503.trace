@@ -1,0 +1,138 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-nbh", "", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x1c72000
+brk(0x1c731c0)                          = 0x1c731c0
+arch_prctl(ARCH_SET_FS, 0x1c72880)      = 0
+brk(0x1c941c0)                          = 0x1c941c0
+brk(0x1c95000)                          = 0x1c95000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f4ba0fb5000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4ba0fb4000
+write(1, "1:0:/* grep.c - main driver file"..., 4096) = 4096
+write(1, "139:2994:     char *mesg;\n140:30"..., 4096) = 4096
+write(1, "uf(save)\n270:5920:     size_t sa"..., 4096) = 4096
+write(1, "*lim;\n384:8987:     char sep;\n38"..., 4096) = 4096
+write(1, "5:11713:/* Search a given file. "..., 4096) = 4096
+write(1, "\n667:14392:\tif (out_after < 0)\n6"..., 4096) = 4096
+write(1, "e (optind < argc)\n805:17125:    "..., 4096) = 4096
+write(1, " library).  Rather than having e"..., 4096) = 4096
+write(1, "1005:23294:   REQUIRE_ORDER mean"..., 4096) = 4096
+write(1, "cks of data in ARGV.  */\n1103:26"..., 4096) = 4096
+write(1, ";\n1176:29607:     char *const *a"..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, ";\n1284:32515:\t  return 1;\n1285:3"..., 4096) = 4096
+write(1, "nly || argv[optind][1] == '-'\n14"..., 4096) = 4096
+write(1, "1527:38032:main (argc, argv)\n152"..., 4096) = 4096
+write(1, "_HEADERS\n1649:40795:#if flag_str"..., 4096) = 4096
+write(1, "3556:#define ISSPACE(c) (isascii"..., 4096) = 4096
+write(1, "ation whatsoever for its\n1864:46"..., 4096) = 4096
+write(1, " beginning of a repeat.  If what"..., 4096) = 4096
+write(1, "t += temp << 8;\n2039:52896:}\n204"..., 4096) = 4096
+write(1, "   }\n2152:55738:    \n2153:55743:"..., 4096) = 4096
+write(1, "    \n2277:58459:          \n2278:"..., 4096) = 4096
+write(1, "ng1;\n2400:61202:    const char *"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "., `translate').  */\n2496:64258:"..., 4096) = 4096
+write(1, "R()\t\t\t\t\t\t\t\\\n2586:67355:  do { \t\t"..., 4096) = 4096
+write(1, "| STREQ (string, \"lower\") || STR"..., 4096) = 4096
+write(1, " unsigned debug_count;\n2766:7357"..., 4096) = 4096
+write(1, "OPS)\n2866:76556:                "..., 4096) = 4096
+write(1, "  && p < pend && TRANSLATE (*p) "..., 4096) = 4096
+write(1, "9:                  }\n3042:82829"..., 4096) = 4096
+write(1, "(str, \"punct\");\n3117:86094:     "..., 4096) = 4096
+write(1, ":          /* Do not translate t"..., 4096) = 4096
+write(1, "          goto normal_char;\n3293"..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "eave space for a jump after this"..., 4096) = 4096
+write(1, "     {\n3457:98729:              "..., 4096) = 4096
+write(1, "hing, we'll\n3520:102100:        "..., 4096) = 4096
+write(1, "US_QM)\n3626:104919:             "..., 4096) = 4096
+write(1, "char *loc;\n3738:107675:    int a"..., 4096) = 4096
+write(1, "t\n3844:110490:compile_range (p_p"..., 4096) = 4096
+write(1, "e the size of FAIL_STACK, up to "..., 4096) = 4096
+write(1, "size now: %d\\n\",\t\t\\\n4019:116600:"..., 4096) = 4096
+write(1, " LOW_REG, HIGH_REG -- the highes"..., 4096) = 4096
+write(1, " */\n4174:122916:\n4175:122917:int"..., 4096) = 4096
+write(1, "4281:125724:        case anychar"..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "if (p + j < pend)\n4385:128590:  "..., 4096) = 4096
+write(1, "489:131419:     struct re_patter"..., 4096) = 4096
+write(1, " startpos;\n4581:134423:   \n4582:"..., 4096) = 4096
+write(1, "currently inside.  Also records\n"..., 4096) = 4096
+write(1, "  register values; since we have"..., 4096) = 4096
+write(1, "0, nfailure_points_popped = 0;\n4"..., 4096) = 4096
+write(1, " */\n4917:146768:  if (bufp->re_n"..., 4096) = 4096
+write(1, " \");\n5010:149749:  DEBUG_PRINT_C"..., 4096) = 4096
+write(1, "/\n5089:152894:                  "..., 4096) = 4096
+write(1, "   return mcnt;\n5161:156140:    "..., 4096) = 4096
+write(1, "64:158982:            REG_MATCH_"..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "               the registers as "..., 4096) = 4096
+write(1, "this test?  */\n5413:165403:     "..., 4096) = 4096
+write(1, "n' && bufp->newline_anchor)\n5503"..., 4096) = 4096
+write(1, "3 (\" %d (to 0x%x)\", mcnt, p + mc"..., 4096) = 4096
+write(1, "            else if ((re_opcode_"..., 4096) = 4096
+write(1, "      /* We need this opcode so "..., 4096) = 4096
+write(1, "80930:          }\n5825:180942:\n5"..., 4096) = 4096
+write(1, "183683:      if (!FAIL_STACK_EMP"..., 4096) = 4096
+write(1, "/* Go through the on_failure_jum"..., 4096) = 4096
+write(1, "end;\n6116:189725:    register_in"..., 4096) = 4096
+write(1, "are identical for LEN\n6236:19239"..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "OURCE */\n6344:195185:\f\n6345:1951"..., 4096) = 4096
+write(1, "tern, strlen (pattern), syntax, "..., 4096) = 4096
+write(1, "e_error_msg[0])))\n6536:201082:  "..., 4096) = 4096
+write(1, "f\n6648:203818:#endif\n6649:203825"..., 4096) = 4096
+write(1, ":\tcase ENDWORD: s = \"ENDWORD\"; b"..., 4096) = 4096
+write(1, "2:static lexleft;\t\t\t/* Number of"..., 4096) = 4096
+write(1, "'\n7016:211690:\t\t  : lexleft > 1 "..., 4096) = 4096
+write(1, "bits & RE_LIMITED_OPS)\n7134:2143"..., 4096) = 4096
+write(1, ";\n7245:217134:\t      while (c <="..., 4096) = 4096
+write(1, "35:  else if (tok == LPAREN)\n737"..., 4096) = 4096
+write(1, "of positions. */\n7522:222017:\n75"..., 4096) = 4096
+write(1, "->nelem != d->states[i].elems.ne"..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "->follows[old.index].elems[j].in"..., 4096) = 4096
+write(1, "\t/* Element count stack for last"..., 4096) = 4096
+write(1, "of the second argument,\n7903:233"..., 4096) = 4096
+write(1, "   }\n8000:236749:\n8001:236750:  "..., 4096) = 4096
+write(1, " position_set follows;\t\t/* Union"..., 4096) = 4096
+write(1, "\n8167:242933:\t      copyset(left"..., 4096) = 4096
+write(1, "264:245863:\tfor (j = 0; j < foll"..., 4096) = 4096
+write(1, ", d->tralloc + 1);\n8364:248779:\t"..., 4096) = 4096
+write(1, " (unsigned char *) end && d->fai"..., 4096) = 4096
+write(1, "ils);\n8597:254162:  free((ptr_t)"..., 4096) = 4096
+write(1, " in real-life situations\n8683:25"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, ";\n8818:259698:  for (lcp = left;"..., 4096) = 4096
+write(1, "index; ++ri)\n8952:262197:    {\n8"..., 4096) = 4096
+write(1, "0';\n9073:264832:\t    lmp->right "..., 4096) = 4096
+write(1, "IBM-Germany, Scientific Center H"..., 4096) = 4096
+write(1, "c(trans)\n9274:270617:     char *"..., 4096) = 4096
+write(1, "gs. */\n9382:273415:\t  while (dep"..., 4096) = 4096
+write(1, ">rlink, fail, recourse);\n9490:27"..., 4096) = 4096
+write(1, "ore delta.  Boy that's easy comp"..., 4096) = 4096
+write(1, "90:281998:  register unsigned ch"..., 4096) = 4096
+write(1, "c = *end]) && end < qlim)\n9813:2"..., 4096) = 4096
+write(1, "t;\n9939:287207:\n9940:287208:  kw"..., 4096) = 4096
+write(1, "ions with the traditional malloc"..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, "33:\t and we used a larger reques"..., 4096) = 4096
+write(1, "0:  /* The new chunk certainly c"..., 4096) = 4096
+write(1, "ee = (char *)(obj);\n10297:299015"..., 4096) = 4096
+write(1, "_copy0 (obstack, pointer, length"..., 4096) = 4096
+write(1, ",\n10523:304251:  { \"gegrep\", Eco"..., 4096) = 4096
+write(1, "   {\n10631:306946:      /* In th"..., 4096) = 4096
+write(1, " end + 1)\n10746:309552:    {\n107"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "50:      for (lim = beg; lim < p"..., 3415) = 3415
+close(1)                                = 0
+munmap(0x7f4ba0fb4000, 4096)            = 0
+exit_group(0)                           = ?

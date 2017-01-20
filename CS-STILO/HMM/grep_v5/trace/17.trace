@@ -1,0 +1,104 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-G", "[[:lower:]]", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x142d000
+brk(0x142e1c0)                          = 0x142e1c0
+arch_prctl(ARCH_SET_FS, 0x142d880)      = 0
+brk(0x144f1c0)                          = 0x144f1c0
+brk(0x1450000)                          = 0x1450000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fb58a1b6000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb58a1b5000
+write(1, "/* grep.c - main driver file for"..., 4096) = 4096
+write(1, " size. */\nstatic char *buffer;\t\t"..., 4096) = 4096
+write(1, ", context, etc. */\nstatic size_t"..., 4096) = 4096
+write(1, "out)\n\tlastout = 0;\n      save = "..., 4096) = 4096
+write(1, "+];\n\tkeycc = strlen(keys);\n    e"..., 4096) = 4096
+write(1, "haves differently for the user, "..., 4096) = 4096
+write(1, "o, size)\n     const char *from;\n"..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, " is only valid when a long-named"..., 4096) = 4096
+write(1, "index;\n\t    else\n\t      /* Secon"..., 4096) = 4096
+write(1, "e for use in testing\n   the abov"..., 4096) = 4096
+write(1, "c]\n#endif /* not emacs */\n/* Get"..., 4096) = 4096
+write(1, "     /****** added later *******"..., 4096) = 4096
+write(1, "d\n           of jump when compil"..., 4096) = 4096
+write(1, "(x1, x2, x3, x4)\n#define DEBUG_P"..., 4096) = 4096
+write(1, "%d times\", p + mcnt - start, mcn"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, " \"Unmatched [ or [^\",\t\t\t/* REG_E"..., 4096) = 4096
+write(1, "  return REG_ESIZE;\t\t\t\t\t\t\t\\\n    "..., 4096) = 4096
+write(1, " used as array indices.  */\n  re"..., 4096) = 4096
+write(1, "_CONTEXT_INDEP_ANCHORS\n         "..., 4096) = 4096
+write(1, "         pending_exact = 0;\n    "..., 4096) = 4096
+write(1, "               || c1 == CHAR_CLA"..., 4096) = 4096
+write(1, "egnum++;\n              if (COMPI"..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "regnum;\n                    BUF_"..., 4096) = 4096
+write(1, "unfetch_interval;\n              "..., 4096) = 4096
+write(1, "lash need `c'.  */\n             "..., 4096) = 4096
+write(1, "\nstatic void\nstore_op1 (op, loc,"..., 4096) = 4096
+write(1, "= ((unsigned char *) p)[0];\n  /*"..., 4096) = 4096
+write(1, "runs out of memory.  */\n#define "..., 4096) = 4096
+write(1, " and (if debugging), `bufp',\n   "..., 4096) = 4096
+write(1, " SWITCH_ENUM_BUG\n      switch (("..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "n match\n             the null st"..., 4096) = 4096
+write(1, "register char *fastmap = bufp->f"..., 4096) = 4096
+write(1, "define REG_MATCH_NULL_STRING_P(R"..., 4096) = 4096
+write(1, " string, size, pos, regs, size);"..., 4096) = 4096
+write(1, "cktrack through the failure poin"..., 4096) = 4096
+write(1, ";\n  DEBUG_PRINT1 (\"The compiled "..., 4096) = 4096
+write(1, "ister zero has to be set differe"..., 4096) = 4096
+write(1, "tart_memory %d (%d):\\n\", *p, p[1"..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "      force exit from the ``loop"..., 4096) = 4096
+write(1, " to match.  */\n\t\tmcnt = dend - d"..., 4096) = 4096
+write(1, "           For example, in \\(a*\\"..., 4096) = 4096
+write(1, "            DEBUG_PRINT1 (\"  Mat"..., 4096) = 4096
+write(1, "skip over the rest of command.  "..., 4096) = 4096
+write(1, "       && (re_opcode_t) *p1 == o"..., 4096) = 4096
+write(1, "         if (!common_op_match_nu"..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "nformation\n     by passing null "..., 4096) = 4096
+write(1, "E;\n      syntax |= RE_HAT_LISTS_"..., 4096) = 4096
+write(1, "eg->fastmap);\n  preg->fastmap = "..., 4096) = 4096
+write(1, "F\"; break;\n\tcase BEGLINE: s = \"B"..., 4096) = 4096
+write(1, ":cntrl:]\", is_cntrl,\nstatic int\n"..., 4096) = 4096
+write(1, ")\n\t    goto normal_char;\n\t  last"..., 4096) = 4096
+write(1, "   regexp OR branch\n     branch\n"..., 4096) = 4096
+write(1, "ndex > s2->elems[j].index)\n     "..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "\n\t    break;\n\t  default:\n\t    br"..., 4096) = 4096
+write(1, " d->depth);\n  o_nfirst = nfirstp"..., 4096) = 4096
+write(1, "n lastpos:\");\n      for (j = nla"..., 4096) = 4096
+write(1, "_set tmp;\t\t/* Temporary space fo"..., 4096) = 4096
+write(1, "INE_DEPENDENT(d->states[0].elems"..., 4096) = 4096
+write(1, " dfastate(s, d, trans);\n  /* Now"..., 4096) = 4096
+write(1, "eaves = d->nregexps = 0;\n  d->se"..., 4096) = 4096
+write(1, "ab'\n\tgrep 'ab*'\t\t->\tgrep 'a'\n\tgr"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "->right[0] = mp->is[0] = '\\0';\n "..., 4096) = 4096
+write(1, "se\n\t      /* plain character */\n"..., 4096) = 4096
+write(1, "*fail;\t\t/* Aho-Corasick failure "..., 4096) = 4096
+write(1, "->balance)))\n\t      switch (link"..., 4096) = 4096
+write(1, "ter struct kwset *kwset;\n  regis"..., 4096) = 4096
+write(1, "t->mind;\n  if (len == 0)\n    ret"..., 4096) = 4096
+write(1, " if (kwsmatch)\n      kwsmatch->i"..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, "un) ((size)))\n#define CALL_FREEF"..., 4096) = 4096
+write(1, " new_chunk + new_size;\n  /* Move"..., 4096) = 4096
+write(1, "* obj is not in any of the chunk"..., 4096) = 4096
+write(1, "SALNUM(C) (isascii(C) && isalnum"..., 4096) = 4096
+write(1, "]\\\\|$\\\\)\");\n      if (match_line"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "eg, start + len, start, &regs);\n"..., 2387) = 2387
+close(1)                                = 0
+munmap(0x7fb58a1b5000, 4096)            = 0
+exit_group(0)                           = ?

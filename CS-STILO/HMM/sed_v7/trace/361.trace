@@ -1,0 +1,51 @@
+execve("../source/sed.exe.static", ["../source/sed.exe.static", "-f", "../inputs/scr/s361_0.sed", "../inputs/default.in"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x13d7000
+brk(0x13d81c0)                          = 0x13d81c0
+arch_prctl(ARCH_SET_FS, 0x13d7880)      = 0
+brk(0x13f91c0)                          = 0x13f91c0
+brk(0x13fa000)                          = 0x13fa000
+open("../inputs/scr/s361_0.sed", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=74, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f852ddbf000
+read(3, "#a test to expose a fault in v4\n"..., 4096) = 74
+open("s361_0.wout", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f852ddbf000, 4096)            = 0
+open("../inputs/default.in", O_RDONLY)  = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1741, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f852ddbf000
+read(3, "..@ A BLACK AND WHITE POEM\n\ni se"..., 4096) = 1741
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f852ddbe000
+fstat(4, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f852ddbd000
+write(4, "black and CHOMPED!\n", 19)    = 19
+write(4, "CHOMPED!\n", 9)               = 9
+write(4, "black and CHOMPED!\n", 19)    = 19
+write(4, "but count CHOMPED!\n", 19)    = 19
+write(4, "CHOMPED!\n", 9)               = 9
+write(4, "black and CHOMPED!\n", 19)    = 19
+write(4, "tCHOMPED!\n", 10)             = 10
+write(4, "blessed are CHOMPED!\n", 21)  = 21
+write(4, "CHOMPED!\n", 9)               = 9
+write(4, "This line is folloCHOMPED!\n", 27) = 27
+write(4, "This line is folloCHOMPED!\n", 27) = 27
+write(4, "This line is folloCHOMPED!\n", 27) = 27
+write(4, "This line is folloCHOMPED!\n", 27) = 27
+write(4, "Look in the Owner and Operator G"..., 54) = 54
+write(4, "TCHOMPED!\n", 10)             = 10
+write(4, "The Owner and Operator Guide is "..., 49) = 49
+write(4, "argv. \"leia\" \"han solo\" \"luke sk"..., 42) = 42
+write(4, "Dennis, Jim\t\tMidCHOMPED!\n", 25) = 25
+write(4, "Madison, Sylvia\t\tMidCHOMPED!\n", 29) = 29
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f852ddbf000, 4096)            = 0
+close(4)                                = 0
+munmap(0x7f852ddbd000, 4096)            = 0
+write(1, "..@ A BLACK AND WHITE POEM\n\ni se"..., 2052) = 2052
+close(1)                                = 0
+munmap(0x7f852ddbe000, 4096)            = 0
+exit_group(4)                           = ?

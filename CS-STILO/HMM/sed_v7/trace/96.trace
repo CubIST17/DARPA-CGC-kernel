@@ -1,0 +1,28 @@
+execve("../source/sed.exe.static", ["../source/sed.exe.static", "-f", "../inputs/scr/s96_0.sed", "../inputs/default.in"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x8e5000
+brk(0x8e61c0)                           = 0x8e61c0
+arch_prctl(ARCH_SET_FS, 0x8e5880)       = 0
+brk(0x9071c0)                           = 0x9071c0
+brk(0x908000)                           = 0x908000
+open("../inputs/scr/s96_0.sed", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=98, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff27bb8c000
+read(3, "#n\n\n#multi-line delete and trans"..., 4096) = 98
+lseek(3, 0, SEEK_CUR)                   = 98
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7ff27bb8c000, 4096)            = 0
+open("../inputs/default.in", O_RDONLY)  = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1741, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff27bb8c000
+read(3, "..@ A BLACK AND WHITE POEM\n\ni se"..., 4096) = 1741
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff27bb8b000
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7ff27bb8c000, 4096)            = 0
+write(1, "..@ A BLACK AND WHITE POEM\n\nI sE"..., 1708) = 1708
+close(1)                                = 0
+munmap(0x7ff27bb8b000, 4096)            = 0
+exit_group(4)                           = ?

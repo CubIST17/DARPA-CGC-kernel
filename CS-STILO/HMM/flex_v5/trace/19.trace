@@ -1,0 +1,33 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-p", "-CF", "../inputs/in.ch_exp_3"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x1309000
+brk(0x130a1c0)                          = 0x130a1c0
+arch_prctl(ARCH_SET_FS, 0x1309880)      = 0
+brk(0x132b1c0)                          = 0x132b1c0
+brk(0x132c000)                          = 0x132c000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.ch_exp_3", O_RDONLY) = 4
+brk(0x134d000)                          = 0x134d000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffb8ca39e8) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=99, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4e33091000
+read(4, "%%\n\nfoo|(bar$)\tprintf(\"foo or ba"..., 8192) = 99
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4e33090000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffb8ca39a8) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, "  9, 260 }, {  10, 260 }, {  11,"..., 4096) = 4096
+write(1, "  0,   0 }, {   0,   0 }, {   0,"..., 4096) = 4096
+write(1, "f YY_INPUT\n#define YY_INPUT(buf,"..., 4096) = 4096
+write(1, "_buffer and our\n\t\t\t * globals.  "..., 4096) = 4096
+write(1, "tus == YY_BUFFER_EOF_PENDING )\n\t"..., 4096) = 4096
+write(1, " source > yy_current_buffer->yy_"..., 4096) = 4096
+write(1, "b;\n#endif\n\t{\n\tif ( ! b )\n\t\tretur"..., 4096) = 4096
+write(1, "art-condition stack underflow\" )"..., 2269) = 2269
+exit_group(0)                           = ?

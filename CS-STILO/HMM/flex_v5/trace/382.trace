@@ -1,0 +1,33 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-Crm", "../inputs/in.ch_exp_1"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0xe3a000
+brk(0xe3b1c0)                           = 0xe3b1c0
+arch_prctl(ARCH_SET_FS, 0xe3a880)       = 0
+brk(0xe5c1c0)                           = 0xe5c1c0
+brk(0xe5d000)                           = 0xe5d000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.ch_exp_1", O_RDONLY) = 4
+brk(0xe7e000)                           = 0xe7e000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff69ff39b8) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=70, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2c16ea8000
+read(4, "%%\n\nfoo|bar*\tprintf(\"foo or ba(z"..., 8192) = 70
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2c16ea7000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff69ff3978) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, "     1,    1,    1,    1,    1, "..., 4096) = 4096
+write(1, "  11,   11,   11,   11,   11,   "..., 4096) = 4096
+write(1, "tate YY_PROTO(( int new_state ))"..., 4096) = 4096
+write(1, "tate = yy_last_accepting_state;\n"..., 4096) = 4096
+write(1, "source = yytext_ptr;\n\tregister i"..., 4096) = 4096
+write(1, "te );\n */\n\n#ifdef YY_USE_PROTOS\n"..., 4096) = 4096
+write(1, "hars = yy_current_buffer->yy_n_c"..., 4096) = 4096
+write(1, "FATAL_ERROR( \"bad buffer in yy_s"..., 3269) = 3269
+exit_group(0)                           = ?

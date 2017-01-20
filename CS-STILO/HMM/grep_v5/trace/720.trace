@@ -1,0 +1,42 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "A\\{1,2\\}", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x1dec000
+brk(0x1ded1c0)                          = 0x1ded1c0
+arch_prctl(ARCH_SET_FS, 0x1dec880)      = 0
+brk(0x1e0e1c0)                          = 0x1e0e1c0
+brk(0x1e0f000)                          = 0x1e0f000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f2f1b7e2000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2f1b7e1000
+write(1, "   but WITHOUT ANY WARRANTY; wit"..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, "ext ARGV-element.\n   The element"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "R (*(source + 1)); \n#ifndef EXTR"..., 4096) = 4096
+write(1, "x & RE_CONTEXT_INVALID_OPS)\n    "..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "mp jumps to the correct final de"..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "_AVAIL_SLOTS < NUM_FAILURE_ITEMS"..., 4096) = 4096
+write(1, "nfo[r])\t\t\t\\\n#define REG_UNSET_VA"..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "REG_MATCH_NULL_STRING_P (reg_inf"..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "et in CFLAGS;\n     `re_nsub' to "..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "unt and\n  REALLOC_IF_NECESSARY(d"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "r (k = 0; k < CHARCLASS_INTS; ++"..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "KFUN (h, h -> chunk_size);\n    a"..., 2904) = 2904
+close(1)                                = 0
+munmap(0x7f2f1b7e1000, 4096)            = 0
+exit_group(0)                           = ?

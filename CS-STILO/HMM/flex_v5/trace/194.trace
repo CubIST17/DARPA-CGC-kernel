@@ -1,0 +1,34 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-d", "-CF", "../inputs/in.exp"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x25dd000
+brk(0x25de1c0)                          = 0x25de1c0
+arch_prctl(ARCH_SET_FS, 0x25dd880)      = 0
+brk(0x25ff1c0)                          = 0x25ff1c0
+brk(0x2600000)                          = 0x2600000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.exp", O_RDONLY)      = 4
+brk(0x2621000)                          = 0x2621000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffb4cfcf08) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=290, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f84737c7000
+read(4, "%%\n(r)\t\tprintf(\"Match an r: %s\\n"..., 8192) = 290
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f84737c6000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffb4cfcec8) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, ", 260 },\n {   7, 260 }, {   8, 2"..., 4096) = 4096
+write(1, " 142 }, {   0,   0 }, {   0, 140"..., 4096) = 4096
+write(1, " * or sizeof(void*) != sizeof(in"..., 4096) = 4096
+write(1, " */\n\t\t\tcase 0: /* must back up *"..., 4096) = 4096
+write(1, "unt_of_matched_text;\n\n\t\t\t\tyy_cur"..., 4096) = 4096
+write(1, "Y_AT_BOL()];\n\n\tfor ( yy_cp = yyt"..., 4096) = 4096
+write(1, "ate();\n\t}\n\n\n#ifdef YY_USE_PROTOS"..., 4096) = 4096
+write(1, "USE_PROTOS\nYY_BUFFER_STATE yy_sc"..., 4096) = 4096
+write(1, "/inputs/in.exp\"\n", 16)      = 16
+exit_group(0)                           = ?

@@ -1,0 +1,33 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-dl", "-Cem", "../inputs/in.ch_exp_1"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x9d8000
+brk(0x9d91c0)                           = 0x9d91c0
+arch_prctl(ARCH_SET_FS, 0x9d8880)       = 0
+brk(0x9fa1c0)                           = 0x9fa1c0
+brk(0x9fb000)                           = 0x9fb000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.ch_exp_1", O_RDONLY) = 4
+brk(0xa1c000)                           = 0xa1c000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff3d857238) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=70, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbe4d076000
+read(4, "%%\n\nfoo|bar*\tprintf(\"foo or ba(z"..., 8192) = 70
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbe4d075000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff3d8571f8) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, "y_cp;\n\n#define YY_NUM_RULES 2\n#d"..., 4096) = 4096
+write(1, " char *, int ));\n#endif\n\n#ifdef "..., 4096) = 4096
+write(1, "\t\t\tyy_c = yy_meta[(unsigned int)"..., 4096) = 4096
+write(1, "ow set up\n\t\t\t\t\t * yy_c_buf_p so "..., 4096) = 4096
+write(1, "OB_ACT_CONTINUE_SCAN;\n\n\tyy_n_cha"..., 4096) = 4096
+write(1, "\t\t\t\treturn EOF;\n\n\t\t\t\t\tif ( ! yy_"..., 4096) = 4096
+write(1, "{\n\tYY_BUFFER_STATE b;\n\n\tif ( siz"..., 4096) = 4096
+write(1, "( void *ptr, yy_size_t size )\n#e"..., 747) = 747
+exit_group(0)                           = ?

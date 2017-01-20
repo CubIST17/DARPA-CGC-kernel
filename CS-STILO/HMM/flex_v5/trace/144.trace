@@ -1,0 +1,34 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-d", "-Cr", "../inputs/in.exp"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x8d2000
+brk(0x8d31c0)                           = 0x8d31c0
+arch_prctl(ARCH_SET_FS, 0x8d2880)       = 0
+brk(0x8f41c0)                           = 0x8f41c0
+brk(0x8f5000)                           = 0x8f5000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.exp", O_RDONLY)      = 4
+brk(0x916000)                           = 0x916000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff549d4dd8) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=290, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5d77894000
+read(4, "%%\n(r)\t\tprintf(\"Match an r: %s\\n"..., 8192) = 290
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5d77893000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff549d4d98) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, "{   0,\n        0,   10,  133,  3"..., 4096) = 4096
+write(1, "   26,   26,   26,   26,\n       "..., 4096) = 4096
+write(1, "      26,   26,   26,   26,   26"..., 4096) = 4096
+write(1, "RROR(msg) yy_fatal_error( msg )\n"..., 4096) = 4096
+write(1, " (yy_cp - yytext_ptr) - 1;\n\n\t\t/*"..., 4096) = 4096
+write(1, "t this as a final EOF.\n\t\t\t */\n\t\t"..., 4096) = 4096
+write(1, "d yyunput( c, yy_bp )\nint c;\nreg"..., 4096) = 4096
+write(1, " b )\n\t\tYY_FATAL_ERROR( \"out of d"..., 4096) = 4096
+write(1, "art_stack_depth += YY_START_STAC"..., 2827) = 2827
+exit_group(0)                           = ?

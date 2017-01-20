@@ -1,0 +1,34 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-f", "-Ca", "../inputs/in.ch"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x129f000
+brk(0x12a01c0)                          = 0x12a01c0
+arch_prctl(ARCH_SET_FS, 0x129f880)      = 0
+brk(0x12c11c0)                          = 0x12c11c0
+brk(0x12c2000)                          = 0x12c2000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.ch", O_RDONLY)       = 4
+brk(0x12e3000)                          = 0x12e3000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffef904ac8) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=357, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb137982000
+read(4, "%%\n\nxyz\"++\"\t\tprintf(\"Match chara"..., 8192) = 357
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb137981000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffef904a88) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, "  39,  491,    5,\n      491,   3"..., 4096) = 4096
+write(1, "24,   24,\n       24,   24,   24,"..., 4096) = 4096
+write(1, "  25,   25,   25,   25,   25,   "..., 4096) = 4096
+write(1, "F_SIZE\n#define YY_READ_BUF_SIZE "..., 4096) = 4096
+write(1, "nputs/in.ch\"\nECHO;\n\tYY_BREAK\n#li"..., 4096) = 4096
+write(1, "if ( yy_current_buffer->yy_fill_"..., 4096) = 4096
+write(1, "jam = (yy_current_state == 0);\n\n"..., 4096) = 4096
+write(1, " size )\nFILE *file;\nint size;\n#e"..., 4096) = 4096
+write(1, "void yy_push_state( new_state )\n"..., 2968) = 2968
+exit_group(0)                           = ?

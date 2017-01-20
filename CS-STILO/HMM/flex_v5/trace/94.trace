@@ -1,0 +1,34 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-d", "-Cram", "../inputs/in.exp"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0xa7b000
+brk(0xa7c1c0)                           = 0xa7c1c0
+arch_prctl(ARCH_SET_FS, 0xa7b880)       = 0
+brk(0xa9d1c0)                           = 0xa9d1c0
+brk(0xa9e000)                           = 0xa9e000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.exp", O_RDONLY)      = 4
+brk(0xabf000)                           = 0xabf000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff7cf691e8) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=290, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8dc0521000
+read(4, "%%\n(r)\t\tprintf(\"Match an r: %s\\n"..., 8192) = 290
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8dc0520000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff7cf691a8) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, "\n        1,    1,    1,    1,   "..., 4096) = 4096
+write(1, "   26,   26,   26,   26,   26,  "..., 4096) = 4096
+write(1, " be overridden by user definitio"..., 4096) = 4096
+write(1, "\twhile ( yy_chk[yy_base[yy_curre"..., 4096) = 4096
+write(1, "* with the possibility of jammin"..., 4096) = 4096
+write(1, "tal error - scanner input buffer"..., 4096) = 4096
+write(1, "\n\t\telse\n\t\t\t{ /* need more input "..., 4096) = 4096
+write(1, " ( ! b )\n\t\treturn;\n\n\tb->yy_n_cha"..., 4096) = 4096
+write(1, " *s1, yyconst char *s2, int n )\n"..., 1380) = 1380
+exit_group(0)                           = ?

@@ -1,0 +1,95 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "[a-c-z]", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x22b0000
+brk(0x22b11c0)                          = 0x22b11c0
+arch_prctl(ARCH_SET_FS, 0x22b0880)      = 0
+brk(0x22d21c0)                          = 0x22d21c0
+brk(0x22d3000)                          = 0x22d3000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f125c999000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f125c998000
+write(1, "/* grep.c - main driver file for"..., 4096) = 4096
+write(1, ";\n      bufmapped = 1;\n      buf"..., 4096) = 4096
+write(1, "& p[-1] != '\\n');\n      /* We on"..., 4096) = 4096
+write(1, ") : stdin;\n\t  fatal(optarg, errn"..., 4096) = 4096
+write(1, "ag_stdlib==0   \n#include <stdlib"..., 4096) = 4096
+write(1, "hr;\n      if (*str == chr)\n\tretu"..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, "It is only valid when a long-nam"..., 4096) = 4096
+write(1, ")\n\t      *(pfound->flag) = pfoun"..., 4096) = 4096
+write(1, "perhaps for the Emacs include fi"..., 4096) = 4096
+write(1, "e, nsize)\n/* Emacs already defin"..., 4096) = 4096
+write(1, "/* Like on_failure_jump, but pus"..., 4096) = 4096
+write(1, "onzero).  If linked with the\n   "..., 4096) = 4096
+write(1, "ak;\n        case succeed_n: \n   "..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "ed ( or \\\\(\",\t\t\t/* REG_EPAREN */"..., 4096) = 4096
+write(1, "galt = (begalt - old_buffer) + b"..., 4096) = 4096
+write(1, "pression.\n     This tells, e.g.,"..., 4096) = 4096
+write(1, "        which should only match "..., 4096) = 4096
+write(1, "nd ranges, setting map bits.  */"..., 4096) = 4096
+write(1, "    || (is_punct  && ISPUNCT (ch"..., 4096) = 4096
+write(1, " above.  */\n                if ("..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "            upper_bound = lower_"..., 4096) = 4096
+write(1, "      Conclusion: (b - 2) - (las"..., 4096) = 4096
+write(1, "p)\n    STORE_JUMP (jump_past_alt"..., 4096) = 4096
+write(1, "l be negative if we fetch using "..., 4096) = 4096
+write(1, "    /* Must be int, so when we d"..., 4096) = 4096
+write(1, "\", pat);\t\t\t\\\n  DEBUG_PRINT_COMPI"..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, " not emacs */\n        case no_op"..., 4096) = 4096
+write(1, "\n\t\t      regs, size);\n/* Using t"..., 4096) = 4096
+write(1, ") information.\n   This must not "..., 4096) = 4096
+write(1, "st the\n   the (virtual) concaten"..., 4096) = 4096
+write(1, "have to\n     allocate space for "..., 4096) = 4096
+write(1, "           boolean same_str_p = "..., 4096) = 4096
+write(1, ", this is the case,\n            "..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "er group count.  */\n          br"..., 4096) = 4096
+write(1, "     followed by the numeric val"..., 4096) = 4096
+write(1, "ints\n           to the beginning"..., 4096) = 4096
+write(1, "igned char) pop_failure_jump;\n  "..., 4096) = 4096
+write(1, "nt);\n\t  else if (mcnt == 0)\n    "..., 4096) = 4096
+write(1, "             if ((is_a_jump_n &&"..., 4096) = 4096
+write(1, "lar to group_match_null_string_p"..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "ed char *) malloc (200);\n      i"..., 4096) = 4096
+write(1, " the beginning of the\n   string;"..., 4096) = 4096
+write(1, ">\n#define flag_systypes 1\nextern"..., 4096) = 4096
+write(1, "beginning of input string. */\nst"..., 4096) = 4096
+write(1, "\t    break;\n\t\t  minrep = 10 * mi"..., 4096) = 4096
+write(1, "d of the real stack later on in\n"..., 4096) = 4096
+write(1, "index)\n      break;\n  if (i < s-"..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, " that could correspond to the fi"..., 4096) = 4096
+write(1, "erged.nelem - 1);\n\t    copy(&mer"..., 4096) = 4096
+write(1, "\n  free(o_nullable);\n  free(o_nl"..., 4096) = 4096
+write(1, "d->tokens[pos.index] >= 0 && d->"..., 4096) = 4096
+write(1, "ment, get rid of the unnecessary"..., 4096) = 4096
+write(1, "\t  *backref = 0;\n\t      return ("..., 4096) = 4096
+write(1, "sequences.  If there's something"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "\n      prtok(dfa->tokens[i]);\n  "..., 4096) = 4096
+write(1, "verage,\" Technical Report,\n   IB"..., 4096) = 4096
+write(1, "oesn't have an outgoing link at\n"..., 4096) = 4096
+write(1, "reedelta(tree->llink, depth, del"..., 4096) = 4096
+write(1, "rans[i]];\n\t  kwset->next[i] = ne"..., 4096) = 4096
+write(1, "h->size[0] = accept->depth;\n  re"..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, "ack *h;\n     int size;\n     int "..., 4096) = 4096
+write(1, "which does not do strict alignme"..., 4096) = 4096
+write(1, "return obstack_base (obstack);\nP"..., 4096) = 4096
+write(1, "Last compiled fixed string known"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "isters regs; /* This is static o"..., 4024) = 4024
+close(1)                                = 0
+munmap(0x7f125c998000, 4096)            = 0
+exit_group(0)                           = ?

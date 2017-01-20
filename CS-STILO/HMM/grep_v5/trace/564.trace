@@ -1,0 +1,107 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-vih", "include", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x11ee000
+brk(0x11ef1c0)                          = 0x11ef1c0
+arch_prctl(ARCH_SET_FS, 0x11ee880)      = 0
+brk(0x12101c0)                          = 0x12101c0
+brk(0x1211000)                          = 0x1211000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fcd01965000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcd01964000
+write(1, "/* grep.c - main driver file for"..., 4096) = 4096
+write(1, "desc;\t\t/* File descriptor. */\nst"..., 4096) = 4096
+write(1, "*lastout;\t\t/* Pointer after last"..., 4096) = 4096
+write(1, "lastout)\n\tlastout = 0;\n      sav"..., 4096) = 4096
+write(1, "\n      default:\n\tusage();\n\tbreak"..., 4096) = 4096
+write(1, "ows the user\n   to intersperse t"..., 4096) = 4096
+write(1, "from, to, size)\n     const char "..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, " of the long-named option found."..., 4096) = 4096
+write(1, "found = p;\n\t\tindfound = option_i"..., 4096) = 4096
+write(1, "ncrement it again when taking ne"..., 4096) = 4096
+write(1, "  for (c = 'a'; c <= 'z'; c++)\n "..., 4096) = 4096
+write(1, " *) malloc ((n) * sizeof (t)))\n#"..., 4096) = 4096
+write(1, "dress.  */\n  maybe_pop_jump,\n\n  "..., 4096) = 4096
+write(1, "DEBUG_STATEMENT(e) e\n#define DEB"..., 4096) = 4096
+write(1, " printf (\"/jump_past_alt to %d\","..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "ised of the various bits\n   defi"..., 4096) = 4096
+write(1, "ERT_JUMP(op, loc, to) \\\n  insert"..., 4096) = 4096
+write(1, "ank\"))\n\f\n/* `regex_compile' comp"..., 4096) = 4096
+write(1, "   RETALLOC (bufp->buffer, INIT_"..., 4096) = 4096
+write(1, "               insert an uncondi"..., 4096) = 4096
+write(1, "`[]' so\n                   far),"..., 4096) = 4096
+write(1, "APH (ch))\n                      "..., 4096) = 4096
+write(1, "l have to\n\t\t clear pending_exact"..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "t now points to a\n              "..., 4096) = 4096
+write(1, "d `jump_n' are omitted if\n      "..., 4096) = 4096
+write(1, "= b;\n              PATFETCH (c);"..., 4096) = 4096
+write(1, "followed by two-byte integer par"..., 4096) = 4096
+write(1, "_end' == 0xff\n     (assuming 8-b"..., 4096) = 4096
+write(1, "c\t\\\n       of 0 + -1 isn't done "..., 4096) = 4096
+write(1, "ession.\n   \n   Also assumes the "..., 4096) = 4096
+write(1, "d || !FAIL_STACK_EMPTY ())\n    {"..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "INCR (j, p);\n\n          /* For s"..., 4096) = 4096
+write(1, "buffer and its contained\n   sube"..., 4096) = 4096
+write(1, " inner groups (which is a bits l"..., 4096) = 4096
+write(1, "t not be valid\n   register value"..., 4096) = 4096
+write(1, "ster for its start will need to "..., 4096) = 4096
+write(1, "string1' is null.  */\n  if (size"..., 4096) = 4096
+write(1, "              extra element beyo"..., 4096) = 4096
+write(1, "inside the loop.  */\n          i"..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "d_regend[*p] = REG_MATCH_NULL_ST"..., 4096) = 4096
+write(1, " EVER_MATCHED_SOMETHING (reg_inf"..., 4096) = 4096
+write(1, "break;\n          goto fail;\n\n\n\t/"..., 4096) = 4096
+write(1, "nt);\n          {\n\t    register u"..., 4096) = 4096
+write(1, "                 reg_dummy, reg_"..., 4096) = 4096
+write(1, "if (!AT_STRINGS_BEG (d) && WORDC"..., 4096) = 4096
+write(1, "ue if the pattern up to the corr"..., 4096) = 4096
+write(1, "n\nalt_match_null_string_p (p, en"..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "_syntax_options, bufp);\n\n  retur"..., 4096) = 4096
+write(1, "E;\n      /* It also changes the "..., 4096) = 4096
+write(1, "preg->allocated = 0;\n  preg->use"..., 4096) = 4096
+write(1, "INE\"; break;\n\tcase ENDLINE: s = "..., 4096) = 4096
+write(1, "alnum,\n  \":print:]\", is_print,\n "..., 4096) = 4096
+write(1, "normal_char;\n\t  laststart = 1;\n\t"..., 4096) = 4096
+write(1, "  case QMARK:\n    case STAR:\n   "..., 4096) = 4096
+write(1, "& p.index == s->elems[i].index)\n"..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "ex] != BACKREF\n\t&& d->tokens[s->"..., 4096) = 4096
+write(1, "tion *lastpos;\t\t/* Array where l"..., 4096) = 4096
+write(1, "\n\t/* This position is in its own"..., 4096) = 4096
+write(1, "ed. */\n  charclass labels[NOTCHA"..., 4096) = 4096
+write(1, "hing the current position has be"..., 4096) = 4096
+write(1, " that will ever\n     exist at on"..., 4096) = 4096
+write(1, "_s1;\n    last_was_s:\n      tmp ="..., 4096) = 4096
+write(1, "elow.\n\n\tType\tleft\t\tright\t\tis\t\tin"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "NULL;\n  for (lcp = left; *lcp !="..., 4096) = 4096
+write(1, "> strlen(result))\n\t      result "..., 4096) = 4096
+write(1, "ing:  An Aid to Bibliographic Se"..., 4096) = 4096
+write(1, "      link = trie->links;\n      "..., 4096) = 4096
+write(1, "Find, in the chain of fails goin"..., 4096) = 4096
+write(1, "rger\n\t\t than the difference of t"..., 4096) = 4096
+write(1, "  if (len >= 4 * kwset->mind)\n  "..., 4096) = 4096
+write(1, "et __GNU_LIBRARY__ defined.  */\n"..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, "k; /* points to new chunk */\n\n  "..., 4096) = 4096
+write(1, "|| (POINTER)(lp)->limit < obj))\n"..., 4096) = 4096
+write(1, "obstack *obstack;\n     int lengt"..., 4096) = 4096
+write(1, "fatal(\"memory exhausted\", 0);\n} "..., 4096) = 4096
+write(1, "\n  static struct re_registers re"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, " = memchr(beg + len, '\\n', (buf "..., 753) = 753
+close(1)                                = 0
+munmap(0x7fcd01964000, 4096)            = 0
+exit_group(0)                           = ?

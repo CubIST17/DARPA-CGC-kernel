@@ -1,0 +1,37 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-dl", "-Cram", "../inputs/in.exp"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x14ec000
+brk(0x14ed1c0)                          = 0x14ed1c0
+arch_prctl(ARCH_SET_FS, 0x14ec880)      = 0
+brk(0x150e1c0)                          = 0x150e1c0
+brk(0x150f000)                          = 0x150f000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.exp", O_RDONLY)      = 4
+brk(0x1530000)                          = 0x1530000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7ffff43bb738) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=290, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3335b4c000
+read(4, "%%\n(r)\t\tprintf(\"Match an r: %s\\n"..., 8192) = 290
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3335b4b000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7ffff43bb6f8) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(3, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3335b4a000
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, "y_cp;\n\n#define YY_NUM_RULES 7\n#d"..., 4096) = 4096
+write(1, ",   26,   26,   26,   26,   26, "..., 4096) = 4096
+write(1, "_linenum[7] =\n    {   0,\n       "..., 4096) = 4096
+write(1, "ation of generated scanner - a d"..., 4096) = 4096
+write(1, "se followed by Garden: %s\\n\", yy"..., 4096) = 4096
+write(1, "ster char *dest = yy_current_buf"..., 4096) = 4096
+write(1, "NUL_trans( yy_state_type yy_curr"..., 4096) = 4096
+write(1, "er_state( void )\n#else\nvoid yy_l"..., 4096) = 4096
+write(1, "ND_OF_BUFFER_CHAR;\n\n\tb = yy_scan"..., 3332) = 3332
+write(3, "\"../inputs/in.exp\", line 7: warn"..., 64) = 64
+exit_group(0)                           = ?

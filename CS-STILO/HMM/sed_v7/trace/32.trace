@@ -1,0 +1,14 @@
+execve("../source/sed.exe.static", ["../source/sed.exe.static", "-e", "s/dog/cat/", "../inputs/nonexist.in"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x1a82000
+brk(0x1a831c0)                          = 0x1a831c0
+arch_prctl(ARCH_SET_FS, 0x1a82880)      = 0
+brk(0x1aa41c0)                          = 0x1aa41c0
+brk(0x1aa5000)                          = 0x1aa5000
+open("../inputs/nonexist.in", O_RDONLY) = -1 ENOENT (No such file or directory)
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2e9f577000
+write(1, "Executable: can't read ../inputs"..., 72) = 72
+close(1)                                = 0
+munmap(0x7f2e9f577000, 4096)            = 0
+exit_group(4)                           = ?

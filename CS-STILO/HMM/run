@@ -1,0 +1,4 @@
+java -classpath bin/ sys
+
+java -classpath lib/jahmm-0.6.1.jar:bin/ sys
+ 

@@ -1,0 +1,52 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "[1-2-9]", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x12a0000
+brk(0x12a11c0)                          = 0x12a11c0
+arch_prctl(ARCH_SET_FS, 0x12a0880)      = 0
+brk(0x12c21c0)                          = 0x12c21c0
+brk(0x12c3000)                          = 0x12c3000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f1e61979000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1e61978000
+write(1, "/* grep.c - main driver file for"..., 4096) = 4096
+write(1, "ppress_errors = 1;\n\tout_invert ="..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, "\t     and extend the range of no"..., 4096) = 4096
+write(1, "actn' we use here must also be 1"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "printchar (string2[this_char]);\n"..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "              PATFETCH (c1);\n   "..., 4096) = 4096
+write(1, " (1 << BYTEWIDTH) - 1\n\t\t  ? *p ="..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "s.\n     REG_INFO -- array of inf"..., 4096) = 4096
+write(1, "f (endpos < -1)\n    range = -1 -"..., 4096) = 4096
+write(1, "he reg_num-th\n  DEBUG_PRINT1 (\"\\"..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "te time\n\t      while (--mcnt);\n\t"..., 4096) = 4096
+write(1, " char *p2 = p;\n\t    /* Skip over"..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "6\n                 /on_failure_j"..., 4096) = 4096
+write(1, "rings 1\nxmalloc_1(n)\nxrealloc_1("..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "r (i = 0; i < s->nelem; ++i)\n   "..., 4096) = 4096
+write(1, "c[i] = 1;\n\tMALLOC(d->follows[i]."..., 4096) = 4096
+write(1, "int *, d->tralloc);\n\tREALLOC(d->"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "dfa->tindex; ++i)\n  for (i = 0; "..., 4096) = 4096
+write(1, "t tree *) obstack_alloc(&kwset->"..., 4096) = 4096
+write(1, "depth - fail->depth < fail->shif"..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, "->freefun) ((h)->extra_arg, (old"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "tituent.  */\nstatic struct dfa d"..., 2542) = 2542
+close(1)                                = 0
+munmap(0x7f1e61978000, 4096)            = 0
+exit_group(0)                           = ?

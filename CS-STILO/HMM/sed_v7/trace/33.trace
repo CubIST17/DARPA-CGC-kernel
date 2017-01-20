@@ -1,0 +1,17 @@
+execve("../source/sed.exe.static", ["../source/sed.exe.static", "-e", "s/dog/cat/"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x7a1000
+brk(0x7a21c0)                           = 0x7a21c0
+arch_prctl(ARCH_SET_FS, 0x7a1880)       = 0
+brk(0x7c31c0)                           = 0x7c31c0
+brk(0x7c4000)                           = 0x7c4000
+fstat(0, {st_mode=S_IFREG|0644, st_size=12, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2689fd6000
+read(0, "dog\ncat\ndog\n", 4096)        = 12
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2689fd5000
+read(0, "", 4096)                       = 0
+write(1, "cat\ncat\ncat\n", 12)         = 12
+close(1)                                = 0
+munmap(0x7f2689fd5000, 4096)            = 0
+exit_group(4)                           = ?

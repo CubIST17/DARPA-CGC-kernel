@@ -1,0 +1,7 @@
+analysis ->	monitored
+__mmap		mmap64
+_fxstat		__fxstat
+_xstat		__xstat
+_lxstat		__lxstat
+__getdents	__getdents64
+lseek		__lseek_nocancel

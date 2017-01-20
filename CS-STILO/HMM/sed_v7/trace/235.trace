@@ -1,0 +1,28 @@
+execve("../source/sed.exe.static", ["../source/sed.exe.static", "-f", "../inputs/scr/s235_0.sed", "../inputs/default.in"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0xbbc000
+brk(0xbbd1c0)                           = 0xbbd1c0
+arch_prctl(ARCH_SET_FS, 0xbbc880)       = 0
+brk(0xbde1c0)                           = 0xbde1c0
+brk(0xbdf000)                           = 0xbdf000
+open("../inputs/scr/s235_0.sed", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=59, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efeff15a000
+read(3, "#n\n\n#plain list\n\n/\\.\\.@/{\n      "..., 4096) = 59
+lseek(3, 0, SEEK_CUR)                   = 59
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7efeff15a000, 4096)            = 0
+open("../inputs/default.in", O_RDONLY)  = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1741, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efeff15a000
+read(3, "..@ A BLACK AND WHITE POEM\n\ni se"..., 4096) = 1741
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efeff159000
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7efeff15a000, 4096)            = 0
+write(1, "$\n\n\"The Dog and The Cat\"$\n\"The D"..., 413) = 413
+close(1)                                = 0
+munmap(0x7efeff159000, 4096)            = 0
+exit_group(4)                           = ?

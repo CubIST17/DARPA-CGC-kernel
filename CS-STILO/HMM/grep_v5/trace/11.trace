@@ -1,0 +1,50 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-E", "[1-]", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x1019000
+brk(0x101a1c0)                          = 0x101a1c0
+arch_prctl(ARCH_SET_FS, 0x1019880)      = 0
+brk(0x103b1c0)                          = 0x103b1c0
+brk(0x103c000)                          = 0x103c000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f922e2ae000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f922e2ad000
+write(1, "/* grep.c - main driver file for"..., 4096) = 4096
+write(1, "== -1)\n\t  if (list_files == 1)\n "..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, "  */\n      if (optind != argc &&"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "n.\n        /* Set the following "..., 4096) = 4096
+write(1, " arg, b)\n   into the pattern are"..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "ump_past_alt, fixup_alt_jump, b "..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "tem onto the failure stack.  Mus"..., 4096) = 4096
+write(1, " && !bufp->fastmap_accurate)\n   "..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "      DEBUG_PRINT1 (\"\\nSAVING ma"..., 4096) = 4096
+write(1, "], and, e.g., with `((a*)*(b*)*)"..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "(mcnt, p1);\n                  p1"..., 4096) = 4096
+write(1, "A 02139, USA.  */\n/* Written Jun"..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "| newline != d->states[i].newlin"..., 4096) = 4096
+write(1, " j >= 0; --j)\n\t  prtok(d->tokens"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "->newlines[s] = trans['\\n'];\n  t"..., 4096) = 4096
+write(1, "     lmp->is[0] = '\\0';\n\t    /* "..., 4096) = 4096
+write(1, "L)\n\t    links[depth]->llink = li"..., 4096) = 4096
+write(1, "t[(unsigned char) trans[i]];\n\t  "..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, "\n  h->chunk_limit = chunk->limit"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "ttern:\n\t BUG: Using [A-Za-z_] is"..., 1655) = 1655
+close(1)                                = 0
+munmap(0x7f922e2ad000, 4096)            = 0
+exit_group(0)                           = ?

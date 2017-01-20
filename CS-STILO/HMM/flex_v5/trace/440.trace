@@ -1,0 +1,41 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-F", "../inputs/in.0"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x1402000
+brk(0x14031c0)                          = 0x14031c0
+arch_prctl(ARCH_SET_FS, 0x1402880)      = 0
+brk(0x14241c0)                          = 0x14241c0
+brk(0x1425000)                          = 0x1425000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.0", O_RDONLY)        = 4
+brk(0x1446000)                          = 0x1446000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff63b1e368) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=792, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f162502e000
+read(4, "/* scanner for a toy Pascal-like"..., 8192) = 792
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f162502d000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, "{   9, 262 }, {  10, 264 }, {  1"..., 4096) = 4096
+write(1, "{   0,   0 }, {   0,   0 }, {   "..., 4096) = 4096
+write(1, "  0,   0 }, {   0,   0 },\n {   0"..., 4096) = 4096
+write(1, " 21, 726 }, {  22, 726 }, {  23,"..., 4096) = 4096
+write(1, " 0,   0 },\n {   0,   0 }, {   0,"..., 4096) = 4096
+write(1, " 0,   0 }, {   0,   0 }, {   0, "..., 4096) = 4096
+write(1, " 0,   0 }, {   0,   0 }, {   0, "..., 4096) = 4096
+write(1, "0,   0 }, {   0,   0 },\n {   0, "..., 4096) = 4096
+write(1, ",-1190 }, { 111,-1190 }, { 112,-"..., 4096) = 4096
+write(1, ", { 116,-1464 }, { 117, 150 }, {"..., 4096) = 4096
+write(1, "d ));\n#else\nstatic int input YY_"..., 4096) = 4096
+write(1, ";\n\t\t\tgoto yy_find_action;\n\ncase "..., 4096) = 4096
+write(1, "t_state = yy_get_previous_state("..., 4096) = 4096
+write(1, "_accepting_cpos = yy_cp;\n\t\t\t}\n\t\t"..., 4096) = 4096
+write(1, "old_char;\n\t\tyy_current_buffer->y"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff63b1e898) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, "ytes( yyconst char *bytes, int l"..., 3965) = 3965
+exit_group(0)                           = ?

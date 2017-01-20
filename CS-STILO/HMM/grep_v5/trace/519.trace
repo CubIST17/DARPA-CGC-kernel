@@ -1,0 +1,17 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-L", "include", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x2506000
+brk(0x25071c0)                          = 0x25071c0
+arch_prctl(ARCH_SET_FS, 0x2506880)      = 0
+brk(0x25281c0)                          = 0x25281c0
+brk(0x2529000)                          = 0x2529000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f94ce267000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+close(3)                                = 0
+close(1)                                = 0
+exit_group(0)                           = ?

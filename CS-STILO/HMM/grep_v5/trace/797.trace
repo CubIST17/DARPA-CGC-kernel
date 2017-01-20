@@ -1,0 +1,43 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-e", "if", "-e", "else", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x1834000
+brk(0x18351c0)                          = 0x18351c0
+arch_prctl(ARCH_SET_FS, 0x1834880)      = 0
+brk(0x18561c0)                          = 0x18561c0
+brk(0x1857000)                          = 0x1857000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f8b4f8ca000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8b4f8c9000
+write(1, "   This program is free software"..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, "!defined(const) && IN_GCC\n#endif"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, " ctype\n#if ! defined (isascii) |"..., 4096) = 4096
+write(1, " (bufp->allocated == 0)\n      if"..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "               if (upper_bound <"..., 4096) = 4096
+write(1, "total_size)\n  if (bufp->used > 0"..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "active_reg == NO_LOWEST_ACTIVE_R"..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "SLATE[S2] are identical for LEN\n"..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "..:]\n\t      if (c == '[' && (syn"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "f (PREV_NEWLINE_DEPENDENT(d->sta"..., 4096) = 4096
+write(1, "ight);\n      ifree(mp[i].is);\n  "..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, "This program is free software; y"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "eg[len] != '\\n')\n      else if ("..., 833) = 833
+close(1)                                = 0
+munmap(0x7f8b4f8c9000, 4096)            = 0
+exit_group(0)                           = ?

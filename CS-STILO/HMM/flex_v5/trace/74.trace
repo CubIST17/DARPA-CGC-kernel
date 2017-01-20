@@ -1,0 +1,33 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-d", "-Craem", "../inputs/in.exp"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x1c56000
+brk(0x1c571c0)                          = 0x1c571c0
+arch_prctl(ARCH_SET_FS, 0x1c56880)      = 0
+brk(0x1c781c0)                          = 0x1c781c0
+brk(0x1c79000)                          = 0x1c79000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.exp", O_RDONLY)      = 4
+brk(0x1c9a000)                          = 0x1c9a000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff6c2b0738) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=290, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f75fbfb7000
+read(4, "%%\n(r)\t\tprintf(\"Match an r: %s\\n"..., 8192) = 290
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f75fbfb6000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff6c2b06f8) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, "       1,    1,    1,    1,    1"..., 4096) = 4096
+write(1, "TRLEN\nstatic int yy_flex_strlen "..., 4096) = 4096
+write(1, "pt[yy_current_state];\n\t\tif ( yy_"..., 4096) = 4096
+write(1, "{\n\t\t\t\tyy_cp = yy_c_buf_p;\n\t\t\t\tgo"..., 4096) = 4096
+write(1, "nt_buffer->yy_n_chars = yy_n_cha"..., 4096) = 4096
+write(1, "pens because yy_g_n_b()\n\t\t\t\t\t * "..., 4096) = 4096
+write(1, "m in that state.\n\t */\n\tb->yy_ch_"..., 4096) = 4096
+write(1, "[i];\n\t}\n#endif\n\n#ifdef YY_NEED_S"..., 1200) = 1200
+exit_group(0)                           = ?

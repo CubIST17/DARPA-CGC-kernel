@@ -1,0 +1,12 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-V", "../inputs/in.reject"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x1637000
+brk(0x16381c0)                          = 0x16381c0
+arch_prctl(ARCH_SET_FS, 0x1637880)      = 0
+brk(0x16591c0)                          = 0x16591c0
+brk(0x165a000)                          = 0x165a000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7d261ce000
+write(1, "Executable version 2.5.4\n", 25) = 25
+exit_group(0)                           = ?

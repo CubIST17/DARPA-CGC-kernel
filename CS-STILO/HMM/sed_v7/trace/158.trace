@@ -1,0 +1,37 @@
+execve("../source/sed.exe.static", ["../source/sed.exe.static", "-f", "../inputs/scr/s158_0.sed", "../inputs/default.in"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0xd41000
+brk(0xd421c0)                           = 0xd421c0
+arch_prctl(ARCH_SET_FS, 0xd41880)       = 0
+brk(0xd631c0)                           = 0xd631c0
+brk(0xd64000)                           = 0xd64000
+open("../inputs/scr/s158_0.sed", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=134, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7ce5d61000
+read(3, "#n\n\n#s/d and change\n\n/white/!{\n "..., 4096) = 134
+lseek(3, 0, SEEK_CUR)                   = 134
+open("s158_0.wout", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f7ce5d61000, 4096)            = 0
+open("../inputs/default.in", O_RDONLY)  = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1741, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7ce5d61000
+read(3, "..@ A BLACK AND WHITE POEM\n\ni se"..., 4096) = 1741
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7ce5d60000
+fstat(4, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7ce5d5f000
+write(4, "black and WHITE\n", 16)       = 16
+write(4, "black and WHITE\n", 16)       = 16
+write(4, "but count WHITE\n", 16)       = 16
+write(4, "black and WHITE\n", 16)       = 16
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f7ce5d61000, 4096)            = 0
+close(4)                                = 0
+munmap(0x7f7ce5d5f000, 4096)            = 0
+write(1, "        ---CHANGED A LINE---\n   "..., 3254) = 3254
+close(1)                                = 0
+munmap(0x7f7ce5d60000, 4096)            = 0
+exit_group(4)                           = ?

@@ -1,0 +1,37 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-df", "../inputs/in.closure"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x1ee4000
+brk(0x1ee51c0)                          = 0x1ee51c0
+arch_prctl(ARCH_SET_FS, 0x1ee4880)      = 0
+brk(0x1f061c0)                          = 0x1f061c0
+brk(0x1f07000)                          = 0x1f07000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.closure", O_RDONLY)  = 4
+brk(0x1f28000)                          = 0x1f28000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffa59303f8) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=274, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0871c36000
+read(4, "%%\n\nr*\t\tprintf(\"Zero or more r's"..., 8192) = 274
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0871c35000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffa59303b8) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, "0,    0,    0,    0,    0\n    },"..., 4096) = 4096
+write(1, "   -5,   -5,   -5,   -5,   -5,  "..., 4096) = 4096
+write(1, "-10,  -10,  -10,  -10,  -10,  -1"..., 4096) = 4096
+write(1, "-15,\n      -15,  -15,  -15,  -15"..., 4096) = 4096
+write(1, "0,  -20,  -20,\n      -20,  -20, "..., 4096) = 4096
+write(1, "0,    0,    0,    0,    0,    0,"..., 4096) = 4096
+write(1, "er( yyin, YY_BUF_SIZE );\n\n\t\tyy_l"..., 4096) = 4096
+write(1, "\t\t\tif ( yy_next_state )\n\t\t\t\t{\n\t\t"..., 4096) = 4096
+write(1, "_to_read = YY_READ_BUF_SIZE;\n\n\t\t"..., 4096) = 4096
+write(1, "\n\t\t\t\t\t/* Reset buffer status. */"..., 4096) = 4096
+write(1, "*base, yy_size_t size )\n#else\nYY"..., 4096) = 4096
+write(1, "y_size_t size;\n#endif\n\t{\n\treturn"..., 857) = 857
+exit_group(0)                           = ?

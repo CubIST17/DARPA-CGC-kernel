@@ -1,0 +1,182 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-vin", "include", "../inputs/grep0.dat", "../inputs/grep1.dat", "../inputs/grepNull.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x2033000
+brk(0x20341c0)                          = 0x20341c0
+arch_prctl(ARCH_SET_FS, 0x2033880)      = 0
+brk(0x20551c0)                          = 0x20551c0
+brk(0x2056000)                          = 0x2056000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f3d4c172000
+close(3)                                = 0
+open("../inputs/grep0.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=297, ...}) = 0
+read(3, "Before an alternative\nstore_op2 "..., 32768) = 297
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3d4c171000
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+write(1, "../inputs/grep0.dat:1:Before an "..., 4096) = 4096
+write(1, " ANSI features if necessary. */\n"..., 4096) = 4096
+write(1, "187:  if (size && !result)\n../in"..., 4096) = 4096
+write(1, " cc;\n../inputs/grep1.dat:274:#if"..., 4096) = 4096
+write(1, "mbers. */\n../inputs/grep1.dat:35"..., 4096) = 4096
+write(1, "ing context crap. */\n../inputs/g"..., 4096) = 4096
+write(1, "grep1.dat:538:  totalnl = 0;\n../"..., 4096) = 4096
+write(1, "rep1.dat:633:  extern int optind"..., 4096) = 4096
+write(1, "(keys, keyalloc);\n../inputs/grep"..., 4096) = 4096
+write(1, "intf(\"%s:\", filename);\n../inputs"..., 4096) = 4096
+write(1, "inputs/grep1.dat:903:/* This tel"..., 4096) = 4096
+write(1, "1.dat:975:\n../inputs/grep1.dat:9"..., 4096) = 4096
+write(1, "efine\tmy_bcopy(src, dst, n)\tmemc"..., 4096) = 4096
+write(1, "is element\n../inputs/grep1.dat:1"..., 4096) = 4096
+write(1, "onst struct option *longopts;\n.."..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, "we have done all the ARGV-elemen"..., 4096) = 4096
+write(1, "/inputs/grep1.dat:1341:\t  nextch"..., 4096) = 4096
+write(1, "/grep1.dat:1424:\n../inputs/grep1"..., 4096) = 4096
+write(1, " const char *optstring;\n../input"..., 4096) = 4096
+write(1, ".dat:1603:\n../inputs/grep1.dat:1"..., 4096) = 4096
+write(1, "void\n../inputs/grep1.dat:1700:in"..., 4096) = 4096
+write(1, "   machines, compilers, `char' a"..., 4096) = 4096
+write(1, "efine STREQ(s1, s2) ((strcmp (s1"..., 4096) = 4096
+write(1, "1914:        /* Fail unless at b"..., 4096) = 4096
+write(1, "*/\n../inputs/grep1.dat:1982:  wo"..., 4096) = 4096
+write(1, "t_number_and_incr (destination, "..., 4096) = 4096
+write(1, " *start;\n../inputs/grep1.dat:214"..., 4096) = 4096
+write(1, "/grep1.dat:2234:\t  break;\n../inp"..., 4096) = 4096
+write(1, "case wordend:\n../inputs/grep1.da"..., 4096) = 4096
+write(1, "uts/grep1.dat:2404:  unsigned th"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "2478:    \"Invalid preceding regu"..., 4096) = 4096
+write(1, "ts/grep1.dat:2547:/* As with BUF"..., 4096) = 4096
+write(1, "2611:/* Since we have one byte r"..., 4096) = 4096
+write(1, "./inputs/grep1.dat:2685:    || S"..., 4096) = 4096
+write(1, "forward jump should go to the en"..., 4096) = 4096
+write(1, "at:2826:          {\n../inputs/gr"..., 4096) = 4096
+write(1, "LUS_QM  &&  c == '\\\\')\n../inputs"..., 4096) = 4096
+write(1, "      /* We've added more stuff "..., 4096) = 4096
+write(1, "nputs/grep1.dat:3031:           "..., 4096) = 4096
+write(1, ".dat:3095:                      "..., 4096) = 4096
+write(1, "+;\n../inputs/grep1.dat:3150:    "..., 4096) = 4096
+write(1, "230:                  if (compil"..., 4096) = 4096
+write(1, "T_PAREN_ORD)\n../inputs/grep1.dat"..., 4096) = 4096
+write(1, ") alternative's such jump, etc.)"..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "\n../inputs/grep1.dat:3417:      "..., 4096) = 4096
+write(1, "ber_at' (inserted next),\n../inpu"..., 4096) = 4096
+write(1, "t:3534:               p = beg_in"..., 4096) = 4096
+write(1, "tack, c1))\n../inputs/grep1.dat:3"..., 4096) = 4096
+write(1, "t:3695:      print_compiled_patt"..., 4096) = 4096
+write(1, "fter a subexpression?  */\n../inp"..., 4096) = 4096
+write(1, "he pattern character\n../inputs/g"..., 4096) = 4096
+write(1, "\t\t\t\t\t\t\t\t\t\\\n../inputs/grep1.dat:3"..., 4096) = 4096
+write(1, "\t\t\t\t\t\\\n../inputs/grep1.dat:3998:"..., 4096) = 4096
+write(1, "056:    DEBUG_PRINT2 (\"  Pushing"..., 4096) = 4096
+write(1, "f the saved string location is N"..., 4096) = 4096
+write(1, "nsigned char *pattern = bufp->bu"..., 4096) = 4096
+write(1, "tmap[j] = 1;\n../inputs/grep1.dat"..., 4096) = 4096
+write(1, "ng.  Opcode jumped to should be\n"..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "puts/grep1.dat:4429:        } /*"..., 4096) = 4096
+write(1, "4501:   STARTPOS, then at STARTP"..., 4096) = 4096
+write(1, "forwards.  */\n../inputs/grep1.da"..., 4096) = 4096
+write(1, " in separate\n../inputs/grep1.dat"..., 4096) = 4096
+write(1, "= end_match_2;\t\t\t\t\t\t\\\n../inputs/"..., 4096) = 4096
+write(1, "har *string;\n../inputs/grep1.dat"..., 4096) = 4096
+write(1, "ll the registers internally, ind"..., 4096) = 4096
+write(1, "pushed = 0; \t\n../inputs/grep1.da"..., 4096) = 4096
+write(1, "tring1 = 0;\n../inputs/grep1.dat:"..., 4096) = 4096
+write(1, " DEBUG_PRINT1 (\"\\nSAVING match a"..., 4096) = 4096
+write(1, " regs->num_regs, regoff_t);\n../i"..., 4096) = 4096
+write(1, "      switch ((re_opcode_t) *p++"..., 4096) = 4096
+write(1, "9:\t  }\n../inputs/grep1.dat:5250:"..., 4096) = 4096
+write(1, "*/\n../inputs/grep1.dat:5308:    "..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "rue;\n../inputs/grep1.dat:5369:  "..., 4096) = 4096
+write(1, ":        case duplicate:\n../inpu"..., 4096) = 4096
+write(1, "      else if (d[-1] == '\\n' && "..., 4096) = 4096
+write(1, ":5572:           Each alternativ"..., 4096) = 4096
+write(1, " the beginning of the repeat wit"..., 4096) = 4096
+write(1, "at:5692:                        "..., 4096) = 4096
+write(1, "      DEBUG_PRINT1 (\"EXECUTING d"..., 4096) = 4096
+write(1, "/inputs/grep1.dat:5822:\t    STOR"..., 4096) = 4096
+write(1, ":\t  if (SYNTAX (*d++) == (enum s"..., 4096) = 4096
+write(1, "/grep1.dat:5978:        }\n../inp"..., 4096) = 4096
+write(1, "       while ((re_opcode_t) p1[m"..., 4096) = 4096
+write(1, ":6120:  \n../inputs/grep1.dat:612"..., 4096) = 4096
+write(1, "inputs/grep1.dat:6205:      EXTR"..., 4096) = 4096
+write(1, "    \n../inputs/grep1.dat:6288:\f\n"..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "grep1.dat:6366:\n../inputs/grep1."..., 4096) = 4096
+write(1, " unmatched open-group and an\n../"..., 4096) = 4096
+write(1, "nputs/grep1.dat:6512:      free "..., 4096) = 4096
+write(1, "./inputs/grep1.dat:6600:\n../inpu"..., 4096) = 4096
+write(1, " ISSPACE(C) isspace(C)\n../inputs"..., 4096) = 4096
+write(1, "PLUS: s = \"PLUS\"; break;\n../inpu"..., 4096) = 4096
+write(1, "\n../inputs/grep1.dat:6880:}\n../i"..., 4096) = 4096
+write(1, " is_print,\n../inputs/grep1.dat:6"..., 4096) = 4096
+write(1, "nputs/grep1.dat:7043:\t    return"..., 4096) = 4096
+write(1, "at:7128:\t    dfaerror(\"malformed"..., 4096) = 4096
+write(1, "at(prednames[c1].name))\n../input"..., 4096) = 4096
+write(1, " the real stack later on in\n../i"..., 4096) = 4096
+write(1, "s1;\n../inputs/grep1.dat:7394:\n.."..., 4096) = 4096
+write(1, "t:7494:  dfa = d;\n../inputs/grep"..., 4096) = 4096
+write(1, "uts/grep1.dat:7582:      {\n../in"..., 4096) = 4096
+write(1, "/inputs/grep1.dat:7659:\t    || S"..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, ":7739:      }\n../inputs/grep1.da"..., 4096) = 4096
+write(1, "puts/grep1.dat:7794:   scheme; t"..., 4096) = 4096
+write(1, "index], &merged);\n../inputs/grep"..., 4096) = 4096
+write(1, " nullable. */\n../inputs/grep1.da"..., 4096) = 4096
+write(1, "p1.dat:8015:  d->salloc = 1;\n../"..., 4096) = 4096
+write(1, "./inputs/grep1.dat:8077:  positi"..., 4096) = 4096
+write(1, "uts/grep1.dat:8146:\t     matches"..., 4096) = 4096
+write(1, "8219:\tstate_newline = state;\n../"..., 4096) = 4096
+write(1, "i < ngrps; ++i)\n../inputs/grep1."..., 4096) = 4096
+write(1, "../inputs/grep1.dat:8370:\t    d-"..., 4096) = 4096
+write(1, "/grep1.dat:8445:\n../inputs/grep1"..., 4096) = 4096
+write(1, "inputs/grep1.dat:8540:      char"..., 4096) = 4096
+write(1, "ust constitute the match (\"is\")\n"..., 4096) = 4096
+write(1, "t:8688:     char *old;\n../inputs"..., 4096) = 4096
+write(1, "s/grep1.dat:8786:\t  break;\n../in"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "inputs/grep1.dat:8878:\t  if (tem"..., 4096) = 4096
+write(1, "ep1.dat:8973:\t  resetmust(mp);\n."..., 4096) = 4096
+write(1, "inputs/grep1.dat:9058:\t\tfree(tp)"..., 4096) = 4096
+write(1, "p[i].right);\n../inputs/grep1.dat"..., 4096) = 4096
+write(1, "grep1.dat:9229:#define obstack_c"..., 4096) = 4096
+write(1, " kwset->mind = INT_MAX;\n../input"..., 4096) = 4096
+write(1, ".dat:9377:\t    links[depth]->lli"..., 4096) = 4096
+write(1, "at:9455:    kwset->maxd = trie->"..., 4096) = 4096
+write(1, "\n../inputs/grep1.dat:9541:    if"..., 4096) = 4096
+write(1, "dat:9614:\t  /* Enqueue the immed"..., 4096) = 4096
+write(1, ":     char *text;\n../inputs/grep"..., 4096) = 4096
+write(1, "atch;\n../inputs/grep1.dat:9775:{"..., 4096) = 4096
+write(1, "rep1.dat:9865:  lmch = 0;\n../inp"..., 4096) = 4096
+write(1, "1.dat:9954:}\n../inputs/grep1.dat"..., 4096) = 4096
+write(1, "ck into this global variable\n../"..., 4096) = 4096
+write(1, "r *) chunk + h->chunk_size;\n../i"..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, "ength) + (obj_size >> 3) + 100;\n"..., 4096) = 4096
+write(1, "ree objects in obstack H, includ"..., 4096) = 4096
+write(1, "at:10304:\f\n../inputs/grep1.dat:1"..., 4096) = 4096
+write(1, "ruct obstack *obstack;\n../inputs"..., 4096) = 4096
+write(1, ":10477:#endif\n../inputs/grep1.da"..., 4096) = 4096
+write(1, "R(i);\n../inputs/grep1.dat:10564:"..., 4096) = 4096
+write(1, "rep1.dat:10642:      if (match_l"..., 4096) = 4096
+write(1, "_1, 1);\n../inputs/grep1.dat:1072"..., 4096) = 4096
+write(1, "ght be valid at a given\n../input"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+open("../inputs/grepNull.dat", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "s/grep1.dat:10890:\tfor (try = be"..., 3085) = 3085
+close(1)                                = 0
+munmap(0x7f3d4c171000, 4096)            = 0
+exit_group(0)                           = ?

@@ -1,0 +1,1 @@
+g++ -std=c++0x -o example example.cc -lparseAPI -linstructionAPI -lsymtabAPI -lsymLite -ldynDwarf -ldynElf -lcommon -lelf -ldwarf

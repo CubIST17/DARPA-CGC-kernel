@@ -1,0 +1,39 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", ">", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x14d1000
+brk(0x14d21c0)                          = 0x14d21c0
+arch_prctl(ARCH_SET_FS, 0x14d1880)      = 0
+brk(0x14f31c0)                          = 0x14f31c0
+brk(0x14f4000)                          = 0x14f4000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fad7ace3000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fad7ace2000
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "#include <errno.h>\n#include <std"..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "int) b[-1] > 0 && b[b[-1] - 1] ="..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "      || (same_str_p && d > matc"..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "ndex) >= (nalloc))\t\t  \\\n/* Find "..., 4096) = 4096
+write(1, "s += d->nleaves;\n  MALLOC(nlastp"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "loc] = NULL;\n\t    d->fails[oldal"..., 4096) = 4096
+write(1, "     mp->in = enlist(mp->in, mp-"..., 4096) = 4096
+write(1, "e->label] = tree->trie;\n  if (kw"..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "unk_size);\n  h->next_free = h->o"..., 2549) = 2549
+close(1)                                = 0
+munmap(0x7fad7ace2000, 4096)            = 0
+exit_group(0)                           = ?

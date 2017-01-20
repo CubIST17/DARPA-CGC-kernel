@@ -1,0 +1,13 @@
+execve("../source/sed.exe.static", ["../source/sed.exe.static", "--version", "../inputs/default.in"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x24bf000
+brk(0x24c01c0)                          = 0x24c01c0
+arch_prctl(ARCH_SET_FS, 0x24bf880)      = 0
+brk(0x24e11c0)                          = 0x24e11c0
+brk(0x24e2000)                          = 0x24e2000
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f69b2fed000
+write(1, "GNU sed version sir-default\nCopy"..., 261) = 261
+close(1)                                = 0
+munmap(0x7f69b2fed000, 4096)            = 0
+exit_group(4)                           = ?

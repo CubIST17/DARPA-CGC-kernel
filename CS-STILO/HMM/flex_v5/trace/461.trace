@@ -1,0 +1,32 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-Cae", "../inputs/in.ch"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0xbbc000
+brk(0xbbd1c0)                           = 0xbbd1c0
+arch_prctl(ARCH_SET_FS, 0xbbc880)       = 0
+brk(0xbde1c0)                           = 0xbde1c0
+brk(0xbdf000)                           = 0xbdf000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.ch", O_RDONLY)       = 4
+brk(0xc00000)                           = 0xc00000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff2069e2b8) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=357, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fded0f05000
+read(4, "%%\n\nxyz\"++\"\t\tprintf(\"Match chara"..., 8192) = 357
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fded0f04000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff2069e278) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, "   1,    2,\n        1,    1,    "..., 4096) = 4096
+write(1, "\n#ifndef YY_NO_TOP_STATE\nstatic "..., 4096) = 4096
+write(1, "of action switch */\n\t\t\tcase 0: /"..., 4096) = 4096
+write(1, "_buffer->yy_ch_buf[yy_n_chars];\n"..., 4096) = 4096
+write(1, "\t\tyy_last_accepting_cpos = yy_cp"..., 4096) = 4096
+write(1, "er )\n#else\nvoid yy_switch_to_buf"..., 4096) = 4096
+write(1, "TATE yy_scan_string( yy_str )\nyy"..., 4028) = 4028
+exit_group(0)                           = ?

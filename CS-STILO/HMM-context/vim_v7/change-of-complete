@@ -1,0 +1,17 @@
+__fxstat64	__fxstat64
+_xstat		__xstat
+__brk		brk
+uname		__uname
+mmap		mmap64
+chdir		__chdir
+__sigprocmask	sigprocmask
+munmap		__munmap
+select		__select_nocancel
+__connect_internal	connect@__connect_nocancel
+__getpid		getpid
+nanosleep	__nanosleep_nocancel
+llseek		__lseek_nocancel
+__openat64_nocancel	__openat_nocancel
+__getdents	__getdents64
+__libc_fsync		__fsync_nocancel
+rmdir		__rmdir

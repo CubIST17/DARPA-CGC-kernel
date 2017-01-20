@@ -1,0 +1,107 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-G", "[[:print:]]", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x2626000
+brk(0x26271c0)                          = 0x26271c0
+arch_prctl(ARCH_SET_FS, 0x2626880)      = 0
+brk(0x26481c0)                          = 0x26481c0
+brk(0x2649000)                          = 0x2649000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fa05805c000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa05805b000
+write(1, "/* grep.c - main driver file for"..., 4096) = 4096
+write(1, "ary and multiples of the\n   page"..., 4096) = 4096
+write(1, "xt. */\nstatic int out_after;\t\t/*"..., 4096) = 4096
+write(1, "ines += grepbuf(beg, lim);\n\t  if"..., 4096) = 4096
+write(1, " case 'n':\n\tout_line = 1;\n\tbreak"..., 4096) = 4096
+write(1, "es for getopt.  */\n#if flag_stdl"..., 4096) = 4096
+write(1, " special magic macros that don't"..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, "-element.\n   When `getopt' finds"..., 4096) = 4096
+write(1, ";\n      char *s = nextchar;\n    "..., 4096) = 4096
+write(1, "e if (optind == argc)\n\t      {\n\t"..., 4096) = 4096
+write(1, "lag_stdlib==0 \n#include <stdlib."..., 4096) = 4096
+write(1, "ot HAVE_ALLOCA_H */ \n#endif /* n"..., 4096) = 4096
+write(1, " position when executed.  */\n  o"..., 4096) = 4096
+write(1, "TRACT_MACROS\n#undef EXTRACT_NUMB"..., 4096) = 4096
+write(1, "rintf (\"/on_failure_keep_string_"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, ")\n#define DEBUG_PRINT3(x1, x2, x"..., 4096) = 4096
+write(1, "#define BUF_PUSH_3(c1, c2, c3)\t\t"..., 4096) = 4096
+write(1, " = num * 10 + c - '0'; \t\t\t\t\t\\\n  "..., 4096) = 4096
+write(1, "return an error, the pattern\n   "..., 4096) = 4096
+write(1, "pattern.  */\n            if (!la"..., 4096) = 4096
+write(1, " {\n                if (p == pend"..., 4096) = 4096
+write(1, "             PATFETCH (c);\t\t\t\t\t\n"..., 4096) = 4096
+write(1, "st one we can\n                 r"..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "st that\n                 jump so"..., 4096) = 4096
+write(1, "   b += 3;\n                   }\n"..., 4096) = 4096
+write(1, "slash;\n                 }\n      "..., 4096) = 4096
+write(1, "r *loc;\n    int arg;\n{\n  *loc = "..., 4096) = 4096
+write(1, " *) p)[0];\n  /* Have to incremen"..., 4096) = 4096
+write(1, " Requires variables fail_stack, "..., 4096) = 4096
+write(1, "ut overflowing it.  */\n#define R"..., 4096) = 4096
+write(1, "get only if a particular path do"..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "+;\n          EXTRACT_NUMBER_AND_"..., 4096) = 4096
+write(1, "POS, then at STARTPOS + 1, and s"..., 4096) = 4096
+write(1, "              common_op_match_nu"..., 4096) = 4096
+write(1, "\t\t\t\t\t\\\n    FREE_VAR (reg_info);\t"..., 4096) = 4096
+write(1, "regstart pointer points to where"..., 4096) = 4096
+write(1, "for (mcnt = 1; mcnt < num_regs; "..., 4096) = 4096
+write(1, "= best_regend[mcnt];\n\t\t    }\n   "..., 4096) = 4096
+write(1, "          DEBUG_PRINT1 (\"EXECUTI"..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "TING stop_memory %d (%d):\\n\", *p"..., 4096) = 4096
+write(1, "(b*)*)*'\n                     ag"..., 4096) = 4096
+write(1, "    \n          /* We have to ``p"..., 4096) = 4096
+write(1, "ctive_reg = *(p1 + 1);\n         "..., 4096) = 4096
+write(1, "since lowest will == highest in\n"..., 4096) = 4096
+write(1, "dbound:\n          DEBUG_PRINT1 ("..., 4096) = 4096
+write(1, "ching at this starting point rea"..., 4096) = 4096
+write(1, "        }\n    } /* while p1 < en"..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "  /* And GNU code determines whe"..., 4096) = 4096
+write(1, "lse\n    preg->translate = NULL;\n"..., 4096) = 4096
+write(1, "ize - 1);\n          errbuf[errbu"..., 4096) = 4096
+write(1, "IF_NECESSARY(p, t, nalloc, index"..., 4096) = 4096
+write(1, "mes of the Posix named character"..., 4096) = 4096
+write(1, "  else\n\t    maxrep = minrep;\n\t  "..., 4096) = 4096
+write(1, "ions.  This is\n\t\t\t\t   used to de"..., 4096) = 4096
+write(1, "sition in a set.  Position sets "..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "ropriate\n   constraint.  Repeat "..., 4096) = 4096
+write(1, " number of elements in each set "..., 4096) = 4096
+write(1, "ble[-2] = nullable[-1] || nullab"..., 4096) = 4096
+write(1, "nd having the same positions as "..., 4096) = 4096
+write(1, "   }\n\t  /* If there were leftove"..., 4096) = 4096
+write(1, "d it\n   is a non-accepting state"..., 4096) = 4096
+write(1, "sbit[i] = 4;\n\telse if (ISALNUM(i"..., 4096) = 4096
+write(1, "find is returned in\n   d->must ("..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "ings, return a pointer to an all"..., 4096) = 4096
+write(1, " if (new == NULL)\n\t      goto do"..., 4096) = 4096
+write(1, "m implemented by these routines "..., 4096) = 4096
+write(1, ";\n  struct tree *links[12];\n  en"..., 4096) = 4096
+write(1, "t);\n  (*last) = (*last)->next = "..., 4096) = 4096
+write(1, "ta table for the descendents of "..., 4096) = 4096
+write(1, "gned char c, *delta;\n  register "..., 4096) = 4096
+write(1, " your option) any\nlater version."..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, "t_mask = alignment - 1;\n  h->use"..., 4096) = 4096
+write(1, " here for debugging.\n   If you u"..., 4096) = 4096
+write(1, "pointer;\n     int length;\n{\n  ob"..., 4096) = 4096
+write(1, "fa dfa_1;\n/* Regex compiled rege"..., 4096) = 4096
+write(1, "] is locale-dependent!  */\n     "..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "e; ++beg)\n    {\n      if (!(beg "..., 1429) = 1429
+close(1)                                = 0
+munmap(0x7fa05805b000, 4096)            = 0
+exit_group(0)                           = ?

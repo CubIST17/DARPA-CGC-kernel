@@ -1,0 +1,124 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-vbh", "include", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x1789000
+brk(0x178a1c0)                          = 0x178a1c0
+arch_prctl(ARCH_SET_FS, 0x1789880)      = 0
+brk(0x17ab1c0)                          = 0x17ab1c0
+brk(0x17ac000)                          = 0x17ac000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f47c4e2b000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f47c4e2a000
+write(1, "0:/* grep.c - main driver file f"..., 4096) = 4096
+write(1, "sult;\n3581:}\n3583:\n3584:/* Inter"..., 4096) = 4096
+write(1, "error(errno));\n7053:\t  goto tryr"..., 4096) = 4096
+write(1, "ore || out_after) && used && p !"..., 4096) = 4096
+write(1, "v)\n13501:     int argc;\n13516:  "..., 4096) = 4096
+write(1, "1;\n16691:\tbreak;\n16699:      def"..., 4096) = 4096
+write(1, "brary).  Rather than having ever"..., 4096) = 4096
+write(1, "rder, even with programs that we"..., 4096) = 4096
+write(1, "it returns that character,\n27264"..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, "3:\t    exchange ((char **) argv)"..., 4096) = 4096
+write(1, "64:\t      if (pfound->has_arg)\n3"..., 4096) = 4096
+write(1, "\t  }\n37352:\t\toptopt = c;\n37366:\t"..., 4096) = 4096
+write(1, "ar as I know, and neither of the"..., 4096) = 4096
+write(1, "ison and Steele.  */\n44126:#defi"..., 4096) = 4096
+write(1, "47603:  charset_not,\n47618:\n4761"..., 4096) = 4096
+write(1, " word beginning.  */\n51245:  wor"..., 4096) = 4096
+write(1, "DOUBLE_STRING(w, s1, sz1, s2, sz"..., 4096) = 4096
+write(1, "t, &p);\n57835:  \t  printf (\"/dum"..., 4096) = 4096
+write(1, "1088:\n61089:void\n61094:print_dou"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "_RAW(c)\t\t\t\t\t\t\t\\\n64541:  do {if ("..., 4096) = 4096
+write(1, "\t\t\t\t\t\\\n68046:          fixup_alt"..., 4096) = 4096
+write(1, "e;\n71496:     reg_syntax_t synta"..., 4096) = 4096
+write(1, "4982:        }\n74992:      if (!"..., 4096) = 4096
+write(1, "not zero matches is allowed\n7841"..., 4096) = 4096
+write(1, "        BUF_PUSH ((1 << BYTEWIDT"..., 4096) = 4096
+write(1, "                  int ch;\n85509:"..., 4096) = 4096
+write(1, "le_interval;\n89016:           el"..., 4096) = 4096
+write(1, "1:              assert (compile_"..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "and it's not the open-interval \n"..., 4096) = 4096
+write(1, "            GET_BUFFER_SPACE (nb"..., 4096) = 4096
+write(1, "    break;\n103234:\n103235:      "..., 4096) = 4096
+write(1, "rough the pattern now.  */\n10646"..., 4096) = 4096
+write(1, "COMPILE_STACK's elements and \n10"..., 4096) = 4096
+write(1, "ack.size)\n112966:#define FAIL_ST"..., 4096) = 4096
+write(1, "NING_AVAIL_SLOTS < NUM_FAILURE_I"..., 4096) = 4096
+write(1, "on about each subexpression.\n119"..., 4096) = 4096
+write(1, "3331:  register unsigned char *p"..., 4096) = 4096
+write(1, "eak;\n126573:\n126574:\n126575:    "..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "    stack), or quit if no more. "..., 4096) = 4096
+write(1, "1)\n133160:    range = -1 - start"..., 4096) = 4096
+write(1, "fits into\n136500:   the type of "..., 4096) = 4096
+write(1, "VAR (old_regstart);\t\t\t\t\t\t\\\n13992"..., 4096) = 4096
+write(1, "ets discarded and the next next "..., 4096) = 4096
+write(1, "23:      best_regstart = REGEX_T"..., 4096) = 4096
+write(1, ":             longest match, try"..., 4096) = 4096
+write(1, "    }\n153923:              else\n"..., 4096) = 4096
+write(1, "ne or a null.  */\n157324:\tcase a"..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "e the group is operated\n160761: "..., 4096) = 4096
+write(1, "48:              if (mcnt < 0 &&"..., 4096) = 4096
+write(1, ";\n167713:                  \n1677"..., 4096) = 4096
+write(1, "e.)\n171118:\n171119:           Re"..., 4096) = 4096
+write(1, "to `pop_failure_jump'.\\n\");\n1746"..., 4096) = 4096
+write(1, "a failure point, which\n178125:  "..., 4096) = 4096
+write(1, "        && (!WORDCHAR_P (d) || A"..., 4096) = 4096
+write(1, "               if ((is_a_jump_n "..., 4096) = 4096
+write(1, "failure_jump)\n188192:           "..., 4096) = 4096
+write(1, "191413:      if (!ret)\n191429:  "..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "\n194593:    }\n194599:\n194600:  /"..., 4096) = 4096
+write(1, "   }\n197937:  else\n197944:    pr"..., 4096) = 4096
+write(1, "s an invalid error code, then th"..., 4096) = 4096
+write(1, "&& iscntrl(C))\n204588:#else\n2045"..., 4096) = 4096
+write(1, "[i];\n207545:}\n207547:\n207548:sta"..., 4096) = 4096
+write(1, "0717:\n210718:  /* Basic plan: We"..., 4096) = 4096
+write(1, "unt\");\n213898:\t  if (c == ',')\n2"..., 4096) = 4096
+write(1, "H(c1, \"Unbalanced [\");\n217100:\t\t"..., 4096) = 4096
+write(1, "eturn 1 + nsubtoks(tindex - 1);\n"..., 4096) = 4096
+write(1, "ts were inserted into an initial"..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "w labeled with an appropriate\n22"..., 4096) = 4096
+write(1, "54:   that match the empty strin"..., 4096) = 4096
+write(1, "lastpos of the first argument. *"..., 4096) = 4096
+write(1, "s[d->follows[i].elems[j].index])"..., 4096) = 4096
+write(1, "\t\t/* New state. */\n240063:  int "..., 4096) = 4096
+write(1, ":\n243414:      /* If we've passe"..., 4096) = 4096
+write(1, "ps; ++i)\n246733:    free(grps[i]"..., 4096) = 4096
+write(1, "t somewhere valid.  Newline is a"..., 4096) = 4096
+write(1, "] = tolower(s[i]);\n253143:\telse\n"..., 4096) = 4096
+write(1, "  Break ties in favor of infrequ"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, " *lcp;\n259524:  char *rcp;\n25953"..., 4096) = 4096
+write(1, ":\t  if (mp <= musts)\n262500:\t   "..., 4096) = 4096
+write(1, " enlist(mp->in, mp->is, 1);\n2656"..., 4096) = 4096
+write(1, "ink;\t\t/* Right link (to larger l"..., 4096) = 4096
+write(1, "depth++] = L, link = link->llink"..., 4096) = 4096
+write(1, ":     struct trie **last;\n275643"..., 4096) = 4096
+write(1, ");\n278827:      for (i = kwset->"..., 4096) = 4096
+write(1, "xt;\n282182:  if (len > size)\n282"..., 4096) = 4096
+write(1, "\t      if (trie->accepting)\n2852"..., 4096) = 4096
+write(1, "along with this program; if not,"..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, "52:\t\t    + 4 + DEFAULT_ROUNDING "..., 4096) = 4096
+write(1, " extra COPYING_UNIT,\n295345:\t bu"..., 4096) = 4096
+write(1, "limit < obj))\n298706:    {\n29871"..., 4096) = 4096
+write(1, "18:   This program is free softw"..., 4096) = 4096
+write(1, "atch_icase ? trans : (char *) 0)"..., 4096) = 4096
+write(1, "d really count. */\n308421:  if ("..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "= 1;\n311656:\t\t    len = re_match"..., 3592) = 3592
+close(1)                                = 0
+munmap(0x7f47c4e2a000, 4096)            = 0
+exit_group(0)                           = ?

@@ -1,0 +1,42 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-d", "-CF", "../inputs/in.0"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x1ecc000
+brk(0x1ecd1c0)                          = 0x1ecd1c0
+arch_prctl(ARCH_SET_FS, 0x1ecc880)      = 0
+brk(0x1eee1c0)                          = 0x1eee1c0
+brk(0x1eef000)                          = 0x1eef000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.0", O_RDONLY)        = 4
+brk(0x1f10000)                          = 0x1f10000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff0d032a88) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=792, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3abd053000
+read(4, "/* scanner for a toy Pascal-like"..., 8192) = 792
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3abd052000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, " 6, 260 },\n {   7, 260 }, {   8,"..., 4096) = 4096
+write(1, "2,   8 }, {   0,   0 }, {  32,  "..., 4096) = 4096
+write(1, "0,   0 }, {   0,   0 }, {   0,  "..., 4096) = 4096
+write(1, ", 726 }, {  19, 726 },\n {  20, 7"..., 4096) = 4096
+write(1, ",   0 }, {   0,   0 }, {   0,   "..., 4096) = 4096
+write(1, "  0 },\n\n {   0,   0 }, {   0,   "..., 4096) = 4096
+write(1, "   0 }, {   0,   0 }, {   0,   0"..., 4096) = 4096
+write(1, "   0 }, {   0,   0 }, {   0,   0"..., 4096) = 4096
+write(1, " },\n { 108,-1190 }, { 109,-1190 "..., 4096) = 4096
+write(1, "3,-1464 },\n { 114,-1464 }, { 115"..., 4096) = 4096
+write(1, "Y_PROTO(( char *, yyconst char *"..., 4096) = 4096
+write(1, "rent_state += yy_trans_info->yy_"..., 4096) = 4096
+write(1, "f_p;\n\t\t\t\tgoto yy_find_action;\n\t\t"..., 4096) = 4096
+write(1, " = yy_n_chars;\n\t\t}\n\n\tif ( yy_n_c"..., 4096) = 4096
+write(1, "ase EOB_ACT_END_OF_FILE:\n\t\t\t\t\t{\n"..., 4096) = 4096
+write(1, "y_size_t size;\n#endif\n\t{\n\tYY_BUF"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff0d032fb8) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, "c void *yy_flex_realloc( void *p"..., 936) = 936
+exit_group(0)                           = ?

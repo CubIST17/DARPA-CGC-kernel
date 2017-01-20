@@ -1,0 +1,107 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-E", "[[:graph:]]", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0xdc4000
+brk(0xdc51c0)                           = 0xdc51c0
+arch_prctl(ARCH_SET_FS, 0xdc4880)       = 0
+brk(0xde61c0)                           = 0xde61c0
+brk(0xde7000)                           = 0xde7000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fbe1ebcc000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbe1ebcb000
+write(1, "/* grep.c - main driver file for"..., 4096) = 4096
+write(1, "nd multiples of the\n   page size"..., 4096) = 4096
+write(1, "/\nstatic int out_after;\t\t/* Line"..., 4096) = 4096
+write(1, "+= grepbuf(beg, lim);\n\t  if (pen"..., 4096) = 4096
+write(1, " 'n':\n\tout_line = 1;\n\tbreak;\n   "..., 4096) = 4096
+write(1, "r getopt.  */\n#if flag_stdlib==0"..., 4096) = 4096
+write(1, "ial magic macros that don't work"..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, "ent.\n   When `getopt' finds a lo"..., 4096) = 4096
+write(1, "   char *s = nextchar;\n      int"..., 4096) = 4096
+write(1, "(optind == argc)\n\t      {\n\t\tif ("..., 4096) = 4096
+write(1, "tdlib==0 \n#include <stdlib.h>\n#d"..., 4096) = 4096
+write(1, "LLOCA_H */ \n#endif /* not __GNUC"..., 4096) = 4096
+write(1, "hen executed.  */\n  on_failure_k"..., 4096) = 4096
+write(1, "undef EXTRACT_NUMBER_AND_INCR\n#d"..., 4096) = 4096
+write(1, "t - start);\n          break;\n\tca"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "STRING(w, s1, sz1, s2, sz2)\n#end"..., 4096) = 4096
+write(1, "char) (c2);\t\t\t\t\t\\\n    *b++ = (un"..., 4096) = 4096
+write(1, "      } \t\t\t\t\t\t\t\t\\\n    }\t\t\n#defin"..., 4096) = 4096
+write(1, "p->no_sub is set.  */\n  bufp->re"..., 4096) = 4096
+write(1, " */\n            if (many_times_o"..., 4096) = 4096
+write(1, "SCAPE_IN_LISTS) && c == '\\\\')\n  "..., 4096) = 4096
+write(1, "                              ||"..., 4096) = 4096
+write(1, "ry, regnum, 0);\n                "..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "                    _____ _____ "..., 4096) = 4096
+write(1, "             succeed_n <after ju"..., 4096) = 4096
+write(1, "           BUF_PUSH_2 (syntaxspe"..., 4096) = 4096
+write(1, "ree bytes of space at LOC\n   for"..., 4096) = 4096
+write(1, "  (assuming 8-bit characters), w"..., 4096) = 4096
+write(1, "nt this_reg;\t\t\t\t\t\t\t\\\n    \t\t\t\t\t\t\t"..., 4096) = 4096
+write(1, ".\n   Also assumes the variables "..., 4096) = 4096
+write(1, "   if (p == pend)\n        {\n    "..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "  We don't want to push such a p"..., 4096) = 4096
+write(1, " We return either the position i"..., 4096) = 4096
+write(1, "nto something that fits into\n   "..., 4096) = 4096
+write(1, " of\n   NUM_FAILURE_ITEMS above. "..., 4096) = 4096
+write(1, "   register's end.  */\n  const c"..., 4096) = 4096
+write(1, ";\n    }\n  end1 = string1 + size1"..., 4096) = 4096
+write(1, "        regs->end = TALLOC (regs"..., 4096) = 4096
+write(1, "il;\n\t\t}\n\t      while (--mcnt);\n\t"..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "ymore.  */\n          IS_ACTIVE ("..., 4096) = 4096
+write(1, "        EXTRACT_NUMBER_AND_INCR "..., 4096) = 4096
+write(1, "match the \\n against the \\n; if "..., 4096) = 4096
+write(1, " alternative has put on a dummy\n"..., 4096) = 4096
+write(1, "   then gets popped at pop_failu"..., 4096) = 4096
+write(1, "dif /* not emacs19 */\n\tcase synt"..., 4096) = 4096
+write(1, "jump:\n          p1++;\n          "..., 4096) = 4096
+write(1, "pe *reg_info;\n{\n  int mcnt;\n  bo"..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "s.  */\n  re_comp_buf.newline_anc"..., 4096) = 4096
+write(1, "he end.\n   We return 0 if we fin"..., 4096) = 4096
+write(1, "te to the Free Software\n   Found"..., 4096) = 4096
+write(1, "id\ncopyset(src, dst)\n     charcl"..., 4096) = 4096
+write(1, "ar;\n\t  if (syntax_bits & RE_CONT"..., 4096) = 4096
+write(1, "ckslash)\n\t    goto normal_char;\n"..., 4096) = 4096
+write(1, "ENDWORD || tok == LIMWORD || tok"..., 4096) = 4096
+write(1, "elem++] = s1->elems[i++];\n  whil"..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "ee(visited);\n}\n/* Perform bottom"..., 4096) = 4096
+write(1, "sition, d->nleaves);\n  o_lastpos"..., 4096) = 4096
+write(1, "     putc('\\n', stderr);\n    }\n#"..., 4096) = 4096
+write(1, "w state wants to know newline co"..., 4096) = 4096
+write(1, "0].elems.elems[i].constraint))\n\t"..., 4096) = 4096
+write(1, "ccess[s] |= 1;\n  MALLOC(trans, i"..., 4096) = 4096
+write(1, "  MALLOC(d->charclasses, charcla"..., 4096) = 4096
+write(1, "it here or someplace that we mig"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "] = NULL;\n  for (lnum = 0; left["..., 4096) = 4096
+write(1, " (rmp->is[0] == '\\0')\n\t      lmp"..., 4096) = 4096
+write(1, "edges and labels leaving a given"..., 4096) = 4096
+write(1, "nk->trie->links = 0;\n\t  link->tr"..., 4096) = 4096
+write(1, "th;\n}\n/* Return true if A has ev"..., 4096) = 4096
+write(1, ", of the outgoing links\n\t from t"..., 4096) = 4096
+write(1, "\n\t  else\n\t    break;\n\t  d = trie"..., 4096) = 4096
+write(1, "lly smart, it would round addres"..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, " chunkfun;\n  h->freefun = freefu"..., 4096) = 4096
+write(1, "NTER)lp >= obj || (POINTER)(lp)-"..., 4096) = 4096
+write(1, " Software Foundation, Inc.\n   Th"..., 4096) = 4096
+write(1, ")) != 0)\n\t    fatal(err, 0);\n\t}\n"..., 4096) = 4096
+write(1, " (int *) 0, &backref))\n\t    {\n\t "..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "ize;\n  if aout\n          if ag\n "..., 50) = 50
+close(1)                                = 0
+munmap(0x7fbe1ebcb000, 4096)            = 0
+exit_group(0)                           = ?

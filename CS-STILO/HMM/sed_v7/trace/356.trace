@@ -1,0 +1,43 @@
+execve("../source/sed.exe.static", ["../source/sed.exe.static", "-f", "../inputs/scr/s356_0.sed", "../inputs/default.in"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x1ff7000
+brk(0x1ff81c0)                          = 0x1ff81c0
+arch_prctl(ARCH_SET_FS, 0x1ff7880)      = 0
+brk(0x20191c0)                          = 0x20191c0
+brk(0x201a000)                          = 0x201a000
+open("../inputs/scr/s356_0.sed", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=46, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbc129c4000
+read(3, "#lonely write\n\n/\\.\\.@/{\n\tN\n\tw s3"..., 4096) = 46
+open("s356_0.wout", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fbc129c4000, 4096)            = 0
+open("../inputs/default.in", O_RDONLY)  = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1741, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbc129c4000
+read(3, "..@ A BLACK AND WHITE POEM\n\ni se"..., 4096) = 1741
+fstat(4, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbc129c3000
+write(4, "..@ A BLACK AND WHITE POEM\n\n", 28) = 28
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbc129c2000
+write(4, "..@ ON DOGS AND CATS\n\"The Dog an"..., 43) = 43
+write(4, "..@ FUNNY NUMBERS\n\n", 19)   = 19
+write(4, "..@ SILLY BLANK LINES\nThis line "..., 61) = 61
+write(4, "..@ UNIX HAX\nHere are examples o"..., 43) = 43
+write(4, "..@ OPERATOR GUIDE\n\n", 20)  = 20
+write(4, "..@ QUOTED ARGUMENTS\nargv. \"leia"..., 62) = 62
+write(4, "..@ COMPANY LIST\n\n", 18)    = 18
+write(4, "..@ ESCAPE CHARACTERS\n\33 \3 \4\n", 28) = 28
+write(4, "..@ EMPLOYEES\nAdams, Henrietta\tN"..., 41) = 41
+write(4, "..@ FOR MY CHAR CLASSES\nlook sno"..., 51) = 51
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fbc129c4000, 4096)            = 0
+close(4)                                = 0
+munmap(0x7fbc129c3000, 4096)            = 0
+write(1, "..@ A BLACK AND WHITE POEM\n\ni se"..., 1741) = 1741
+close(1)                                = 0
+munmap(0x7fbc129c2000, 4096)            = 0
+exit_group(4)                           = ?

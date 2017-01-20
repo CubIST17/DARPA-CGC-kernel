@@ -1,0 +1,5 @@
+3
+NULL,write@__libc_write,write@__write_nocancel
+0.5	0.25	0.25
+0.25	0.0	0.0
+0.25	0.0	0.0

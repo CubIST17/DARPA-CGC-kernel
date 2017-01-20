@@ -1,0 +1,147 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-nbh", "", "../inputs/grep0.dat", "../inputs/grep1.dat", "../inputs/grepNull.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x1716000
+brk(0x17171c0)                          = 0x17171c0
+arch_prctl(ARCH_SET_FS, 0x1716880)      = 0
+brk(0x17381c0)                          = 0x17381c0
+brk(0x1739000)                          = 0x1739000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7c8bc64000
+close(3)                                = 0
+open("../inputs/grep0.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=297, ...}) = 0
+read(3, "Before an alternative\nstore_op2 "..., 32768) = 297
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7c8bc63000
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+write(1, "1:0:Before an alternative\n2:22:s"..., 4096) = 4096
+write(1, "26:2742:\n127:2743:/* For error m"..., 4096) = 4096
+write(1, "ek(fd, 0, 1);\n260:5647:    }\n261"..., 4096) = 4096
+write(1, "\n367:8767:\n368:8768:static void\n"..., 4096) = 4096
+write(1, "nes += 1;\n509:11517:\t}\n510:11520"..., 4096) = 4096
+write(1, ":\n655:14145:      case '3':\n656:"..., 4096) = 4096
+write(1, "cher)\n791:16885:    matcher = pr"..., 4096) = 4096
+write(1, "779:/* Comment out all this code"..., 4096) = 4096
+write(1, "pt implementation.  */\n996:23044"..., 4096) = 4096
+write(1, "  the new indices of the non-opt"..., 4096) = 4096
+write(1, ".\n1167:29338:   It is only valid"..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, "v[optind][0] != '-' || argv[opti"..., 4096) = 4096
+write(1, "23:\t      return 0;\n1395:35040:\t"..., 4096) = 4096
+write(1, "800:\t\t\t   (const struct option *"..., 4096) = 4096
+write(1, "0522:#include \"syntax.h\"\n1640:40"..., 4096) = 4096
+write(1, "nt (c))\n1763:43268:#define ISDIG"..., 4096) = 4096
+write(1, ")\n1855:46346:#define MIN(a, b) ("..., 4096) = 4096
+write(1, "1:49491:        /* Throw away la"..., 4096) = 4096
+write(1, "tion) += SIGN_EXTEND_CHAR (*((so"..., 4096) = 4096
+write(1, "partial_compiled_pattern (start,"..., 4096) = 4096
+write(1, "lure_jump:\n2269:58185:\t  extract"..., 4096) = 4096
+write(1, "t_bol);\n2390:60947:  printf (\"no"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "_in_compile_stack ();\n2490:63957"..., 4096) = 4096
+write(1, ":67048:\n2580:67049:\n2581:67050:/"..., 4096) = 4096
+write(1, " break; \t\t\t\t\t\t\t\\\n2672:70142:    "..., 4096) = 4096
+write(1, " encountered.  Remembered for th"..., 4096) = 4096
+write(1, " if ((syntax & RE_BK_PLUS_QM)\n28"..., 4096) = 4096
+write(1, "                   incremented `"..., 4096) = 4096
+write(1, "nside [...] and [^...].  */\n3034"..., 4096) = 4096
+write(1, "\");\n3112:85769:                 "..., 4096) = 4096
+write(1, "5:\n3200:88896:\n3201:88897:      "..., 4096) = 4096
+write(1, "dle_alt' case below.  */\n3286:92"..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "in the jump, set\n3360:95342:    "..., 4096) = 4096
+write(1, ";\n3450:98433:                  }"..., 4096) = 4096
+write(1, "ng is getting moved up by 5.\n351"..., 4096) = 4096
+write(1, "p_in_compile_stack (compile_stac"..., 4096) = 4096
+write(1, "420:  STORE_NUMBER (loc + 3, arg"..., 4096) = 4096
+write(1, " set the translation of all bits"..., 4096) = 4096
+write(1, "CATE (INIT_FAILURE_ALLOC * sizeo"..., 4096) = 4096
+write(1, "16290:    /* Ensure we have enou"..., 4096) = 4096
+write(1, "\n4090:119457:#define REMAINING_A"..., 4096) = 4096
+write(1, "le starting points.\n4166:122660:"..., 4096) = 4096
+write(1, " = 0; j < (1 << BYTEWIDTH); j++)"..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "estore it above, entering the sw"..., 4096) = 4096
+write(1, "start = regs->end = (regoff_t) 0"..., 4096) = 4096
+write(1, ":\t    {\n4573:134148:\t      regis"..., 4096) = 4096
+write(1, "670:137071:#define IS_ACTIVE(R) "..., 4096) = 4096
+write(1, "\t\t\t\\\n4757:140129:  } while (0)\n4"..., 4096) = 4096
+write(1, "ings.  If the latter is zero, th"..., 4096) = 4096
+write(1, ":  /* Do not bother to initializ"..., 4096) = 4096
+write(1, "2'.  */\n4998:149528:  if (size1 "..., 4096) = 4096
+write(1, "\n5084:152585:              /* Ha"..., 4096) = 4096
+write(1, "_points_popped);\n5152:155881:   "..., 4096) = 4096
+write(1, "art_memory:\n5258:158700:\t  DEBUG"..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "ds, after the f), the\n5331:16193"..., 4096) = 4096
+write(1, "_info[*p]) = 0;\n5406:165120:    "..., 4096) = 4096
+write(1, ":168140:           `newline_anch"..., 4096) = 4096
+write(1, "     the repetition text and eit"..., 4096) = 4096
+write(1, "ppens when matching \":\\(.*\\)\"\n56"..., 4096) = 4096
+write(1, "4:        case jump:\n5734:177573"..., 4096) = 4096
+write(1, "BUG_PRINT1 (\"EXECUTING set_numbe"..., 4096) = 4096
+write(1, ";\n5925:183454:\t  break;\n5926:183"..., 4096) = 4096
+write(1, "f alternatives.  */\n6022:186404:"..., 4096) = 4096
+write(1, " Similar to group_match_null_str"..., 4096) = 4096
+write(1, "224:192151:\n6225:192152:    defa"..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "*) re_error_msg[(int) ret];\n6332"..., 4096) = 4096
+write(1, "g->newline_anchor = 1;\n6427:1979"..., 4096) = 4096
+write(1, "0821:regerror (errcode, preg, er"..., 4096) = 4096
+write(1, "203587:#if defined(HAVE_STRING_H"..., 4096) = 4096
+write(1, "6133:    fprintf(stderr, \"%c\", t"..., 4096) = 4096
+write(1, "  GNU Regex syntax bits is locat"..., 4096) = 4096
+write(1, "006:211439:\t    return lasttok ="..., 4096) = 4096
+write(1, ":214128:\t      if (c != '\\\\')\n71"..., 4096) = 4096
+write(1, "lexleft;\n7233:216917:\t\t      c2 "..., 4096) = 4096
+write(1, "\n7368:219385:atom()\n7369:219392:"..., 4096) = 4096
+write(1, "(1);\n7508:221805:\n7509:221806:  "..., 4096) = 4096
+write(1, "224499:  letter = letter ? 1 : 0"..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "WORD:\n7724:227406:\t    p.constra"..., 4096) = 4096
+write(1, "30626:void\n7797:230631:dfaanalyz"..., 4096) = 4096
+write(1, "s of a CAT node is the firstpos "..., 4096) = 4096
+write(1, "kens[d->follows[i].elems[j].inde"..., 4096) = 4096
+write(1, "\t/* True if intersect is nonempt"..., 4096) = 4096
+write(1, "  int match = matches[k], label "..., 4096) = 4096
+write(1, "55:245602:\tfor (j = 0; j < follo"..., 4096) = 4096
+write(1, "enough to hold a pointer for the"..., 4096) = 4096
+write(1, "t[*p++];\n8458:251369:\t    if (! "..., 4096) = 4096
+write(1, "3889:      free((ptr_t) d->follo"..., 4096) = 4096
+write(1, "e several issues:\n8675:256966:\n8"..., 4096) = 4096
+write(1, "9477:     char *right;\n8806:2594"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "[i].in[0] = NULL;\n8941:261966:  "..., 4096) = 4096
+write(1, "264587:\t    /* Left-hand */\n9063"..., 4096) = 4096
+write(1, "7:267425:   or (US mail) as Mike"..., 4096) = 4096
+write(1, "e. */\n9266:270342:  int mind2;\t\t"..., 4096) = 4096
+write(1, " 0;\n9372:273164:\t  link->label ="..., 4096) = 4096
+write(1, ":treefails(tree, fail, recourse)"..., 4096) = 4096
+write(1, " just one string.  Extract it fr"..., 4096) = 4096
+write(1, "676:281799:\n9677:281800:  return"..., 4096) = 4096
+write(1, "    goto match;\n9800:284424:    "..., 4096) = 4096
+write(1, " in the referenced location the "..., 4096) = 4096
+write(1, "esort.  */\n10020:289951:#ifndef "..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, "ze == 0)\n10112:292849:    /* Def"..., 4096) = 4096
+write(1, "ct.  */\n10195:295865:  if (h->ob"..., 4096) = 4096
+write(1, "34:      CALL_FREEFUN (h, lp);\n1"..., 4096) = 4096
+write(1, "INTER pointer;\n10403:301360:    "..., 4096) = 4096
+write(1, "3977:\n10516:303978:/* Here is th"..., 4096) = 4096
+write(1, "match_words and match_lines case"..., 4096) = 4096
+write(1, "eg, *end, save;\n10738:309294:  i"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+open("../inputs/grepNull.dat", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, " end + 1 : end;\n10838:312090:  r"..., 3783) = 3783
+close(1)                                = 0
+munmap(0x7f7c8bc63000, 4096)            = 0
+exit_group(0)                           = ?

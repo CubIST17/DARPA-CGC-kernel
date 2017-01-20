@@ -1,0 +1,106 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-G", "[[:space:]]", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x1a4b000
+brk(0x1a4c1c0)                          = 0x1a4c1c0
+arch_prctl(ARCH_SET_FS, 0x1a4b880)      = 0
+brk(0x1a6d1c0)                          = 0x1a6d1c0
+brk(0x1a6e000)                          = 0x1a6e000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fbe8854b000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbe8854a000
+write(1, "/* grep.c - main driver file for"..., 4096) = 4096
+write(1, "\t/* Total buffer size. */\nstatic"..., 4096) = 4096
+write(1, "stout;\t\t/* Pointer after last ch"..., 4096) = 4096
+write(1, " bufbeg - save;\n      if (out_li"..., 4096) = 4096
+write(1, ");\n      }\n    else\n      usage("..., 4096) = 4096
+write(1, "d Unix `getopt'\n   but it behave"..., 4096) = 4096
+write(1, "ar *) str;\n      str++;\n    }\n  "..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, " LONGIND returns the index in LO"..., 4096) = 4096
+write(1, "*/\n\t\tpfound = p;\n\t\tindfound = op"..., 4096) = 4096
+write(1, "ing next ARGV-elt as argument.  "..., 4096) = 4096
+write(1, "ero (re_syntax_table, sizeof re_"..., 4096) = 4096
+write(1, "l.  */\n#define TALLOC(n, t) ((t "..., 4096) = 4096
+write(1, "o-byte address.  */\n  maybe_pop_"..., 4096) = 4096
+write(1, "``must'' be true when debugging."..., 4096) = 4096
+write(1, "  extract_number_and_incr (&mcnt"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "of the various bits\n   defined i"..., 4096) = 4096
+write(1, "oc, (to) - (loc) - 3, b)\n/* Like"..., 4096) = 4096
+write(1, " to SYNTAX.\n   Returns one of er"..., 4096) = 4096
+write(1, "r did not allocate a buffer.  Do"..., 4096) = 4096
+write(1, "p.  This way we only\n           "..., 4096) = 4096
+write(1, "  break;\n                /* Look"..., 4096) = 4096
+write(1, "               || (is_punct  && "..., 4096) = 4096
+write(1, "backslash;\n              if (COM"..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "s which we'll fill in when we ge"..., 4096) = 4096
+write(1, " end of the loop.  */\n          "..., 4096) = 4096
+write(1, "ar);\n              break;\n      "..., 4096) = 4096
+write(1, "e (pfrom != loc)\n    *--pto = *-"..., 4096) = 4096
+write(1, "ons and macros; both re_compile_"..., 4096) = 4096
+write(1, "               size: %d\\n\", (fai"..., 4096) = 4096
+write(1, "\n  const unsigned char *string_t"..., 4096) = 4096
+write(1, "*/\n      assert (p < pend);\n    "..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "astmap entries beyond `pend'.  S"..., 4096) = 4096
+write(1, "ufp;\n     const char *string1, *"..., 4096) = 4096
+write(1, "g,\n         zero if not.  If not"..., 4096) = 4096
+write(1, "YTEWIDTH)\n#define NO_LOWEST_ACTI"..., 4096) = 4096
+write(1, "us tell whether or not we have\n "..., 4096) = 4096
+write(1, "  {\n      end_match_1 = end1;\n  "..., 4096) = 4096
+write(1, " return -2;\n                  bu"..., 4096) = 4096
+write(1, "ibly a newline or a null.  */\n\tc"..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "\n          /* If this was the on"..., 4096) = 4096
+write(1, "d[r] = old_regend[r];\n          "..., 4096) = 4096
+write(1, "g it.  To see why, consider\n    "..., 4096) = 4096
+write(1, "         This is not true in the"..., 4096) = 4096
+write(1, "de so we can detect where altern"..., 4096) = 4096
+write(1, "_dot:\n          DEBUG_PRINT1 (\"E"..., 4096) = 4096
+write(1, "igned char *p1 = *p + 2;\n  \n  wh"..., 4096) = 4096
+write(1, "op_match_null_string_p (&p1, end"..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "buffer = (unsigned char *) mallo"..., 4096) = 4096
+write(1, "d by PREG, in the\n   string STRI"..., 4096) = 4096
+write(1, "lished by\n   the Free Software F"..., 4096) = 4096
+write(1, "ning to charclasses. */\nstatic i"..., 4096) = 4096
+write(1, "FETCH(c, 0);\n      switch (c)\n\t{"..., 4096) = 4096
+write(1, "if (!(syntax_bits & RE_DOT_NEWLI"..., 4096) = 4096
+write(1, "xp(int);\nstatic void regexp();\ns"..., 4096) = 4096
+write(1, "].constraint |= s2->elems[j++].c"..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, ";\n\t  }\n\t/* Force rescan to start"..., 4096) = 4096
+write(1, " int, d->depth);\n  o_nlast = nla"..., 4096) = 4096
+write(1, ".index);\n\t  prtok(d->tokens[last"..., 4096) = 4096
+write(1, "/\n  int wants_newline;\t\t/* New s"..., 4096) = 4096
+write(1, "_NEWLINE_DEPENDENT(d->states[0]."..., 4096) = 4096
+write(1, ",\n      s, *d))\n    d->success[s"..., 4096) = 4096
+write(1, ", charclass, d->calloc);\n  d->ci"..., 4096) = 4096
+write(1, "nder \"optimizations\" such as\n\teg"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "\n\t{\n\t  temp = comsubs(left[lnum]"..., 4096) = 4096
+write(1, "  /* Guaranteed to be */\n\t    if"..., 4096) = 4096
+write(1, "r label;\t\t/* Label on this edge."..., 4096) = 4096
+write(1, "epth]->llink = link;\n\t  else\n\t  "..., 4096) = 4096
+write(1, "    a = a->llink;\n    else\n     "..., 4096) = 4096
+write(1, "Fix things up for any translatio"..., 4096) = 4096
+write(1, " 0;\n  d = 1;\n  while (lim - end "..., 4096) = 4096
+write(1, " ints does not work;\n   in such "..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, "_empty_object = 0;\n/* Allocate a"..., 4096) = 4096
+write(1, "j != 0)\n    /* obj is not in any"..., 4096) = 4096
+write(1, " more details.\n   You should hav"..., 4096) = 4096
+write(1, "    fatal(err, 0);\n  dfainit(&df"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "ans DFA has seen\n\t a probable ma"..., 3449) = 3449
+close(1)                                = 0
+munmap(0x7fbe8854a000, 4096)            = 0
+exit_group(0)                           = ?

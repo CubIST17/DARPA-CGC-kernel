@@ -1,0 +1,71 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-", "--", "12345", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x169d000
+brk(0x169e1c0)                          = 0x169e1c0
+arch_prctl(ARCH_SET_FS, 0x169d880)      = 0
+brk(0x16bf1c0)                          = 0x16bf1c0
+brk(0x16c0000)                          = 0x16c0000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f073db15000
+close(3)                                = 0
+open("12345", O_RDONLY)                 = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f073db14000
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2570
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f073db14000, 4096)            = 0
+open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f073db14000
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+write(1, "target5: 12345: No such file or "..., 4096) = 4096
+write(1, "oduce a\n../inputs/grep1.dat:   l"..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, "ns.\n../inputs/grep1.dat:\t then e"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "ubsequent two-byte number.  The "..., 4096) = 4096
+write(1, "\t\\\n../inputs/grep1.dat:        b"..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, ";\n../inputs/grep1.dat:          "..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "../inputs/grep1.dat:   area as B"..., 4096) = 4096
+write(1, "f no match, -2 if an internal er"..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "uts/grep1.dat:\t      while (--mc"..., 4096) = 4096
+write(1, "  preg->translate = NULL;\n../inp"..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "/grep1.dat:\t  s->elems[i++] = t1"..., 4096) = 4096
+write(1, "(nfirstpos, int, d->depth);\n../i"..., 4096) = 4096
+write(1, "salloc);\n../inputs/grep1.dat:   "..., 4096) = 4096
+write(1, "ep1.dat:    d->fails[s] = trans;"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "e's something we don't recognize"..., 4096) = 4096
+write(1, "grep1.dat:  for (i = 0; i <= dfa"..., 4096) = 4096
+write(1, "     t->llink = l, l->rlink = lr"..., 4096) = 4096
+write(1, " = kwset->trie->next; curr; curr"..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, " trie->shift;\n../inputs/grep1.da"..., 4096) = 4096
+write(1, "  new_chunk->contents[i] = h->ob"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "\t    start = re_search(&regex, b"..., 708) = 708
+close(1)                                = 0
+munmap(0x7f073db14000, 4096)            = 0
+exit_group(2)                           = ?

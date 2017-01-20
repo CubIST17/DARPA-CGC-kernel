@@ -1,0 +1,147 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-vinbh", "include", "../inputs/grep0.dat", "../inputs/grep1.dat", "../inputs/grepNull.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x7e3000
+brk(0x7e41c0)                           = 0x7e41c0
+arch_prctl(ARCH_SET_FS, 0x7e3880)       = 0
+brk(0x8051c0)                           = 0x8051c0
+brk(0x806000)                           = 0x806000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7f4f6fd000
+close(3)                                = 0
+open("../inputs/grep0.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=297, ...}) = 0
+read(3, "Before an alternative\nstore_op2 "..., 32768) = 297
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7f4f6fc000
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+write(1, "1:0:Before an alternative\n2:22:s"..., 4096) = 4096
+write(1, "87:#endif\n139:2994:     char *me"..., 4096) = 4096
+write(1, "73:5967:  int cc;\n274:5977:#if d"..., 4096) = 4096
+write(1, "f(\"%s%c\", filename, sep);\n388:90"..., 4096) = 4096
+write(1, "c int\n527:11785:grep(fd)\n528:117"..., 4096) = 4096
+write(1, "   case 'B':\n671:14448:\tout_befo"..., 4096) = 4096
+write(1, "en(argv[optind], O_RDONLY) : 0;\n"..., 4096) = 4096
+write(1, "(__GNU_LIBRARY__)\n919:20343:\n920"..., 4096) = 4096
+write(1, "RGV as we scan,\n1013:23685:   so"..., 4096) = 4096
+write(1, "6701:\n1113:26702:  first_nonopt "..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, "usly skipped\n1189:29969:     non"..., 4096) = 4096
+write(1, "  || argv[optind][0] == '+'\n1299"..., 4096) = 4096
+write(1, "\n1416:35652:\t\tfprintf (stderr, \""..., 4096) = 4096
+write(1, "38312:\tcase '2':\n1547:38323:\tcas"..., 4096) = 4096
+write(1, "9:41284:\n1680:41285:/* Define th"..., 4096) = 4096
+write(1, "oc or alloca?  If REGEX_MALLOC i"..., 4096) = 4096
+write(1, "bit-first.  A character is in th"..., 4096) = 4096
+write(1, " alternatives.  */\n1963:50561:  "..., 4096) = 4096
+write(1, "068:53564:#undef EXTRACT_NUMBER_"..., 4096) = 4096
+write(1, ";\n2187:56419:\t  break;\n2188:5642"..., 4096) = 4096
+write(1, "ound:\n2302:59254:\t  printf (\"/wo"..., 4096) = 4096
+write(1, "NT_COMPILED_PATTERN(p, s, e)\n243"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "2518:65064:\n2519:65065:\n2520:650"..., 4096) = 4096
+write(1, "p->buffer;\t\t\\\n2605:68217:       "..., 4096) = 4096
+write(1, " PATTERN;\n2700:71264:     `not_b"..., 4096) = 4096
+write(1, "er or not bufp->no_sub is set.  "..., 4096) = 4096
+write(1, "7361:                  break;\n28"..., 4096) = 4096
+write(1, "ding_exact = 0;\n2971:80577:     "..., 4096) = 4096
+write(1, "                  && !(p - 3 >= "..., 4096) = 4096
+write(1, "6943:                           "..., 4096) = 4096
+write(1, "we hit end of this\n3236:89953:  "..., 4096) = 4096
+write(1, "OMPILE_STACK_TOP.laststart_offse"..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "* If got here, then the syntax a"..., 4096) = 4096
+write(1, "   unsigned nbytes = 10 + (upper"..., 4096) = 4096
+write(1, "if (p > pattern  &&  p[-1] == '\\"..., 4096) = 4096
+write(1, "ctn for the count.  */\n3651:1057"..., 4096) = 4096
+write(1, "omes\n3771:108342:   after an alt"..., 4096) = 4096
+write(1, " into the pattern string, so the"..., 4096) = 4096
+write(1, "le to do so and 0 if ran out of "..., 4096) = 4096
+write(1, "n      \", reg_info[this_reg]);\t\\"..., 4096) = 4096
+write(1, "MS);\t\t\t\\\n4119:120627:\t\t\t\t\t\t\t\t\t\\\n"..., 4096) = 4096
+write(1, ";\n4201:123732:\n4202:123733:  ass"..., 4096) = 4096
+write(1, "6:\t    if (SYNTAX (j) != (enum s"..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, ":129326:          p += 4;\n4418:1"..., 4096) = 4096
+write(1, "he index STOP in the virtual\n451"..., 4096) = 4096
+write(1, " */\n4607:135246:      if (range "..., 4096) = 4096
+write(1, "190:/* Macros for dealing with t"..., 4096) = 4096
+write(1, "; \n4787:141277:}\n4788:141279:#en"..., 4096) = 4096
+write(1, "n operator fails to\n4868:144496:"..., 4096) = 4096
+write(1, " = best_regstart\n4942:147779:   "..., 4096) = 4096
+write(1, " MATCHING_IN_FIRST_STRING);\n5036"..., 4096) = 4096
+write(1, "lse\n5110:153942:\t\t{\n5111:153946:"..., 4096) = 4096
+write(1, "      goto fail;\n5193:157055:\t\t}"..., 4096) = 4096
+write(1, "5286:160018:          \n5287:1600"..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "p[-3] == start_memory)\n5359:1632"..., 4096) = 4096
+write(1, "no]))\n5440:166368:              "..., 4096) = 4096
+write(1, "      DEBUG_PRINT1 (\"EXECUTING e"..., 4096) = 4096
+write(1, "gister now.  This will\n5610:1725"..., 4096) = 4096
+write(1, "\n5687:175687:                   "..., 4096) = 4096
+write(1, "se\n5764:178861:           we don"..., 4096) = 4096
+write(1, "60:181800:          DEBUG_PRINT1"..., 4096) = 4096
+write(1, "            p1 = p + 1;\n5963:184"..., 4096) = 4096
+write(1, "and\n6053:187682:                "..., 4096) = 4096
+write(1, "ar **p, *end;\n6153:190588:    re"..., 4096) = 4096
+write(1, "93260:  reg_errcode_t ret;\n6271:"..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "l try a match beginning after ev"..., 4096) = 4096
+write(1, "21:    regmatch_t pmatch[]; \n646"..., 4096) = 4096
+write(1, "01969:  preg->buffer = NULL;\n657"..., 4096) = 4096
+write(1, "TRL(C) iscntrl(C)\n6691:204926:#e"..., 4096) = 4096
+write(1, " s;\n6833:207368:{\n6834:207370:  "..., 4096) = 4096
+write(1, " struct {\n6943:210150:  char *na"..., 4096) = 4096
+write(1, "752:\t  if (!(syntax_bits & RE_CO"..., 4096) = 4096
+write(1, ":215472:\t  for (c2 = 0; c2 < NOT"..., 4096) = 4096
+write(1, "ermine the depth that will be\n72"..., 4096) = 4096
+write(1, "okens;\n7433:220651:\tif (maxrep ="..., 4096) = 4096
+write(1, "    position_set *s2;\n7571:22319"..., 4096) = 4096
+write(1, "O_CONSTRAINT;\n7669:226107:\td->st"..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "he lastpos of a node is the set "..., 4096) = 4096
+write(1, "2154:#ifdef DEBUG\n7847:232167:  "..., 4096) = 4096
+write(1, "wn firstpos and lastpos. */\n7945"..., 4096) = 4096
+write(1, "transition\n8038:238060:   on thi"..., 4096) = 4096
+write(1, "241281:\t\t\t\t\t d->states[s].newlin"..., 4096) = 4096
+write(1, ";\n8211:244256:\t  if (PREV_LETTER"..., 4096) = 4096
+write(1, "necessary redundancy. */\n8307:24"..., 4096) = 4096
+write(1, "ether to\n8407:250103:   allow ne"..., 4096) = 4096
+write(1, "f the given length. */\n8531:2527"..., 4096) = 4096
+write(1, "equence\" below.\n8632:255602:\n863"..., 4096) = 4096
+write(1, " if (cpp == NULL)\n8746:258332:  "..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "t[rnum]);\n8878:260836:\t  if (tem"..., 4096) = 4096
+write(1, "\t    new = inboth(lmp->in, rmp->"..., 4096) = 4096
+write(1, "66048:      ++mp;\n9126:266060:  "..., 4096) = 4096
+write(1, "). */\n9237:269071:  struct trie "..., 4096) = 4096
+write(1, ":      /* Descend the tree of ou"..., 4096) = 4096
+write(1, "\t\t}\n9434:274897:\n9435:274898:\t  "..., 4096) = 4096
+write(1, "50:277595:static void\n9551:27760"..., 4096) = 4096
+write(1, "e no larger than the\n9639:280646"..., 4096) = 4096
+write(1, "393:  d = d1[U(tp[-1])];\n9750:28"..., 4096) = 4096
+write(1, "917:\t  accept = trie;\n9881:28593"..., 4096) = 4096
+write(1, "2:288832:   and linking in this "..., 4096) = 4096
+write(1, "sensitive to the size of the req"..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, "e new chunk.  */\n10168:294764:  "..., 4096) = 4096
+write(1, "   plp = lp->prev;\n10254:297744:"..., 4096) = 4096
+write(1, "72:}\n10358:300474:\n10359:300475:"..., 4096) = 4096
+write(1, ") || defined(STDC_HEADERS)\n10481"..., 4096) = 4096
+write(1, "5943:      /* Now, we compile th"..., 4096) = 4096
+write(1, " Using [A-Za-z_] is locale-depen"..., 4096) = 4096
+write(1, "h_words)\n10806:311383:\t    while"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+open("../inputs/grepNull.dat", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, ":3if gout\n10936:313790:wsif agou"..., 803) = 803
+close(1)                                = 0
+munmap(0x7f7f4f6fc000, 4096)            = 0
+exit_group(0)                           = ?

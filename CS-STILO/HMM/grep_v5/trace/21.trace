@@ -1,0 +1,67 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-G", "[[:upper:]]", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x2305000
+brk(0x23061c0)                          = 0x23061c0
+arch_prctl(ARCH_SET_FS, 0x2305880)      = 0
+brk(0x23271c0)                          = 0x23271c0
+brk(0x2328000)                          = 0x2328000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7effaec5c000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7effaec5b000
+write(1, "   Copyright (C) 1992 Free Softw"..., 4096) = 4096
+write(1, " */\n/* Internal variables to kee"..., 4096) = 4096
+write(1, "ecause some of them\n#else\t/* Not"..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, "eturns `EOF'.\n   Then `optind' i"..., 4096) = 4096
+write(1, "#endif\t/* _LIBC or not __GNU_LIB"..., 4096) = 4096
+write(1, "lloc\n#define REGEX_REALLOCATE(so"..., 4096) = 4096
+write(1, "  Jump to the address N times, t"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "tch\",\t\t\t\t\t/* REG_NOMATCH */\n    "..., 4096) = 4096
+write(1, "            \\\n   |= 1 << (((unsi"..., 4096) = 4096
+write(1, "syntax & RE_CONTEXT_INVALID_OPS)"..., 4096) = 4096
+write(1, "            { /* Leave room for "..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "RENS) goto normal_backslash;\n   "..., 4096) = 4096
+write(1, "er bound is > 1, we need to inse"..., 4096) = 4096
+write(1, " alternative?  */\n    || (syntax"..., 4096) = 4096
+write(1, "%d\\n\", (fail_stack).size);\\\n    "..., 4096) = 4096
+write(1, "ring_temp != NULL)\t\t\t\t\t\t\\\n  DEBU"..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "s beyond `pend'.  Such a pattern"..., 4096) = 4096
+write(1, "ine POINTER_TO_OFFSET(ptr)\t\t\t\t\t\t"..., 4096) = 4096
+write(1, ") subexpressions we are currentl"..., 4096) = 4096
+write(1, "GNU code uses.  */\n             "..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "         /* This is the new high"..., 4096) = 4096
+write(1, "  Because this is used only in s"..., 4096) = 4096
+write(1, "          PUSH_FAILURE_POINT (0,"..., 4096) = 4096
+write(1, "ilure_jumps of the alternatives,"..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "REG_NOSUB is set, then when PREG"..., 4096) = 4096
+write(1, "ss Ave, Cambridge, MA 02139, USA"..., 4096) = 4096
+write(1, "\nFUNC(is_alnum, ISALNUM)\nFUNC(is"..., 4096) = 4096
+write(1, " case QMARK:\n    case STAR:\n    "..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "* EMPTY leaves have empty firstp"..., 4096) = 4096
+write(1, "d->salloc);\n/* Find, for each ch"..., 4096) = 4096
+write(1, "ms, position, d->nleaves);\n  MAL"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "\n      /* This is a kludge. */\n\t"..., 4096) = 4096
+write(1, "e it and/or modify\n   it under t"..., 4096) = 4096
+write(1, "ring of the keyword set. */\n/* E"..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, "ing in this code is a waste when"..., 4096) = 4096
+write(1, "objects in obstack H, including "..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "gs one of\n      /* First, we com"..., 2730) = 2730
+close(1)                                = 0
+munmap(0x7effaec5b000, 4096)            = 0
+exit_group(0)                           = ?

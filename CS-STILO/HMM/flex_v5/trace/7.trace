@@ -1,0 +1,35 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-v", "../inputs/in.delete"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x20c5000
+brk(0x20c61c0)                          = 0x20c61c0
+arch_prctl(ARCH_SET_FS, 0x20c5880)      = 0
+brk(0x20e71c0)                          = 0x20e71c0
+brk(0x20e8000)                          = 0x20e8000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.delete", O_RDONLY)   = 4
+brk(0x2109000)                          = 0x2109000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffa0491428) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=12, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fdc95896000
+read(4, "%%\n\"zap me\"\n", 8192)       = 12
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fdc95895000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffa04913e8) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, "   1,    1,    1,    1,    1,   "..., 4096) = 4096
+write(1, "nt of stuff to slurp up with eac"..., 4096) = 4096
+write(1, "TIAL):\n\tyyterminate();\n\n\tcase YY"..., 4096) = 4096
+write(1, "the buffer, so this is an EOF. *"..., 4096) = 4096
+write(1, "\t{\n\t\tyy_current_state = (int) yy"..., 4096) = 4096
+write(1, "ffer->yy_buf_pos;\n\tyyin = yy_cur"..., 4096) = 4096
+fstat(3, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fdc95894000
+write(1, "is buffer, and we should throw i"..., 3189) = 3189
+write(3, "Executable version 2.5.4 usage s"..., 765) = 765
+exit_group(0)                           = ?

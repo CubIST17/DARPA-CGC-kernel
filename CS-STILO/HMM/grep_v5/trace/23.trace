@@ -1,0 +1,107 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-E", ".", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x24a3000
+brk(0x24a41c0)                          = 0x24a41c0
+arch_prctl(ARCH_SET_FS, 0x24a3880)      = 0
+brk(0x24c51c0)                          = 0x24c51c0
+brk(0x24c6000)                          = 0x24c6000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f9cea3dd000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9cea3dc000
+write(1, "/* grep.c - main driver file for"..., 4096) = 4096
+write(1, "ary and multiples of the\n   page"..., 4096) = 4096
+write(1, "xt. */\nstatic int out_after;\t\t/*"..., 4096) = 4096
+write(1, "ines += grepbuf(beg, lim);\n\t  if"..., 4096) = 4096
+write(1, " case 'n':\n\tout_line = 1;\n\tbreak"..., 4096) = 4096
+write(1, "ypes for getopt.  */\n#if flag_st"..., 4096) = 4096
+write(1, "ains special magic macros that d"..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, "ext ARGV-element.\n   When `getop"..., 4096) = 4096
+write(1, "ption *p;\n      char *s = nextch"..., 4096) = 4096
+write(1, "\t    else if (optind == argc)\n\t "..., 4096) = 4096
+write(1, "DERS\n#if flag_stdlib==0 \n#includ"..., 4096) = 4096
+write(1, "*/\n#endif /* not HAVE_ALLOCA_H *"..., 4096) = 4096
+write(1, "    current string position when"..., 4096) = 4096
+write(1, "e += 2;\n}\n#ifndef EXTRACT_MACROS"..., 4096) = 4096
+write(1, "cr (&mcnt, &p);\n  \t  printf (\"/o"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "ne DEBUG_PRINT2(x1, x2)\n#define "..., 4096) = 4096
+write(1, "except for three bytes.  */\n#def"..., 4096) = 4096
+write(1, " = 0;\t\t\t\t\t\t\t\\\n           num = n"..., 4096) = 4096
+write(1, "`used' to zero, so that if we re"..., 4096) = 4096
+write(1, "nt\n               to an empty pa"..., 4096) = 4096
+write(1, "        for (;;)\n              {"..., 4096) = 4096
+write(1, "        class.  */\n             "..., 4096) = 4096
+write(1, "emory for groups beyond the last"..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "uted if it gets matched.  Adjust"..., 4096) = 4096
+write(1, "rt, b + 3);\n                    "..., 4096) = 4096
+write(1, "              goto normal_backsl"..., 4096) = 4096
+write(1, "re_opcode_t op;\n    unsigned cha"..., 4096) = 4096
+write(1, "\n  range_end   = ((unsigned char"..., 4096) = 4096
+write(1, " we ever fail back to it.  \n   \n"..., 4096) = 4096
+write(1, " still be added to the stack wit"..., 4096) = 4096
+write(1, " switch\n     statement, to which"..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "cceed_n)\n\t    continue;\n        "..., 4096) = 4096
+write(1, "TRING2, starting first at index\n"..., 4096) = 4096
+write(1, "atic boolean alt_match_null_stri"..., 4096) = 4096
+write(1, "tart);\t\t\t\t\t\t\\\n    FREE_VAR (best"..., 4096) = 4096
+write(1, "of the pattern, that is, the\n   "..., 4096) = 4096
+write(1, "the\n     register information st"..., 4096) = 4096
+write(1, "= best_regstart[mcnt];\n\t\t      r"..., 4096) = 4096
+write(1, "rently have n == 0.  */\n        "..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "/\n\tcase stop_memory:\n\t  DEBUG_PR"..., 4096) = 4096
+write(1, "        regstart[1], and, e.g., "..., 4096) = 4096
+write(1, "(!bufp->not_eol) break;\n        "..., 4096) = 4096
+write(1, "_LOWEST_ACTIVE_REG)\n            "..., 4096) = 4096
+write(1, "one\n               register from"..., 4096) = 4096
+write(1, "\n\t    break;\n          goto fail"..., 4096) = 4096
+write(1, ";\n        }\n      else\n        b"..., 4096) = 4096
+write(1, "_p (&p1, end, reg_info))\n       "..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, ").  */\n  bufp->regs_allocated = "..., 4096) = 4096
+write(1, "->translate[i] = ISUPPER (i) ? t"..., 4096) = 4096
+write(1, "_size)\n        {\n          strnc"..., 4096) = 4096
+write(1, "ype t if nalloc is too small for"..., 4096) = 4096
+write(1, ")\nFUNC(is_cntrl, ISCNTRL)\n/* The"..., 4096) = 4096
+write(1, "c))\n\t\t  break;\n\t\tmaxrep = 10 * m"..., 4096) = 4096
+write(1, "depth of a hypothetical stack\n\t\t"..., 4096) = 4096
+write(1, " = src->elems[i];\n  dst->nelem ="..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, " position with the elements of i"..., 4096) = 4096
+write(1, " the elements, obeying a stack-l"..., 4096) = 4096
+write(1, "OR node is nullable if either ar"..., 4096) = 4096
+write(1, "  If L - C is nonempty, create a"..., 4096) = 4096
+write(1, ";\n\t      (matches[k] = match & ~"..., 4096) = 4096
+write(1, " state may or may not have a tra"..., 4096) = 4096
+write(1, " = 1;\n      for (i = 0; i < NOTC"..., 4096) = 4096
+write(1, "   calculated \"in\" sequences as "..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, " new;\n  cpp[i + 1] = NULL;\n  ret"..., 4096) = 4096
+write(1, "];\n\t    lmp->right[j] = '\\0';\n\t "..., 4096) = 4096
+write(1, " mail) as Mike Haertel c/o Free "..., 4096) = 4096
+write(1, "unsigned char label;\n  register "..., 4096) = 4096
+write(1, "e)\n    return;\n  enqueue(tree->l"..., 4096) = 4096
+write(1, "ft = kwset->mind;\n\t  curr->maxsh"..., 4096) = 4096
+write(1, "**next, *trie, *accept;\n  char *"..., 4096) = 4096
+write(1, " as published by the\nFree Softwa"..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, ") chunkfun;\n  h->freefun = freef"..., 4096) = 4096
+write(1, "eturn nonzero if object OBJ has "..., 4096) = 4096
+write(1, "grow0) (obstack, pointer, length"..., 4096) = 4096
+write(1, "CHAR(C) (ISALNUM(C) || (C) == '_"..., 4096) = 4096
+write(1, "whole-line case, we use the patt"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "er size_t len;\n  struct kwsmatch"..., 1506) = 1506
+close(1)                                = 0
+munmap(0x7f9cea3dc000, 4096)            = 0
+exit_group(0)                           = ?

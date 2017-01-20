@@ -1,0 +1,49 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-c", "include", "-"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x24a5000
+brk(0x24a61c0)                          = 0x24a61c0
+arch_prctl(ARCH_SET_FS, 0x24a5880)      = 0
+brk(0x24c71c0)                          = 0x24c71c0
+brk(0x24c8000)                          = 0x24c8000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fad78fb5000
+close(3)                                = 0
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fad78fb4000
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2570
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fad78fb4000, 4096)            = 0
+open("/nfs/spectre/u4/jin/research/experiments/grep/docs/grep_2.4.2/lib/locale/en_US.UTF-8/LC_MESSAGES/grep.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/nfs/spectre/u4/jin/research/experiments/grep/docs/grep_2.4.2/lib/locale/en_US.utf8/LC_MESSAGES/grep.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/nfs/spectre/u4/jin/research/experiments/grep/docs/grep_2.4.2/lib/locale/en_US/LC_MESSAGES/grep.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/nfs/spectre/u4/jin/research/experiments/grep/docs/grep_2.4.2/lib/locale/en.UTF-8/LC_MESSAGES/grep.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/nfs/spectre/u4/jin/research/experiments/grep/docs/grep_2.4.2/lib/locale/en.utf8/LC_MESSAGES/grep.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/nfs/spectre/u4/jin/research/experiments/grep/docs/grep_2.4.2/lib/locale/en/LC_MESSAGES/grep.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/grep.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/grep.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/grep.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/grep.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/grep.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/grep.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+fstat(0, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+lseek(0, 0, SEEK_CUR)                   = 0
+read(0, "/* grep.c - main driver file for"..., 32768) = 32768
+read(0, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+read(0, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+read(0, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+read(0, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+read(0, "/* do nothing */ ;\n             "..., 32768) = 32768
+read(0, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+read(0, "gument, union\n     the lastpos o"..., 32768) = 32768
+read(0, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+read(0, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+read(0, "", 32768)                      = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fad78fb4000
+write(1, "73\n", 3)                     = 3
+close(1)                                = 0
+munmap(0x7fad78fb4000, 4096)            = 0
+exit_group(0)                           = ?

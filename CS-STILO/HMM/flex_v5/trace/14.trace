@@ -1,0 +1,32 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-Ppre", "../inputs/in.yyac"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x772000
+brk(0x7731c0)                           = 0x7731c0
+arch_prctl(ARCH_SET_FS, 0x772880)       = 0
+brk(0x7941c0)                           = 0x7941c0
+brk(0x795000)                           = 0x795000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.yyac", O_RDONLY)     = 4
+brk(0x7b6000)                           = 0x7b6000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff4ecd29b8) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=79, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fca5b125000
+read(4, "%{\n#include \"y.tab.h\"\n%}\n\n%%\n\n[0"..., 8192) = 79
+read(4, "", 4096)                       = 0
+open("lex.pre.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fca5b124000
+write(1, "#define yy_create_buffer pre_cre"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff4ecd2978) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, "put buffer */\n\tchar *yy_buf_pos;"..., 4096) = 4096
+write(1, "nd before the\n * corresponding a"..., 4096) = 4096
+write(1, "#define YY_NO_TOP_STATE 1\n#endif"..., 4096) = 4096
+write(1, "o the effects of YY_DO_BEFORE_AC"..., 4096) = 4096
+write(1, " yy_get_next_buffer()\n\t{\n\tregist"..., 4096) = 4096
+write(1, "ic yy_state_type yy_try_NUL_tran"..., 4096) = 4096
+write(1, "\t * EOF (yywrap()) processing, b"..., 4096) = 4096
+write(1, "ce for trailing EOB's. */\n\tn = l"..., 3568) = 3568
+exit_group(0)                           = ?

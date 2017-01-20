@@ -1,0 +1,200 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-vbn", "include", "../inputs/grep0.dat", "../inputs/grep1.dat", "../inputs/grepNull.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x163e000
+brk(0x163f1c0)                          = 0x163f1c0
+arch_prctl(ARCH_SET_FS, 0x163e880)      = 0
+brk(0x16601c0)                          = 0x16601c0
+brk(0x1661000)                          = 0x1661000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f58cd2a4000
+close(3)                                = 0
+open("../inputs/grep0.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=297, ...}) = 0
+read(3, "Before an alternative\nstore_op2 "..., 32768) = 297
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f58cd2a3000
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+write(1, "../inputs/grep0.dat:1:0:Before a"..., 4096) = 4096
+write(1, "../inputs/grep1.dat:78:1892:#def"..., 4096) = 4096
+write(1, "t:168:3481:\n../inputs/grep1.dat:"..., 4096) = 4096
+write(1, "../inputs/grep1.dat:249:5400:   "..., 4096) = 4096
+write(1, "/grep1.dat:324:7312:      cc = b"..., 4096) = 4096
+write(1, "ferror(stdout))\n../inputs/grep1."..., 4096) = 4096
+write(1, "./inputs/grep1.dat:481:10910:\n.."..., 4096) = 4096
+write(1, "rep1.dat:567:12416:      i = 0;\n"..., 4096) = 4096
+write(1, "./inputs/grep1.dat:649:14062:\t !"..., 4096) = 4096
+write(1, "= fread(keys + keycc, 1, keyallo"..., 4096) = 4096
+write(1, "nputs/grep1.dat:814:17301:\t    f"..., 4096) = 4096
+write(1, "/grep1.dat:887:19252:#define all"..., 4096) = 4096
+write(1, "n option that takes an argument,"..., 4096) = 4096
+write(1, "lements in any order and that ca"..., 4096) = 4096
+write(1, "inputs/grep1.dat:1090:25906:   t"..., 4096) = 4096
+write(1, " zero.\n../inputs/grep1.dat:1145:"..., 4096) = 4096
+write(1, " (\"POSIXLY_CORRECT\") != NULL)\n.."..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, " || argv[optind][1] == '\\0')\n../"..., 4096) = 4096
+write(1, "und->has_arg)\n../inputs/grep1.da"..., 4096) = 4096
+write(1, "    char c = *nextchar++;\n../inp"..., 4096) = 4096
+write(1, "ep1.dat:1504:37639:  }\n../inputs"..., 4096) = 4096
+write(1, "53:\n../inputs/grep1.dat:1591:390"..., 4096) = 4096
+write(1, "RS\n../inputs/grep1.dat:1670:4116"..., 4096) = 4096
+write(1, "p1.dat:1749:42948:#endif\n../inpu"..., 4096) = 4096
+write(1, "/inputs/grep1.dat:1813:45071:#if"..., 4096) = 4096
+write(1, " belonging to specified set.  Fi"..., 4096) = 4096
+write(1, "    current string position when"..., 4096) = 4096
+write(1, "puts/grep1.dat:1998:51774:#endif"..., 4096) = 4096
+write(1, "inputs/grep1.dat:2070:53640:  ex"..., 4096) = 4096
+write(1, "585:{\n../inputs/grep1.dat:2143:5"..., 4096) = 4096
+write(1, "nputs/grep1.dat:2223:57193:\n../i"..., 4096) = 4096
+write(1, "_at: \n../inputs/grep1.dat:2296:5"..., 4096) = 4096
+write(1, "_accurate && bufp->fastmap)\n../i"..., 4096) = 4096
+write(1, "omprised of the various bits\n../"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, " */\n../inputs/grep1.dat:2510:646"..., 4096) = 4096
+write(1, "ep1.dat:2573:66815:\n../inputs/gr"..., 4096) = 4096
+write(1, "ffset;  \n../inputs/grep1.dat:263"..., 4096) = 4096
+write(1, "th of the compiled pattern;\n../i"..., 4096) = 4096
+write(1, "register\n../inputs/grep1.dat:275"..., 4096) = 4096
+write(1, "* If at start of pattern, it's a"..., 4096) = 4096
+write(1, "./inputs/grep1.dat:2892:77417:\n."..., 4096) = 4096
+write(1, "50:79694:                    && "..., 4096) = 4096
+write(1, "grep1.dat:3013:81849:           "..., 4096) = 4096
+write(1, "/grep1.dat:3071:84148:\n../inputs"..., 4096) = 4096
+write(1, "/grep1.dat:3126:86539:\n../inputs"..., 4096) = 4096
+write(1, "ALT)\n../inputs/grep1.dat:3189:88"..., 4096) = 4096
+write(1, "/inputs/grep1.dat:3252:90832:   "..., 4096) = 4096
+write(1, "ts/grep1.dat:3310:93125:        "..., 4096) = 4096
+write(1, "5:                STORE_JUMP (ju"..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "G_EBRACE;\n../inputs/grep1.dat:34"..., 4096) = 4096
+write(1, "dat:3483:100041:                "..., 4096) = 4096
+write(1, "match the characters as literals"..., 4096) = 4096
+write(1, "ts/grep1.dat:3605:104338:       "..., 4096) = 4096
+write(1, ".dat:3671:106314:\t  BUF_PUSH (c)"..., 4096) = 4096
+write(1, "dat:3750:107881:\n../inputs/grep1"..., 4096) = 4096
+write(1, "ep1.dat:3819:109773:{\n../inputs/"..., 4096) = 4096
+write(1, "2:111842:      SET_LIST_BIT (TRA"..., 4096) = 4096
+write(1, "ack_elt_t *)\t\t\t\t\\\n../inputs/grep"..., 4096) = 4096
+write(1, ");\\\n../inputs/grep1.dat:4007:116"..., 4096) = 4096
+write(1, "0:118434:    DEBUG_PRINT2 (\"  Pu"..., 4096) = 4096
+write(1, "\t\t\t\\\n../inputs/grep1.dat:4120:12"..., 4096) = 4096
+write(1, "dat:4176:122921:re_compile_fastm"..., 4096) = 4096
+write(1, "nputs/grep1.dat:4242:124917:    "..., 4096) = 4096
+write(1, "pty string.  These end with\n../i"..., 4096) = 4096
+write(1, "ts/grep1.dat:4384:128562:       "..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "puts/grep1.dat:4452:130484:\n../i"..., 4096) = 4096
+write(1, "rep1.dat:4518:132462:   stack ov"..., 4096) = 4096
+write(1, "ranslate'\n../inputs/grep1.dat:45"..., 4096) = 4096
+write(1, "sumption here: that\n../inputs/gr"..., 4096) = 4096
+write(1, "38527:      if (dend == end_matc"..., 4096) = 4096
+write(1, "sters when none are active.  */\n"..., 4096) = 4096
+write(1, "handle a failure further\n../inpu"..., 4096) = 4096
+write(1, "which in\n../inputs/grep1.dat:488"..., 4096) = 4096
+write(1, "start\n../inputs/grep1.dat:4942:1"..., 4096) = 4096
+write(1, "09:149703:  DEBUG_PRINT1 (\"The c"..., 4096) = 4096
+write(1, "5:152006:                  DEBUG"..., 4096) = 4096
+write(1, "gs > 0)\n../inputs/grep1.dat:5120"..., 4096) = 4096
+write(1, "156580:           byte in the pa"..., 4096) = 4096
+write(1, "puts/grep1.dat:5252:158328:     "..., 4096) = 4096
+write(1, " case the group is operated\n../i"..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "s/grep1.dat:5357:163157:        "..., 4096) = 4096
+write(1, ") old_regend[r] >= (int) regstar"..., 4096) = 4096
+write(1, "utive characters we can match in"..., 4096) = 4096
+write(1, "*\\n'.  It\n../inputs/grep1.dat:55"..., 4096) = 4096
+write(1, "\n../inputs/grep1.dat:5595:171934"..., 4096) = 4096
+write(1, "1.dat:5649:174287:\n../inputs/gre"..., 4096) = 4096
+write(1, ":           failure point.  The "..., 4096) = 4096
+write(1, "e are followed by a `pop_failure"..., 4096) = 4096
+write(1, ".dat:5825:180942:\n../inputs/grep"..., 4096) = 4096
+write(1, ":182757:\t  goto matchnotsyntax;\n"..., 4096) = 4096
+write(1, "   EXTRACT_NUMBER_AND_INCR (mcnt"..., 4096) = 4096
+write(1, "           /* Go through the on_"..., 4096) = 4096
+write(1, "                return false;\n.."..., 4096) = 4096
+write(1, "190692:  switch ((re_opcode_t) *"..., 4096) = 4096
+write(1, "dentical for LEN\n../inputs/grep1"..., 4096) = 4096
+write(1, " \"No previous regular expression"..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "puts/grep1.dat:6373:196184:     "..., 4096) = 4096
+write(1, "8210:  /* POSIX doesn't distingu"..., 4096) = 4096
+write(1, "225:          unsigned r;\n../inp"..., 4096) = 4096
+write(1, "575:201992:  \n../inputs/grep1.da"..., 4096) = 4096
+write(1, "t:6655:203912:#undef ISUPPER\n../"..., 4096) = 4096
+write(1, " dfaerror(\"Memory exhausted\");\n."..., 4096) = 4096
+write(1, "6814:207118:     charclass c;\n.."..., 4096) = 4096
+write(1, "grep1.dat:6898:208536:\n../inputs"..., 4096) = 4096
+write(1, "dat:6964:210514:  int len;\n../in"..., 4096) = 4096
+write(1, "t:7038:212240:\t    }\n../inputs/g"..., 4096) = 4096
+write(1, "213929:\t      {\n../inputs/grep1."..., 4096) = 4096
+write(1, "ccl);\n../inputs/grep1.dat:7188:2"..., 4096) = 4096
+write(1, "puts/grep1.dat:7261:217405:\t    "..., 4096) = 4096
+write(1, ":     closure\n../inputs/grep1.da"..., 4096) = 4096
+write(1, "20424:static void\n../inputs/grep"..., 4096) = 4096
+write(1, ".dat:7510:221824:    dfaerror(\"U"..., 4096) = 4096
+write(1, "84:223545:\tm->elems[m->nelem++]."..., 4096) = 4096
+write(1, "nt = 0;\n../inputs/grep1.dat:7653"..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "constraint &= ENDWORD_CONSTRAINT"..., 4096) = 4096
+write(1, "positions that could\n../inputs/g"..., 4096) = 4096
+write(1, "LLOC(lastpos, position, d->nleav"..., 4096) = 4096
+write(1, "inputs/grep1.dat:7903:233836:\t  "..., 4096) = 4096
+write(1, "rep1.dat:7968:235844:      for ("..., 4096) = 4096
+write(1, "ing into account, if necessary,\n"..., 4096) = 4096
+write(1, "384:  int i, j, k;\n../inputs/gre"..., 4096) = 4096
+write(1, "ep1.dat:8150:242416:\t  if (! int"..., 4096) = 4096
+write(1, "te_index(d, &follows, 0, 0);\n../"..., 4096) = 4096
+write(1, " ++j)\n../inputs/grep1.dat:8281:2"..., 4096) = 4096
+write(1, "49:248326:\n../inputs/grep1.dat:8"..., 4096) = 4096
+write(1, "king matcher.  Otherwise\n../inpu"..., 4096) = 4096
+write(1, "f the buffer. */\n../inputs/grep1"..., 4096) = 4096
+write(1, "puts/grep1.dat:8571:253527:}\n../"..., 4096) = 4096
+write(1, "t\t\tright\t\tis\t\tin\n../inputs/grep1"..., 4096) = 4096
+write(1, "len(old);\n../inputs/grep1.dat:87"..., 4096) = 4096
+write(1, "\n../inputs/grep1.dat:8784:259005"..., 4096) = 4096
+write(1, "ar **temp;\n../inputs/grep1.dat:8"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "dex; ++i)\n../inputs/grep1.dat:89"..., 4096) = 4096
+write(1, "3649:\t  if (mp != &musts[1])\n../"..., 4096) = 4096
+write(1, "s/grep1.dat:9098:265332:\t  else "..., 4096) = 4096
+write(1, "4:   Foundation, Inc., 675 Mass "..., 4096) = 4096
+write(1, "inputs/grep1.dat:9243:269308:str"..., 4096) = 4096
+write(1, "grep1.dat:9307:271349:   for suc"..., 4096) = 4096
+write(1, "ts parent. */\n../inputs/grep1.da"..., 4096) = 4096
+write(1, "oding the\n../inputs/grep1.dat:94"..., 4096) = 4096
+write(1, "gned int depth;\n../inputs/grep1."..., 4096) = 4096
+write(1, "./inputs/grep1.dat:9590:278686: "..., 4096) = 4096
+write(1, "931:      for (curr = kwset->tri"..., 4096) = 4096
+write(1, "p1.dat:9720:282706:\t      goto f"..., 4096) = 4096
+write(1, "3:  else\n../inputs/grep1.dat:979"..., 4096) = 4096
+write(1, "58:      if (trie->accepting && "..., 4096) = 4096
+write(1, "size, kwsmatch);\n../inputs/grep1"..., 4096) = 4096
+write(1, "rep1.dat:10017:289789:   On some"..., 4096) = 4096
+write(1, "nt extra = ((((12 + DEFAULT_ROUN"..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, " The initial chunk now contains "..., 4096) = 4096
+write(1, "0:296025:\n../inputs/grep1.dat:10"..., 4096) = 4096
+write(1, ">chunk_limit = lp->limit;\n../inp"..., 4096) = 4096
+write(1, ".dat:10330:299936:\n../inputs/gre"..., 4096) = 4096
+write(1, "(obstack_copy0) (obstack, pointe"..., 4096) = 4096
+write(1, "ISALNUM(C) (isascii(C) && isalnu"..., 4096) = 4096
+write(1, "ts/grep1.dat:10562:305121:    fo"..., 4096) = 4096
+write(1, "./inputs/grep1.dat:10631:306946:"..., 4096) = 4096
+write(1, "8672:\n../inputs/grep1.dat:10703:"..., 4096) = 4096
+write(1, ":310296:\t  beg = dfaexec(&dfa_1,"..., 4096) = 4096
+write(1, "t size;\n../inputs/grep1.dat:1084"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+open("../inputs/grepNull.dat", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, " gout\n../inputs/grep1.dat:10924:"..., 1917) = 1917
+close(1)                                = 0
+munmap(0x7f58cd2a3000, 4096)            = 0
+exit_group(0)                           = ?

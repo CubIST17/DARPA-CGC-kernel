@@ -1,0 +1,14 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-s", "return", "../inputs/grepNon.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x1b31000
+brk(0x1b321c0)                          = 0x1b321c0
+arch_prctl(ARCH_SET_FS, 0x1b31880)      = 0
+brk(0x1b531c0)                          = 0x1b531c0
+brk(0x1b54000)                          = 0x1b54000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fd29d8fe000
+close(3)                                = 0
+open("../inputs/grepNon.dat", O_RDONLY) = -1 ENOENT (No such file or directory)
+close(1)                                = 0
+exit_group(1)                           = ?

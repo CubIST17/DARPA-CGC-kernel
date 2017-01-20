@@ -1,0 +1,42 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-dF", "-Ca", "../inputs/in.0"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x7be000
+brk(0x7bf1c0)                           = 0x7bf1c0
+arch_prctl(ARCH_SET_FS, 0x7be880)       = 0
+brk(0x7e01c0)                           = 0x7e01c0
+brk(0x7e1000)                           = 0x7e1000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.0", O_RDONLY)        = 4
+brk(0x802000)                           = 0x802000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffbef8d7a8) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=792, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b25265000
+read(4, "/* scanner for a toy Pascal-like"..., 8192) = 792
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b25264000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, ", 260 },\n {   7, 260 }, {   8, 2"..., 4096) = 4096
+write(1, "   8 }, {   0,   0 }, {  32,   6"..., 4096) = 4096
+write(1, "   0 }, {   0,   0 }, {   0,   0"..., 4096) = 4096
+write(1, "726 }, {  19, 726 },\n {  20, 726"..., 4096) = 4096
+write(1, "  0 }, {   0,   0 }, {   0,   0 "..., 4096) = 4096
+write(1, "0 },\n\n {   0,   0 }, {   0,   0 "..., 4096) = 4096
+write(1, " 0 }, {   0,   0 }, {   0,   0 }"..., 4096) = 4096
+write(1, " 0 }, {   0,   0 }, {   0,   0 }"..., 4096) = 4096
+write(1, ",\n { 108,-1190 }, { 109,-1190 },"..., 4096) = 4096
+write(1, "-1464 },\n { 114,-1464 }, { 115,-"..., 4096) = 4096
+write(1, "ROTO(( char *, yyconst char *, i"..., 4096) = 4096
+write(1, "t == 0 )\n\t\t\t\tfprintf( err, \"--sc"..., 4096) = 4096
+write(1, "x itself) wants to\n\t\t\t\t\t * call "..., 4096) = 4096
+write(1, "yy_ch_buf[yy_n_chars] = YY_END_O"..., 4096) = 4096
+write(1, "char's */\n\t*yy_c_buf_p = '\\0';\t/"..., 4096) = 4096
+write(1, "\n\tb->yy_buf_size = size - 2;\t/* "..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffbef8dcd8) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, " assignment from\n\t * any pointer"..., 566) = 566
+exit_group(0)                           = ?

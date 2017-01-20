@@ -1,0 +1,11 @@
+uname@__uname
+brk@brk
+brk@brk
+brk@brk
+brk@brk
+fstat@__fxstat
+mmap@mmap64
+write@__write_nocancel
+close@__close_nocancel
+munmap@__munmap
+exit_group@_exit

@@ -1,0 +1,39 @@
+execve("../source/sed.exe.static", ["../source/sed.exe.static", "-f", "../inputs/scr/s166_0.sed", "../inputs/default.in"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x17a5000
+brk(0x17a61c0)                          = 0x17a61c0
+arch_prctl(ARCH_SET_FS, 0x17a5880)      = 0
+brk(0x17c71c0)                          = 0x17c71c0
+brk(0x17c8000)                          = 0x17c8000
+open("../inputs/scr/s166_0.sed", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=103, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0470c45000
+read(3, "#n\n\n#s/d with transform (y)\n\ns/ "..., 4096) = 103
+lseek(3, 0, SEEK_CUR)                   = 103
+open("s166_0.wout", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f0470c45000, 4096)            = 0
+open("../inputs/default.in", O_RDONLY)  = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1741, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0470c45000
+read(3, "..@ A BLACK AND WHITE POEM\n\ni se"..., 4096) = 1741
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0470c44000
+fstat(4, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0470c43000
+write(4, "but feel BWORD\n", 15)        = 15
+write(4, "blessed are we to BWORD\n", 24) = 24
+write(4, "This line is followed BWORD\n", 28) = 28
+write(4, "This line is followed BWORD\n", 28) = 28
+write(4, "System appears, it should BWORD\n", 32) = 32
+write(4, "look snooker BWORD\n", 19)    = 19
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f0470c45000, 4096)            = 0
+close(4)                                = 0
+munmap(0x7f0470c43000, 4096)            = 0
+write(1, "..@ A BLACK AND WHITE POEM\n\nI sE"..., 1870) = 1870
+close(1)                                = 0
+munmap(0x7f0470c44000, 4096)            = 0
+exit_group(4)                           = ?

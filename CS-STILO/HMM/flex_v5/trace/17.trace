@@ -1,0 +1,33 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-o../outputs/output.lex.c", "../inputs/in.0"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0xed9000
+brk(0xeda1c0)                           = 0xeda1c0
+arch_prctl(ARCH_SET_FS, 0xed9880)       = 0
+brk(0xefb1c0)                           = 0xefb1c0
+brk(0xefc000)                           = 0xefc000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.0", O_RDONLY)        = 4
+brk(0xf1d000)                           = 0xf1d000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff554a4888) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=792, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc553335000
+read(4, "/* scanner for a toy Pascal-like"..., 8192) = 792
+read(4, "", 4096)                       = 0
+open("../outputs/output.lex.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc553334000
+write(1, "#line 2 \"../outputs/output.lex.c"..., 4096) = 4096
+write(1, "input, then we want to use getc("..., 4096) = 4096
+write(1, "4,    4,    4,    4,    4,    4,"..., 4096) = 4096
+write(1, "c yy_state_type yy_last_acceptin"..., 4096) = 4096
+write(1, "/outputs/output.lex.c\"\n\n\tif ( yy"..., 4096) = 4096
+write(1, "_next_state;\n\n\t\t\tyy_c_buf_p = yy"..., 4096) = 4096
+write(1, "\n\t\t\t\t\tb->yy_buf_size *= 2;\n\n\t\t\t\t"..., 4096) = 4096
+write(1, "NPUT */\n\n\n#ifdef __cplusplus\nsta"..., 4096) = 4096
+write(1, "R_STATE b;\nFILE *file;\n#endif\n\n\n"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff554a4db8) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, "t( YY_EXIT_FAILURE );\n\t}\n\n\n\n/* R"..., 1990) = 1990
+exit_group(0)                           = ?

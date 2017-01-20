@@ -1,0 +1,50 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-E", "[[:cntrl:]]", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x17a5000
+brk(0x17a61c0)                          = 0x17a61c0
+arch_prctl(ARCH_SET_FS, 0x17a5880)      = 0
+brk(0x17c71c0)                          = 0x17c71c0
+brk(0x17c8000)                          = 0x17c8000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f777b1a2000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f777b1a1000
+write(1, "static char *buffer;\t\t/* Base of"..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, "p)) > 0)\n\t  {\n\t    keycc += cc;\n"..., 4096) = 4096
+write(1, "n_index;\n\t\texact = 1;\n\t\tbreak;\n\t"..., 4096) = 4096
+write(1, "ase 'b':\n\t  printf (\"option b\\n\""..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "/wordend\");\n\tcase before_dot:\n\t "..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "roups, then this open\n\t\t won't a"..., 4096) = 4096
+write(1, "eg].word);\t\t\t\\\n      }\t\t\t\t\t\t\t\t\t\\"..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "rdbound:\n\tcase notwordbound:\n\tca"..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "DTH] & (1 << (c % BYTEWIDTH)))\n\t"..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "TRINGS_BEG (d) && WORDCHAR_P (d "..., 4096) = 4096
+write(1, "'2':\n\tcase '3':\n\tcase '4':\n\tcase"..., 4096) = 4096
+write(1, "/\n\t      if (c == '[' && (syntax"..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "index = d->follows[old.index].el"..., 4096) = 4096
+write(1, "ms[j].index);\n\t    prtok(d->toke"..., 4096) = 4096
+write(1, "rps].elems, position, d->nleaves"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "n'\t->\tegrep 'epsi'\n\t\t\t\t\t(Yes, we"..., 4096) = 4096
+write(1, "t[0] = t;\n\t      mp->is[1] = mp-"..., 4096) = 4096
+write(1, "e != (char) -1 ? 0 : 1;\n\t\t      "..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, " trie->shift;\n\t}\n\t{\n\t  mch = lmc"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "nd we need to run it through Reg"..., 1637) = 1637
+close(1)                                = 0
+munmap(0x7f777b1a1000, 4096)            = 0
+exit_group(0)                           = ?

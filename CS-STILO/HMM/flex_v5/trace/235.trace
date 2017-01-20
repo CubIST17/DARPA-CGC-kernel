@@ -1,0 +1,39 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-d", "-Ca", "../inputs/in.0"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x10db000
+brk(0x10dc1c0)                          = 0x10dc1c0
+arch_prctl(ARCH_SET_FS, 0x10db880)      = 0
+brk(0x10fd1c0)                          = 0x10fd1c0
+brk(0x10fe000)                          = 0x10fe000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.0", O_RDONLY)        = 4
+brk(0x111f000)                          = 0x111f000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff91997058) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=792, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f451acfa000
+read(4, "/* scanner for a toy Pascal-like"..., 8192) = 792
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f451acf9000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, ",    4,    4,    4,    4,    4, "..., 4096) = 4096
+write(1, "      20,   20,   20,   20,   20"..., 4096) = 4096
+write(1, "20,\n       20,   20,   42,   20,"..., 4096) = 4096
+write(1, "7,   27,\n        3,   44,   44, "..., 4096) = 4096
+write(1, "   0,   13,   13,   13,   13,   "..., 4096) = 4096
+write(1, " 38,   38,   38,   38,   38,   3"..., 4096) = 4096
+write(1, "       46,   46,   46,   46,   4"..., 4096) = 4096
+write(1, "tic int yy_flex_strlen YY_PROTO("..., 4096) = 4096
+write(1, "[yy_base[yy_current_state] + (un"..., 4096) = 4096
+write(1, "c_buf_p;\n\t\t\t\tyy_current_state = "..., 4096) = 4096
+write(1, "current_buffer->yy_ch_buf[number"..., 4096) = 4096
+write(1, " the EOB_ACT_LAST_MATCH\n\t\t\t\t\t * "..., 4096) = 4096
+write(1, "BUFFER\n#ifdef YY_USE_PROTOS\nYY_B"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff91997588) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, "lloc( yy_size_t size )\n#else\nsta"..., 1089) = 1089
+exit_group(0)                           = ?

@@ -1,0 +1,37 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-d", "-Cf", "../inputs/in.ch"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x268a000
+brk(0x268b1c0)                          = 0x268b1c0
+arch_prctl(ARCH_SET_FS, 0x268a880)      = 0
+brk(0x26ac1c0)                          = 0x26ac1c0
+brk(0x26ad000)                          = 0x26ad000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.ch", O_RDONLY)       = 4
+brk(0x26ce000)                          = 0x26ce000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff039054e8) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=357, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f70978d0000
+read(4, "%%\n\nxyz\"++\"\t\tprintf(\"Match chara"..., 8192) = 357
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f70978cf000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff039054a8) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, "0,    0,    0,    0,    0\n    },"..., 4096) = 4096
+write(1, "   -5,   -5,   -5,   -5,   -5,  "..., 4096) = 4096
+write(1, "-10,  -10,  -10,  -10,  -10,  -1"..., 4096) = 4096
+write(1, "-15,\n      -15,  -15,  -15,  -15"..., 4096) = 4096
+write(1, "0,  -20,  -20,\n      -20,  -20, "..., 4096) = 4096
+write(1, "0,    0,    0,    0,    0,    0,"..., 4096) = 4096
+write(1, "yy_bp;\n\tregister int yy_act;\n\n#l"..., 4096) = 4096
+write(1, "\tyy_current_state = yy_get_previ"..., 4096) = 4096
+write(1, "oom in for 2 EOB chars. */\n\t\t\t\t\t"..., 4096) = 4096
+write(1, "need more input */\n\t\t\tint offset"..., 4096) = 4096
+write(1, "wo end-of-buffer characters.  Th"..., 4096) = 4096
+write(1, "ncpy( s1, s2, n )\nchar *s1;\nyyco"..., 1318) = 1318
+exit_group(0)                           = ?

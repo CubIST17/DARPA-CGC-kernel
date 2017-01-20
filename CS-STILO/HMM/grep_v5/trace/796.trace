@@ -1,0 +1,88 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-e", "a", "-e", "b", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x1929000
+brk(0x192a1c0)                          = 0x192a1c0
+arch_prctl(ARCH_SET_FS, 0x1929880)      = 0
+brk(0x194b1c0)                          = 0x194b1c0
+brk(0x194c000)                          = 0x194c000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f1340f67000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1340f66000
+write(1, "/* grep.c - main driver file for"..., 4096) = 4096
+write(1, "t();\n  if (save > bufsalloc)\n   "..., 4096) = 4096
+write(1, "im;\n  register char *p, *b;\n  ch"..., 4096) = 4096
+write(1, ";\n\tbreak;\n      case 'x':\n\tmatch"..., 4096) = 4096
+write(1, "the caller\n   and for communicat"..., 4096) = 4096
+write(1, "f an element of ARGV starts with"..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, "all the ARGV-elements, stop the "..., 4096) = 4096
+write(1, "getopt_internal (argc, argv, opt"..., 4096) = 4096
+write(1, "e ISDIGIT(c) (isascii (c) && isd"..., 4096) = 4096
+write(1, "at is matched and store it in a\n"..., 4096) = 4096
+write(1, "a number stored in two contiguou"..., 4096) = 4096
+write(1, "ump:\n          extract_number_an"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "NOMATCH */\n    \"Invalid regular "..., 4096) = 4096
+write(1, " + bufp->buffer;\t\t\t\t\\\n        be"..., 4096) = 4096
+write(1, "which to go back if the interval"..., 4096) = 4096
+write(1, "   /* Star, etc. applied to an e"..., 4096) = 4096
+write(1, "               beginning or the "..., 4096) = 4096
+write(1, "ey will still\n                 b"..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "p right now points to a\n        "..., 4096) = 4096
+write(1, "        b += 5;\n                "..., 4096) = 4096
+write(1, "       BUF_PUSH_2 (duplicate, c1"..., 4096) = 4096
+write(1, "tack (compile_stack, regnum)\n   "..., 4096) = 4096
+write(1, "DOUBLE_FAIL_STACK (fail_stack))\t"..., 4096) = 4096
+write(1, "EMENT (fail_stack_elt_t failure_"..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "_be_null'; if we have,\n         "..., 4096) = 4096
+write(1, "ring;\n     int size, startpos, r"..., 4096) = 4096
+write(1, "sh this value\n   onto the failur"..., 4096) = 4096
+write(1, "g).  Otherwise, we return the le"..., 4096) = 4096
+write(1, "d when we pop values we don't ca"..., 4096) = 4096
+write(1, " ? end_match_1 : end_match_2);\n\t"..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "ts are the register number in th"..., 4096) = 4096
+write(1, " next operation is a jump backwa"..., 4096) = 4096
+write(1, "\n           then the . fails aga"..., 4096) = 4096
+write(1, "        p[-3] = (unsigned char) "..., 4096) = 4096
+write(1, "succeed.  */\n              DEBUG"..., 4096) = 4096
+write(1, "ory, sets P to point to one past"..., 4096) = 4096
+write(1, "   case wordbound:\n    case notw"..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "t, we use POSIX extended syntax;"..., 4096) = 4096
+write(1, "eturned by the rest of the code "..., 4096) = 4096
+write(1, "LPAREN: s = \"LPAREN\"; break;\n\tca"..., 4096) = 4096
+write(1, "    return lasttok = ENDWORD;\n\t "..., 4096) = 4096
+write(1, "= CSET + charclass_index(ccl);\n\t"..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, ">states[i].letter)\n\tif (s->elems"..., 4096) = 4096
+write(1, " with an appropriate\n   constrai"..., 4096) = 4096
+write(1, "lastpos->index = i;\n\tfirstpos->c"..., 4096) = 4096
+write(1, "xt. */\n      if (pos.constraint "..., 4096) = 4096
+write(1, "a compiled dfa's transition tabl"..., 4096) = 4096
+write(1, "&& p <= (unsigned char *) end &&"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "' is probably unlikely; somethin"..., 4096) = 4096
+write(1, "TY; without even the implied war"..., 4096) = 4096
+write(1, " = trie;\n\t  link->trie->fail = 0"..., 4096) = 4096
+write(1, "des of the trie in level order, "..., 4096) = 4096
+write(1, ";\n      kwsmatch->size[0] = acce"..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, " extra 4096 bytes would be\n\t all"..., 4096) = 4096
+write(1, "locate\n   more recently than OBJ"..., 4096) = 4096
+write(1, "ftware Foundation; either versio"..., 4096) = 4096
+write(1, "har *pattern;\n  char *err;\n  if "..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "truct kwsmatch kwsmatch;\n  for ("..., 1004) = 1004
+close(1)                                = 0
+munmap(0x7f1340f66000, 4096)            = 0
+exit_group(0)                           = ?

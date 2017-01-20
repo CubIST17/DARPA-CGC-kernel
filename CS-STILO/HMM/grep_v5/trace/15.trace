@@ -1,0 +1,47 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-E", "[[:digit:]]", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x1cc5000
+brk(0x1cc61c0)                          = 0x1cc61c0
+arch_prctl(ARCH_SET_FS, 0x1cc5880)      = 0
+brk(0x1ce71c0)                          = 0x1ce71c0
+brk(0x1ce8000)                          = 0x1ce8000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f70d1eaa000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f70d1ea9000
+write(1, "   Copyright (C) 1992 Free Softw"..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, "uiet = 1;\n\tsuppress_errors = 1;\n"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "g 1\n#if flag_string==0\n#define f"..., 4096) = 4096
+write(1, "c1);\t\t\t\t\t\\\n    *b++ = (unsigned "..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "memory, regnum, 0);\n            "..., 4096) = 4096
+write(1, "v_backslash = prev > pattern && "..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "\n  unsigned num_regs = 0;\n  bzer"..., 4096) = 4096
+write(1, " => advance to string2.  */ \t\t\t\\"..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "return -2;\n              if (reg"..., 4096) = 4096
+write(1, "= '\\n'\n          DEBUG_PRINT1 (\""..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "ter_dot.\\n\");\n#else /* not emacs"..., 4096) = 4096
+write(1, " and REG_NOMATCH if not.  */\n  b"..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "rn 1 + nsubtoks(tindex - 1);\n   "..., 4096) = 4096
+write(1, "[pos.index] >= 0 && d->tokens[po"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, ";\n  cpp = (char **) realloc((cha"..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, "; ++i)\n      delta[i] = 255;\n  i"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "(i = obj_size / sizeof (COPYING_"..., 3607) = 3607
+close(1)                                = 0
+munmap(0x7f70d1ea9000, 4096)            = 0
+exit_group(0)                           = ?

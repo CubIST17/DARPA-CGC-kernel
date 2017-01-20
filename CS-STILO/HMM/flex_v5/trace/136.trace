@@ -1,0 +1,35 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-dl", "-Cr", "../inputs/in.ch"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x24a4000
+brk(0x24a51c0)                          = 0x24a51c0
+arch_prctl(ARCH_SET_FS, 0x24a4880)      = 0
+brk(0x24c61c0)                          = 0x24c61c0
+brk(0x24c7000)                          = 0x24c7000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.ch", O_RDONLY)       = 4
+brk(0x24e8000)                          = 0x24e8000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff89171678) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=357, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1592424000
+read(4, "%%\n\nxyz\"++\"\t\tprintf(\"Match chara"..., 8192) = 357
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1592423000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff89171638) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, "y_cp;\n\n#define YY_NUM_RULES 7\n#d"..., 4096) = 4096
+write(1, "    4,    4,    4,    4,    4,  "..., 4096) = 4096
+write(1, " 25,   25,   25,   25,\n       25"..., 4096) = 4096
+write(1, "char *, yyconst char *, int ));\n"..., 4096) = 4096
+write(1, "[yy_base[yy_current_state] + (un"..., 4096) = 4096
+write(1, "\t\t\t{\n\t\t\t\t/* Consume the NUL. */\n"..., 4096) = 4096
+write(1, "ZE;\n\n\t\t/* Read in more data. */\n"..., 4096) = 4096
+write(1, "et buffer status. */\n\t\t\t\t\tyyrest"..., 4096) = 4096
+write(1, "y_scan_buffer( char *base, yy_si"..., 4096) = 4096
+write(1, "flex_alloc( size )\nyy_size_t siz"..., 872) = 872
+exit_group(0)                           = ?

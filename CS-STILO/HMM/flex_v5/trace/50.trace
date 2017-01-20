@@ -1,0 +1,35 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-dF", "-Crae", "../inputs/in.0"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x764000
+brk(0x7651c0)                           = 0x7651c0
+arch_prctl(ARCH_SET_FS, 0x764880)       = 0
+brk(0x7861c0)                           = 0x7861c0
+brk(0x787000)                           = 0x787000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.0", O_RDONLY)        = 4
+brk(0x7a8000)                           = 0x7a8000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff97c4f578) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=792, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9fcb568000
+read(4, "/* scanner for a toy Pascal-like"..., 8192) = 792
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9fcb567000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, "}, {   6,  68 },\n {   7,  56 }, "..., 4096) = 4096
+write(1, ", {   9,   0 }, {   0,   0 }, { "..., 4096) = 4096
+write(1, "\n {   0,   0 }, {   0,   0 }, { "..., 4096) = 4096
+write(1, "te_list[3] =\n    {\n    &yy_trans"..., 4096) = 4096
+write(1, "t. */\n\n#ifndef ECHO\n/* This used"..., 4096) = 4096
+write(1, "7 \"../inputs/in.0\"\nprintf(\"An op"..., 4096) = 4096
+write(1, "ent position\n *\tEOB_ACT_END_OF_F"..., 4096) = 4096
+write(1, "\n\tregister yyconst struct yy_tra"..., 4096) = 4096
+write(1, "y_load_buffer_state()\n#endif\n\t{\n"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff97c4faa8) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, "can_buffer( buf, n );\n\tif ( ! b "..., 3474) = 3474
+exit_group(0)                           = ?

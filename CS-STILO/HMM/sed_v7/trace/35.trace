@@ -1,0 +1,22 @@
+execve("../source/sed.exe.static", ["../source/sed.exe.static", "-e", "s/dog/cat/", "../inputs/biglines.in"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x765000
+brk(0x7661c0)                           = 0x7661c0
+arch_prctl(ARCH_SET_FS, 0x765880)       = 0
+brk(0x7871c0)                           = 0x7871c0
+brk(0x788000)                           = 0x788000
+open("../inputs/biglines.in", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=5067, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fdd96486000
+read(3, "dog dog dog dog dog dog cat dog "..., 4096) = 4096
+read(3, "cat dog dog dog dog dog dog dog "..., 4096) = 971
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fdd96485000
+write(1, "cat dog dog dog dog dog cat dog "..., 4096) = 4096
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fdd96486000, 4096)            = 0
+write(1, "cat dog dog dog dog dog dog dog "..., 971) = 971
+close(1)                                = 0
+munmap(0x7fdd96485000, 4096)            = 0
+exit_group(4)                           = ?

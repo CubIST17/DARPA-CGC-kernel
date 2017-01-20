@@ -1,0 +1,48 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-E", "include|\\Wreg", "../inputs/grep0.dat", "../inputs/grep1.dat", "../inputs/grepNull.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x2574000
+brk(0x25751c0)                          = 0x25751c0
+arch_prctl(ARCH_SET_FS, 0x2574880)      = 0
+brk(0x25961c0)                          = 0x25961c0
+brk(0x2597000)                          = 0x2597000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ffd8ceb1000
+close(3)                                = 0
+open("../inputs/grep0.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=297, ...}) = 0
+read(3, "Before an alternative\nstore_op2 "..., 32768) = 297
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ffd8ceb0000
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "../inputs/grep0.dat:include\n../i"..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, ":/* `regex_compile' compiles PAT"..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "dat:  DEBUG_PRINT2 (\"  Popping  "..., 4096) = 4096
+write(1, "d, finally, two char *'s.  The f"..., 4096) = 4096
+write(1, "1.dat:                  if (regs"..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "ter, since\n../inputs/grep1.dat: "..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "GNUM);\n../inputs/grep1.dat:     "..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, " checked for syntax errors befor"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+open("../inputs/grepNull.dat", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "../inputs/grep1.dat:  register s"..., 2250) = 2250
+close(1)                                = 0
+munmap(0x7ffd8ceb0000, 4096)            = 0
+exit_group(0)                           = ?

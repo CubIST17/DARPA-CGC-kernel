@@ -1,0 +1,138 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-vbn", "include", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x14fb000
+brk(0x14fc1c0)                          = 0x14fc1c0
+arch_prctl(ARCH_SET_FS, 0x14fb880)      = 0
+brk(0x151d1c0)                          = 0x151d1c0
+brk(0x151e000)                          = 0x151e000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f4eb276b000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4eb276a000
+write(1, "1:0:/* grep.c - main driver file"..., 4096) = 4096
+write(1, "3234:void\n151:3239:fatal(mesg, e"..., 4096) = 4096
+write(1, "286:6204:      bufalloc = 5 * bu"..., 4096) = 4096
+write(1, "287:    error(\"writing output\", "..., 4096) = 4096
+write(1, ";\n543:11974:  save = 0;\n544:1198"..., 4096) = 4096
+write(1, ");\n681:14691:\tmatcher = \"posix-e"..., 4096) = 4096
+write(1, "      {\n818:17422:\t\tif (out_file"..., 4096) = 4096
+write(1, "ca\talloca\n933:20719:#endif\t/* GN"..., 4096) = 4096
+write(1, " ARGV-elements in any order and "..., 4096) = 4096
+write(1, " is an option element.  The char"..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, ":      if (optstring[0] == '-')\n"..., 4096) = 4096
+write(1, "     while (*s && *s != '=')\n131"..., 4096) = 4096
+write(1, "876:  {\n1428:35880:    char c = "..., 4096) = 4096
+write(1, "s_option_optind;\n1557:38566:\t  p"..., 4096) = 4096
+write(1, "ntax_table;\n1691:41520:\n1692:415"..., 4096) = 4096
+write(1, "d easier to debug.  \n1794:44552:"..., 4096) = 4096
+write(1, "\n1890:47603:  charset_not,\n1891:"..., 4096) = 4096
+write(1, "70:50816:           Jump to the "..., 4096) = 4096
+write(1, "ng (if the variable `debug' is n"..., 4096) = 4096
+write(1, "et [%s\",\n2200:56636:\t           "..., 4096) = 4096
+write(1, "315:59457:          \n2316:59468:"..., 4096) = 4096
+write(1, "be changed between regex compila"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "\t\t\t\t\t\t\\\n2527:65326:    while (b "..., 4096) = 4096
+write(1, "ber of groups we can report\n2613"..., 4096) = 4096
+write(1, "    reg_syntax_t syntax;\n2710:71"..., 4096) = 4096
+write(1, "4575:\t{ /* If zero allocated, bu"..., 4096) = 4096
+write(1, "                  {\n2899:77630: "..., 4096) = 4096
+write(1, "is\n2978:80840:                  "..., 4096) = 4096
+write(1, "83960:                  }\n3067:8"..., 4096) = 4096
+write(1, "UNCT (ch))\n3140:87258:          "..., 4096) = 4096
+write(1, "ixup_alt_jump \n3241:90247:      "..., 4096) = 4096
+write(1, "            /* We're at the end "..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "     {\n3398:96704:              "..., 4096) = 4096
+write(1, "at' (inserted next),\n3481:99901:"..., 4096) = 4096
+write(1, "arl  */\n3550:103158:            "..., 4096) = 4096
+write(1, " '+' || *p == '?'))\n3658:105970:"..., 4096) = 4096
+write(1, "ev = p - 2;\n3780:108594:  boolea"..., 4096) = 4096
+write(1, "17:  /* Here we see why `this_ch"..., 4096) = 4096
+write(1, ",\t\t\\\n3966:114547:       1))\n3967"..., 4096) = 4096
+write(1, "  MATCHED_SOMETHING (reg_info[th"..., 4096) = 4096
+write(1, "p_string_jump opcode, and we wan"..., 4096) = 4096
+write(1, "7:123935:  bufp->can_be_null = 0"..., 4096) = 4096
+write(1, "26672:\tcase before_dot:\n4321:126"..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "; /* We have listed all the case"..., 4096) = 4096
+write(1, " */\n4519:132486:\n4520:132487:int"..., 4096) = 4096
+write(1, ";\n4613:135452:      if (val >= 0"..., 4096) = 4096
+write(1, "*/\n4708:138409:#define PREFETCH("..., 4096) = 4096
+write(1, " start matching at POS, and stop"..., 4096) = 4096
+write(1, "   register's end.  */\n4872:1447"..., 4096) = 4096
+write(1, "  if (pos < 0 || pos > size1 + s"..., 4096) = 4096
+write(1, "_p && !MATCHING_IN_FIRST_STRING)"..., 4096) = 4096
+write(1, "      /* Convert the pointer dat"..., 4096) = 4096
+write(1, "while (--mcnt);\n5204:157202:\t   "..., 4096) = 4096
+write(1, "2:160223:          /* Move past "..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "   switch ((re_opcode_t) *p1++)\n"..., 4096) = 4096
+write(1, "e to start and\n5446:166585:     "..., 4096) = 4096
+write(1, "ULL as the value for the string "..., 4096) = 4096
+write(1, "       highest_active_reg = *(p1"..., 4096) = 4096
+write(1, "pop_failure_jump;\n5692:175924:  "..., 4096) = 4096
+write(1, "768:179089:          DEBUG_PRINT"..., 4096) = 4096
+write(1, "\\n\");\n5867:182004:          if ("..., 4096) = 4096
+write(1, "968:184881:                     "..., 4096) = 4096
+write(1, "    /* Move to right after this "..., 4096) = 4096
+write(1, "ase no_op:\n6163:190745:    case "..., 4096) = 4096
+write(1, "U code determines whether or not"..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "to regexec, that\n6377:196375:   "..., 4096) = 4096
+write(1, "72:199312:\n6473:199313:  private"..., 4096) = 4096
+write(1, "2:  preg->fastmap = NULL;\n6582:2"..., 4096) = 4096
+write(1, "5044:static void\tdfamust();\n6703"..., 4096) = 4096
+write(1, "58:     charclass s;\n6843:207476"..., 4096) = 4096
+write(1, "271:  \":digit:]\", is_digit,\n6950"..., 4096) = 4096
+write(1, "891:\t    goto normal_char;\n7073:"..., 4096) = 4096
+write(1, "607:\t  return lasttok = CSET + c"..., 4096) = 4096
+write(1, "h count and\n7300:218367:   updat"..., 4096) = 4096
+write(1, "tindex, ntokens);\n7440:220789:\t "..., 4096) = 4096
+write(1, " if (s1->elems[i].index > s2->el"..., 4096) = 4096
+write(1, "osure of a set of positions.  If"..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "lastpos.\n7772:229173:   * The la"..., 4096) = 4096
+write(1, " nullable. */\n7853:232302:\t*null"..., 4096) = 4096
+write(1, "aint = NO_CONSTRAINT;\n7949:23525"..., 4096) = 4096
+write(1, "very state.\n8043:238301:\n8044:23"..., 4096) = 4096
+write(1, "\t\t\t\td->states[s].letter, 1))\n812"..., 4096) = 4096
+write(1, "e = state_index(d, &follows, 0, "..., 4096) = 4096
+write(1, " table. */\n8314:247336:  int i;\n"..., 4096) = 4096
+write(1, "f backref is non-NULL it points "..., 4096) = 4096
+write(1, "833:{\n8538:252835:  if (case_fol"..., 4096) = 4096
+write(1, "\t\n8639:255715:\tSTAR\tZERO\t\tZERO\t\t"..., 4096) = 4096
+write(1, "8434:\n8754:258435:static char **"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "list(temp);\n8885:260965:\t  if (b"..., 4096) = 4096
+write(1, "013:263512:\t  }\n9014:263517:\t  b"..., 4096) = 4096
+write(1, " exact;\n9132:266189:      dm->mu"..., 4096) = 4096
+write(1, "/\n9240:269242:};\n9241:269245:\n92"..., 4096) = 4096
+write(1, "7:272169:      links[0] = (struc"..., 4096) = 4096
+write(1, "275015:\n9442:275016:      trie ="..., 4096) = 4096
+write(1, "ext(tree->llink, next);\n9558:277"..., 4096) = 4096
+write(1, "9642:280800:\t    }\n9643:280807:\t"..., 4096) = 4096
+write(1, "9756:283528:\t{\n9757:283531:\t  fo"..., 4096) = 4096
+write(1, "= trie->links;\n9887:286067:\t  wh"..., 4096) = 4096
+write(1, "th-gnu-libc' and omit the object"..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, "NDING - 1));\n10080:292019:      "..., 4096) = 4096
+write(1, "0171:294918:\n10172:294919:  /* M"..., 4096) = 4096
+write(1, "ject, so assume that it may.  */"..., 4096) = 4096
+write(1, "er);\n10364:300607:}\n10365:300609"..., 4096) = 4096
+write(1, "ii(C) && isalnum(C))\n10487:30332"..., 4096) = 4096
+write(1, "m->exact)\n10598:306107:\t    cont"..., 4096) = 4096
+write(1, "    if (match_lines)\n10709:30877"..., 4096) = 4096
+write(1, "  goto success;\n10811:311536:\t\ti"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "vfvf\n10944:313892:wwif (gout)\n10"..., 592) = 592
+close(1)                                = 0
+munmap(0x7f4eb276a000, 4096)            = 0
+exit_group(0)                           = ?

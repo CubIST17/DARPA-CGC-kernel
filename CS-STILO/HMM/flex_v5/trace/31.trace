@@ -1,0 +1,34 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-df", "-Cra", "../inputs/in.ch_exp_2"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x74b000
+brk(0x74c1c0)                           = 0x74c1c0
+arch_prctl(ARCH_SET_FS, 0x74b880)       = 0
+brk(0x76d1c0)                           = 0x76d1c0
+brk(0x76e000)                           = 0x76e000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.ch_exp_2", O_RDONLY) = 4
+brk(0x78f000)                           = 0x78f000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff46df1f78) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=76, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2dd82e0000
+read(4, "%%\n\n(foo)|(ba(r*))\tprintf(\"foo o"..., 8192) = 76
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2dd82df000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff46df1f38) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, "static yyconst long int yy_def[1"..., 4096) = 4096
+write(1, "    11,   11,   11,   11,   11, "..., 4096) = 4096
+write(1, "11,\n\n       11,   11,   11,   11"..., 4096) = 4096
+write(1, "f\n\n\t\tif ( ! yy_start )\n\t\t\tyy_sta"..., 4096) = 4096
+write(1, " because then it\n\t\t\t * will run "..., 4096) = 4096
+write(1, "uf_p_offset];\n\n\t\t\tnum_to_read = "..., 4096) = 4096
+write(1, "yy_g_n_b()\n\t\t\t\t\t * sees that we'"..., 4096) = 4096
+write(1, "CHAR;\n\tb->yy_ch_buf[1] = YY_END_"..., 4096) = 4096
+write(1, "\nstatic int yy_flex_strlen( yyco"..., 1147) = 1147
+exit_group(0)                           = ?

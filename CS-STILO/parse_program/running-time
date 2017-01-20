@@ -1,0 +1,5 @@
+./run.sh -all my-nginx
+start running 'parse'...
+time used for parsing binary: 0.39
+time used for parsing binary: 2.45
+

@@ -1,0 +1,105 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-i", "[C-x2]", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x2331000
+brk(0x23321c0)                          = 0x23321c0
+arch_prctl(ARCH_SET_FS, 0x2331880)      = 0
+brk(0x23531c0)                          = 0x23531c0
+brk(0x2354000)                          = 0x2354000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f2a5f357000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2a5f356000
+write(1, "/* grep.c - main driver file for"..., 4096) = 4096
+write(1, "   page size. */\nstatic char *bu"..., 4096) = 4096
+write(1, "e count, context, etc. */\nstatic"..., 4096) = 4096
+write(1, "!= lastout)\n\tlastout = 0;\n      "..., 4096) = 4096
+write(1, "ys = argv[optind++];\n\tkeycc = st"..., 4096) = 4096
+write(1, "opt'\n   but it behaves different"..., 4096) = 4096
+write(1, "str;\n      str++;\n  return 0;\nst"..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, " the index in LONGOPT of the lon"..., 4096) = 4096
+write(1, "onexact match found.  */\n\t\tpfoun"..., 4096) = 4096
+write(1, " */\n#ifdef TEST\n/* Compile with "..., 4096) = 4096
+write(1, "f /* not SYNTAX_TABLE */\n#define"..., 4096) = 4096
+write(1, "STREQ(s1, s2) ((strcmp (s1, s2) "..., 4096) = 4096
+write(1, " before the first repeat.  Also "..., 4096) = 4096
+write(1, "x3)\n#define DEBUG_PRINT4(x1, x2,"..., 4096) = 4096
+write(1, "t_number_and_incr (&mcnt2, &p);\n"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "iling backslash\",\t\t\t/* REG_EESCA"..., 4096) = 4096
+write(1, "ng larger than MAX_BUF_SIZE, the"..., 4096) = 4096
+write(1, "eg_errcode_t\nregex_compile (patt"..., 4096) = 4096
+write(1, "n, p, syntax))\n              BUF"..., 4096) = 4096
+write(1, " */\n                  STORE_JUMP"..., 4096) = 4096
+write(1, "!= REG_NOERROR) return ret;\n    "..., 4096) = 4096
+write(1, "       if (syntax & RE_NO_BK_VBA"..., 4096) = 4096
+write(1, "            ? bufp->buffer + COM"..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, " & RE_NO_BK_BRACES)\n            "..., 4096) = 4096
+write(1, "                   so everything"..., 4096) = 4096
+write(1, "x & RE_NO_BK_BRACES)\n\t\t      ? *"..., 4096) = 4096
+write(1, "  ending characters (inclusive) "..., 4096) = 4096
+write(1, "_stack))\t\t\t\t\t\\\n    ? 0\t\t\t\t\t\t\t\t\t\\"..., 4096) = 4096
+write(1, "\\\n\t\t\t\t size2);\t\t\t\t\\\n    DEBUG_PR"..., 4096) = 4096
+write(1, "pply the address of a (1 << BYTE"..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "otwordbound:\n\tcase wordbeg:\n\tcas"..., 4096) = 4096
+write(1, "ted = REGS_UNALLOCATED;\n      re"..., 4096) = 4096
+write(1, "!bufp->can_be_null)\n\treturn -1;\n"..., 4096) = 4096
+write(1, "_WORD_BOUNDARY(d)\t\t\t\t\t\t\\\n  (AT_S"..., 4096) = 4096
+write(1, " in backreferences.  The number "..., 4096) = 4096
+write(1, "= best_regend = reg_dummy = NULL"..., 4096) = 4096
+write(1, "; mcnt < num_regs; mcnt++)\n\t\t   "..., 4096) = 4096
+write(1, "pattern defines n, and the n byt"..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "          against `aba'; then we"..., 4096) = 4096
+write(1, "  for (r = *p; r < *p + *(p + 1)"..., 4096) = 4096
+write(1, " matches the foo;\n           the"..., 4096) = 4096
+write(1, " `ab').  But instead of trying t"..., 4096) = 4096
+write(1, ", say, `a+', we\n           are s"..., 4096) = 4096
+write(1, "\t  mcnt = (int) Sword;\n        m"..., 4096) = 4096
+write(1, ".\n                 The last alte"..., 4096) = 4096
+write(1, "& reg_no <= MAX_REGNUM);\n      r"..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "nd compiles it.\n   PREG is a reg"..., 4096) = 4096
+write(1, "egisters to return\n     informat"..., 4096) = 4096
+write(1, "else\n#if flag_strings==0\n#includ"..., 4096) = 4096
+write(1, ";\n  int i;\n  for (i = 0; i < dfa"..., 4096) = 4096
+write(1, "se '6':\n\tcase '7':\n\tcase '8':\n\tc"..., 4096) = 4096
+write(1, "name))\n\t\t      for (c2 = 0; c2 <"..., 4096) = 4096
+write(1, "ubtoks(dfa->tindex);\n\ttindex = d"..., 4096) = 4096
+write(1, ".letter)\n\tcontinue;\n      for (j"..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "o the last character of a string"..., 4096) = 4096
+write(1, "tpos[-1];\n\ttmp.elems = firstpos;"..., 4096) = 4096
+write(1, "le);\n  free(o_nfirst);\n  free(o_"..., 4096) = 4096
+write(1, "  matches[j] &= ~letters[j];\n\t  "..., 4096) = 4096
+write(1, "wants_newline = 1;\n      wants_l"..., 4096) = 4096
+write(1, "uffer, and end points to the fir"..., 4096) = 4096
+write(1, ");\n  free((ptr_t) d->fails);\n  f"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "== NULL)\n    return;\n  for (i = "..., 4096) = 4096
+write(1, "ts[2])\n\t    goto done;\t\t/* \"cann"..., 4096) = 4096
+write(1, "our option)\n   any later version"..., 4096) = 4096
+write(1, " = 0;\n  kwset->trie->parent = 0;"..., 4096) = 4096
+write(1, "* kwset->words;\n  ++kwset->words"..., 4096) = 4096
+write(1, "->mind2 = kwset->mind - (i + 1);"..., 4096) = 4096
+write(1, "  return tp - len;\n      d = md2"..., 4096) = 4096
+write(1, "e it and/or modify it\nunder the "..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, "- extra;\n  h->chunkfun = (struct"..., 4096) = 4096
+write(1, "= 0;\n/* Return nonzero if object"..., 4096) = 4096
+write(1, "    int length;\n  obstack_grow0 "..., 4096) = 4096
+write(1, "buffer regex;\n/* KWset compiled "..., 4096) = 4096
+write(1, "(match_words)\n\tstrcpy(n, \"(^|[^0"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "success;\n      else if (match_wo"..., 1112) = 1112
+close(1)                                = 0
+munmap(0x7f2a5f356000, 4096)            = 0
+exit_group(0)                           = ?

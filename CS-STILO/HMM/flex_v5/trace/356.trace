@@ -1,0 +1,33 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-l", "-Crem", "../inputs/in.ch"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0xbe2000
+brk(0xbe31c0)                           = 0xbe31c0
+arch_prctl(ARCH_SET_FS, 0xbe2880)       = 0
+brk(0xc041c0)                           = 0xc041c0
+brk(0xc05000)                           = 0xc05000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.ch", O_RDONLY)       = 4
+brk(0xc26000)                           = 0xc26000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff16fff928) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=357, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f583fd5d000
+read(4, "%%\n\nxyz\"++\"\t\tprintf(\"Match chara"..., 8192) = 357
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f583fd5c000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff16fff8e8) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, "_END_OF_BUFFER 8\nstatic yyconst "..., 4096) = 4096
+write(1, "efine YYLMAX 8192\n#endif\n\nchar y"..., 4096) = 4096
+write(1, "buf_p;\n\n\t\t/* Support of yytext. "..., 4096) = 4096
+write(1, "ry_NUL_trans( yy_current_state )"..., 4096) = 4096
+write(1, "_to_move - 1;\n#endif\n\t\t\t}\n\n\t\tif "..., 4096) = 4096
+write(1, "\t\t\t++yy_c_buf_p;\n\n\t\t\tswitch ( yy"..., 4096) = 4096
+write(1, "  The first causes\n\t * a transit"..., 4096) = 4096
+write(1, "yyconst char *s2;\nint n;\n#endif\n"..., 1290) = 1290
+exit_group(0)                           = ?

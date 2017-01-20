@@ -1,0 +1,89 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "[a-]", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x918000
+brk(0x9191c0)                           = 0x9191c0
+arch_prctl(ARCH_SET_FS, 0x918880)       = 0
+brk(0x93a1c0)                           = 0x93a1c0
+brk(0x93b000)                           = 0x93b000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fea8a5ec000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fea8a5eb000
+write(1, "/* grep.c - main driver file for"..., 4096) = 4096
+write(1, "+ bufsalloc - save;\n  while (sav"..., 4096) = 4096
+write(1, "   if (buflim - bufbeg == save)\n"..., 4096) = 4096
+write(1, "  printf(\"%s\\n\", filename);\n    "..., 4096) = 4096
+write(1, "he error message\n/* Set to an op"..., 4096) = 4096
+write(1, "ose that are not options now com"..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, "r option-ARGV-element.\n\t Start d"..., 4096) = 4096
+write(1, "tion a\\n\");\n\t  break;\n\tcase 'b':"..., 4096) = 4096
+write(1, "As in Harbison and Steele.  */\n#"..., 4096) = 4096
+write(1, " alternative.  */\n  jump_past_al"..., 4096) = 4096
+write(1, "n.c' and\n   the other test files"..., 4096) = 4096
+write(1, "         break;\n\tcase after_dot:"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "acter in the pattern.  */\n#defin"..., 4096) = 4096
+write(1, "efine CHAR_CLASS_MAX_LENGTH  6 /"..., 4096) = 4096
+write(1, "  { /* Caller did not allocate a"..., 4096) = 4096
+write(1, "                              : "..., 4096) = 4096
+write(1, "                 /* Throw away t"..., 4096) = 4096
+write(1, "e for backslashed left paren abo"..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "              /* If it's invalid"..., 4096) = 4096
+write(1, "e 'S':\n              laststart ="..., 4096) = 4096
+write(1, "_backslash = prev > pattern && p"..., 4096) = 4096
+write(1, "k.stack = (fail_stack_elt_t *)\t\t"..., 4096) = 4096
+write(1, "items that are pushed and popped"..., 4096) = 4096
+write(1, "         p = fail_stack.stack[--"..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "e loop\n      path_can_be_null = "..., 4096) = 4096
+write(1, "ing `translate'\n\t      if (trans"..., 4096) = 4096
+write(1, "(var) free (var); var = NULL\n   "..., 4096) = 4096
+write(1, "ing, then the register for its s"..., 4096) = 4096
+write(1, "starting point in the input data"..., 4096) = 4096
+write(1, "d.  */\n              for (mcnt ="..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "        against `aba'; then we w"..., 4096) = 4096
+write(1, "e\n            dend2 = ((FIRST_ST"..., 4096) = 4096
+write(1, "cnt' after we do this.  */\n     "..., 4096) = 4096
+write(1, "ister from the stack, since lowe"..., 4096) = 4096
+write(1, "   matchnotsyntax:\n\t  if (SYNTAX"..., 4096) = 4096
+write(1, " != on_failure_jump)\n           "..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "oints compatible with 4.2 BSD re"..., 4096) = 4096
+write(1, "hich affect matching: if\n   REG_"..., 4096) = 4096
+write(1, "#define ISPRINT(C) (isascii(C) &"..., 4096) = 4096
+write(1, "h:]\", is_graph,\nstatic int\nlooki"..., 4096) = 4096
+write(1, "e 'w':\n\tcase 'W':\n\t  if (!backsl"..., 4096) = 4096
+write(1, "c void\n  for (i = 0; i < src->ne"..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "ms[i], s);\n\t    --i;\n\tswitch (d-"..., 4096) = 4096
+write(1, " position *o_firstpos, *o_lastpo"..., 4096) = 4096
+write(1, "   for (j = nlastpos[-1] - 1; j "..., 4096) = 4096
+write(1, "kens[pos.index] - CSET], matches"..., 4096) = 4096
+write(1, " 0);\n\tstate_newline = state;\n   "..., 4096) = 4096
+write(1, "register. */\n  static sbit[NOTCH"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "s :\tp->right##q->left\n\tOR\tlonges"..., 4096) = 4096
+write(1, "   lmp->in = new;\n\t  break;\n\tcas"..., 4096) = 4096
+write(1, "ges leaving this node. */\n  stru"..., 4096) = 4096
+write(1, "   lr = t->llink, rl = t->rlink;"..., 4096) = 4096
+write(1, "ueue the immediate descendents i"..., 4096) = 4096
+write(1, "ee->label)\n\t    if (c < tree->la"..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, "ow (expr) ? void : void.  */\n  ("..., 4096) = 4096
+write(1, ")h->object_base)[i];\n      /* We"..., 4096) = 4096
+write(1, "ree) (obstack)\n     struct obsta"..., 4096) = 4096
+write(1, "ossible\n   matches. */\nstatic vo"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, " '\\n')\n\t    --beg;\n\t  /* Success"..., 2455) = 2455
+close(1)                                = 0
+munmap(0x7fea8a5eb000, 4096)            = 0
+exit_group(0)                           = ?

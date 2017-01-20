@@ -1,0 +1,35 @@
+execve("../source/sed.exe.static", ["../source/sed.exe.static", "-f", "../inputs/scr/s201_0.sed", "../inputs/default.in"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x1c31000
+brk(0x1c321c0)                          = 0x1c321c0
+arch_prctl(ARCH_SET_FS, 0x1c31880)      = 0
+brk(0x1c531c0)                          = 0x1c531c0
+brk(0x1c54000)                          = 0x1c54000
+open("../inputs/scr/s201_0.sed", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=217, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f69406e2000
+read(3, "#n\n\n#s/D with transform, global/"..., 4096) = 217
+lseek(3, 0, SEEK_CUR)                   = 217
+open("s201_0.wout", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f69406e2000, 4096)            = 0
+open("../inputs/default.in", O_RDONLY)  = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1741, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f69406e2000
+read(3, "..@ A BLACK AND WHITE POEM\n\ni se"..., 4096) = 1741
+fstat(4, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f69406e1000
+write(4, " operating System.  Where UNIX\n", 31) = 31
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f69406e0000
+write(4, "Operating  operating System.\n", 29) = 29
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f69406e2000, 4096)            = 0
+close(4)                                = 0
+munmap(0x7f69406e1000, 4096)            = 0
+write(1, " operating System.  Where UNIX\nO"..., 60) = 60
+close(1)                                = 0
+munmap(0x7f69406e0000, 4096)            = 0
+exit_group(4)                           = ?

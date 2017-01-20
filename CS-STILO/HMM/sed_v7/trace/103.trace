@@ -1,0 +1,35 @@
+execve("../source/sed.exe.static", ["../source/sed.exe.static", "-f", "../inputs/scr/s103_0.sed", "../inputs/default.in"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x1f52000
+brk(0x1f531c0)                          = 0x1f531c0
+arch_prctl(ARCH_SET_FS, 0x1f52880)      = 0
+brk(0x1f741c0)                          = 0x1f741c0
+brk(0x1f75000)                          = 0x1f75000
+open("../inputs/scr/s103_0.sed", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=66, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f18ef971000
+read(3, "#n\n\n/cat$/{\n        w s103_0.wou"..., 4096) = 66
+lseek(3, 0, SEEK_CUR)                   = 66
+open("s103_0.wout", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f18ef971000, 4096)            = 0
+open("../inputs/default.in", O_RDONLY)  = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1741, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f18ef971000
+read(3, "..@ A BLACK AND WHITE POEM\n\ni se"..., 4096) = 1741
+fstat(4, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f18ef970000
+write(4, "oh yes, the dog and the cat\n", 28) = 28
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f18ef96f000
+write(4, "oh yes, the dog and the cat\n", 28) = 28
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f18ef971000, 4096)            = 0
+close(4)                                = 0
+munmap(0x7f18ef970000, 4096)            = 0
+write(1, "two gentle friends of man\n\n", 27) = 27
+close(1)                                = 0
+munmap(0x7f18ef96f000, 4096)            = 0
+exit_group(4)                           = ?

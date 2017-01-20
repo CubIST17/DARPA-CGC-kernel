@@ -1,0 +1,37 @@
+execve("../source/sed.exe.static", ["../source/sed.exe.static", "-f", "../inputs/scr/s144_0.sed", "../inputs/default.in"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x18cf000
+brk(0x18d01c0)                          = 0x18d01c0
+arch_prctl(ARCH_SET_FS, 0x18cf880)      = 0
+brk(0x18f11c0)                          = 0x18f11c0
+brk(0x18f2000)                          = 0x18f2000
+open("../inputs/scr/s144_0.sed", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=78, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc5fb170000
+read(3, "#n\n\n#sub and quit\n\n51q\n45,50{\n  "..., 4096) = 78
+lseek(3, 0, SEEK_CUR)                   = 78
+open("s144_0.wout", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fc5fb170000, 4096)            = 0
+open("../inputs/default.in", O_RDONLY)  = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1741, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc5fb170000
+read(3, "..@ A BLACK AND WHITE POEM\n\ni se"..., 4096) = 1741
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc5fb16f000
+fstat(4, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc5fb16e000
+write(4, "oh yes, the dog and the CAT\n", 28) = 28
+write(4, "these dogs and CATs\n", 20)   = 20
+write(4, "oh yes, the dog and the CAT\n", 28) = 28
+write(4, "here's to you, oh ye dogs and ye"..., 38) = 38
+lseek(3, -1109, SEEK_CUR)               = 632
+close(3)                                = 0
+munmap(0x7fc5fb170000, 4096)            = 0
+close(4)                                = 0
+munmap(0x7fc5fb16e000, 4096)            = 0
+write(1, "oh yes, the dog and the CAT\nthes"..., 129) = 129
+close(1)                                = 0
+munmap(0x7fc5fb16f000, 4096)            = 0
+exit_group(4)                           = ?

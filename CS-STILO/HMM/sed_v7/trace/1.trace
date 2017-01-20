@@ -1,0 +1,11 @@
+execve("../source/sed.exe.static", ["../source/sed.exe.static", "--quiet", "../inputs/default.in"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x1ed1000
+brk(0x1ed21c0)                          = 0x1ed21c0
+arch_prctl(ARCH_SET_FS, 0x1ed1880)      = 0
+brk(0x1ef31c0)                          = 0x1ef31c0
+brk(0x1ef4000)                          = 0x1ef4000
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f47108c0000
+write(1, "Executable: -e expression #1, ch"..., 59) = 59
+exit_group(1)                           = ?

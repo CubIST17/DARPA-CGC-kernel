@@ -1,0 +1,40 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-E", "\\bif \\({1}g|\\bif \\({1}out", "../inputs/grep0.dat", "../inputs/grep1.dat", "../inputs/grepNull.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x8e6000
+brk(0x8e71c0)                           = 0x8e71c0
+arch_prctl(ARCH_SET_FS, 0x8e6880)       = 0
+brk(0x9081c0)                           = 0x9081c0
+brk(0x909000)                           = 0x909000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f0383176000
+close(3)                                = 0
+open("../inputs/grep0.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=297, ...}) = 0
+read(3, "Before an alternative\nstore_op2 "..., 32768) = 297
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0383175000
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+open("../inputs/grepNull.dat", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "../inputs/grep1.dat:  if (out_fi"..., 657) = 657
+close(1)                                = 0
+munmap(0x7f0383175000, 4096)            = 0
+exit_group(0)                           = ?

@@ -1,0 +1,33 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-l", "-Crae", "../inputs/in.0"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x1330000
+brk(0x13311c0)                          = 0x13311c0
+arch_prctl(ARCH_SET_FS, 0x1330880)      = 0
+brk(0x13521c0)                          = 0x13521c0
+brk(0x1353000)                          = 0x1353000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.0", O_RDONLY)        = 4
+brk(0x1374000)                          = 0x1374000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffc58a4a88) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=792, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fee4d9c0000
+read(4, "/* scanner for a toy Pascal-like"..., 8192) = 792
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fee4d9bf000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, "_END_OF_BUFFER 10\nstatic yyconst"..., 4096) = 4096
+write(1, "   44,   44,   44,   44,\n       "..., 4096) = 4096
+write(1, "error( yyin ) ) \\\n\t\t\tYY_FATAL_ER"..., 4096) = 4096
+write(1, "lex.yy.c\"\n\t\t\tcase YY_STATE_EOF(I"..., 4096) = 4096
+write(1, "ffer == 0 )\n\t\t{ /* Don't try to "..., 4096) = 4096
+write(1, "rrent_state;\n\n\treturn yy_is_jam "..., 4096) = 4096
+write(1, "\n#else\nYY_BUFFER_STATE yy_create"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffc58a4fb8) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, "d yy_push_state( int new_state )"..., 3186) = 3186
+exit_group(0)                           = ?

@@ -1,0 +1,38 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-pb", "../inputs/in.ch_exp_4"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x1a13000
+brk(0x1a141c0)                          = 0x1a141c0
+arch_prctl(ARCH_SET_FS, 0x1a13880)      = 0
+brk(0x1a351c0)                          = 0x1a351c0
+brk(0x1a36000)                          = 0x1a36000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.ch_exp_4", O_RDONLY) = 4
+brk(0x1a57000)                          = 0x1a57000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff1c465468) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=113, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9798c85000
+read(4, "%%\n\n^s\tprintf(\"s at the beginnin"..., 8192) = 113
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9798c84000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff1c465428) = -1 ENOTTY (Inappropriate ioctl for device)
+open("lex.backup", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, "   1,    1,    1,    1,    1,   "..., 4096) = 4096
+write(1, "o the standard output. */\n\n#ifnd"..., 4096) = 4096
+write(1, "_c_buf_p = yy_cp -= 1;\nYY_DO_BEF"..., 4096) = 4096
+write(1, "ce = yytext_ptr;\n\tregister int n"..., 4096) = 4096
+write(1, "ype yy_current_state;\n#endif\n\t{\n"..., 4096) = 4096
+write(1, "processing, but the only time th"..., 4096) = 4096
+fstat(5, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9798c83000
+write(5, "Compressed tables always back up"..., 34) = 34
+close(5)                                = 0
+munmap(0x7f9798c83000, 4096)            = 0
+write(1, "'s. */\n\tn = len + 2;\n\tbuf = (cha"..., 3553) = 3553
+exit_group(0)                           = ?

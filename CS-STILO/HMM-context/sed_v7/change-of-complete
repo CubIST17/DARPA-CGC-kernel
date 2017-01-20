@@ -1,0 +1,8 @@
+analysis ->	monitored
+__mmap		mmap64
+_fxstat		__fxstat
+_xstat		__xstat
+_lxstat		__lxstat
+lseek		__lseek_nocancel
+getpid		getpid
+fcntl		fcntl

@@ -1,0 +1,8 @@
+-- use bash as the example
+-- run it as 
+
+python cluster_matrix.py 
+
+
+- input: complete transition matrix
+- output: the aggregated states in a cluster 

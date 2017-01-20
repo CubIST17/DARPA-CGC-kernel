@@ -1,0 +1,48 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-7", "else", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x127c000
+brk(0x127d1c0)                          = 0x127d1c0
+arch_prctl(ARCH_SET_FS, 0x127c880)      = 0
+brk(0x129e1c0)                          = 0x129e1c0
+brk(0x129f000)                          = 0x129f000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f6c2af1f000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6c2af1e000
+write(1, "#ifndef errno\nextern int errno;\n"..., 4096) = 4096
+write(1, "etween BEG and LIM. */\n--\n  if ("..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, "gument, it follows the option na"..., 4096) = 4096
+write(1, " This is an option that accepts "..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "('-');\n\t\t      in_range = 1;\n\t\t "..., 4096) = 4096
+write(1, "peat character.  */\n            "..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, " }\n\n              /* See similar"..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "tem_addr) = POP_FAILURE_ITEM ()\n"..., 4096) = 4096
+write(1, "+;\n        }\n      else\n        "..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "= num_regs + 1;\n                "..., 4096) = 4096
+write(1, "se move\n                   past "..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "BER_AND_INCR (mcnt, p1);\n      i"..., 4096) = 4096
+write(1, " return P(c); }\n\n--\n\t\t{\n\t\t  FETC"..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "(! d->states[i].first_end)\n\t  d-"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "}\n\nstatic void\nbuild_state_zero("..., 4096) = 4096
+write(1, "C__\nextern void *memchr();\n#else"..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, "im && end <= qlim)\n\t{\n\t  end += "..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "(STDC_HEADERS)\n#undef bcopy\n#def"..., 2622) = 2622
+close(1)                                = 0
+munmap(0x7f6c2af1e000, 4096)            = 0
+exit_group(0)                           = ?

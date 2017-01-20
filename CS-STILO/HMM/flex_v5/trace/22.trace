@@ -1,0 +1,32 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "../inputs/in.woRule"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x26cb000
+brk(0x26cc1c0)                          = 0x26cc1c0
+arch_prctl(ARCH_SET_FS, 0x26cb880)      = 0
+brk(0x26ed1c0)                          = 0x26ed1c0
+brk(0x26ee000)                          = 0x26ee000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.woRule", O_RDONLY)   = 4
+brk(0x270f000)                          = 0x270f000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7ffff1bbc218) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=3, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f46572e2000
+read(4, "%%\n", 8192)                   = 3
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f46572e1000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7ffff1bbc1d8) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, "   1,    1,    1,\n        1,    "..., 4096) = 4096
+write(1, "ets input and stuffs it into \"bu"..., 4096) = 4096
+write(1, "hat this happened because the us"..., 4096) = 4096
+write(1, "r. */\n\tnumber_to_move = (int) (y"..., 4096) = 4096
+write(1, "p )\nint c;\nregister char *yy_bp;"..., 4096) = 4096
+write(1, "er()\" );\n\n\tb->yy_buf_size = size"..., 4096) = 4096
+write(1, "tack_depth * sizeof( int );\n\n\t\ti"..., 2767) = 2767
+exit_group(0)                           = ?

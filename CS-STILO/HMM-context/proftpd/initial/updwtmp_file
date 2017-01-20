@@ -1,0 +1,10 @@
+8
+NULL,open@__open_nocancel,alarm@alarm,fcntl@__fcntl_nocancel,lseek@llseek,ftruncate@ftruncate64,write@__write_nocancel,rt_sigaction@__libc_sigaction
+0.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0
+0.5	0.0	0.5	0.0	0.0	0.0	0.0	0.0
+0.375	0.0	0.375	0.5	0.0	0.0	0.0	0.5
+0.0	0.0	0.5	0.0	0.25	0.0	0.0	0.0
+0.0	0.0	0.0	0.0625	0.0	0.125	0.1875	0.0
+0.0	0.0	0.0	0.09375	0.125	0.0	0.0	0.0
+0.0	0.0	0.0	0.09375	0.0	0.09375	0.0	0.0
+0.125	0.0	0.375	0.0	0.0	0.0	0.0	0.0

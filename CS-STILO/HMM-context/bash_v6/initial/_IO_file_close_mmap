@@ -1,0 +1,5 @@
+3
+NULL,munmap@munmap,close@__close_nocancel
+0.0	1.0	0.0
+0.0	0.0	1.0
+1.0	0.0	0.0

@@ -1,0 +1,33 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-l", "-Crem", "../inputs/in.ch_exp_1"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x228f000
+brk(0x22901c0)                          = 0x22901c0
+arch_prctl(ARCH_SET_FS, 0x228f880)      = 0
+brk(0x22b11c0)                          = 0x22b11c0
+brk(0x22b2000)                          = 0x22b2000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.ch_exp_1", O_RDONLY) = 4
+brk(0x22d3000)                          = 0x22d3000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffa1e33488) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=70, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4aa3323000
+read(4, "%%\n\nfoo|bar*\tprintf(\"foo or ba(z"..., 8192) = 70
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4aa3322000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffa1e33448) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, "_END_OF_BUFFER 3\nstatic yyconst "..., 4096) = 4096
+write(1, "ut YY_PROTO(( void ));\n#else\nsta"..., 4096) = 4096
+write(1, "\t++yy_cp;\n\t\t\t}\n\t\twhile ( yy_base"..., 4096) = 4096
+write(1, "match;\n\n\t\t\tcase EOB_ACT_LAST_MAT"..., 4096) = 4096
+write(1, "= (*yy_cp ? yy_ec[YY_SC_TO_UI(*y"..., 4096) = 4096
+write(1, "\n\tyy_init_buffer( yy_current_buf"..., 4096) = 4096
+write(1, "er( b );\n\n\treturn b;\n\t}\n#endif\n\n"..., 4096) = 4096
+write(1, "\n#if YY_MAIN\nint main()\n\t{\n\tyyle"..., 90) = 90
+exit_group(0)                           = ?

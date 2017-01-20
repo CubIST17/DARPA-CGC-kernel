@@ -1,0 +1,16 @@
+uname@__uname
+brk@brk
+brk@brk
+brk@brk
+brk@brk
+rt_sigaction@__libc_sigaction
+rt_sigaction@__libc_sigaction
+rt_sigaction@__libc_sigaction
+rt_sigaction@__libc_sigaction
+rt_sigaction@__libc_sigaction
+rt_sigaction@__libc_sigaction
+fstat@__fxstat
+read@__read_nocancel
+write@__write_nocancel
+write@__write_nocancel
+exit_group@_exit

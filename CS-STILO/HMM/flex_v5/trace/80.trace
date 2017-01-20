@@ -1,0 +1,33 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-dl", "-Crae", "../inputs/in.0"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0xbd9000
+brk(0xbda1c0)                           = 0xbda1c0
+arch_prctl(ARCH_SET_FS, 0xbd9880)       = 0
+brk(0xbfb1c0)                           = 0xbfb1c0
+brk(0xbfc000)                           = 0xbfc000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.0", O_RDONLY)        = 4
+brk(0xc1d000)                           = 0xc1d000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff139bbee8) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=792, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f508b003000
+read(4, "/* scanner for a toy Pascal-like"..., 8192) = 792
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f508b002000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, "y_cp;\n\n#define YY_NUM_RULES 9\n#d"..., 4096) = 4096
+write(1, "       44,   44,   44,   44,   4"..., 4096) = 4096
+write(1, "\n\t\t{ \\\n\t\tint c = '*', n; \\\n\t\tfor"..., 4096) = 4096
+write(1, "oat: %s (%g)\\n\", yytext, atof(yy"..., 4096) = 4096
+write(1, "--no action found\" );\n\t} /* end "..., 4096) = 4096
+write(1, "_state;\n\t}\n\n\n/* yy_try_NUL_trans"..., 4096) = 4096
+write(1, "n_chars = yy_n_chars;\n\t\t}\n\n\tyy_c"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff139bc418) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, " len )\nyyconst char *bytes;\nint "..., 3885) = 3885
+exit_group(0)                           = ?

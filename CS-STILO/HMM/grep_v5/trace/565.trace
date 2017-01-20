@@ -1,0 +1,116 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-vih", "include", "../inputs/grep0.dat", "../inputs/grep1.dat", "../inputs/grepNull.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x110b000
+brk(0x110c1c0)                          = 0x110c1c0
+arch_prctl(ARCH_SET_FS, 0x110b880)      = 0
+brk(0x112d1c0)                          = 0x112d1c0
+brk(0x112e000)                          = 0x112e000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fd5a2d28000
+close(3)                                = 0
+open("../inputs/grep0.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=297, ...}) = 0
+read(3, "Before an alternative\nstore_op2 "..., 32768) = 297
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd5a2d27000
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+write(1, "Before an alternative\nstore_op2 "..., 4096) = 4096
+write(1, " for grep.  The intent is to kee"..., 4096) = 4096
+write(1, "f leading context. */\nstatic int"..., 4096) = 4096
+write(1, " - lim;\n      if (beg < lim)\n\t{\n"..., 4096) = 4096
+write(1, "\tout_quiet = 1;\n\tlist_files = 1;"..., 4096) = 4096
+write(1, "' as well as `--' can introduce "..., 4096) = 4096
+write(1, "depending on library functions o"..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, "s of ARGV aren't really const, b"..., 4096) = 4096
+write(1, "     /* Test all options for eit"..., 4096) = 4096
+write(1, ".2 specifies the format of this "..., 4096) = 4096
+write(1, "TABLE */\n\n/* How many characters"..., 4096) = 4096
+write(1, "g anywhere inside\n   `string1' o"..., 4096) = 4096
+write(1, "ning of a repeat.  If what follo"..., 4096) = 4096
+write(1, "vely.  And if linked with the ma"..., 4096) = 4096
+write(1, " (\"/maybe_pop_jump to %d\", p + m"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "compilations.  */\nreg_syntax_t r"..., 4096) = 4096
+write(1, "#define STORE_JUMP(op, loc, to) "..., 4096) = 4096
+write(1, "STREQ (string, \"lower\") || STREQ"..., 4096) = 4096
+write(1, " */\n   init_syntax_once ();\n#end"..., 4096) = 4096
+write(1, "ut in at the\n                   "..., 4096) = 4096
+write(1, "p == pend) return REG_EESCAPE;\n\n"..., 4096) = 4096
+write(1, "                 || (is_alpha  &"..., 4096) = 4096
+write(1, "rt_memory, regnum, 0);\n         "..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "              jump jumps to the "..., 4096) = 4096
+write(1, "ount> <upper bound>\n            "..., 4096) = 4096
+write(1, "  */\n            case '=':\n     "..., 4096) = 4096
+write(1, "static void\nstore_op2 (op, loc, "..., 4096) = 4096
+write(1, "(*p_ptr)++;\n\n  /* If the start i"..., 4096) = 4096
+write(1, "equires `destination' be\n   decl"..., 4096) = 4096
+write(1, "ers, all of which should be lval"..., 4096) = 4096
+write(1, "h.  */\n  boolean succeed_n_p = f"..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, " now, pop it.  */\n          if ("..., 4096) = 4096
+write(1, ", respectively.\n   \n   RANGE is "..., 4096) = 4096
+write(1, "ll_string_p ();\n\n/* Structure fo"..., 4096) = 4096
+write(1, "mmy);\t\t\t\t\t\t\\\n    FREE_VAR (reg_i"..., 4096) = 4096
+write(1, "ght after where we\n     stopped "..., 4096) = 4096
+write(1, "EG_MATCH_NULL_STRING_P (reg_info"..., 4096) = 4096
+write(1, "ts register contents data back, "..., 4096) = 4096
+write(1, "e in the pattern defines n, and "..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "t\n             this close-group "..., 4096) = 4096
+write(1, "ers for inner groups for,\n      "..., 4096) = 4096
+write(1, ") == '\\n'\n                   && "..., 4096) = 4096
+write(1, "NT (p + mcnt, d, -2);\n          "..., 4096) = 4096
+write(1, "nsigned dummy_low_reg, dummy_hig"..., 4096) = 4096
+write(1, "T_WORD_BOUNDARY (d))\n\t    goto f"..., 4096) = 4096
+write(1, "for (;;) */\n\n  if (best_regs_set"..., 4096) = 4096
+write(1, "end */\n\n  return false;\n} /* gro"..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "d GNU code determines whether or"..., 4096) = 4096
+write(1, "wer (i) : i;\n    }\n  else\n    pr"..., 4096) = 4096
+write(1, "   errbuf[errbuf_size - 1] = 0;\n"..., 4096) = 4096
+write(1, "  }\n\n#ifdef DEBUG\n\nstatic void\np"..., 4096) = 4096
+write(1, "een eaten by the lexical analyze"..., 4096) = 4096
+write(1, "   FETCH(c, \"unfinished repeat c"..., 4096) = 4096
+write(1, " */\n\n/* Add the given token to t"..., 4096) = 4096
+write(1, "e logically or'd together.\n   S-"..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "   position_set *s;\n     struct "..., 4096) = 4096
+write(1, "ag)\n     struct dfa *d;\n     int"..., 4096) = 4096
+write(1, "al\n\t   constructs like \\< are tr"..., 4096) = 4096
+write(1, "every group there are characters"..., 4096) = 4096
+write(1, "  MALLOC(grps[ngrps].elems, posi"..., 4096) = 4096
+write(1, " all, then d->trans[state] is NU"..., 4096) = 4096
+write(1, " *) begin;\n  trans = d->trans;\n "..., 4096) = 4096
+write(1, "tn.\n\n   The sequences calculated"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "ing\n   seems wild. */\nstatic cha"..., 4096) = 4096
+write(1, "mp->in = new;\n\t  }\n\t  break;\n\tca"..., 4096) = 4096
+write(1, "ate Commentz-Walter, although it"..., 4096) = 4096
+write(1, "    installing new nodes when ne"..., 4096) = 4096
+write(1, "re node. */\nstatic void\ntreefail"..., 4096) = 4096
+write(1, ">trie);\n\n\t  /* Update the shifts"..., 4096) = 4096
+write(1, "t = (struct kwset *) kws;\n  if ("..., 4096) = 4096
+write(1, "NESS FOR A PARTICULAR PURPOSE.  "..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, "o empty object.  */\n  h->maybe_e"..., 4096) = 4096
+write(1, "ck_chunk*  plp;\t/* point to prev"..., 4096) = 4096
+write(1, ")\n     struct obstack *obstack;\n"..., 4096) = 4096
+write(1, "tatic int lastexact;\n\nvoid\ndfaer"..., 4096) = 4096
+write(1, "      dfacomp(n, i, &dfa_1, 1);\n"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+open("../inputs/grepNull.dat", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "har) try[-1]))\n\t      break;\n\t  "..., 1043) = 1043
+close(1)                                = 0
+munmap(0x7fd5a2d27000, 4096)            = 0
+exit_group(0)                           = ?

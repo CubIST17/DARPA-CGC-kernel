@@ -1,0 +1,187 @@
+[1]: _init
+[2]: _ZNKSt18basic_stringstreamIcSt11char_traitsIcESaIcEE3strEv
+[3]: _ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_
+[4]: _ZN7Dyninst8ParseAPI16SymtabCodeSourceC1EPc
+[5]: _ZNSolsEm
+[6]: _ZNSolsEPFRSt8ios_baseS0_E
+[7]: _ZSt17__throw_bad_allocv
+[8]: _ZN7Dyninst8ParseAPI8Function6blocksEv
+[9]: _ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base
+[10]: _ZNSt18basic_stringstreamIcSt11char_traitsIcESaIcEEC1ESt13_Ios_Openmode
+[11]: __cxa_atexit
+[12]: _ZdlPv
+[13]: _ZN7Dyninst8ParseAPI10CodeObjectC1EPNS0_10CodeSourceEPNS0_10CFGFactoryEPNS0_13ParseCallbackEb
+[14]: _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+[15]: _Znwm
+[16]: _ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base
+[17]: _ZNSolsEPFRSoS_E
+[18]: _ZNSaIcED1Ev
+[19]: _ZNSsC1EPKcRKSaIcE
+[20]: _ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base
+[21]: _ZN7Dyninst8ParseAPI10CodeObject5parseEv
+[22]: _ZStlsIcSt11char_traitsIcESaIcEERSt13basic_ostreamIT_T0_ES7_RKSbIS4_S5_T1_E
+[23]: _ZNSsaSEPKc
+[24]: _ZNSt18basic_stringstreamIcSt11char_traitsIcESaIcEED1Ev
+[25]: _ZNSt8ios_base4InitC1Ev
+[26]: _ZNSsD1Ev
+[27]: _ZNSolsEi
+[28]: _Unwind_Resume
+[29]: _ZNSaIcEC1Ev
+[30]: __libc_start_main
+[31]: __gmon_start__
+[32]: _start
+[33]: deregister_tm_clones
+[34]: register_tm_clones
+[35]: __do_global_dtors_aux
+[36]: frame_dummy
+[37]: main
+[38]: __static_initialization_and_destruction_0
+[39]: _GLOBAL__sub_I_main
+[40]: operator new
+[41]: operator delete
+[42]: std::operator&
+[43]: std::operator|
+[44]: std::operator~
+[45]: std::operator|=
+[46]: std::operator&=
+[47]: std::operator|
+[48]: std::ios_base::setf
+[49]: std::dec
+[50]: std::hex
+[51]: Dyninst::ParseAPI::Edge::src
+[52]: Dyninst::ParseAPI::Edge::trg
+[53]: Dyninst::ParseAPI::Edge::type
+[54]: Dyninst::ParseAPI::Block::start
+[55]: Dyninst::ParseAPI::Block::targets
+[56]: Dyninst::ParseAPI::Function::addr
+[57]: Dyninst::ParseAPI::Function::retstatus
+[58]: Dyninst::ParseAPI::CodeObject::funcs
+[59]: std::map<unsigned long, bool, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::~map
+[60]: std::map<unsigned long, bool, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::map
+[61]: std::_Rb_tree<unsigned long, std::pair<unsigned long const, bool>, std::_Select1st<std::pair<unsigned long const, bool> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::_Rb_tree_impl<std::less<unsigned long>, true>::~_Rb_tree_impl
+[62]: std::_Rb_tree<unsigned long, std::pair<unsigned long const, bool>, std::_Select1st<std::pair<unsigned long const, bool> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::~_Rb_tree
+[63]: std::vector<Dyninst::ParseAPI::Function*, std::allocator<Dyninst::ParseAPI::Function*> >::vector
+[64]: std::vector<Dyninst::ParseAPI::Function*, std::allocator<Dyninst::ParseAPI::Function*> >::~vector
+[65]: std::set<Dyninst::ParseAPI::Function*, Dyninst::ParseAPI::Function::less, std::allocator<Dyninst::ParseAPI::Function*> >::begin
+[66]: std::set<Dyninst::ParseAPI::Function*, Dyninst::ParseAPI::Function::less, std::allocator<Dyninst::ParseAPI::Function*> >::end
+[67]: std::_Rb_tree_const_iterator<Dyninst::ParseAPI::Function*>::operator!=
+[68]: std::_Rb_tree_const_iterator<Dyninst::ParseAPI::Function*>::operator++
+[69]: std::_Rb_tree_const_iterator<Dyninst::ParseAPI::Function*>::operator*
+[70]: std::vector<Dyninst::ParseAPI::Block*, std::allocator<Dyninst::ParseAPI::Block*> >::begin
+[71]: std::vector<Dyninst::ParseAPI::Block*, std::allocator<Dyninst::ParseAPI::Block*> >::end
+[72]: __gnu_cxx::operator!=<Dyninst::ParseAPI::Block**, std::vector<Dyninst::ParseAPI::Block*, std::allocator<Dyninst::ParseAPI::Block*> > >
+[73]: __gnu_cxx::__normal_iterator<Dyninst::ParseAPI::Block**, std::vector<Dyninst::ParseAPI::Block*, std::allocator<Dyninst::ParseAPI::Block*> > >::operator++
+[74]: __gnu_cxx::__normal_iterator<Dyninst::ParseAPI::Block**, std::vector<Dyninst::ParseAPI::Block*, std::allocator<Dyninst::ParseAPI::Block*> > >::operator*
+[75]: std::map<unsigned long, bool, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::find
+[76]: std::map<unsigned long, bool, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::end
+[77]: std::_Rb_tree_iterator<std::pair<unsigned long const, bool> >::operator!=
+[78]: std::move<unsigned long&>
+[79]: std::map<unsigned long, bool, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::operator[]
+[80]: std::vector<Dyninst::ParseAPI::Edge*, std::allocator<Dyninst::ParseAPI::Edge*> >::begin
+[81]: std::vector<Dyninst::ParseAPI::Edge*, std::allocator<Dyninst::ParseAPI::Edge*> >::end
+[82]: __gnu_cxx::operator!=<Dyninst::ParseAPI::Edge* const*, std::vector<Dyninst::ParseAPI::Edge*, std::allocator<Dyninst::ParseAPI::Edge*> > >
+[83]: __gnu_cxx::__normal_iterator<Dyninst::ParseAPI::Edge* const*, std::vector<Dyninst::ParseAPI::Edge*, std::allocator<Dyninst::ParseAPI::Edge*> > >::operator++
+[84]: __gnu_cxx::__normal_iterator<Dyninst::ParseAPI::Edge* const*, std::vector<Dyninst::ParseAPI::Edge*, std::allocator<Dyninst::ParseAPI::Edge*> > >::operator*
+[85]: std::_Rb_tree<unsigned long, std::pair<unsigned long const, bool>, std::_Select1st<std::pair<unsigned long const, bool> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::_Rb_tree
+[86]: std::allocator<std::_Rb_tree_node<std::pair<unsigned long const, bool> > >::~allocator
+[87]: std::_Rb_tree<unsigned long, std::pair<unsigned long const, bool>, std::_Select1st<std::pair<unsigned long const, bool> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::_M_erase
+[88]: std::_Rb_tree<unsigned long, std::pair<unsigned long const, bool>, std::_Select1st<std::pair<unsigned long const, bool> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::_M_begin
+[89]: std::_Vector_base<Dyninst::ParseAPI::Function*, std::allocator<Dyninst::ParseAPI::Function*> >::_Vector_impl::~_Vector_impl
+[90]: std::_Vector_base<Dyninst::ParseAPI::Function*, std::allocator<Dyninst::ParseAPI::Function*> >::_Vector_base
+[91]: std::_Vector_base<Dyninst::ParseAPI::Function*, std::allocator<Dyninst::ParseAPI::Function*> >::~_Vector_base
+[92]: std::_Vector_base<Dyninst::ParseAPI::Function*, std::allocator<Dyninst::ParseAPI::Function*> >::_M_get_Tp_allocator
+[93]: std::_Destroy<Dyninst::ParseAPI::Function**, Dyninst::ParseAPI::Function*>
+[94]: std::_Rb_tree<Dyninst::ParseAPI::Function*, Dyninst::ParseAPI::Function*, std::_Identity<Dyninst::ParseAPI::Function*>, Dyninst::ParseAPI::Function::less, std::allocator<Dyninst::ParseAPI::Function*> >::begin
+[95]: std::_Rb_tree<Dyninst::ParseAPI::Function*, Dyninst::ParseAPI::Function*, std::_Identity<Dyninst::ParseAPI::Function*>, Dyninst::ParseAPI::Function::less, std::allocator<Dyninst::ParseAPI::Function*> >::end
+[96]: __gnu_cxx::__normal_iterator<Dyninst::ParseAPI::Block**, std::vector<Dyninst::ParseAPI::Block*, std::allocator<Dyninst::ParseAPI::Block*> > >::__normal_iterator
+[97]: __gnu_cxx::__normal_iterator<Dyninst::ParseAPI::Block**, std::vector<Dyninst::ParseAPI::Block*, std::allocator<Dyninst::ParseAPI::Block*> > >::base
+[98]: std::_Rb_tree<unsigned long, std::pair<unsigned long const, bool>, std::_Select1st<std::pair<unsigned long const, bool> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::find
+[99]: std::_Rb_tree<unsigned long, std::pair<unsigned long const, bool>, std::_Select1st<std::pair<unsigned long const, bool> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::end
+[100]: std::map<unsigned long, bool, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::lower_bound
+[101]: std::map<unsigned long, bool, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::key_comp
+[102]: std::_Rb_tree_iterator<std::pair<unsigned long const, bool> >::operator*
+[103]: std::less<unsigned long>::operator
+[104]: std::_Rb_tree_iterator<std::pair<unsigned long const, bool> >::operator==
+[105]: std::forward<unsigned long>
+[106]: std::_Tuple_impl<1ul>::_Tuple_impl
+[107]: std::_Head_base<0ul, unsigned long&&, false>::_Head_base<unsigned long>
+[108]: std::_Tuple_impl<0ul, unsigned long&&>::_Tuple_impl<unsigned long, , void>
+[109]: std::tuple<unsigned long&&>::tuple<unsigned long, void>
+[110]: std::_Tuple_impl<0ul, unsigned long&&>::_M_tail
+[111]: std::move<std::_Tuple_impl<1ul>&>
+[112]: std::_Head_base<0ul, unsigned long&&, false>::_M_head
+[113]: std::_Tuple_impl<0ul, unsigned long&&>::_M_head
+[114]: std::forward<unsigned long&&>
+[115]: std::_Tuple_impl<0ul, unsigned long&&>::_Tuple_impl
+[116]: std::tuple<unsigned long&&>::tuple
+[117]: std::forward_as_tuple<unsigned long>
+[118]: std::_Rb_tree_const_iterator<std::pair<unsigned long const, bool> >::_Rb_tree_const_iterator
+[119]: std::forward<std::piecewise_construct_t const&>
+[120]: std::forward<std::tuple<unsigned long&&> >
+[121]: std::forward<std::tuple<> >
+[122]: std::_Rb_tree<unsigned long, std::pair<unsigned long const, bool>, std::_Select1st<std::pair<unsigned long const, bool> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<unsigned long&&>, std::tuple<> >
+[123]: __gnu_cxx::__normal_iterator<Dyninst::ParseAPI::Edge* const*, std::vector<Dyninst::ParseAPI::Edge*, std::allocator<Dyninst::ParseAPI::Edge*> > >::__normal_iterator
+[124]: __gnu_cxx::__normal_iterator<Dyninst::ParseAPI::Edge* const*, std::vector<Dyninst::ParseAPI::Edge*, std::allocator<Dyninst::ParseAPI::Edge*> > >::base
+[125]: std::_Rb_tree<unsigned long, std::pair<unsigned long const, bool>, std::_Select1st<std::pair<unsigned long const, bool> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::_Rb_tree_impl<std::less<unsigned long>, true>::_Rb_tree_impl
+[126]: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<unsigned long const, bool> > >::~new_allocator
+[127]: std::_Rb_tree<unsigned long, std::pair<unsigned long const, bool>, std::_Select1st<std::pair<unsigned long const, bool> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::_S_right
+[128]: std::_Rb_tree<unsigned long, std::pair<unsigned long const, bool>, std::_Select1st<std::pair<unsigned long const, bool> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::_S_left
+[129]: std::_Rb_tree<unsigned long, std::pair<unsigned long const, bool>, std::_Select1st<std::pair<unsigned long const, bool> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::_M_destroy_node
+[130]: std::_Vector_base<Dyninst::ParseAPI::Function*, std::allocator<Dyninst::ParseAPI::Function*> >::_Vector_impl::_Vector_impl
+[131]: std::allocator<Dyninst::ParseAPI::Function*>::~allocator
+[132]: std::_Vector_base<Dyninst::ParseAPI::Function*, std::allocator<Dyninst::ParseAPI::Function*> >::_M_deallocate
+[133]: std::_Destroy<Dyninst::ParseAPI::Function**>
+[134]: std::_Rb_tree_const_iterator<Dyninst::ParseAPI::Function*>::_Rb_tree_const_iterator
+[135]: std::_Rb_tree<unsigned long, std::pair<unsigned long const, bool>, std::_Select1st<std::pair<unsigned long const, bool> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::_M_end
+[136]: std::_Rb_tree<unsigned long, std::pair<unsigned long const, bool>, std::_Select1st<std::pair<unsigned long const, bool> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::_M_lower_bound
+[137]: std::_Rb_tree<unsigned long, std::pair<unsigned long const, bool>, std::_Select1st<std::pair<unsigned long const, bool> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::_S_key
+[138]: std::_Rb_tree_iterator<std::pair<unsigned long const, bool> >::_Rb_tree_iterator
+[139]: std::_Rb_tree<unsigned long, std::pair<unsigned long const, bool>, std::_Select1st<std::pair<unsigned long const, bool> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::lower_bound
+[140]: std::_Rb_tree<unsigned long, std::pair<unsigned long const, bool>, std::_Select1st<std::pair<unsigned long const, bool> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::key_comp
+[141]: std::_Rb_tree<unsigned long, std::pair<unsigned long const, bool>, std::_Select1st<std::pair<unsigned long const, bool> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<unsigned long&&>, std::tuple<> >
+[142]: std::forward<std::_Rb_tree_node_base*&>
+[143]: std::pair<std::_Rb_tree_node_base*, std::_Rb_tree_node_base*>::pair<std::_Rb_tree_node_base*&, void>
+[144]: std::pair<std::_Rb_tree_node_base*, std::_Rb_tree_node_base*>::pair<std::_Rb_tree_node_base*&, std::_Rb_tree_node_base*&, void>
+[145]: std::pair<std::_Rb_tree_node_base*, std::_Rb_tree_node_base*>::pair<std::_Rb_tree_node_base*&, void>
+[146]: std::_Rb_tree<unsigned long, std::pair<unsigned long const, bool>, std::_Select1st<std::pair<unsigned long const, bool> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::_M_get_insert_hint_unique_pos
+[147]: std::_Rb_tree<unsigned long, std::pair<unsigned long const, bool>, std::_Select1st<std::pair<unsigned long const, bool> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::_S_key
+[148]: std::_Rb_tree<unsigned long, std::pair<unsigned long const, bool>, std::_Select1st<std::pair<unsigned long const, bool> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::_M_insert_node
+[149]: std::allocator<std::_Rb_tree_node<std::pair<unsigned long const, bool> > >::allocator
+[150]: std::_Rb_tree<unsigned long, std::pair<unsigned long const, bool>, std::_Select1st<std::pair<unsigned long const, bool> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::_Rb_tree_impl<std::less<unsigned long>, true>::_M_initialize
+[151]: std::_Rb_tree<unsigned long, std::pair<unsigned long const, bool>, std::_Select1st<std::pair<unsigned long const, bool> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::_M_get_Node_allocator
+[152]: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<unsigned long const, bool> > >::destroy<std::_Rb_tree_node<std::pair<unsigned long const, bool> > >
+[153]: std::_Rb_tree<unsigned long, std::pair<unsigned long const, bool>, std::_Select1st<std::pair<unsigned long const, bool> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::_M_put_node
+[154]: std::allocator<Dyninst::ParseAPI::Function*>::allocator
+[155]: __gnu_cxx::new_allocator<Dyninst::ParseAPI::Function*>::~new_allocator
+[156]: __gnu_cxx::new_allocator<Dyninst::ParseAPI::Function*>::deallocate
+[157]: std::_Destroy_aux<true>::__destroy<Dyninst::ParseAPI::Function**>
+[158]: std::_Rb_tree<unsigned long, std::pair<unsigned long const, bool>, std::_Select1st<std::pair<unsigned long const, bool> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::_S_value
+[159]: std::_Select1st<std::pair<unsigned long const, bool> >::operator
+[160]: std::_Rb_tree<unsigned long, std::pair<unsigned long const, bool>, std::_Select1st<std::pair<unsigned long const, bool> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::_M_get_node
+[161]: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<unsigned long const, bool> > > >::construct<std::_Rb_tree_node<std::pair<unsigned long const, bool> >, std::piecewise_construct_t const&, std::tuple<unsigned long&&>, std::tuple<> >
+[162]: std::_Rb_tree_const_iterator<std::pair<unsigned long const, bool> >::_M_const_cast
+[163]: std::_Rb_tree<unsigned long, std::pair<unsigned long const, bool>, std::_Select1st<std::pair<unsigned long const, bool> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::_M_rightmost
+[164]: std::_Rb_tree<unsigned long, std::pair<unsigned long const, bool>, std::_Select1st<std::pair<unsigned long const, bool> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::size
+[165]: std::forward<std::_Rb_tree_node<std::pair<unsigned long const, bool> >*&>
+[166]: std::pair<std::_Rb_tree_node_base*, std::_Rb_tree_node_base*>::pair<std::_Rb_tree_node<std::pair<unsigned long const, bool> >*&, std::_Rb_tree_node<std::pair<unsigned long const, bool> >*&, void>
+[167]: std::_Rb_tree<unsigned long, std::pair<unsigned long const, bool>, std::_Select1st<std::pair<unsigned long const, bool> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::_M_get_insert_unique_pos
+[168]: std::_Rb_tree<unsigned long, std::pair<unsigned long const, bool>, std::_Select1st<std::pair<unsigned long const, bool> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::_M_leftmost
+[169]: std::_Rb_tree_iterator<std::pair<unsigned long const, bool> >::operator--
+[170]: std::_Rb_tree_iterator<std::pair<unsigned long const, bool> >::operator++
+[171]: std::_Rb_tree<unsigned long, std::pair<unsigned long const, bool>, std::_Select1st<std::pair<unsigned long const, bool> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::_S_value
+[172]: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<unsigned long const, bool> > >::new_allocator
+[173]: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<unsigned long const, bool> > >::deallocate
+[174]: __gnu_cxx::new_allocator<Dyninst::ParseAPI::Function*>::new_allocator
+[175]: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<unsigned long const, bool> > >::allocate
+[176]: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<unsigned long const, bool> > > >::_S_construct<std::_Rb_tree_node<std::pair<unsigned long const, bool> >, std::piecewise_construct_t const&, std::tuple<unsigned long&&>, std::tuple<> >
+[177]: std::_Rb_tree<unsigned long, std::pair<unsigned long const, bool>, std::_Select1st<std::pair<unsigned long const, bool> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, bool> > >::begin
+[178]: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<unsigned long const, bool> > >::max_size
+[179]: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<unsigned long const, bool> > >::construct<std::_Rb_tree_node<std::pair<unsigned long const, bool> ><std::piecewise_construct_t const&, std::tuple<unsigned long&&>, std::tuple<> > >
+[180]: std::_Rb_tree_node<std::pair<unsigned long const, bool> >::_Rb_tree_node<std::piecewise_construct_t const&, std::tuple<unsigned long&&>, std::tuple<> >
+[181]: std::pair<unsigned long const, bool>::pair<unsigned long&&>
+[182]: std::__get_helper<0ul, unsigned long&&>
+[183]: std::get<0ul, unsigned long&&>
+[184]: std::pair<unsigned long const, bool>::pair<unsigned long&&, 0ul>
+[185]: __libc_csu_init
+[186]: __libc_csu_fini
+[187]: _fini

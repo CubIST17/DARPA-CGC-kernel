@@ -1,0 +1,216 @@
+start...
+all_sequences 5293197 trace segments
+veri_sequences 1274 trace segments
+totally 5294471 trace segments
+all_sequences_rand 5293197 trace segments
+veri_sequences_rand 1274 trace segments
+totally 5294471 trace segments
+
+
+72	72
+****** testing fold #: 0
+testing sequence from: 0 to: 529318
+train_sequences size: 2637
+test_sequences size: 529319
+train_sequences_rand size: 2648
+test_sequences_rand size: 529319
+1000 unique false sequence segments generated
+1000 unique false sequence segments generated (half shuffled)
+1000 unique false sequence segments generated
+1000 unique false sequence segments generated (half shuffled)
+
+hmm: start training
+round 0:	true:	0.07651233496188635	false:	0.027622173038318605
+41 round training used
+
+rand_hmm: start training
+116 round training used
+
+
+72	72
+****** testing fold #: 1
+testing sequence from: 529319 to: 1058637
+train_sequences size: 2627
+test_sequences size: 529319
+train_sequences_rand size: 2644
+test_sequences_rand size: 529319
+1000 unique false sequence segments generated
+1000 unique false sequence segments generated (half shuffled)
+1000 unique false sequence segments generated
+1000 unique false sequence segments generated (half shuffled)
+
+hmm: start training
+round 0:	true:	0.07658494428375494	false:	0.027365584232997307
+44 round training used
+
+rand_hmm: start training
+105 round training used
+
+
+72	72
+****** testing fold #: 2
+testing sequence from: 1058638 to: 1587956
+train_sequences size: 2641
+test_sequences size: 529319
+train_sequences_rand size: 2629
+test_sequences_rand size: 529319
+1000 unique false sequence segments generated
+1000 unique false sequence segments generated (half shuffled)
+1000 unique false sequence segments generated
+1000 unique false sequence segments generated (half shuffled)
+
+hmm: start training
+round 0:	true:	0.06972241386370483	false:	0.025285853844260235
+39 round training used
+
+rand_hmm: start training
+115 round training used
+
+
+72	72
+****** testing fold #: 3
+testing sequence from: 1587957 to: 2117275
+train_sequences size: 2632
+test_sequences size: 529319
+train_sequences_rand size: 2641
+test_sequences_rand size: 529319
+1000 unique false sequence segments generated
+1000 unique false sequence segments generated (half shuffled)
+1000 unique false sequence segments generated
+1000 unique false sequence segments generated (half shuffled)
+
+hmm: start training
+round 0:	true:	0.07366866339027855	false:	0.026268614026513613
+57 round training used
+
+rand_hmm: start training
+146 round training used
+
+
+72	72
+****** testing fold #: 4
+testing sequence from: 2117276 to: 2646594
+train_sequences size: 2620
+test_sequences size: 529319
+train_sequences_rand size: 2619
+test_sequences_rand size: 529319
+1000 unique false sequence segments generated
+1000 unique false sequence segments generated (half shuffled)
+1000 unique false sequence segments generated
+1000 unique false sequence segments generated (half shuffled)
+
+hmm: start training
+round 0:	true:	0.07058666533790328	false:	0.024486710479881282
+28 round training used
+
+rand_hmm: start training
+129 round training used
+
+
+72	72
+****** testing fold #: 5
+testing sequence from: 2646595 to: 3175913
+train_sequences size: 2639
+test_sequences size: 529319
+train_sequences_rand size: 2637
+test_sequences_rand size: 529319
+1000 unique false sequence segments generated
+1000 unique false sequence segments generated (half shuffled)
+1000 unique false sequence segments generated
+1000 unique false sequence segments generated (half shuffled)
+
+hmm: start training
+round 0:	true:	0.07624025835593583	false:	0.027585815645890226
+65 round training used
+
+rand_hmm: start training
+126 round training used
+
+
+72	72
+****** testing fold #: 6
+testing sequence from: 3175914 to: 3705232
+train_sequences size: 2644
+test_sequences size: 529319
+train_sequences_rand size: 2613
+test_sequences_rand size: 529319
+1000 unique false sequence segments generated
+1000 unique false sequence segments generated (half shuffled)
+1000 unique false sequence segments generated
+1000 unique false sequence segments generated (half shuffled)
+
+hmm: start training
+round 0:	true:	0.07542349151172802	false:	0.02873233851518807
+38 round training used
+
+rand_hmm: start training
+112 round training used
+
+
+72	72
+****** testing fold #: 7
+testing sequence from: 3705233 to: 4234551
+train_sequences size: 2623
+test_sequences size: 529319
+train_sequences_rand size: 2636
+test_sequences_rand size: 529319
+1000 unique false sequence segments generated
+1000 unique false sequence segments generated (half shuffled)
+1000 unique false sequence segments generated
+1000 unique false sequence segments generated (half shuffled)
+
+hmm: start training
+round 0:	true:	0.06855626559308965	false:	0.02532968789685074
+63 round training used
+
+rand_hmm: start training
+134 round training used
+
+
+72	72
+****** testing fold #: 8
+testing sequence from: 4234552 to: 4763870
+train_sequences size: 2629
+test_sequences size: 529319
+train_sequences_rand size: 2637
+test_sequences_rand size: 529319
+1000 unique false sequence segments generated
+1000 unique false sequence segments generated (half shuffled)
+1000 unique false sequence segments generated
+1000 unique false sequence segments generated (half shuffled)
+
+hmm: start training
+round 0:	true:	0.07525569206922456	false:	0.027096866286173
+38 round training used
+
+rand_hmm: start training
+122 round training used
+
+
+72	72
+****** testing fold #: 9
+testing sequence from: 4763871 to: 5293196
+train_sequences size: 2634
+test_sequences size: 529326
+train_sequences_rand size: 2631
+test_sequences_rand size: 529326
+1000 unique false sequence segments generated
+1000 unique false sequence segments generated (half shuffled)
+1000 unique false sequence segments generated
+1000 unique false sequence segments generated (half shuffled)
+
+hmm: start training
+round 0:	true:	0.0759772209759282	false:	0.028176797797256604
+50 round training used
+
+rand_hmm: start training
+118 round training used
+
+
+
+syscall	bash_v6	15
+hmm avg rounds: 46.3
+rand avg rounds: 122.3
+acceleration: 0.6214227309893704
+hmm time: 47911640	milisec 10 fold
+rand time: 35863137	milisec 10 fold

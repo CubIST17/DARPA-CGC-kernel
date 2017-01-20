@@ -1,0 +1,38 @@
+execve("../source/sed.exe.static", ["../source/sed.exe.static", "-f", "../inputs/scr/s171_0.sed", "../inputs/default.in"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x891000
+brk(0x8921c0)                           = 0x8921c0
+arch_prctl(ARCH_SET_FS, 0x891880)       = 0
+brk(0x8b31c0)                           = 0x8b31c0
+brk(0x8b4000)                           = 0x8b4000
+open("../inputs/scr/s171_0.sed", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=146, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5b40ee6000
+read(3, "#n\n\n#s/d with fileread\n\n/m$/n;n;"..., 4096) = 146
+lseek(3, 0, SEEK_CUR)                   = 146
+open("s171_0.wout", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f5b40ee6000, 4096)            = 0
+open("../inputs/default.in", O_RDONLY)  = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1741, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5b40ee6000
+read(3, "..@ A BLACK AND WHITE POEM\n\ni se"..., 4096) = 1741
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5b40ee5000
+open("../inputs/company.list", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=82, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5b40ee4000
+read(5, "United Airlines\nMicrosoft\nApple\n"..., 8192) = 82
+read(5, "", 4096)                       = 0
+read(5, "", 8192)                       = 0
+close(5)                                = 0
+munmap(0x7f5b40ee4000, 4096)            = 0
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f5b40ee6000, 4096)            = 0
+close(4)                                = 0
+write(1, "\nblack and white\nred must be see"..., 1035) = 1035
+close(1)                                = 0
+munmap(0x7f5b40ee5000, 4096)            = 0
+exit_group(4)                           = ?

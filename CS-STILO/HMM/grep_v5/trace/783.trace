@@ -1,0 +1,53 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "\\.", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x19d9000
+brk(0x19da1c0)                          = 0x19da1c0
+arch_prctl(ARCH_SET_FS, 0x19d9880)      = 0
+brk(0x19fb1c0)                          = 0x19fb1c0
+brk(0x19fc000)                          = 0x19fc000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc1f3bea000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc1f3be9000
+write(1, "/* grep.c - main driver file for"..., 4096) = 4096
+write(1, ". */\n\t/* Like -l, except list fi"..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, " '-') are option characters.  If"..., 4096) = 4096
+write(1, "cros are valid only for characte"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "t character.  */\n  notwordchar,\t"..., 4096) = 4096
+write(1, " element.  */\n#define COMPILE_ST"..., 4096) = 4096
+write(1, "fer after this jump is inserted."..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "as `{1}' => match exactly once. "..., 4096) = 4096
+write(1, "Double the size of FAIL_STACK, u"..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "      then the fastmap is irrele"..., 4096) = 4096
+write(1, "ms (at least) want this to free "..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "in memory.  */\n                 "..., 4096) = 4096
+write(1, "      /* End of string1 => advan"..., 4096) = 4096
+write(1, "al.  */\n          DEBUG_PRINT1 ("..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "     contains a group and a back"..., 4096) = 4096
+write(1, "/* Includes the null.  */\n/* Fre"..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, " here on a newline or\n   letter,"..., 4096) = 4096
+write(1, "s of the empty leaf are both emp"..., 4096) = 4096
+write(1, "ants_newline;\t\t/* New state want"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, " match to the given struct dfa.\n"..., 4096) = 4096
+write(1, "ence in depths of subtrees. */\n/"..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, "clude \"obstack.h\"*/\n/* This is j"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "gexp. */\n/* Regex compiled regex"..., 1645) = 1645
+close(1)                                = 0
+munmap(0x7fc1f3be9000, 4096)            = 0
+exit_group(0)                           = ?

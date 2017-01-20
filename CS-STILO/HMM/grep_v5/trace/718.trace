@@ -1,0 +1,85 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "a\\{1,2\\}", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x1b55000
+brk(0x1b561c0)                          = 0x1b561c0
+arch_prctl(ARCH_SET_FS, 0x1b55880)      = 0
+brk(0x1b771c0)                          = 0x1b771c0
+brk(0x1b78000)                          = 0x1b78000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fb4ea8de000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb4ea8dd000
+write(1, "/* grep.c - main driver file for"..., 4096) = 4096
+write(1, "+ bufsalloc - save;\n  while (sav"..., 4096) = 4096
+write(1, "char version[] = \"GNU grep versi"..., 4096) = 4096
+write(1, "on.\n   This program is distribut"..., 4096) = 4096
+write(1, " ARGV as we scan,\n   so that eve"..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, ", above.\n   Long-named options b"..., 4096) = 4096
+write(1, "n enums.  */\n\t      if (pfound->"..., 4096) = 4096
+write(1, "ridge, MA 02139, USA.  */\n  #pra"..., 4096) = 4096
+write(1, "alloca (nsize),\t\t\t\t\\\n   bcopy (s"..., 4096) = 4096
+write(1, " repeat.  Also used as an interm"..., 4096) = 4096
+write(1, "ctn/%d\", mcnt);\n              pu"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "char *string2;\n  unsigned this_c"..., 4096) = 4096
+write(1, "* This is not an arbitrary limit"..., 4096) = 4096
+write(1, "ize;\n  /* How to translate the c"..., 4096) = 4096
+write(1, "erval operators with these becau"..., 4096) = 4096
+write(1, "s a range when the last thing\n  "..., 4096) = 4096
+write(1, "t end of this\n                 g"..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "       fixup_alt_jump to right a"..., 4096) = 4096
+write(1, "          `laststart+3' the numb"..., 4096) = 4096
+write(1, "parameter ARG.  */\nstatic void\ns"..., 4096) = 4096
+write(1, "er than an `unsigned\n     char' "..., 4096) = 4096
+write(1, "     DEBUG_PRINT2 (\"\\n  Doubled "..., 4096) = 4096
+write(1, "e set the `fastmap', `fastmap_ac"..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "e restore it above, entering the"..., 4096) = 4096
+write(1, "range > 0)\n      if (startpos > "..., 4096) = 4096
+write(1, "fail;\t\t\t\t\t\t\t\\\n      /* End of st"..., 4096) = 4096
+write(1, "\n  /* Information on the content"..., 4096) = 4096
+write(1, "nput string whenever necessary, "..., 4096) = 4096
+write(1, " nfailure_points_popped);\n      "..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "ghest active register, since\n   "..., 4096) = 4096
+write(1, "Compare that many; failure if mi"..., 4096) = 4096
+write(1, "         break;\n        /* A sma"..., 4096) = 4096
+write(1, "point, which\n           then get"..., 4096) = 4096
+write(1, " a backwards jump that's part of"..., 4096) = 4096
+write(1, "o be the first byte of a single "..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "on't define these for Emacs.  */"..., 4096) = 4096
+write(1, " 0);\n  /* Copy the register info"..., 4096) = 4096
+write(1, "LIMWORD: s = \"NOTLIMWORD\"; break"..., 4096) = 4096
+write(1, "ackslash)\n\t    return lasttok = "..., 4096) = 4096
+write(1, "me at most a backslash\n     and "..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "t_end = 0;\n\tconstraint = s->elem"..., 4096) = 4096
+write(1, "me; the number of elements in ea"..., 4096) = 4096
+write(1, "hat is the follow set of a real "..., 4096) = 4096
+write(1, "character only, and the current\n"..., 4096) = 4096
+write(1, "on tables will be quickly rebuil"..., 4096) = 4096
+write(1, "e a single string of the given l"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "rcp;\n  cpp = (char **) malloc(si"..., 4096) = 4096
+write(1, "xmalloc();\n#define malloc xmallo"..., 4096) = 4096
+write(1, "nqueue(tree->llink, last);\n  enq"..., 4096) = 4096
+write(1, "t)\n\t    curr->maxshift = curr->p"..., 4096) = 4096
+write(1, "the GNU C Library, and are not\n "..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, "tion that LENGTH bytes need to b"..., 4096) = 4096
+write(1, "TER (obstack_base) (obstack)\n   "..., 4096) = 4096
+write(1, "a kwset matcher\n   to find those"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "\t  len = regs.end[0] - start;\n\t "..., 1934) = 1934
+close(1)                                = 0
+munmap(0x7fb4ea8dd000, 4096)            = 0
+exit_group(0)                           = ?

@@ -1,0 +1,28 @@
+execve("../source/sed.exe.static", ["../source/sed.exe.static", "-f", "../inputs/scr/s346_0.sed", "../inputs/default.in"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x821000
+brk(0x8221c0)                           = 0x8221c0
+arch_prctl(ARCH_SET_FS, 0x821880)       = 0
+brk(0x8431c0)                           = 0x8431c0
+brk(0x844000)                           = 0x844000
+open("../inputs/scr/s346_0.sed", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=67, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb4cf4b0000
+read(3, "#lone insert\n\n/^i see/,500{\n    "..., 4096) = 67
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fb4cf4b0000, 4096)            = 0
+open("../inputs/default.in", O_RDONLY)  = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1741, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb4cf4b0000
+read(3, "..@ A BLACK AND WHITE POEM\n\ni se"..., 4096) = 1741
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb4cf4af000
+write(1, "..@ A BLACK AND WHITE POEM\n\n<LIN"..., 4096) = 4096
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fb4cf4b0000, 4096)            = 0
+write(1, "SAW>\nDennis, Jim\t\tMidwest\n<LINES"..., 445) = 445
+close(1)                                = 0
+munmap(0x7fb4cf4af000, 4096)            = 0
+exit_group(4)                           = ?

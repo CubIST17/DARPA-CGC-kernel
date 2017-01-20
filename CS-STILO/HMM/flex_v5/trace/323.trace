@@ -1,0 +1,32 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-Craem", "../inputs/in.closure"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x2317000
+brk(0x23181c0)                          = 0x23181c0
+arch_prctl(ARCH_SET_FS, 0x2317880)      = 0
+brk(0x23391c0)                          = 0x23391c0
+brk(0x233a000)                          = 0x233a000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.closure", O_RDONLY)  = 4
+brk(0x235b000)                          = 0x235b000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffc07d9068) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=274, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe6745ee000
+read(4, "%%\n\nr*\t\tprintf(\"Zero or more r's"..., 8192) = 274
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe6745ed000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffc07d9028) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, "   1,    1,\n        1,    1,    "..., 4096) = 4096
+write(1, "d ));\n#endif\n\n#else\n#define YY_N"..., 4096) = 4096
+write(1, "ULE_SETUP\n#line 4 \"../inputs/in."..., 4096) = 4096
+write(1, "n action:\n *\tEOB_ACT_LAST_MATCH "..., 4096) = 4096
+write(1, "xt_state = yy_try_NUL_trans( cur"..., 4096) = 4096
+write(1, "ffer->yy_n_chars = yy_n_chars;\n\t"..., 4096) = 4096
+write(1, "s( bytes, len )\nyyconst char *by"..., 3727) = 3727
+exit_group(0)                           = ?

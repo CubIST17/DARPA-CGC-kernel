@@ -1,0 +1,107 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-v", "include", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0xfc1000
+brk(0xfc21c0)                           = 0xfc21c0
+arch_prctl(ARCH_SET_FS, 0xfc1880)       = 0
+brk(0xfe31c0)                           = 0xfe31c0
+brk(0xfe4000)                           = 0xfe4000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f9dbaf41000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9dbaf40000
+write(1, "/* grep.c - main driver file for"..., 4096) = 4096
+write(1, "desc;\t\t/* File descriptor. */\nst"..., 4096) = 4096
+write(1, "*lastout;\t\t/* Pointer after last"..., 4096) = 4096
+write(1, "lastout)\n\tlastout = 0;\n      sav"..., 4096) = 4096
+write(1, "\n      default:\n\tusage();\n\tbreak"..., 4096) = 4096
+write(1, "ows the user\n   to intersperse t"..., 4096) = 4096
+write(1, "from, to, size)\n     const char "..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, " of the long-named option found."..., 4096) = 4096
+write(1, "found = p;\n\t\tindfound = option_i"..., 4096) = 4096
+write(1, "ncrement it again when taking ne"..., 4096) = 4096
+write(1, "  for (c = 'a'; c <= 'z'; c++)\n "..., 4096) = 4096
+write(1, " *) malloc ((n) * sizeof (t)))\n#"..., 4096) = 4096
+write(1, "dress.  */\n  maybe_pop_jump,\n\n  "..., 4096) = 4096
+write(1, "DEBUG_STATEMENT(e) e\n#define DEB"..., 4096) = 4096
+write(1, " printf (\"/jump_past_alt to %d\","..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "ised of the various bits\n   defi"..., 4096) = 4096
+write(1, "ERT_JUMP(op, loc, to) \\\n  insert"..., 4096) = 4096
+write(1, "ank\"))\n\f\n/* `regex_compile' comp"..., 4096) = 4096
+write(1, "   RETALLOC (bufp->buffer, INIT_"..., 4096) = 4096
+write(1, "               insert an uncondi"..., 4096) = 4096
+write(1, "`[]' so\n                   far),"..., 4096) = 4096
+write(1, "APH (ch))\n                      "..., 4096) = 4096
+write(1, "l have to\n\t\t clear pending_exact"..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "t now points to a\n              "..., 4096) = 4096
+write(1, "d `jump_n' are omitted if\n      "..., 4096) = 4096
+write(1, "= b;\n              PATFETCH (c);"..., 4096) = 4096
+write(1, "followed by two-byte integer par"..., 4096) = 4096
+write(1, "_end' == 0xff\n     (assuming 8-b"..., 4096) = 4096
+write(1, "c\t\\\n       of 0 + -1 isn't done "..., 4096) = 4096
+write(1, "ons.\n     REG_INFO -- array of i"..., 4096) = 4096
+write(1, "e done.  */\n  bufp->can_be_null "..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "_jump:\n\thandle_on_failure_jump:\n"..., 4096) = 4096
+write(1, "tion of STRING1\n   and STRING2 t"..., 4096) = 4096
+write(1, "nd ending positions (which are a"..., 4096) = 4096
+write(1, "*/\n\n\n/* These values must meet s"..., 4096) = 4096
+write(1, "petition operator fails to\n     "..., 4096) = 4096
+write(1, "g1' into `string2' if the latter"..., 4096) = 4096
+write(1, " { /* No.  So allocate them with"..., 4096) = 4096
+write(1, "else so we don't waste time\n    "..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, " string in case this attempt to "..., 4096) = 4096
+write(1, ")\n\t\t    {\n\t\t      unsigned r; \n "..., 4096) = 4096
+write(1, "G begbuf.\\n\");\n          if (AT_"..., 4096) = 4096
+write(1, "\n          DEBUG_PRINT2 (\"EXECUT"..., 4096) = 4096
+write(1, "                dummy_low_reg, d"..., 4096) = 4096
+write(1, "wordend:\n          DEBUG_PRINT1 "..., 4096) = 4096
+write(1, "g to a register number after a s"..., 4096) = 4096
+write(1, "st. The alternative can contain "..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "ine_anchor = 1;\n  \n  ret = regex"..., 4096) = 4096
+write(1, "x &= ~RE_DOT_NEWLINE;\n      synt"..., 4096) = 4096
+write(1, "\nregfree (preg)\n    regex_t *pre"..., 4096) = 4096
+write(1, "  {\n      switch (t)\n\t{\n\tcase EM"..., 4096) = 4096
+write(1, "r,\n  \":digit:]\", is_digit,\n  \":x"..., 4096) = 4096
+write(1, "tax_bits & RE_LIMITED_OPS)\n\t    "..., 4096) = 4096
+write(1, "C_IF_NECESSARY(dfa->tokens, toke"..., 4096) = 4096
+write(1, " int i;\n  position t1, t2;\n\n  fo"..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "] = 0;\n\n  for (i = 0; i < s->nel"..., 4096) = 4096
+write(1, "\t\t/* Array where firstpos elemen"..., 4096) = 4096
+write(1, "on so we can detect\n\t   transiti"..., 4096) = 4096
+write(1, "ans)\n     int s;\n     struct dfa"..., 4096) = 4096
+write(1, "e is no\n\t     reason to call ins"..., 4096) = 4096
+write(1, "{\n  int *trans;\t\t\t/* The new tra"..., 4096) = 4096
+write(1, " = trans[s1]))\n\t      goto last_"..., 4096) = 4096
+write(1, "f binary operators); \"q\" is the "..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "right == NULL)\n    return NULL;\n"..., 4096) = 4096
+write(1, "])\n\t    goto done;\t\t/* \"cannot h"..., 4096) = 4096
+write(1, " Tiergartenstrasse 15, D-6900\n  "..., 4096) = 4096
+write(1, "f outgoing links for this trie n"..., 4096) = 4096
+write(1, "\n\n  if (!tree)\n    return;\n\n  tr"..., 4096) = 4096
+write(1, "    /* If the current node has s"..., 4096) = 4096
+write(1, "f ((d = kwset->mind) != 0)\n    m"..., 4096) = 4096
+write(1, "ram; if not, write to the Free S"..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, "ment;\n     POINTER (*chunkfun) ("..., 4096) = 4096
+write(1, "but might be an empty object exa"..., 4096) = 4096
+write(1, "nt character;\n{\n  obstack_1grow_"..., 4096) = 4096
+write(1, "i = 0; i < NCHAR; ++i)\n      tra"..., 4096) = 4096
+write(1, "ize;\n     char **endp;\n{\n  regis"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "ze[0];\n\t      }\n\t    else\n\t     "..., 871) = 871
+close(1)                                = 0
+munmap(0x7f9dbaf40000, 4096)            = 0
+exit_group(0)                           = ?

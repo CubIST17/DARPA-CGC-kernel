@@ -1,0 +1,38 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-d", "-Cm", "../inputs/in.0"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x1c56000
+brk(0x1c571c0)                          = 0x1c571c0
+arch_prctl(ARCH_SET_FS, 0x1c56880)      = 0
+brk(0x1c781c0)                          = 0x1c781c0
+brk(0x1c79000)                          = 0x1c79000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.0", O_RDONLY)        = 4
+brk(0x1c9a000)                          = 0x1c9a000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff9a022938) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=792, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6d846bc000
+read(4, "/* scanner for a toy Pascal-like"..., 8192) = 792
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6d846bb000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, "4,    4,    4,    4,    4,    4,"..., 4096) = 4096
+write(1, "    9,    9,   16,   20,   20,\n "..., 4096) = 4096
+write(1, "  20,   20,   20,   20,   20,   "..., 4096) = 4096
+write(1, " 44,   44,   44,   44,   44,   4"..., 4096) = 4096
+write(1, " 23,   23,   23,   23,   23,   2"..., 4096) = 4096
+write(1, "43,   43,   43,   43,   43,   43"..., 4096) = 4096
+write(1, "laring the routines.  This will "..., 4096) = 4096
+write(1, "accepting default rule (\\\"%s\\\")\\"..., 4096) = 4096
+write(1, "oto do_action;\n\t\t\t\t\t}\n\n\t\t\t\telse\n"..., 4096) = 4096
+write(1, "e the EOB char was reached */\n\ns"..., 4096) = 4096
+write(1, "OTOS\nvoid yyrestart( FILE *input"..., 4096) = 4096
+write(1, "fer = 0;\n\tb->yy_input_file = 0;\n"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff9a022e68) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, "\t */\n\treturn (void *) realloc( ("..., 448) = 448
+exit_group(0)                           = ?

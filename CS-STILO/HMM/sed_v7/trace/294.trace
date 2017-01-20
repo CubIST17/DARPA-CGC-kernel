@@ -1,0 +1,36 @@
+execve("../source/sed.exe.static", ["../source/sed.exe.static", "-f", "../inputs/scr/s294_0.sed", "../inputs/default.in"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x1455000
+brk(0x14561c0)                          = 0x14561c0
+arch_prctl(ARCH_SET_FS, 0x1455880)      = 0
+brk(0x14771c0)                          = 0x14771c0
+brk(0x1478000)                          = 0x1478000
+open("../inputs/scr/s294_0.sed", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=93, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1ba79e1000
+read(3, "#sub and change\n\n/cat/{\n        "..., 4096) = 93
+open("s294_0.wout", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f1ba79e1000, 4096)            = 0
+open("../inputs/default.in", O_RDONLY)  = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1741, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1ba79e1000
+read(3, "..@ A BLACK AND WHITE POEM\n\ni se"..., 4096) = 1741
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1ba79e0000
+fstat(4, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1ba79df000
+write(4, "oh yes, the dog and the CAT\n", 28) = 28
+write(4, "these dogs and CATs\n", 20)   = 20
+write(4, "oh yes, the dog and the CAT\n", 28) = 28
+write(4, "here's to you, oh ye dogs and ye"..., 38) = 38
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f1ba79e1000, 4096)            = 0
+close(4)                                = 0
+munmap(0x7f1ba79df000, 4096)            = 0
+write(1, "..@ A BLACK AND WHITE POEM\n\ni se"..., 1667) = 1667
+close(1)                                = 0
+munmap(0x7f1ba79e0000, 4096)            = 0
+exit_group(4)                           = ?

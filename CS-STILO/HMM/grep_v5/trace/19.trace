@@ -1,0 +1,104 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-G", "[[:punct:]]", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0xcb3000
+brk(0xcb41c0)                           = 0xcb41c0
+arch_prctl(ARCH_SET_FS, 0xcb3880)       = 0
+brk(0xcd51c0)                           = 0xcd51c0
+brk(0xcd6000)                           = 0xcd6000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f5018ea4000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5018ea3000
+write(1, "/* grep.c - main driver file for"..., 4096) = 4096
+write(1, " *bufbeg;\t\t/* Beginning of user-"..., 4096) = 4096
+write(1, "e count before lastnl. */\nstatic"..., 4096) = 4096
+write(1, "ep version 2.0\";\n#define USAGE \\"..., 4096) = 4096
+write(1, "ile = 1;\n  status = 1;\n  if (opt"..., 4096) = 4096
+write(1, "_CORRECT disables permutation.\n "..., 4096) = 4096
+write(1, "ave been skipped so far.\n   The "..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, "tind == 0)\n    {\n      first_non"..., 4096) = 4096
+write(1, " - 1][1] == '-')\n\t\t\t/* --option "..., 4096) = 4096
+write(1, "se '7':\n\tcase '8':\n\tcase '9':\n\t "..., 4096) = 4096
+write(1, "that the ctype\n   macros don't n"..., 4096) = 4096
+write(1, "   /* Followed by one byte givin"..., 4096) = 4096
+write(1, "notwordchar,\t/* Matches any char"..., 4096) = 4096
+write(1, "        }\n    }\n  putchar ('\\n')"..., 4096) = 4096
+write(1, "printf (\"/at_dot\");\n          br"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, ");\nstatic boolean at_begline_loc"..., 4096) = 4096
+write(1, " - old_buffer) + bufp->buffer;\t\t"..., 4096) = 4096
+write(1, "s it possible to tell if a new e"..., 4096) = 4096
+write(1, "if (!(syntax & RE_CONTEXT_INDEP_"..., 4096) = 4096
+write(1, "             `on_failure_jump' i"..., 4096) = 4096
+write(1, "end\n                            "..., 4096) = 4096
+write(1, "we normally would\n             t"..., 4096) = 4096
+write(1, "end of the group, so now we know"..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "   if (c != '}')\n               "..., 4096) = 4096
+write(1, "*/\n                         inse"..., 4096) = 4096
+write(1, "*pending_exact)++;\n\t  break;\n   "..., 4096) = 4096
+write(1, "RANGE;\n  /* Even though the patt"..., 4096) = 4096
+write(1, "ck.avail]\n/* Used to omit pushin"..., 4096) = 4096
+write(1, "We push at most this many items "..., 4096) = 4096
+write(1, "fp->fastmap;\n  unsigned char *pa"..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "_n'.  Just treat it like an\n    "..., 4096) = 4096
+write(1, "\n  return re_search_2 (bufp, NUL"..., 4096) = 4096
+write(1, "ean alt_match_null_string_p (),\n"..., 4096) = 4096
+write(1, "\t\t\t\t\t\\\n    FREE_VAR (reg_info_du"..., 4096) = 4096
+write(1, "um-th regend points to right aft"..., 4096) = 4096
+write(1, "o[mcnt]) = 0;\n      MATCHED_SOME"..., 4096) = 4096
+write(1, "ED)\n                { /* No.  So"..., 4096) = 4096
+write(1, "\n\t\t  if (translate[(unsigned cha"..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "n\", \n\t\t\t POINTER_TO_OFFSET (old_"..., 4096) = 4096
+write(1, "     PUSH_FAILURE_POINT (p1 + mc"..., 4096) = 4096
+write(1, "  string value, we would be back"..., 4096) = 4096
+write(1, "* If we're at the end of the pat"..., 4096) = 4096
+write(1, "\\n\");\n          /* It doesn't ma"..., 4096) = 4096
+write(1, "ATCHED ();\n\t  break;\n\tcase notsy"..., 4096) = 4096
+write(1, "       whereas the rest start wi"..., 4096) = 4096
+write(1, "l_string_p (&p1, end, reg_info);"..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "  PREG is a regex_t *.  We do no"..., 4096) = 4096
+write(1, "on about, via `nmatch'.  We have"..., 4096) = 4096
+write(1, "endif\n#endif\n#ifndef isgraph\n#de"..., 4096) = 4096
+write(1, "IF_NECESSARY(dfa->charclasses, c"..., 4096) = 4096
+write(1, "turn lasttok = ENDWORD;\n\t  goto "..., 4096) = 4096
+write(1, " == '\\\\' && (syntax_bits & RE_BA"..., 4096) = 4096
+write(1, "xp(toplevel)\n     int toplevel;\n"..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "ine = newline;\n  d->states[i].le"..., 4096) = 4096
+write(1, "tch the empty string in some con"..., 4096) = 4096
+write(1, "ond is nullable. */\n\tif (nullabl"..., 4096) = 4096
+write(1, "on this character to be to a sta"..., 4096) = 4096
+write(1, "ction with\n\t     matches. */\n\t  "..., 4096) = 4096
+write(1, "S; ++j)\n\tfor (k = 0; k < INTBITS"..., 4096) = 4096
+write(1, "ckref;\n{\n  register s, s1, tmp;\t"..., 4096) = 4096
+write(1, "e right of the match (\"right\")\n\t"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, " (cpp == NULL)\n    return NULL;\n"..., 4096) = 4096
+write(1, "+ j];\n\t    lmp->right[j] = '\\0';"..., 4096) = 4096
+write(1, "identical.\n   See \"A String Matc"..., 4096) = 4096
+write(1, "escend the trie (built of revers"..., 4096) = 4096
+write(1, "register struct tree *tree;\n    "..., 4096) = 4096
+write(1, "outgoing edge that the fail\n\t\t d"..., 4096) = 4096
+write(1, "kwset->mind)\n    qlim = lim - 4 "..., 4096) = 4096
+write(1, "iling\n   (especially if it is a "..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, "ed terribly, but if range checki"..., 4096) = 4096
+write(1, "object at the beginning of a chu"..., 4096) = 4096
+write(1, "gex for grep.\n   Copyright (C) 1"..., 4096) = 4096
+write(1, "   for (dm = dfa_1.musts; dm; dm"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "f (!beg)\n\t    goto failure;\n\t  /"..., 3461) = 3461
+close(1)                                = 0
+munmap(0x7f5018ea3000, 4096)            = 0
+exit_group(0)                           = ?

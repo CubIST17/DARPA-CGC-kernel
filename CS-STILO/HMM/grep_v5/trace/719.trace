@@ -1,0 +1,43 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "[1-9]\\{1,2\\}", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x865000
+brk(0x8661c0)                           = 0x8661c0
+arch_prctl(ARCH_SET_FS, 0x865880)       = 0
+brk(0x8871c0)                           = 0x8871c0
+brk(0x888000)                           = 0x888000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff670a4d000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff670a4c000
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, "   Copyright (C) 1992 Free Softw"..., 4096) = 4096
+write(1, "= 1)\n\t\t\t     argv[0], argv[optin"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "insert_op1 (), insert_op2 ();\n#d"..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "         GET_BUFFER_SPACE (3);\n "..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, ");\t\t\\\n    DEBUG_PRINT2 (\"  Befor"..., 4096) = 4096
+write(1, "   STARTPOS, then at STARTPOS + "..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, " <= size1)\n      end_match_1 = s"..., 4096) = 4096
+write(1, "       EXTRACT_NUMBER_AND_INCR ("..., 4096) = 4096
+write(1, "bytes from 0x%x to no_op.\\n\", p+"..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "ompatible with 4.2 BSD regex lib"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "os = lastpos + nlastpos[-2];\n\t  "..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, "? 0 : -1;\n\t\t      r->balance = t"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "dfa_1, 1);\n    dfacomp(pattern, "..., 823) = 823
+close(1)                                = 0
+munmap(0x7ff670a4c000, 4096)            = 0
+exit_group(0)                           = ?

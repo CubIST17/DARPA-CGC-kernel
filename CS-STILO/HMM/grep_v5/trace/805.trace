@@ -1,0 +1,42 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "if\\(\\b\\)*", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x99d000
+brk(0x99e1c0)                           = 0x99e1c0
+arch_prctl(ARCH_SET_FS, 0x99d880)       = 0
+brk(0x9bf1c0)                           = 0x9bf1c0
+brk(0x9c0000)                           = 0x9c0000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f84cde43000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f84cde42000
+write(1, "   This program is free software"..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, ".  Rather than having every GNU\n"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, " specify any interpretation what"..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "equence `.*\\n',\n                "..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, " c1))\n              if (syntax &"..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "_VAR(var) if (var) free (var); v"..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "s `ab').  But instead of trying "..., 4096) = 4096
+write(1, "ist BMG speedups  */\n#ifdef STDC"..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "   the firstpos of the right if "..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "\n    else if (d->fails[i])\n\t\t\t\t\t"..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, "ail->shift = curr->depth - fail-"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "def __STDC__\n#endif\n  if ((err ="..., 2379) = 2379
+close(1)                                = 0
+munmap(0x7f84cde42000, 4096)            = 0
+exit_group(0)                           = ?

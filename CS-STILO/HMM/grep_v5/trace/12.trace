@@ -1,0 +1,105 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-G", "\\w", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x85f000
+brk(0x8601c0)                           = 0x8601c0
+arch_prctl(ARCH_SET_FS, 0x85f880)       = 0
+brk(0x8811c0)                           = 0x8811c0
+brk(0x882000)                           = 0x882000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f2bab910000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2bab90f000
+write(1, "/* grep.c - main driver file for"..., 4096) = 4096
+write(1, "   page size. */\nstatic char *bu"..., 4096) = 4096
+write(1, "e count, context, etc. */\nstatic"..., 4096) = 4096
+write(1, "!= lastout)\n\tlastout = 0;\n      "..., 4096) = 4096
+write(1, "ys = argv[optind++];\n\tkeycc = st"..., 4096) = 4096
+write(1, "opt'\n   but it behaves different"..., 4096) = 4096
+write(1, "str;\n      str++;\n  return 0;\nst"..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, " the index in LONGOPT of the lon"..., 4096) = 4096
+write(1, "onexact match found.  */\n\t\tpfoun"..., 4096) = 4096
+write(1, "IBRARY__.  */\n#ifdef TEST\n/* Com"..., 4096) = 4096
+write(1, "= 1;\n#endif /* not SYNTAX_TABLE "..., 4096) = 4096
+write(1, "/\n#define STREQ(s1, s2) ((strcmp"..., 4096) = 4096
+write(1, "           before the first repe"..., 4096) = 4096
+write(1, " (x1, x2, x3)\n#define DEBUG_PRIN"..., 4096) = 4096
+write(1, "    extract_number_and_incr (&mc"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "/\n    \"Trailing backslash\",\t\t\t/*"..., 4096) = 4096
+write(1, " it\n   being larger than MAX_BUF"..., 4096) = 4096
+write(1, "eg_syntax_t syntax;\n     struct "..., 4096) = 4096
+write(1, "    break;\n        case '$':\n   "..., 4096) = 4096
+write(1, " stuff to the buffer.  */\n      "..., 4096) = 4096
+write(1, "                class.  */\n     "..., 4096) = 4096
+write(1, "har;\n        case '{':\n         "..., 4096) = 4096
+write(1, "    laststart = bufp->buffer + C"..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "      else \n                    "..., 4096) = 4096
+write(1, "        Conclusion: (b - 2) - (l"..., 4096) = 4096
+write(1, "&& p[1] == '{'))))\n\t      /* Sta"..., 4096) = 4096
+write(1, "ode.\n   We use these short varia"..., 4096) = 4096
+write(1, "       1))\n/* This pushes an ite"..., 4096) = 4096
+write(1, "egisters.  */\n#ifdef DEBUG\n#defi"..., 4096) = 4096
+write(1, "long size = bufp->used;\n  const "..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "s failure\n             point alr"..., 4096) = 4096
+write(1, "ch the\n   virtual concatenation "..., 4096) = 4096
+write(1, "             group_match_null_st"..., 4096) = 4096
+write(1, "\n/* Some MIPS systems (at least)"..., 4096) = 4096
+write(1, "ression.  (The zeroth register\n "..., 4096) = 4096
+write(1, "nfo[mcnt]) = 0;\n      MATCHED_SO"..., 4096) = 4096
+write(1, "num_regs + 1);\n                 "..., 4096) = 4096
+write(1, "null.  */\n\tcase anychar:\n       "..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "     if (lowest_active_reg == hi"..., 4096) = 4096
+write(1, "r number.  */\n        case dupli"..., 4096) = 4096
+write(1, "than this.  */\n        case on_f"..., 4096) = 4096
+write(1, "        DEBUG_PRINT1\n           "..., 4096) = 4096
+write(1, "ernative to be\n           popped"..., 4096) = 4096
+write(1, "CH ();\n          if (!WORDCHAR_P"..., 4096) = 4096
+write(1, "          past a jump_past_alt. "..., 4096) = 4096
+write(1, "er of times to succeed.  */\n    "..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "e POSIX extended syntax; otherwi"..., 4096) = 4096
+write(1, "if (want_reg_info)\n      if (ret"..., 4096) = 4096
+write(1, "e ISALNUM(C) (isascii(C) && isal"..., 4096) = 4096
+write(1, " located here.  The poor, suffer"..., 4096) = 4096
+write(1, "&& laststart)\n\t    goto normal_c"..., 4096) = 4096
+write(1, "_IN_LISTS))\n\t\t\tFETCH(c2, \"Unbala"..., 4096) = 4096
+write(1, "ng to be parsed, len is the\n   l"..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "< 0)\n\tconstraint = s->elems[j].c"..., 4096) = 4096
+write(1, "   that match the empty string i"..., 4096) = 4096
+write(1, "if (nullable[-1])\n\t  nlastpos[-2"..., 4096) = 4096
+write(1, "er to be to a state correspondin"..., 4096) = 4096
+write(1, "group's label has a nonempty int"..., 4096) = 4096
+write(1, " (j = 0; j < CHARCLASS_INTS; ++j"..., 4096) = 4096
+write(1, " int newline;\n     int *count;\n "..., 4096) = 4096
+write(1, "h (\"left\")\n\tsequences that must "..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, " = NULL;\n  /* Add the new string"..., 4096) = 4096
+write(1, "right[(ln - i) + j];\n\t    lmp->r"..., 4096) = 4096
+write(1, " discovered by Beate Commentz-Wa"..., 4096) = 4096
+write(1, "uct kwset *) kws;\n  trie = kwset"..., 4096) = 4096
+write(1, " a last resort failure node. */\n"..., 4096) = 4096
+write(1, "nt node's chain\n\t     of fails b"..., 4096) = 4096
+write(1, "wset->mind) != 0)\n    mch = 0;\n "..., 4096) = 4096
+write(1, " Comment out all this code if we"..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, "unk; /* points to new chunk */\n "..., 4096) = 4096
+write(1, "    lp = plp;\n  return lp != 0;\n"..., 4096) = 4096
+write(1, "stack_alloc) (obstack, length)\n "..., 4096) = 4096
+write(1, "/* If the DFA turns out to have "..., 4096) = 4096
+write(1, "size;\n  for (beg = end = buf; en"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "sif (gsth)\nwswswsif out\n3if gout"..., 434) = 434
+close(1)                                = 0
+munmap(0x7f2bab90f000, 4096)            = 0
+exit_group(0)                           = ?

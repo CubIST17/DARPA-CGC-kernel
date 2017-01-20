@@ -1,0 +1,24 @@
+analysis ->	monitored
+lseek		__lseek_nocancel
+select		__select_nocancel
+_xstat		__xstat
+__umask		umask
+rmdir		__rmdir
+__getdents	__getdents64
+__sendto	__libc_send
+__fxstat64	__fxstat
+__getsockname	getsockname
+chdir		__chdir
+__openat64_nocancel	__openat_nocancel
+__libc_accept	__accept_nocancel
+bind		__bind
+__gettimeofday_internal	gettimeofday
+__sigprocmask	sigprocmask
+__setreuid	setreuid
+munmap		__munmap
+mmap		mmap64
+__brk		brk
+geteuid		__geteuid
+__connect_internal
+__dup2		dup2
+pipe		__pipe

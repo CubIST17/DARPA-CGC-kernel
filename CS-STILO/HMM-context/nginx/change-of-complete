@@ -1,0 +1,9 @@
+analysis ->	monitored
+epoll_wait	__epoll_wait_nocancel
+__gettimeofday_internal	gettimeofday
+__writev	writev
+__connect	__connect_nocancel
+__brk		brk
+__socket	socket
+__mmap		mmap64
+munmap		__munmap

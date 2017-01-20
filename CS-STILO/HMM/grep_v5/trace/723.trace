@@ -1,0 +1,107 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "[a-z]\\{0\\}", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x17d7000
+brk(0x17d81c0)                          = 0x17d81c0
+arch_prctl(ARCH_SET_FS, 0x17d7880)      = 0
+brk(0x17f91c0)                          = 0x17f91c0
+brk(0x17fa000)                          = 0x17fa000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fe666e4b000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe666e4a000
+write(1, "/* grep.c - main driver file for"..., 4096) = 4096
+write(1, "ads aligned on a page boundary a"..., 4096) = 4096
+write(1, " out_before;\t\t/* Lines of leadin"..., 4096) = 4096
+write(1, ";\n      residue = buflim - lim;\n"..., 4096) = 4096
+write(1, "\tbreak;\n      case 'l':\n\tout_qui"..., 4096) = 4096
+write(1, "include stdlib.h for non-GNU C l"..., 4096) = 4096
+write(1, "on of string.h with non-GNU libr"..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, "hey have an\n   argument, it foll"..., 4096) = 4096
+write(1, "= '-'\n\t   && (argv[optind][1] =="..., 4096) = 4096
+write(1, "= '\\0')\n\t      {\n\t\toptarg = next"..., 4096) = 4096
+write(1, "s, d, n)\tmemcpy ((d), (s), (n))\n"..., 4096) = 4096
+write(1, "ot __GNUC__ */\n#if HAVE_ALLOCA_H"..., 4096) = 4096
+write(1, "s the end of an alternative.  */"..., 4096) = 4096
+write(1, "\\\n  do {\t\t\t\t\t\t\t\t\t\\\n    EXTRACT_N"..., 4096) = 4096
+write(1, "rintf (\"/begline\");\n          br"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, " size1; this_char++)\n           "..., 4096) = 4096
+write(1, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 4096) = 4096
+write(1, "\\\n  (b[((unsigned char) (c)) / B"..., 4096) = 4096
+write(1, "DEBUG */\n\n  /* Initialize the co"..., 4096) = 4096
+write(1, "NFETCH;\n                        "..., 4096) = 4096
+write(1, "map.  */\n            BUF_PUSH (("..., 4096) = 4096
+write(1, "r, \"print\");\n                   "..., 4096) = 4096
+write(1, "  be valid.  */\n              CO"..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "sh;\n            handle_alt:\n    "..., 4096) = 4096
+write(1, "RE_CONTEXT_INDEP_OPS)\n          "..., 4096) = 4096
+write(1, "t = 0;\n                beg_inter"..., 4096) = 4096
+write(1, "RE_JUMP (jump_past_alt, fixup_al"..., 4096) = 4096
+write(1, "    reg_syntax_t syntax;\n    uns"..., 4096) = 4096
+write(1, "d only\n   be called from within "..., 4096) = 4096
+write(1, "ile (0)\n\n/* This is the number o"..., 4096) = 4096
+write(1, "ceed, -2 if an internal error.  "..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, ";\n\n\n\tcase jump_n:\n        case p"..., 4096) = 4096
+write(1, "}\n  else\n    {\n      bufp->regs_"..., 4096) = 4096
+write(1, "    /* If can't match the null s"..., 4096) = 4096
+write(1, "_P(d)\t\t\t\t\t\t\t\\\n  (SYNTAX ((d) == "..., 4096) = 4096
+write(1, "nd the next next one is tried.  "..., 4096) = 4096
+write(1, "dummy && reg_info_dummy)) \n     "..., 4096) = 4096
+write(1, " points, don't restore garbage. "..., 4096) = 4096
+write(1, "BLES ();\n          DEBUG_PRINT4 "..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "*p] = d;\n\t  DEBUG_PRINT2 (\"  reg"..., 4096) = 4096
+write(1, "/* do nothing */ ;\n             "..., 4096) = 4096
+write(1, "mcnt))\n\t\t  goto fail;\n\t\td += mcn"..., 4096) = 4096
+write(1, " mcnt' after we do this.  */\n   "..., 4096) = 4096
+write(1, "p_failure_jump)\n\t    {\n\t      p["..., 4096) = 4096
+write(1, "CUTING jump_n %d.\\n\", mcnt);\n\n  "..., 4096) = 4096
+write(1, "that's part of a repetition\n    "..., 4096) = 4096
+write(1, "((re_opcode_t) p1[mcnt-3] != jum"..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "2;\n     register int len;\n     c"..., 4096) = 4096
+write(1, "n, cflags)\n    regex_t *preg;\n  "..., 4096) = 4096
+write(1, "ponding to an error code, ERRCOD"..., 4096) = 4096
+write(1, "ct(C)\n#define ISALNUM(C) isalnum"..., 4096) = 4096
+write(1, "r. */\nstatic lexleft;\t\t\t/* Numbe"..., 4096) = 4096
+write(1, "ar;\n\t  return lasttok = STAR;\n\n\t"..., 4096) = 4096
+write(1, "lanced [\");\n\t\t    }\n\t\t}\n\t      e"..., 4096) = 4096
+write(1, "ranch();\n  while (tok == OR)\n   "..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "ems, position, s->nelem);\n  copy"..., 4096) = 4096
+write(1, "gument, union\n     the lastpos o"..., 4096) = 4096
+write(1, "\t    copy(&merged, &d->follows[p"..., 4096) = 4096
+write(1, "d store\n   it in the appropriate"..., 4096) = 4096
+write(1, "     matches[j] &= letters[j];\n\n"..., 4096) = 4096
+write(1, " = 0; j < CHARCLASS_INTS; ++j)\n\t"..., 4096) = 4096
+write(1, "found.  Begin points to\n   the b"..., 4096) = 4096
+write(1, "ows);\n  for (i = 0; i < d->trall"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "en = strlen(lookfor);\n  for (cp "..., 4096) = 4096
+write(1, "derr);\n#endif\n  for (ri = 0; ri "..., 4096) = 4096
+write(1, "strcpy(dm->must, result);\n      "..., 4096) = 4096
+write(1, "e. */\n  int mind2;\t\t\t/* Used in "..., 4096) = 4096
+write(1, "nks[depth], t = l->rlink, lr = t"..., 4096) = 4096
+write(1, "* Check if we can use the simple"..., 4096) = 4096
+write(1, "    d = d1[U(tp[-1])], tp += d;\n"..., 4096) = 4096
+write(1, "inter to the first character of\n"..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, "hile (0)\n\n\f\n/* Initialize an obs"..., 4096) = 4096
+write(1, "size;\n\n  /* Move the existing ob"..., 4096) = 4096
+write(1, "(obj);\n      h->chunk_limit = lp"..., 4096) = 4096
+write(1, "se\nextern char *memchr();\n#endif"..., 4096) = 4096
+write(1, "nt i = 0;\n\n      strcpy(n, \"\");\n"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "y need to consider a shorter one"..., 2897) = 2897
+close(1)                                = 0
+munmap(0x7fe666e4a000, 4096)            = 0
+exit_group(0)                           = ?

@@ -1,0 +1,133 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-vibh", "include", "../inputs/grep0.dat", "../inputs/grep1.dat", "../inputs/grepNull.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0xfad000
+brk(0xfae1c0)                           = 0xfae1c0
+arch_prctl(ARCH_SET_FS, 0xfad880)       = 0
+brk(0xfcf1c0)                           = 0xfcf1c0
+brk(0xfd0000)                           = 0xfd0000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f34f7d11000
+close(3)                                = 0
+open("../inputs/grep0.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=297, ...}) = 0
+read(3, "Before an alternative\nstore_op2 "..., 32768) = 297
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f34f7d10000
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+write(1, "0:Before an alternative\n22:store"..., 4096) = 4096
+write(1, "\n3327:{\n3329:  error(mesg, errnu"..., 4096) = 4096
+write(1, "set >= bufalloc - bufsalloc)\n677"..., 4096) = 4096
+write(1, ":      bp = lastout ? lastout : "..., 4096) = 4096
+write(1, "1:     char *name;\n13278:{\n13280"..., 4096) = 4096
+write(1, "case 'n':\n16465:\tout_line = 1;\n1"..., 4096) = 4096
+write(1, "\n19728:#define _NO_PROTO\n19746:#"..., 4096) = 4096
+write(1, "the environment\n23510:   variabl"..., 4096) = 4096
+write(1, "0:   then it is an option elemen"..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, "\n30477:  if (nextchar == NULL ||"..., 4096) = 4096
+write(1, "xtchar += strlen (nextchar);\n338"..., 4096) = 4096
+write(1, "f (opterr)\n37089:\t\t  {\n37095:#if"..., 4096) = 4096
+write(1, "cs' switch turns on certain matc"..., 4096) = 4096
+write(1, "ope) works properly with all com"..., 4096) = 4096
+write(1, " low-bit-first.  A character is "..., 4096) = 4096
+write(1, "n,\n50881:\n50882:        /* Set t"..., 4096) = 4096
+write(1, "INT2(x1, x2) if (debug) printf ("..., 4096) = 4096
+write(1, "\", p + mcnt - start);\n57574:    "..., 4096) = 4096
+write(1, "806:  printf (\"newline_anchor: %"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, "').  */\n64258:#define PATFETCH(c"..., 4096) = 4096
+write(1, "    return REG_ESPACE;\t\t\t\t\t\t\\\n67"..., 4096) = 4096
+write(1, "' is the number of subexpression"..., 4096) = 4096
+write(1, "address is bogus, but\n74712:    "..., 4096) = 4096
+write(1, "       /* If we get here, we fou"..., 4096) = 4096
+write(1, "_PUSH.  */\n81669:            BUF"..., 4096) = 4096
+write(1, "85190:                    /* If "..., 4096) = 4096
+write(1, "      goto normal_char;\n88770:\n8"..., 4096) = 4096
+write(1, "MPILE_STACK_EMPTY)\n92267:       "..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "ER_SPACE (3);\n95878:            "..., 4096) = 4096
+write(1, "ted if\n99373:                   "..., 4096) = 4096
+write(1, "sh;\n102961:                 }\n10"..., 4096) = 4096
+write(1, "           laststart = b;\n106225"..., 4096) = 4096
+write(1, "_BK_PARENS ? *next == ')'\n109348"..., 4096) = 4096
+write(1, "t_t *stack;\n112688:  unsigned si"..., 4096) = 4096
+write(1, "        size: %d\\n\", (fail_stack"..., 4096) = 4096
+write(1, ":     STR -- the saved data posi"..., 4096) = 4096
+write(1, "mation onto the failure stack.  "..., 4096) = 4096
+write(1, "ode) k)\n126385:\t      fastmap[j]"..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, "he possible starting\n129598:    "..., 4096) = 4096
+write(1, "f-range STARTPOS.  */\n132960:  i"..., 4096) = 4096
+write(1, "st of\n136270:   inner groups (wh"..., 4096) = 4096
+write(1, "9679:#define FREE_VAR(var) if (v"..., 4096) = 4096
+write(1, "s where\n143120:     to resume sc"..., 4096) = 4096
+write(1, "\n146795:      regstart = REGEX_T"..., 4096) = 4096
+write(1, "0x%x: \", p);\n150189:\n150190:    "..., 4096) = 4096
+write(1, "m_regs, regoff_t);\n153710:      "..., 4096) = 4096
+write(1, "\t{\n157118:\t\t  PREFETCH ();\n15713"..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, "oups.  */\n160521:\tcase stop_memo"..., 4096) = 4096
+write(1, "ight before the start_memory\n164"..., 4096) = 4096
+write(1, "88:\t\tmcnt = dend - d;\n167507:   "..., 4096) = 4096
+write(1, "         except the last ends wi"..., 4096) = 4096
+write(1, "pens when matching \":\\(.*\\)\"\n174"..., 4096) = 4096
+write(1, "         in `group_match_null_st"..., 4096) = 4096
+write(1, "CHAR_P (d) && (AT_STRINGS_BEG (d"..., 4096) = 4096
+write(1, "      case maybe_pop_jump:\n18459"..., 4096) = 4096
+write(1, "t.  */\n187959:                  "..., 4096) = 4096
+write(1, "e're checking a group which\n1912"..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "buf.buffer == NULL)\n194393:     "..., 4096) = 4096
+write(1, " { /* REG_NEWLINE implies neithe"..., 4096) = 4096
+write(1, "     || errcode >= (sizeof (re_e"..., 4096) = 4096
+write(1, "204404:#define ISALNUM(C) (isasc"..., 4096) = 4096
+write(1, "07419:    s[i] = 0;\n207433:}\n207"..., 4096) = 4096
+write(1, "urn strncmp(s, lexptr, len) == 0"..., 4096) = 4096
+write(1, "t count\");\n213754:\t\t  if (!ISDIG"..., 4096) = 4096
+write(1, " c;\n216933:\t\t    }\n216941:\t\t  el"..., 4096) = 4096
+write(1, "t ntoks1;\n219915:\n219916:  switc"..., 4096) = 4096
+write(1, "\t  s->elems[i++] = t1;\n222946:\t "..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, " closure of a set of positions. "..., 4096) = 4096
+write(1, " set of positions that could\n229"..., 4096) = 4096
+write(1, " PLUS)\n232999:\t  nullable[-1] = "..., 4096) = 4096
+write(1, "[i]);\n236331:\tfprintf(stderr, \")"..., 4096) = 4096
+write(1, "characters that aren't newline. "..., 4096) = 4096
+write(1, "lem++] = pos;\n243278:\n243279:\t  "..., 4096) = 4096
+write(1, ";\n246585:\t      else if (ISALNUM"..., 4096) = 4096
+write(1, "in points to\n249880:   the begin"..., 4096) = 4096
+write(1, "\n252977:\tdfaerror(\"out of memory"..., 4096) = 4096
+write(1, "e in the tree, all four sequence"..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "ngs. Return NULL if something\n25"..., 4096) = 4096
+write(1, "349:\tcase BEGWORD:\n262364:\tcase "..., 4096) = 4096
+write(1, "     /* plain character */\n26546"..., 4096) = 4096
+write(1, "8:\n268869:/* Balanced tree of ed"..., 4096) = 4096
+write(1, "16:      dirs[0] = L;\n272235:   "..., 4096) = 4096
+write(1, "275476:}\n275478:\n275479:/* Enque"..., 4096) = 4096
+write(1, "set->words == 1 && kwset->trans "..., 4096) = 4096
+write(1, "register char *ep, *sp, *tp;\n282"..., 4096) = 4096
+write(1, "bel)\n285116:\t    if (c < tree->l"..., 4096) = 4096
+write(1, "ANTABILITY or FITNESS FOR A PART"..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, "re irrelevant to the new GNU mal"..., 4096) = 4096
+write(1, "IT) - 1;\n295164:\t   i >= 0; i--)"..., 4096) = 4096
+write(1, "the beginning of a chunk.\n298542"..., 4096) = 4096
+write(1, ":#endif\t/* _LIBC or not __GNU_LI"..., 4096) = 4096
+write(1, "64:  static char trans[NCHAR];\n3"..., 4096) = 4096
+write(1, " for the DFA matcher that will q"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+open("../inputs/grepNull.dat", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "R(beg[start + len])))\n311518:\t\t "..., 3789) = 3789
+close(1)                                = 0
+munmap(0x7f34f7d10000, 4096)            = 0
+exit_group(0)                           = ?

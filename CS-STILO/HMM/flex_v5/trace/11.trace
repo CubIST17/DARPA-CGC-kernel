@@ -1,0 +1,35 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-T", "../inputs/in.multrej"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x99c000
+brk(0x99d1c0)                           = 0x99d1c0
+arch_prctl(ARCH_SET_FS, 0x99c880)       = 0
+brk(0x9be1c0)                           = 0x9be1c0
+brk(0x9bf000)                           = 0x9bf000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.multrej", O_RDONLY)  = 4
+brk(0x9e0000)                           = 0x9e0000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffb5791aa8) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=79, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7effbf928000
+read(4, "%%\na\t|\nab\t|\nabc\t|\nabcd\tECHO; REJ"..., 8192) = 79
+read(4, "", 4096)                       = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7effbf927000
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7effbf926000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffb5791a68) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, "      1,    1,    1,    1,    1,"..., 4096) = 4096
+write(1, "ut declaring the routines.  This"..., 4096) = 4096
+write(1, "ase 1:\n#line 3 \"../inputs/in.mul"..., 4096) = 4096
+write(1, "nd of file\n */\n\nstatic int yy_ge"..., 4096) = 4096
+write(1, "tatic yy_state_type yy_try_NUL_t"..., 4096) = 4096
+write(1, "alled, so it's safe\n\t * to go ah"..., 4096) = 4096
+write(1, "AL_ERROR( \"out of dynamic memory"..., 3473) = 3473
+write(3, "%%\n1\ta\n2\tab\n3\tabc\n4\tabcd\n5\t.|\\01"..., 4004) = 4004
+exit_group(0)                           = ?

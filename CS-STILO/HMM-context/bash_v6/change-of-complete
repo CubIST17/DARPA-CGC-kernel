@@ -1,0 +1,20 @@
+analysis ->	monitored
+__brk		brk
+uname		__uname
+__sigprocmask	sigprocmask
+__fxstat64	__fxstat64
+_xstat		__xstat
+__mmap		mmap64
+munmap		__munmap
+__getpid	getpid
+llseek		__lseek_nocancel
+__dup2		dup2
+pipe		__pipe
+openat		__openat_nocancel
+__getdents	__getdents64
+__openat64_nocancel	__openat_nocancel
+geteuid		__geteuid
+chdir		__chdir
+__umask		umask
+__connect_internal	__connect_nocancel
+__getrusage	getrusage

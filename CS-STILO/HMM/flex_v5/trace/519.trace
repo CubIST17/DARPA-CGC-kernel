@@ -1,0 +1,36 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-l", "../inputs/in.exp"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x1ad8000
+brk(0x1ad91c0)                          = 0x1ad91c0
+arch_prctl(ARCH_SET_FS, 0x1ad8880)      = 0
+brk(0x1afa1c0)                          = 0x1afa1c0
+brk(0x1afb000)                          = 0x1afb000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.exp", O_RDONLY)      = 4
+brk(0x1b1c000)                          = 0x1b1c000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff230854e8) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=290, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f390851e000
+read(4, "%%\n(r)\t\tprintf(\"Match an r: %s\\n"..., 8192) = 290
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f390851d000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff230854a8) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(3, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f390851c000
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, "_END_OF_BUFFER 8\nstatic yyconst "..., 4096) = 4096
+write(1, "restore orig. state */ \\\nyy_curr"..., 4096) = 4096
+write(1, "gister char *yy_cp, *yy_bp;\n\treg"..., 4096) = 4096
+write(1, " * back-up) that will match for "..., 4096) = 4096
+write(1, "ent_buffer->yy_n_chars = yy_n_ch"..., 4096) = 4096
+write(1, "uffer->yy_buf_size + 2];\n\t\tregis"..., 4096) = 4096
+write(1, "ROR( \"out of dynamic memory in y"..., 4096) = 4096
+write(1, "f memory expanding start-conditi"..., 2504) = 2504
+write(3, "\"../inputs/in.exp\", line 7: warn"..., 64) = 64
+exit_group(0)                           = ?

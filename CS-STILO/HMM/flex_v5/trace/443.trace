@@ -1,0 +1,33 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-CF", "../inputs/in.closure"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x258f000
+brk(0x25901c0)                          = 0x25901c0
+arch_prctl(ARCH_SET_FS, 0x258f880)      = 0
+brk(0x25b11c0)                          = 0x25b11c0
+brk(0x25b2000)                          = 0x25b2000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.closure", O_RDONLY)  = 4
+brk(0x25d3000)                          = 0x25d3000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff24df20d8) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=274, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd995930000
+read(4, "%%\n\nr*\t\tprintf(\"Zero or more r's"..., 8192) = 274
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd99592f000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff24df2098) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, "  9, 260 }, {  10, 260 }, {  11,"..., 4096) = 4096
+write(1, "  0,   3 }, {   0, 132 }, {   0,"..., 4096) = 4096
+write(1, "), but since the string might co"..., 4096) = 4096
+write(1, "OF(INITIAL):\n\tyyterminate();\n\n\tc"..., 4096) = 4096
+write(1, " fill the buffer, so this is an "..., 4096) = 4096
+write(1, "_PROTOS\nstatic void yyunput( int"..., 4096) = 4096
+write(1, "t yy_buffer_state ) );\n\tif ( ! b"..., 4096) = 4096
+write(1, "\t\tyy_size_t new_size;\n\n\t\tyy_star"..., 2861) = 2861
+exit_group(0)                           = ?

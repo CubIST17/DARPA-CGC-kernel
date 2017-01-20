@@ -1,0 +1,27 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "-ivL", "include", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0xf5d000
+brk(0xf5e1c0)                           = 0xf5e1c0
+arch_prctl(ARCH_SET_FS, 0xf5d880)       = 0
+brk(0xf7f1c0)                           = 0xf7f1c0
+brk(0xf80000)                           = 0xf80000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fd172ed5000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+close(1)                                = 0
+exit_group(0)                           = ?

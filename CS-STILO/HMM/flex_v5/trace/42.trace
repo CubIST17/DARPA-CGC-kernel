@@ -1,0 +1,34 @@
+execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-df", "-Cr", "../inputs/in.yymore"], [/* 43 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x211f000
+brk(0x21201c0)                          = 0x21201c0
+arch_prctl(ARCH_SET_FS, 0x211f880)      = 0
+brk(0x21411c0)                          = 0x21411c0
+brk(0x2142000)                          = 0x2142000
+open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("../inputs/in.yymore", O_RDONLY)   = 4
+brk(0x2163000)                          = 0x2163000
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff184d3c98) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(4, {st_mode=S_IFREG|0640, st_size=38, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89c35c6000
+read(4, "%%\nmega-\tECHO; yymore();\nkludge\t"..., 8192) = 38
+read(4, "", 4096)                       = 0
+open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+dup3(5, 1, 0)                           = 1
+close(5)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89c35c5000
+write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+read(4, "", 8192)                       = 0
+ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff184d3c58) = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+write(1, " 370,  260,  266,  249,    3,   "..., 4096) = 4096
+write(1, "  16,   16,   16,   16,   16,   "..., 4096) = 4096
+write(1, "16,   16,   16,   16,   16,   16"..., 4096) = 4096
+write(1, "ndif\n\n#define YY_RULE_SETUP \\\n\tY"..., 4096) = 4096
+write(1, "ly a NUL. */\n\t\t\tyy_state_type yy"..., 4096) = 4096
+write(1, " += b->yy_buf_size / 8;\n\t\t\t\telse"..., 4096) = 4096
+write(1, "*before* the EOB characters, the"..., 4096) = 4096
+write(1, "? (isatty( fileno(file) ) > 0) :"..., 4096) = 4096
+write(1, "*yy_c_buf_p; \\\n\t\t*yy_c_buf_p = '"..., 1566) = 1566
+exit_group(0)                           = ?

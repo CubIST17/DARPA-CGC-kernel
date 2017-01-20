@@ -1,0 +1,91 @@
+execve("../source/grep.exe.static", ["../source/grep.exe.static", "[1a-]", "../inputs/grep1.dat"], [/* 44 vars */]) = 0
+uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+brk(0)                                  = 0x1148000
+brk(0x11491c0)                          = 0x11491c0
+arch_prctl(ARCH_SET_FS, 0x1148880)      = 0
+brk(0x116a1c0)                          = 0x116a1c0
+brk(0x116b000)                          = 0x116b000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7effeabe7000
+close(3)                                = 0
+open("../inputs/grep1.dat", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7effeabe6000
+write(1, "/* grep.c - main driver file for"..., 4096) = 4096
+write(1, " maddr;\n  static int pagesize;\n "..., 4096) = 4096
+write(1, " beg && b[-1] == '\\n') || b == b"..., 4096) = 4096
+write(1, "\n\tbreak;\n    if (optind < argc)\n"..., 4096) = 4096
+write(1, " communication between successiv"..., 4096) = 4096
+write(1, "d is not exactly \"-\" or \"--\",\n  "..., 4096) = 4096
+read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+write(1, "if (first_nonopt == last_nonopt)"..., 4096) = 4096
+write(1, "ument -- %c\\n\",\n\t\t\t     argv[0],"..., 4096) = 4096
+write(1, "(c) (isascii (c) && isblank (c))"..., 4096) = 4096
+write(1, "         start_memory only becau"..., 4096) = 4096
+write(1, "ontiguous bytes starting\n   at S"..., 4096) = 4096
+write(1, "r (&mcnt, &p);\n  \t  printf (\"/du"..., 4096) = 4096
+read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+write(1, ";\n  reg_syntax_t ret = re_syntax"..., 4096) = 4096
+write(1, "MAX_BUF_SIZE; \t\t\t\t\t\\\n    bufp->b"..., 4096) = 4096
+write(1, "f its\n     operand.  Reset at th"..., 4096) = 4096
+write(1, "ATFETCH (c1);\n                  "..., 4096) = 4096
+write(1, "                 break;\n        "..., 4096) = 4096
+write(1, "anslate the character after the "..., 4096) = 4096
+read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+write(1, "ormal_backslash;\n            han"..., 4096) = 4096
+write(1, "_compile_fastmap' needs to know."..., 4096) = 4096
+write(1, "M)\n                goto handle_p"..., 4096) = 4096
+write(1, "_stack_type compile_stack;\n  for"..., 4096) = 4096
+write(1, "l_stack)\t\t\t\t\\\n    && !DOUBLE_FAI"..., 4096) = 4096
+write(1, "ariables `fail_stack' and (if de"..., 4096) = 4096
+write(1, "1;\n\t  break;\n\tcase charset_not:\n"..., 4096) = 4096
+read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+write(1, " malloc library routine, and mus"..., 4096) = 4096
+write(1, "size1\n                          "..., 4096) = 4096
+write(1, "(0)\n/* These values must meet se"..., 4096) = 4096
+write(1, "e its open-group operator.  Simi"..., 4096) = 4096
+write(1, " to match is: `\");\n  DEBUG_PRINT"..., 4096) = 4096
+write(1, "   regs->start[mcnt] = regs->end"..., 4096) = 4096
+read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+write(1, " If nothing was active before, t"..., 4096) = 4096
+write(1, " EXTRACT_NUMBER_AND_INCR (mcnt, "..., 4096) = 4096
+write(1, "T (p + mcnt, NULL, -2);\n        "..., 4096) = 4096
+write(1, "ailure_jump;\n                   "..., 4096) = 4096
+write(1, "reak;\n\tcase set_number_at:\n     "..., 4096) = 4096
+write(1, " sets P to point to one past its"..., 4096) = 4096
+write(1, "ile p1 < end */\n} /* alt_match_n"..., 4096) = 4096
+read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+write(1, "is a regex_t *.  We do not expec"..., 4096) = 4096
+write(1, "nfo)\n          for (r = 0; r < n"..., 4096) = 4096
+write(1, "\"BEGLINE\"; break;\n\tcase ENDLINE:"..., 4096) = 4096
+write(1, "its & RE_NO_BK_VBAR\n\t\t  : lexlef"..., 4096) = 4096
+write(1, "CAPE_IN_LISTS))\n\t\tFETCH(c, \"Unba"..., 4096) = 4096
+write(1, " if\n   the positions of both set"..., 4096) = 4096
+read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+write(1, "\t/* Force rescan to start at the"..., 4096) = 4096
+write(1, "ition, d->nleaves);\n  CALLOC(d->"..., 4096) = 4096
+write(1, "ms, position, merged.nelem);\n\tco"..., 4096) = 4096
+write(1, "s[j] &= letters[j];\n\t  /* If the"..., 4096) = 4096
+write(1, "s table.\n   If it has no table a"..., 4096) = 4096
+write(1, "->success[s] & sbit[*p])\n\t      "..., 4096) = 4096
+read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+write(1, "e.\n   Break ties in favor of inf"..., 4096) = 4096
+write(1, "s left. */\n\t    lmp->in = addlis"..., 4096) = 4096
+write(1, "\t/* Max shift of self and descen"..., 4096) = 4096
+write(1, "    r->balance = t->balance != ("..., 4096) = 4096
+write(1, "ift = kwset->mind;\n\t  /* Update "..., 4096) = 4096
+write(1, " trie = tree->trie;\n\t      if (t"..., 4096) = 4096
+read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+write(1, "hunkfun) ((h)->extra_arg, (size)"..., 4096) = 4096
+write(1, "ase)[i];\n      /* We used to cop"..., 4096) = 4096
+write(1, "k)\n     struct obstack *obstack;"..., 4096) = 4096
+write(1, "kly filter out impossible\n   mat"..., 4096) = 4096
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+write(1, "nd = memchr(beg, '\\n', buflim - "..., 2591) = 2591
+close(1)                                = 0
+munmap(0x7effeabe6000, 4096)            = 0
+exit_group(0)                           = ?
