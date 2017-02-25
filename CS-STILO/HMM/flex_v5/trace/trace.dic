@@ -1,0 +1,15 @@
+exit_group 0
+dup3 1
+read 2
+mmap 3
+arch_prctl 4
+write 5
+uname 6
+ioctl 7
+munmap 8
+brk 9
+close 10
+unlink 11
+open 12
+fstat 13
+execve 14

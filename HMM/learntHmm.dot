@@ -1,0 +1,8 @@
+digraph G {
+	0 -> 0 [label=0.53];
+	0 -> 1 [label=0.47];
+	1 -> 0 [label=0.47];
+	1 -> 1 [label=0.53];
+	0 [shape=doublecircle, label="0 - Pi= 0.5 - [ Integer distribution --- 1 0 ]"];
+	1 [shape=doublecircle, label="1 - Pi= 0.5 - [ Integer distribution --- 0 1 ]"];
+}
